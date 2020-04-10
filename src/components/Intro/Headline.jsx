@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { Link } from "gatsby";
-import ButtonDown from "./Form";
+import Subscribe from "./Subscribe";
+
+
 
 class Headline extends Component {
   render() {
@@ -16,11 +18,12 @@ class Headline extends Component {
             {/* rename this away from 'submit' */}
             <div className="introSubmit">
               <a target="_blank" href="mailto:jonny@seattlecreative.directory">Contact</a> 
-              <a target="_blank" href="https://buttondown.email/creativedirectory">Subscribe</a> 
+              {/* <a target="_blank" href="https://buttondown.email/creativedirectory">Subscribe</a>  */}
               {/* <a href="#">Add an entry</a>*/}
-            
-              {/* Subscribe form */}
-              {/* <ButtonDown /> */}
+              
+
+              <Subscribe />
+
             </div>
           
         </div>
