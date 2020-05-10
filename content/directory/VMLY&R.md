@@ -6,10 +6,11 @@ twit: "https://twitter.com/VMLYR"
 inst: "https://www.instagram.com/vmlyr"
 category: "V"
 tags:
-    - SLU
+    - South Lake Union
     - large
     - advertising
     - marketing
+    - video
 ---
 
 Description
