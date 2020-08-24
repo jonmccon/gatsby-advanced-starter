@@ -2,11 +2,12 @@
 // https://cloud.google.com/speech-to-text/docs/async-recognize#speech_transcribe_async_gcs-gcloud
 
 
-
+async function runTranscribe() {
 
 // Imports the Google Cloud client library
 const speech = require('@google-cloud/speech');
 const fs = require('fs');
+const timestamp = Date.now();
 
 // Creates a client
 const client = new speech.SpeechClient();
@@ -15,10 +16,11 @@ const client = new speech.SpeechClient();
  * TODO(developer): Uncomment the following lines before running the sample.
  */
 
-// const filename = 'Local path to audio file, e.g. /path/to/audio.raw';
-// const encoding = 'Encoding of the audio file, e.g. LINEAR16';
-// const sampleRateHertz = 16000;
-// const languageCode = 'BCP-47 language code, e.g. en-US';
+const filename = '/Users/Jonny/Documents/-Creative\ Directory/Audio/edits-for-transcription/AndrewMeans_transcription.flac';
+const encoding = 'FLAC';
+const sampleRateHertz = 48000;
+const languageCode = 'en-US';
+
 
 const config = {
   encoding: encoding,
@@ -44,3 +46,17 @@ const transcription = response.results
   .map(result => result.alternatives[0].transcript)
   .join('\n');
 console.log(`Transcription: ${transcription}`);
+
+
+// // Write it to a file
+// fs.writeFile(`Transcription ${timestamp}`, transcription, (err) => {
+//   // throws an error, you could also catch it here
+//   if (err) throw err;
+
+//   // success case, the file was saved
+//   console.log(`Transcription created at ${filename}`);
+// });
+
+}
+
+runTranscribe();

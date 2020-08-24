@@ -1,0 +1,446 @@
+---
+title: "Michael Ellsworth & Wendy Quisenberry- on bacon, corgies, & the beauty of lowercase"
+featuredImage: ./Portrait_test02.png
+alt: "portrait of Michael Ellsworth and Wendy Quisenberry"
+studio: ['Civilization', 'https://builtbycivilization.com']
+linkA: ['Design Lecture Series', 'https://designlectur.es']
+linkB: ['Beyond This Point Podcast', 'http://beyondthispoint.design']
+linkC: ['Non-Breaking Space Gallery', 'https://non-breaking.space']
+linkD: ['','']
+twit: "https://www.twitter.com/username"
+inst: "https://www.instagram.com/username"
+category: "interview"
+date: "2018-03-01"
+slug: "episode-3-michael-ellsworth-wendy-quisenberry-bacon-corgies-lowercase"
+tags:
+    - Pioneer Square
+    - small
+    - ux/ui
+    - branding
+---
+
+<!-- ![alt text](episode01_Michael_WendyB.png "Logo Title Text 1") -->
+
+<!-- Michael Ellsworth & Wendy Quisenberry- on bacon, corgies, & the beauty of lowercase
+=================================================================================== -->
+
+<span class='person interviewer'>JONNY MCCONNELL</span>
+Lorem ipsum dolor sit 
+
+<span class='person one'>KACEY MORROW</span>
+Lorem ipsum dolor sit 
+
+<span class='person two'>BRITTANY SCHADE</span>
+Nunc sed augue lacus 
+
+<span class='person'>KM</span> 
+Non pulvinar neque laoreet 
+
+<span class='person'>BS</span> 
+Non pulvinar neque laoreet suspendisse 
+
+<span class='person interviewer'>JONNY MCCONNELL</span>
+Lorem ipsum dolor sit 
+>Non pulvinar neque 
+
+
+
+
+
+
+
+
+Waiting for operation [operations/688306543638051770] to complete...done.                                                                                                                                               
+{
+  "@type": "type.googleapis.com/google.cloud.speech.v1.LongRunningRecognizeResponse",
+  "results": [
+    {
+      "alternatives": [
+        {
+          "confidence": 0.96605855,
+          "transcript": "are you doing good how you doing well thanks for joining me here today I think we might have the same hat with your hat sea creatures hat on your wall totally did you work on there but we we built all of their websites that's awesome how long you been working with him we started working with Santa may be back in 2015 who been with them for a long time so you started transom design in 2013 can you tell me more about how that started should I major in college but started getting into design I remember seeing the movie Gattaca at the opening credits had the letters like track doubt I can usually tracked out it was the first time that I think I was really never aware of typography it was this is kind of formative moment I started making posters and doing stuff for the radio and for my band at the time works briefly after colleges"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.95900184,
+          "transcript": "are tractor front all weekly and then moved back over to the west side of the state was in a design job as a marketing manager for a truck company but was doing a lot of freelance web design that gradually grew and grew until I decided to kind of makeup by full-time saying from really 2006 to 2013 I was doing freelance web design and development and some visual identity and stuff like that most of your very very small businesses through some connections I started working with a guy Dave Parker and we became friends and colleagues and design work for him and in 2013 he was like a web design company where we start an agency and I was like yeah that sounds great"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.9768972,
+          "transcript": "within about a year ago started to come to realize that I've had like running a web design company wasn't really exactly like a bigger fish to fry in terms of Eve's leaves like very you still have said he's a startup Community a real super super knowledgeable guy and so it made more sense for him to continue doing doing what he was keys I left a company at that point and I brought on a partner I guess 2014 or something like that we've had that partnership lasted probably again maybe a year-and-a-half and at that point then I was like actually there's there's some sum mismatch there and and since 2015 running a company myself"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.9648739,
+          "transcript": "was that kind of a turning point than when you said I'm going to lead this Vision it definitely was you know I think I think that's probably one of the biggest turning points that I've experienced professionally was realizing that it was a bad fit in terms of you know what both of our expectations were and very very similar to like to a relationship you know you like okay. How to extricate ourselves from this is definitely a good object lesson for one obviously making sure that any partnership that you get into is like really really well that it got to get the time I was like I just want somebody else handle all the things that I don't enjoy doing when I should have been looking for somebody who is really aligned with you. The overall vision and values so there's that but then there's also that lesson it's like how do you how do you keep perspective when things are are kind of tough in your ear some place that you've never been before"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.97053283,
+          "transcript": "Peru you want to lean on someone to to help you through that but at the end of the day if they're not on the same page as you then they aren't there almost creating more stress than that yeah yeah exactly what you talked about kind of really owning your own talents your own skills do you find kind of your your base Creative Source to be in very internal or is it an external influences sources that you operate from I don't spend very much time on durable that needle probably skews more internally then then otherwise I find design inspiration most often in older pieces of design old Subway posters from France in the 40s a whole bunch of amazing in the album art and also did this whole series for General Dynamic"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.940805,
+          "transcript": "in the 50's called Atoms for Peace just infused just incredible really really incredible artist you know contemporary floor and and but yeah I need most often I think the stuff that I find really influences me our bar is older things sometimes you'll see like a piece of tight and you know something that was published in the 17 hundreds or something oh my gosh it's so good I think I have a really a real Engineers brain that loves order and and loves trying to like solve problems I'm always amazed at like album covers a lot of the default classified as a mistake but it's just so perfect little strange typography choices strange layout choices that for whatever reason like work perfectly"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.9585482,
+          "transcript": "no like they completely blow up whatever kind of Frid you know you might have applied in the bin dependently those decisions are like the opposite of what we're all trained exactly exactly kind of the Gestalt of the thing that doesn't make sense individually collectively comes together something together just like trying to chase that it's so fleeting or not fleeting it I mean it's kind of like the way they like you wake up and you you wake up with a full sense of what that dream was about but as you start reaching for it like it just completely evaporates and I think that same sense of like I'm going to do something random and then challenging to actually have it work out in that in that regard to try to venture to manufacture that kind of chaos you know it's very challenging"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.9655809,
+          "transcript": "I think about it too much because you're thinking about it then it's no longer random are you looking at work outside of the design industry because I look at a lot of Architects or musicians of people who are still in Creative Fields but their approaches are just not in a medium that I know anyting how to work with and so it's the contrast I don't know it's something that I've always looking at other things anybody with an aesthetic sense you've got lots of different ways to bring in aesthetic inspiration love music I play music for a long time and I definitely is a fuel whether or not I be able to say that like oh my Adoration of Steely Dan him somehow like is going to make it out and do something one of the big Journey that transom has been on your we were formulated as a web design agency we're like we're going to do website and so we did that and that was fine and I had done some"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.96517396,
+          "transcript": "new identity over the years and so that was always kind of like on the menu over time we realized that without having everything the visual identity and the messaging being part of the process that we were going to give our clients that subpar product that that was not going to you know serve their service I need to know if we were expecting them to suddenly become a very excellent copywriter even though everybody kind of feels like they could do that without doing that we we were ultimately kind of handing over of a product that wasn't really serving that needs and silver time I've really become much much more aware and interested in the way that our brains make decisions in the role in emotions out of in that process is 2° much greater than I think 20th century Western Society kind of expects you know most people think of their brain as being"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.9737841,
+          "transcript": "if I make a decision then and then my body does the thing you know the more that we learn about the way that we make it that we make decisions it's that our emotions make a decision and that our brain can have narrates the the process the thought is somebody like riding a horse you know unlike you turn the reins and then you go this way but it's probably much more akin to like a monkey riding a water buffalo or something you know I like it it's like the monkey of thinking is like telling a story about what's happening on the monkey is thinking about at the end of the day like we're so we're so not controlled but we're so we just are our million brands that such a huge degree that the cognitive part of it is this is much less in control than what we thought and and so when were thinking about building a website or thinking about writing messaging or designing a visual aid"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.96490276,
+          "transcript": "we're always trying to bring it into the emotions and figuring out what kind of motion do we try to create and how do we go from from there that really opens up where we can get inspiration from so I like reading a book is it's amazing you know Antoine de saint-exupery the guy who wrote The Little Prince he was this incredible pilot and that was his main thing was being a pilot and before he was an author and he was also involved in the Spanish Revolution just has like a crashed in North Africa flying nail was like marooned and stuff and so you got this book called"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.97192484,
+          "transcript": "stand wind and stars I think there's something like that reading that book and he's got a section about how is marooned in the in the desert they find this orange that they had forgotten about and they had been able to build a fire at imminent in this copilot they build a fire and he's sitting there they've just found this orange and they're delighted so they've split this morning she has half of an orange each segment is is everything he's like looking up into the night sky and of these stars and there's nothing else cuz he knows he's going to die and she's like for the first time I understood the glass of rum or the cigarette that's presented to The Condemned man the smile I used to think it was like some sort of attempted Courage the smile as the cigarettes but now I understand that for The Condemned man that cigarette is everything and that glass of rum is everything and they've never tasted rum like that but never tasted a cigarette like that the same way that"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.966825,
+          "transcript": "that orange for him in that moment was everything to him and it was the most Exquisite experience that he could possibly have moments like that where you're kind of like wow that's what it got that blew my mind like reading that and I think that now I'm kind of like how do I Infuse that sense of longing or that understanding of the moment into something that maybe it's a lot more Monday and you know for whatever client we have like how do we make wine special in that way how do we Infuse That Into You know something is a pedestrian is a website so I think maybe you'd from a not necessarily from a design standpoint but now I feel like most of my Inspirations are coming from coming from ideas new design is about communication that's what makes it different from the parts right the artist something that's arranged to evoke in aesthetic response right design is something that's arranged to"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.9622432,
+          "transcript": "Coke and aesthetic response and communicate something like design can fail to pay the bill about whether or not they can fail in Arch I think for me obviously I care very deeply about what workers at the door I think my passion is helping our clients communicate on an emotional level because I think that's where the most immediate and palpable and I think effective communication really comes from the why behind behind what what people are doing"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.96452546,
+          "transcript": "and then you have to translate that why into something that's actually going to be portable in in the sense that it's it's easily palpable you talk a lot about Miss with our clients we say that like all great brands are ultimately miss most stories whether they're true or false after a certain amount of time will become Miss just by because that's the shape of that's the type of thing that our brain holds information it it's like the best way for a for a piece of information to be held in our brain there always connected to emotion there always fairly simple a 10 and often they teach us something one of our clients Kiona for example they were like well"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.97074234,
+          "transcript": "what kind of like the nerdy cousin who helps everybody with their homework but never gets invited to the dance and we were really interesting position to be in because they were providing Grace to all these like wineries are we getting all these huge stores and stuff and they were still people there wind low kind of on purpose or lower than then they could on purpose because they weren't beholden to any banks and and didn't need to make x amount of profit there this farming family this kind of day don't have these aspirations of becoming the next like Gallo they've been wanted to do exactly what they were doing and so our site for them was not like when we went out to do the photography we weren't like okay everybody like what you did like dress up nice to know when we're going to get the whole family together and Drake a sweater over your shoulders like a tennis pro or something like that like everybody wore the exact clothes that they normally wear and"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.9684853,
+          "transcript": "the Carhartt jacket with like the chair in the sleeve and stuff and you know they're out in the vineyard climbing on equipment and squishing grapes in like dirty calloused hands we started the kind of craft and myths about this farm and family that were the first people to plant grapes on on Red Mountain which is now become one of the hottest ABS in the country online sales will say what time you're tasting rooms open but the more important thing is how do we tell a story that is that's really affecting and indistinct you were talking about your business partners but have you ever had a client relationship that you had to end or run for mediating that process it's so much about expectations one of the things that I always feel like we can do better and I think historically has been more than anything else in his always caused the most"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.9714108,
+          "transcript": "friction is like when client expectations and then your expectations get out of sync more than anything else that's that's one of the things I think it's the most critical and the most easily easily overlooked. Especially because you're doing a process to give them a million times and a client is doing a thing that they've done maybe once before once or twice before it's very common for people to especially with regards to visual Identity or website or messaging those are all Investments That Happened five years 10 years but I'm sweating and and very personal and very happy with the business very we we had one wine client where we were working with him for a long time it'll execute it's very common for us to work with clients for a very long time before they're kind of ready to really examine their visual identity we found very little benefit in in coming in hard out of the gate if somebody does"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.97645694,
+          "transcript": "know that they need a new visual identity it's very difficult to convince them that they need a new one so a lot of times you really need to establish all of that trust with the client by doing other work with them before you can start to say you know she was some of the ways that your identity right now is not communicating what you wanted to communicate and they can start to to move from their work up to it but also business coaching design happening at all of those things it's it's like therapy like relating in that way with their clients I think is kind of missing out on a way that they could be managing that relationship that has the potential for something deeper and better to happen without approaching it from that kind of aspect you can really miss things that are very important unless the client feels comfortable and trust you to tell you things that they might be"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.9557998,
+          "transcript": "play down for unsure of yeah there's things that you can miss that could be a really really helpful to the client when you're managing expectations between you and the client how are you keeping your own team on track with meeting or or moving this expectation of a small team so that makes that very easy in some ways Mitch Reese's concepts of challenges as far as day-to-day know we use a sauna for task management and we do daily stand ups and that's really helpful to get a sense of where we're at with each project what are the challenges that we're facing and or how we going to do for this next to me now review deadline thinking out loud as you go and and documenting the artifacts as appointment went well. Also has a project manager"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.9581298,
+          "transcript": "and it's because they're small team it can be something we can say hey can you take care of this and somebody's able to without needing to document it that also introduces areas where that can start to get out of Saint Peter between the team or between a client that's just one of the biggest challenges of being a small agency is it we chose this on us specifically because it had keyboard shortcuts that allowed needed to create a new task where it needed to be created in a 5 Seconds rather than 10 seconds because that's the difference between a task and created or not is is it's just how how pulled my attention is from no one tank to another"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.96072745,
+          "transcript": "is there a is there a tension between kind of your creative director half your brain near your project manager half the brain you want to make something really good but you also want to continue to make profit off of a project that's that's probably let me know if the Central Central challenge you know if profit weren't an issue then you know we would be just spinning inordinate amounts of time like fine-tuning things and and coming up with crazy cool new ideas and stuff but as a business 2-way each one of those decisions you have to look for areas where you can reuse code in a way that doesn't make a product any less or especially any less well-suited to the to the client"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.9591176,
+          "transcript": "you have to look for like we got this super cool thing that we could do which is going to take an extra of 16 hours or this cool thing that's going to have taken extra for and it's like well we're going to do the cool thing because it's the difference between us actually making any money on this project or great you need them"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.96564335,
+          "transcript": " have you found a set of practices that that make your business more sustainable that you keep going back in terms of process that regular check-in I think is probably the biggest thing because then you can kind of its cage when you have time to extend to do those cool things and obviously likes coping is huge that's it it's a pretty massive skill set that is constantly being improved is like how do we scope better you know people come in and I like I want a new bathroom for my house you looked all right cool do you know one contractor will deliver a bathroom that's you know completely outfitted at Home Depot and it's going to cost this much money and then another contractor will outfit the bathroom with you notes vintage tile from Morocco and with websites because the construction techniques can vary so hugely they can be really really challenging to get everybody's expectations in sankt and to figure out what's going on with possible within the budget that's just something that is not it's not an exact science"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.96476686,
+          "transcript": " 1 how do you how do you feed your team creatively and eka how do you build a culture that you want to be part of the studio and then the other direction how does knowing the craft deeper affect what you feel capable to do for choir you know you can design a website for daylight and have no idea how to write code and and it could be fine if you can't necessarily design something entirely without knowing how it functions or make a screen print poster not actually know how much a twink gets onto paper when I was freelance"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.9570561,
+          "transcript": " and I need a wood design and I did everything myself as one man shot and so I would design a logo and and typography and identity and then I would design the website and then I would go to the website that there was a lot of times rabbit look at my situation and I would have been kind of my skill-set I feel like man like I would be so much farther ahead in the designer if I was just a design are we so much farther ahead is a developer if I was just a developer for a long time I really wondered if you know the seven years that I was doing that if if I was kind of wasting that time now as a creative director I can I can work with my designer and I can work with my developer and I can translate between those two and I think knowing that having that knowledge of code and having that knowledge of designed as she usually usually helpful"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.9778589,
+          "transcript": " with that specific aspects of web design and maybe there's a parallel to be drawn understanding kind of armchair anthropology store in a developing a visual Identity or developing messaging yeah I think in general the more generalized your knowledge the better provided you're not so generalized that you're not able to produce any product moving uppercase t where you really deep and one thing but also very wide in as many as many disciplines that interest you could go as a wedge or or you start to make it make them more into seraphs or something like that where you're more kief into that and how do you encourage that in your staff for how do you how do you find people that are also that shape Aventure of discipline an interest and how do you encourage them continue to learn to degree the generalist trait is becomes less useful as you start to be in a more specialized"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.96958375,
+          "transcript": " position to it's less important that my designer understands all of a sudden you don't understand SAS or something and it's less important that my developer understand color history or whatever it becomes less important and thank God because I don't know all of the stuff in my developer knows about hosting an about JavaScript Frameworks and all that kind of stuff and I'm so glad that I don't know if they don't have to know that but at the same time that this is a benefit I think of working in a small team we really really encourage collaboration and communication between those disciplines you know as well as we're doing wireframes were constantly like checking in with the developer and saying like he was kind of power thinking of this whole thing working like you have any feedback and because we're all kind of present for most stages of the game were able to kind of encouraged holistic understanding of what's going on in the project"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.96544373,
+          "transcript": " this is much more understanding of each others Specialties by virtue of us working closely together and making sure that explanations are not just oh we can't do that so we're going to do it the other way is seeking to understand like why is this limitation in place or why is this other option preferable if you can describe what you see is a successful studio is it the combination of these different kinds of personalities then the generalist is you sitting back directing their kind of the nothing composer but the actual orchestra leader and you let each individual player be good at their specific interest that's what you expressed largely by aspiration then and whether it's some point you know we grow into a place where there's no other generalist you are beneath"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.94684184,
+          "transcript": " who are were more alongside made you are working in and they're always with you know kind of doing the same thing that I'm doing right now but my goal is always to have my employees to feel empowered and for each one of them to be using their own talents too kind of you know play their own instruments as best as they can"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.9675035,
+          "transcript": " if you had to describe the relationship between kind of your studio and the greater creative culture the Pacific Northwest be in house groups or other studios are you collaborating with your peers are you competing with other studios are you competing against in his we don't we don't do much we don't do that much collaboration with other Studios but there does seem to be a real kind of collegial atmosphere at least among the Studio's that we know and then other designers that we count as colleagues and friends I feel like it's a rare that somebody is like damn it those guys got that job usually it's like oh that's cool as got that job I think in general there's my experience has been one of those large lakes Collegiate young people are looking at me now celebrating good work that each others that other people are doing and there was a time when I was trying to set up a 10 out of regular"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.9600855,
+          "transcript": " group of like Pioneer Square creatives we were just doing like a little happy hour thing I still think that would be a fun a fun thing to do we've done it I'm done number of times but it's always hard to try to keep those kind of things going I mean I would I would come I don't own a studio and you know not bitching about clients four of them or something but they have the wrong life span and they just take somebody else getting like mine but not people that rotate it juicy, that the overall growth of Seattle affecting this kind of community or affecting your business"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.97243994,
+          "transcript": " most because we focused on recently because we put a lot of energy into cultivating our Winery clients than in our Authority in the wine industry as a as a provider that has Diversified our Geographic reach at least within Washington and so we have a lot of clients in Walla Walla and Red Mountain Inn at Woodinville and so you know we're not solely focused in Seattle we had a lot of clients in Seattle and I think the growth of Seattle has seen over the past decade you know that Rising tide is in a list at all the drill shafts but it also brings up salaries and makes it challenging to find good good employees because any any of my employees can go work for Amazon and make you know an order of magnitude more than they're making now and I think that's"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.9729147,
+          "transcript": " does that answer your question education and kind of state of that do you have internship and what are your opinions of Education internships as a small shop it can be really challenging to make sure that we have the resources to give an intern the instruction that they would need in order for it to make sense and then also for it to not be a huge and a burden on us I think design and all include coding education is largely by experience has been a disappointing one I think there are a lot of design and development schools or programs are programs that are a lot of them are kind of like learn to code in just six months or learn to do that soon however much and and they're charging you know in some cases"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.96138895,
+          "transcript": " lots of money yeah and whose skills are important you know and I think that the expectation is often added with applications of people who are mostly under qualified and if it may just be that our agency isn't large enough to be able to accommodate people who don't have you know kind of expert level skills you know we've got it we got a designer and we have a developer and we have a smattering of like contractor developers who were all like very very highly-skilled the the person kind of leaving there 6 months code bootcamps is this is no place for them in in our agency right now but I think the disappointment comes from the expectations that I see in people leaving those programs where they've been told we're going to teach you everything you need to know when in actuality like knowledge"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.9676255,
+          "transcript": " is only part of it and the knowledge that they've been given is only a fraction of the knowledge that they need there's almost have wisdom I think that that that you can't really teach and I think really it only does come from doing and I think that's why I think internships are hugely hugely important frankly are the designer that we had prior to our current designer was actually a student and came to us asking for an internship and you're like that we can do a stop at summer internship and over the course of the summer he progressed so rapidly that we were able to you know have him do we were able to have him working on client work very very quickly and at the end of the summer he still had another year of school and we were like well look we want to hire you you can still go back to school if you want or you can come work for us that's obviously like the heat decided Well I might as well get paid to complete"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.95691276,
+          "transcript": " complete my education that was certainly an experience where that's kind of best case scenario for for internship at where you know we knew we recognize this Talent you know to start off with going into I think that seeing how quickly he was he grew in that internship and end in the past we've had other than internships like how how quickly you can pick stuff up in that environment I think I think it's a really critical part of of any education"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.97511363,
+          "transcript": " do you think there's a line of thinking of actually certifying what it means to be a designer I know there's there's talk about formalizing education in a way that is not a degree but it's is rather more of a life than what I think for what I want out of a designer I frankly don't see any value in that I think that the things that I value and designers are not things that you can test you can take a test for you know I don't care if somebody knows it what type Foundry made Baskerville but I do care if somebody has sympathy I do care if somebody is a good listener I care if somebody kicks Direction well those things are infinitely more important I think I would think that like being some sort of like somehow like a licensed designer and and also has roughly a line"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.94046056,
+          "transcript": " US agencies that I can have license type of thing or or accreditation would like could exacerbate again it's like there's been a shift in the industrial revolution but like I feel like I'm putting together my own kind of like history right is that I think that the Industrial Revolution is a massive shift in the way that we as a species approach work"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.9719587,
+          "transcript": " like work used to be you learn to trade any didn't have any choice about it usually write it wasn't like well I don't want to go to learn how to be a Shepherd like I want to do this like you didn't have a choice it's like your dad is a shepherd German Shepherd that crashed blacksmith or whatever that craft was taught over year and your knowledge of The Craft is is something that's accumulative and Rich and deep and Hands-On than the Industrial Revolution happens and you go into a factory and they're like pull this lever every time you see this thing pull this lever or if this you know inspect this nut thread the sound of this thing and hand it to the next person it's your choice about where you work you can decide well I don't like putting nuts on Volts I'm going to go to this other Factory where they have a lever pulling job and so"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.9697176,
+          "transcript": " you got choice and you also are able to learn the craft in an afternoon sometimes and if it can be just like okay like we have in our brains haven't evolved to that to that reality right we got the same exact brains that you no homo sapiens and had effectively for you know we have the capacity for four much much deeper amounts of learning than can be conveyed and in six months or something"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.9740447,
+          "transcript": " so I I think that the the idea of being credited because you went through a certain program I think that would just kind of exacerbate this this kind of post industrial revolution kind of thing where it's like you've checked all these boxes so therefore you know how to do it but the knowledge is like is such a bottomless it's a limitless for for so many of these skills I think are you happy are you content in your business has news today and didn't get you up at 5 a.m. with a smile or where is that go and what would make you completely selfishly right now what would make what would get me up at 5 a.m. but what historically has got me up at 5 a.m. with a smile the most is an especially now it's starting to get warmer but we're also like locked in inside would be like go out sailing"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.9613911,
+          "transcript": " catch the tide at 5 yeah that's that would be to be there right now professionally I'm sure that there exists agency owners of my size of our size who are perfectly happy all the time and feel like this is exactly the job that they want to be doing and and and couldn't ask for any better mine is definitely a balance of like how do I manage the challenges that are that are constantly in front of me some of which are very small on some of which are much larger and more strategic or or even kind of limitations of my own personality and I recognized it like even in very very large companies the shape of a company from a moral standpoint or from a work ethic standpoint or an aesthetic standpoint are very much a reflection of the leadership of"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.96316105,
+          "transcript": " company and so the personality of the people leading that company will invariably be reflected on that company and I it's not lost on me that the success of transcendence are like I can feel happy and and proud of the things that with the ways that we succeeded but also our failures are very often you know the buck stops here and in my own personality is a is acutely aware of of the hosts of positive in a negative limiting factors in the positive factors of my own personality on the company so that definitely is a it's it's a very rich experience and I don't know that I would make"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.98560286,
+          "transcript": " a particularly good employee at this point"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.96980727,
+          "transcript": " and there are things that I absolutely love about it when we when you pull off a project it send it and the client is happy like when the client the best did parts of my day are when an employee is proud of their own work and I'm proud of their work then that's that's a really great part of my day and and one of client says especially lately when client says thank you for helping us to articulate something that we didn't even really know that we needed to articulate like that that's a that's a good day when when you have clients saying that the answer your first question I I am genuinely happy but there's there's no way to I think be untroubled and in a sense that like any any any small business owner I think we'll tell you that like that said you're you're carrying that pack and it's a heavy heavy pack and sometimes it feels lighter butt"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.97184914,
+          "transcript": " but that's it's it's always there but I thought you also get to decide where you want to go you know to go backpacking and you did you get to see you know the Wonderland Trail and you got to hike and I take over let's go over that saddle and so you do you know it's incredibly difficult work but it's but it's really really rewarding and you're not doing it for anybody else like you just do doing it for yourself and your employees and for my part I don't I don't want to be an agency that's like you know I don't want to be the next wieden & Kennedy they do incredible work but like I don't I want to be I always want to be a small tiger I'd love to be larger than we are I'd love to have where you know maybe three of us hats that I have to wear that's I think yeah definitely happy but it's it's hard work consistent consistent"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.9345137,
+          "transcript": " worthwhile thanks a lot"
+        }
+      ]
+    }
+  ]
+}
+
+
+
+
