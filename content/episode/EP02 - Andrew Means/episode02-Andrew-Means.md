@@ -128,6 +128,10 @@ AM: We have a small team so that makes that very easy in some ways and it intrid
 
 jm: Thinking out loud as you go and documenting and creating artifacts and sharing those artifacts as a point of internal process.
 
+
+
+
+---
 AM: Because we're such a small team I am both the creative director and the project manager, so there's times where that neccessarily kinda falls thru the cracks. Because we're a small team it can be something where we can say 'hey can you take care of this?' and somebody's able to without needing to document it. That also introduces areas where that can start to get out of sync between the team or between a client that's just one of the biggest challenges of being a small agency is it we chose this on us specifically because it had keyboard shortcuts that allowed needed to create a new task where it needed to be created in a 5 Seconds rather than 10 seconds because that's the difference between a task and created or not is is it's just how how pulled my attention is from no one tank to another"
 
 is there a is there a tension between kind of your creative director half your brain near your project manager half the brain you want to make something really good but you also want to continue to make profit off of a project that's that's probably let me know if the Central Central challenge you know if profit weren't an issue then you know we would be just spinning inordinate amounts of time like fine-tuning things and and coming up with crazy cool new ideas and stuff but as a business 2-way each one of those decisions you have to look for areas where you can reuse code in a way that doesn't make a product any less or especially any less well-suited to the to the client"
