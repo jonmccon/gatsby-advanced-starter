@@ -47,11 +47,13 @@
     .logo {
         display: grid;
         grid-area: Logo;
-        background-image: url(../../static/mark_strokes.svg);
+        /* background-image: url(../../static/mark_strokes.svg); */
+        background-image: url(../../static/scdlogo.svg);
         background-repeat: no-repeat;
-        height: 3em; 
+        background-size: 8em 8em;
+        height: 8em; 
         margin: 2em 0 0 0;
-        align-self: center;
+        align-self: top;
         background-position: center;
     }
 
