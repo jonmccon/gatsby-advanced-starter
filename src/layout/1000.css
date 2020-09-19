@@ -33,7 +33,7 @@
         box-shadow:  0px 0px 30px var(--color-bg-coral-dark);
         border-radius: 10px;
         grid-template-areas:
-            ".              .               .               .               TitleLeft       Logo            Logo            TitleRight      .               Contact         Contact         ."
+            ".              .               .               .               Logo            Logo            Logo            Logo            .               Contact         Contact         ."
             ".              .               .               Hello           Hello           Hello           Hello           Hello           Hello           .               .               ."
             "podcast-one    podcast-one     podcast-one     podcast-one     podcast-two     podcast-two     podcast-two     podcast-two     podcast-three   podcast-three   podcast-three   podcast-three"
             ".              Filters         Filters         Filters         Filters         Filters         Filters         Filters         Filters         Filters         Filters         ."
@@ -47,19 +47,13 @@
 
      .logo { }
 
-    .title-left, .title-right { }
-
-    .title-left { }
-
-    .title-right { }
-
     /* ----------------------------------------------- */
     
     /* HEADLINE */
     .headline { }
 
     .headline-contact {
-        /* margin: 2.2em 0 0 0; */
+        margin: 2.2em 0 0 0;
         grid-area: Contact;
         align-self: center;
         text-align: right;
