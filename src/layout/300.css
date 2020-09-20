@@ -34,12 +34,12 @@
         box-shadow:  0px 0px 30px var(--color-bg-coral-dark);
         border-radius: 10px;
         grid-template-areas:
-            ". .    Logo           Logo        Logo        Logo           .      ."
-            ". Hello        Hello       Hello       Hello       Hello       Hello           ."
-            ". Interviews   Interviews  Interviews  Interviews  Interviews  Interviews      ."
-            ". Contact      Contact     Contact     Contact     Contact     Contact         ."
-            ". Filters      Filters     Filters     Filters     Filters     Filters          ."
-            ". Directory    Directory   Directory   Directory   Directory   Directory       ."
+            ".              .               Logo            Logo            Logo            Logo            .               ."
+            ".              Hello           Hello           Hello           Hello           Hello           Hello           ."
+            "podcast-one    podcast-one     podcast-one     podcast-one     podcast-one     podcast-one     podcast-one     podcast-one"
+            ".              Contact         Contact         Contact         Contact         Contact         Contact         ."
+            ".              Filters         Filters         Filters         Filters         Filters         Filters         ."
+            ".              Directory       Directory       Directory       Directory       Directory       Directory       ."
             /* ". . Footer . . " */
             ;
     }  
@@ -51,7 +51,7 @@
         background-repeat: no-repeat;
         background-size: contain;
         height: 4em; 
-        margin: -.5em 0 0 0;
+        margin: -1em 0 0 0;
         align-self: top;
         background-position: center;
     }
@@ -61,9 +61,6 @@
     /* HEADLINE */
     .headline {
         display: grid;
-        grid-area: Hello;
-        /* padding: .5em 0 0 0; */
-        margin: -2em 0 2em 0;
         grid-area: Hello;
         text-align: center;
     }
@@ -75,11 +72,11 @@
 
     .headline-contact--link {
         color: var(--color-text);
-        font: 400 1.1em JetBrains-Mono, sans-serif;
+        font: 400 1.2em JetBrains-Mono, sans-serif;
         text-transform: uppercase;
         border: .1em solid var(--color-card);
         padding: .3em .4em .2em .4em;
-        margin: -2.3em 0 0 0;
+        margin: -2.1em 0 0 0;
         width: max-content;
         justify-self: end;
     }
@@ -133,16 +130,29 @@
     /* ----------------------------------------------- */
 
     /* INTERVIEW PROMOS */
-    .podcast {
+
+    .podcast-promo {
         display: grid;
-        grid-area: Interviews;
         grid-auto-flow: row;
-        /* grid-template-columns: repeat(6, minmax(0,1fr)); */
     }
 
-    .podcast--link {
-        grid-column: span 2;
+    #podcast-ep-one {
+        grid-area: podcast-one;
+        margin-top: 1em;
     }
+
+    #podcast-ep-two {
+        display: none;
+        grid-area: podcast-two;
+        margin-top: 2em;
+    }
+
+    #podcast-ep-three {
+        display: none;
+        grid-area: podcast-three;
+        margin-top: 2em;
+    }
+
     /* ----------------------------------------------- */
 
     /* DIRECTORY LISTING */

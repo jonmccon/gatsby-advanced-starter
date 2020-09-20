@@ -35,7 +35,7 @@
         grid-template-areas:
             ".              .               .               .               Logo            Logo            Logo            Logo            .               Contact         Contact         ."
             ".              .               .               Hello           Hello           Hello           Hello           Hello           Hello           .               .               ."
-            "podcast-two    podcast-two     podcast-two     podcast-two     podcast-one     podcast-one     podcast-one     podcast-one     podcast-three   podcast-three   podcast-three   podcast-three"
+            "podcast-two    podcast-two     podcast-two     podcast-one     podcast-one     podcast-one     podcast-one     podcast-one     podcast-one   podcast-three   podcast-three   podcast-three"
             ".              Filters         Filters         Filters         Filters         Filters         Filters         Filters         Filters         Filters         Filters         ."
             ".              Directory       Directory       Directory       Directory       Directory       Directory       Directory       Directory       Directory       Directory       ."
             /* ". . Footer . . " */
@@ -45,23 +45,29 @@
 
      /* LOGOMARK */
 
-     .logo { }
+     .logo {
+        margin: -.5em 0 0 0;
+      }
 
     /* ----------------------------------------------- */
     
     /* HEADLINE */
-    .headline { }
+    .headline {
+        margin: -2em 0 2em 0;
+     }
 
     .headline-contact {
         margin: 2.2em 0 0 0;
         grid-area: Contact;
         align-self: center;
         text-align: right;
+        /* width: max-content; */
     }
 
     .headline-contact--link { 
         font: 400 .8em JetBrains-Mono, sans-serif;
         margin: .3em 0 0 0;
+        justify-self: end;
     }
 
     /* ----------------------------------------------- */
@@ -86,31 +92,22 @@
     /* ----------------------------------------------- */
 
     /* INTERVIEW PROMOS */
-    #podcast-one {
+
+    .podcast-promo {
         display: grid;
-        grid-area: podcast-one;
         grid-auto-flow: row;
-        margin: 1em 0 0 0;
     }
 
-    #podcast-two {
+    #podcast-ep-one { }
+
+    #podcast-ep-two {
         display: grid;
-        grid-area: podcast-two;
-        grid-auto-flow: row;
-    
-        margin: 2em 0 0 0;
     }
 
-    #podcast-three {
+    #podcast-ep-three {
         display: grid;
-        grid-area: podcast-three;
-        grid-auto-flow: row;
-        margin: 2em 0 0 0;
     }
 
-    .podcast--link {
-        grid-column: span 2;
-    }
     /* ----------------------------------------------- */
 
 
