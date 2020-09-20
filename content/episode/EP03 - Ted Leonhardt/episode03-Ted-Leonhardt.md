@@ -11,7 +11,7 @@ twit: "https://www.twitter.com/username"
 inst: "https://www.instagram.com/username"
 category: "interview"
 date: "2018-03-01"
-slug: "episode-3-michael-ellsworth-wendy-quisenberry-bacon-corgies-lowercase"
+slug: "episode-3-michael-ellsworth-wendy-quisenberry-bacon-corgies"
 tags:
     - Pioneer Square
     - small
