@@ -33,11 +33,11 @@
         box-shadow:  0px 0px 30px var(--color-bg-coral-dark);
         border-radius: 10px;
         grid-template-areas:
-            ".          .           .           .           TitleLeft   Logo        Logo        TitleRight  .           Contact     Contact     ."
-            ".          .           .           Hello       Hello       Hello       Hello       Hello       Hello       .           .           ."
-            ".          Interviews  Interviews  Interviews  Interviews  Interviews  Interviews  .           .           .           .           ."
-            ".          Filters      Filters      Filters      Filters      Filters      Filters      Filters      Filters      Filters      Filters      ."
-            ".          Directory   Directory   Directory   Directory   Directory   Directory   Directory   Directory   Directory   Directory   ."
+            ".              .               .               .               Logo            Logo            Logo            Logo            .               Contact         Contact         ."
+            ".              .               .               Hello           Hello           Hello           Hello           Hello           Hello           .               .               ."
+            "podcast-two    podcast-two     podcast-two     podcast-one     podcast-one     podcast-one     podcast-one     podcast-one     podcast-one   podcast-three   podcast-three   podcast-three"
+            ".              Filters         Filters         Filters         Filters         Filters         Filters         Filters         Filters         Filters         Filters         ."
+            ".              Directory       Directory       Directory       Directory       Directory       Directory       Directory       Directory       Directory       Directory       ."
             /* ". . Footer . . " */
             ;
     }   
@@ -45,29 +45,29 @@
 
      /* LOGOMARK */
 
-     .logo { }
-
-    .title-left, .title-right { }
-
-    .title-left { }
-
-    .title-right { }
+     .logo {
+        margin: -.5em 0 0 0;
+      }
 
     /* ----------------------------------------------- */
     
     /* HEADLINE */
-    .headline { }
+    .headline {
+        margin: -2em 0 2em 0;
+     }
 
     .headline-contact {
         margin: 2.2em 0 0 0;
         grid-area: Contact;
         align-self: center;
         text-align: right;
+        /* width: max-content; */
     }
 
     .headline-contact--link { 
         font: 400 .8em JetBrains-Mono, sans-serif;
         margin: .3em 0 0 0;
+        justify-self: end;
     }
 
     /* ----------------------------------------------- */
@@ -92,16 +92,22 @@
     /* ----------------------------------------------- */
 
     /* INTERVIEW PROMOS */
-    .podcast {
+
+    .podcast-promo {
         display: grid;
-        grid-area: Interviews;
         grid-auto-flow: row;
-        /* grid-template-columns: repeat(6, minmax(0,1fr)); */
     }
 
-    .podcast--link {
-        grid-column: span 2;
+    #podcast-ep-one { }
+
+    #podcast-ep-two {
+        display: grid;
     }
+
+    #podcast-ep-three {
+        display: grid;
+    }
+
     /* ----------------------------------------------- */
 
 
@@ -140,7 +146,7 @@
         display: grid;
         grid-area: Filters;
         font: 400 .8em JetBrains-Mono, sans-serif;
-        margin: 6em 0 2em 0;
+        margin: 4em 0 2em 0;
         /* background-color: var(--color-test); */
     }
     

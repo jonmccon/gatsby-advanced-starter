@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/microsoft.design"
 category: "M"
 tags:
     - Redmond
-    - large
+    - huge
     - ux/ui
     - product
     - research

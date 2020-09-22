@@ -87,6 +87,18 @@ module.exports = {
         color: config.themeColor,
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Seattle Creative Directory`,
+        short_name: `Seattle Creative`,
+        start_url: `/`,
+        background_color: `#FFFFFF`,
+        theme_color: `#FEADA3`,
+        display: `standalone`,
+        icon: `static/favicon.png`,
+      },
+    },
     "gatsby-plugin-catch-links",
     "gatsby-plugin-twitter",
     "gatsby-plugin-sitemap",
@@ -96,7 +108,7 @@ module.exports = {
         setup(ref) {
           const ret = ref.query.site.siteMetadata.rssMetadata;
           ret.allMarkdownRemark = ref.query.allMarkdownRemark;
-          ret.generator = "GatsbyJS Advanced Starter";
+          ret.generator = "Seattle Creative Directory";
           return ret;
         },
         query: `
