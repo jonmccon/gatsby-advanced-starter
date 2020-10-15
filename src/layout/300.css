@@ -26,10 +26,11 @@
         grid-row: 2;
         grid-column: 2;
         grid-template-columns: 1.5em repeat(6, 1fr) 1.5em;
-        grid-template-rows: 1fr auto auto auto auto auto auto 8em;
+        grid-template-rows: 1fr auto auto auto auto auto auto auto auto 8em;
         grid-gap: .5em;
         grid-auto-flow: dense;    
         max-width: 400px;
+        margin: 0 auto;
         background-color: var(--color-card);
         box-shadow:  0px 0px 30px var(--color-bg-coral-dark);
         border-radius: 10px;
@@ -37,6 +38,8 @@
             ".              .               Logo            Logo            Logo            Logo            .               ."
             ".              Hello           Hello           Hello           Hello           Hello           Hello           ."
             "podcast-one    podcast-one     podcast-one     podcast-one     podcast-one     podcast-one     podcast-one     podcast-one"
+            "podcast-two    podcast-two     podcast-two     podcast-two     podcast-two     podcast-two     podcast-two     podcast-two"
+            "podcast-three    podcast-three     podcast-three     podcast-three     podcast-three     podcast-three     podcast-three     podcast-three"
             ".              Contact         Contact         Contact         Contact         Contact         Contact         ."
             ".              Filters         Filters         Filters         Filters         Filters         Filters         ."
             ".              Directory       Directory       Directory       Directory       Directory       Directory       ."
@@ -138,19 +141,14 @@
 
     #podcast-ep-one {
         grid-area: podcast-one;
-        margin-top: 1em;
     }
 
     #podcast-ep-two {
-        display: none;
         grid-area: podcast-two;
-        margin-top: 2em;
     }
 
     #podcast-ep-three {
-        display: none;
         grid-area: podcast-three;
-        margin-top: 2em;
     }
 
     /* ----------------------------------------------- */
