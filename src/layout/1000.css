@@ -35,7 +35,7 @@
         grid-template-areas:
             ".              .               .               .               Logo            Logo            Logo            Logo            .               Contact         Contact         ."
             ".              .               .               Hello           Hello           Hello           Hello           Hello           Hello           .               .               ."
-            "podcast-two    podcast-two     podcast-two     podcast-one     podcast-one     podcast-one     podcast-one     podcast-one     podcast-one   podcast-three   podcast-three   podcast-three"
+            ".    podcast-two     podcast-two     podcast-one     podcast-one     podcast-one     podcast-one     podcast-one     podcast-one   podcast-three   podcast-three   ."
             ".              Filters         Filters         Filters         Filters         Filters         Filters         Filters         Filters         Filters         Filters         ."
             ".              Directory       Directory       Directory       Directory       Directory       Directory       Directory       Directory       Directory       Directory       ."
             /* ". . Footer . . " */
@@ -98,7 +98,9 @@
         grid-auto-flow: row;
     }
 
-    #podcast-ep-one { }
+    #podcast-ep-one {
+        margin-top: -1em;
+     }
 
     #podcast-ep-two {
         display: grid;
