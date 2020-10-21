@@ -50,7 +50,7 @@ Non pulvinar neque laoreet suspendisse interdum consectetur libero id. Nibh cras
 
 
 <!-- start -->
-Jonny McConnell: Welcome to office hours with Jonny McConnell. Today we're on Western's campus talking with professors (Kacey Morrow)[https://www.linkedin.com/in/kaceymorrow/] and (Brittany Schade)[https://www.linkedin.com/in/schadebrittany/]. How are you doing today? 
+Jonny McConnell: Welcome to office hours with Jonny McConnell. Today we're on Western's campus talking with professors [Kacey Morrow](https://www.linkedin.com/in/kaceymorrow/) and [Brittany Schade](https://www.linkedin.com/in/schadebrittany/). How are you doing today? 
 
 Brittany Schade: Doing great. 
 Kacey Morrow: We're great.
