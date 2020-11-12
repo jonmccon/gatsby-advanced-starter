@@ -1,5 +1,5 @@
 ---
-title: "Jozi Frecracker Factory"
+title: "Jozi Firecracker Factory"
 featuredImage: ./-hamburgers.png
 website: "https://jozifirecrackerfactory.com/"
 twit: "https://twitter.com/jozifirecracker"
