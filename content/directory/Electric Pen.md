@@ -13,7 +13,6 @@ tags:
     - marketing
     - ux/ui
     - print
-    - environmental
 ---
 
 Description

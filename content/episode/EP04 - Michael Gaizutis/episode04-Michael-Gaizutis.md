@@ -1,0 +1,393 @@
+---
+title: "Michael Ellsworth & Wendy Quisenberry- on bacon, corgies, & the beauty of lowercase"
+featuredImage: ./Portrait_test02.png
+alt: "portrait of Michael Ellsworth and Wendy Quisenberry"
+studio: ['Civilization', 'https://builtbycivilization.com']
+linkA: ['Design Lecture Series', 'https://designlectur.es']
+linkB: ['Beyond This Point Podcast', 'http://beyondthispoint.design']
+linkC: ['Non-Breaking Space Gallery', 'https://non-breaking.space']
+linkD: ['','']
+twit: "https://www.twitter.com/username"
+inst: "https://www.instagram.com/username"
+category: "interview"
+date: "2018-03-01"
+slug: "episode-3-michael-ellsworth-wendy-quisenberry-bacon-corgies"
+tags:
+    - Pioneer Square
+    - small
+    - ux/ui
+    - branding
+---
+
+<!-- ![alt text](episode01_Michael_WendyB.png "Logo Title Text 1") -->
+
+<!-- Michael Ellsworth & Wendy Quisenberry- on bacon, corgies, & the beauty of lowercase
+=================================================================================== -->
+
+<span class='person interviewer'>JONNY MCCONNELL</span>
+Lorem ipsum dolor sit 
+
+<span class='person one'>KACEY MORROW</span>
+Lorem ipsum dolor sit 
+
+<span class='person two'>BRITTANY SCHADE</span>
+Nunc sed augue lacus 
+
+<span class='person'>KM</span> 
+Non pulvinar neque laoreet 
+
+<span class='person'>BS</span> 
+Non pulvinar neque laoreet suspendisse 
+
+<span class='person interviewer'>JONNY MCCONNELL</span>
+Lorem ipsum dolor sit 
+>Non pulvinar neque 
+
+
+
+
+
+monny:seattle-creative-directory Jonny$ gcloud ml speech operations wait 2415406972734682255
+Waiting for operation [operations/2415406972734682255] to complete...done.                                                                                                                 
+{
+  "@type": "type.googleapis.com/google.cloud.speech.v1.LongRunningRecognizeResponse",
+  "results": [
+    {
+      "alternatives": [
+        {
+          "confidence": 0.97007316,
+          "transcript": "thank you for joining me today to cut introduced to work that I'm doing I have lived and worked in Seattle area most my entire life I love kind of the creative community that is there and I was noticing maps not everyone really knows the extent of it. Every one really knows each other and well I know a handful of people there was a phone book so I really just wanted to help create that tool for business owners like yourself and the community of creatives and and hopefully to the end extends Beyond just designers engineers and geographers the broader creative world of the North Sea you are you're a generally remote sky are you in San Francisco right now or are you in Seattle or where are you around all over the place and I found her in our no one I usually placed between two primary areas which is status has been Silicon Valley in Seattle"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.95949847,
+          "transcript": "work with a lot of Stephanie mobile companies at startup Tech Brands so generally speaking in between those markets for markets on the west coast of San Francisco LA Seattle Vancouver and then we have a global team now and you're upset by me in San Francisco Seattle would be very interesting times around it lately currently in in the Bay area right now"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.95547014,
+          "transcript": "so how did you start are in 01 and then how did you expand to have a European team as well as a consultant be where I started to stop in the brand strategy groups and it was me myself and I and a couple of contractors freelance to move really thinking through how we can help scale Brands across difference between what we were clients were hoping to have the opportunity to scale that through campaign building web Grandpa Sayre mobile."
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.94955707,
+          "transcript": "did you experience compromising our our relationship has technology and must be stopped or we went from a consultant we've had tremendous amount of the year by year we started like most small Studios and you know we had a friend director ahead of Technology one based out of Seattle one based out of a really nice we actually lost our paper and took out a new one who started a creative director ahead of Technology beating in Seattle Vancouver in between SF"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.95023274,
+          "transcript": "LS Vortec face brand start out as well we need to scale up so we started bringing sources my partners were so we felt made a lot of sense it's Gail globally and incorporate of being part of that process what really makes is different though I'd say and and just kind of goes back to scalability growth is that there are a lot of firms out there a lot of agencies out there that's h on Project or have really big retainers we over the last ice age Europe you really wanted to bring back at well so we stopped taking on Project work and everything we do is built the context of some kind of subscription box so we have a program offering call them"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.85873646,
+          "transcript": "small which is super effective to funded startups and Tech France and then beware launching a new program soon this specific to digital marketing contacts and lastly later this year on product development program and models really help build product with vegetable brands that you know what that's a fascinating model how do you organize that as far as keeping the team on a day-to-day oriented but also when new requests are coming in from all different directions at different subscription levels are can you tell me more about that all of our they want to see results value-based partner to help them scale and really take themselves to the next level Philips Hue work with now they sure one day things"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.9660935,
+          "transcript": "that's still grow after they want to go from so many users to so many subscribers are so much revenue and sales to an axe or a hundred expect growth in 3 months or 6 months we take those short-term and long-term goals and we break it down into more micro fluid movements so if you think about it everything we're doing is delivering again priorities a 60-day cycle depending on the nature of the program and then we're re-evaluating every day every week every month so it's cool is we're bringing in a resource to spell princess in our Revolt program the really cool programs built around the brass that have a need for constant ever-changing capabilities so good example"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.9684029,
+          "transcript": "let's say I'm a bunion start out a time in Seattle and you know I just take it on 10 million in series will a bugling I want bring a new place to live for a betta fish market maybe something similar I need a lot of help I need help with brand strategy and I doubt you a visual style and visual language and then I want to build a bike and digital marketing it was cool that was ball is it really doesn't revolve around your Brad built so we bring an ease adjustable and scalable creative individual team build against ever-changing one could be strategy months to could be UFC why should be across social it's really built against them"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.9501706,
+          "transcript": "50 people now all hands on deck across five five locations are able to work with clients based on the content ever-changing me month-by-month thermal tap into those resources while you don't have solid schedules using tools like slack of course and everything else is up and coming and we'll make sure that we're collaborating with our clients any real time are you collaborating with each other almost across time zones just to make sure that the work goes out as it could work like many agency environments are always working at odd times and we going to try to get a remote right now with covid-19"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.940567,
+          "transcript": "distributed drive on a collaborative promote cell division team has built you know there a remote team they were just across collaborator in technology platforms to make sure that regardless if possible so you know our European teams are working late teams are up early and that's very typical"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.9692539,
+          "transcript": "interesting how were you structure in these client relationships is far as I understand how they're beginning and a kind of continuing but how are they I guess Indian or finishing our is there a is there a point where they say we we better gold that was measurable it's all about real-time results in 30 day or 60-day cycle we find it a lot of the client Partners we work with now are going to be funded text Art of e-commerce Brad there is some type of vertical as you can imagine with the rapidity of Technology either in Seattle at that for overseas or wherever they are, are the company"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.9507128,
+          "transcript": "we're finding is 90% of our client base will be programmed you know what three months I was programmed was cool about it is unlike a project environment is really built around then now the bigger benefit of our Revolt programs Newton pause that program at any point in a locker steel down resources fluidly cuz we only want to come in as a value-based partner wear when there's never really an end it's more like a Brit and the regrouping is need a little project there's a starting to stop without since you're you're always giving resources"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.9261711,
+          "transcript": "because there's companies you know it's either how do we get more of a marketing presents pushed out how do we build more of our product experience how do we get more users and customers so let's stop asking more question of what's next on Horizon and how do we reach it"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.9635036,
+          "transcript": " sounds like you've kind of embraced the typical issues of a of a client project scope creep problem and NSAID like how do we how do we approach that from The Other Place agency has not serviced by agency of partner I know it's overused not a fun word to use specially when you're in it I am still might say you don't like it but heavily a searchable turn and some people still referencing we understand what we offer but we are more than that and you can look at us like an extension of value-based partner that's what we are and it could be that creative Partners in some aspect of could be that were digital architect it really just depends on the need and and the growth strategy"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.9641855,
+          "transcript": " we want to do is move away from the idea of us start and stop everything about the greatest brands in the world they don't really go away they didn't they ship stay has fluid movements in stir constantly evolving you know it from Amazon to the small startup around the corner you know there is our thinking about new ways to grow in a ball as things are changing so we really want to be there or you'll be in the next five years as we can add more value or going to be a part of that from the marketers the designers strategist the developers whatever it is you need to feel that grow and it's a different way of looking at it you know we get approached by clients still it's probably 11:00 and I say we have a project"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.97194386,
+          "transcript": " and almost always now we actually don't we don't take it off instead we want to work with clients to again or looking for sustained growth and can really benefit from a value-based partner to help them Reach The Goldbergs how are you keeping your team creatively fed in this in this process cuz typically you have a projects that begins and ends and then they say it's okay you know you're on the bench for a week go work on that thing that you are interested in and we'll bring you back another night time free program offer in first year for working with a client right now today cold in Terre as an example of a while there is always in the supply chain"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.9646515,
+          "transcript": " management space with everything going on with covid-19 it's possibly producing for that experience so every day is different I think it benefited that we can touch and experience thing within current client environment zag and something else on the other nice thing about this is Dad when were thinking about growth and change to align what companies are doing and how that supports their investors how that supports their users are customers were on the same level so unlike some firms are like the stick on this project and that's great and we'll do our best work and we'll walk away"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.92573917,
+          "transcript": " how do we help them solve problems creatively in perspective question and as a result in this kind of Staff staff argument augmentation of another company do you ever do you ever get into a position where you're overextended"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.9615788,
+          "transcript": " show me about our team structure and our clients needs are always changing so we had a really nice workflow Synergy where you know we're all in on something for 1 week that said it was just something else for the next 3 to 4 weeks we need to be all in on marketing marketing site or app design roll out so we'll focus on that for that client and then things will quickly shift and maybe that was nice because there's a nice there's there's truly an atom's loaded this where we can experience The Rush with them but then it pulls back and Jenners first in areas were some of our client produce intensity of nice on a continuous basis but they're fully staffed"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.96800864,
+          "transcript": " and need to be all in or more fluid and flexible depending on the contract end in are some of those companies do they have their own in-house groups that you're working with her or you kind of become that I had a marketing stay have a technology steamer product strategist to help them unpack those strategies they have sample would be you know we work with a fintech startup called Spring labs in LA and very very well Sundays they have a product marketing team Ops Team sales team building outdoor products but they lack on a marketing team that can help them execute their marketing priority so that could be."
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.9195702,
+          "transcript": " awesome head of marketing really proficient word as full service design strategies and you know ux designer UI designers excetera firing 235 full-time employees are more your tapping into a team has $55 invested so it again rebuilt it sounds like the way to run that take away as you probably found there's a lot of digital marketing"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.95111644,
+          "transcript": " what is a lot of creative agencies usui shop development groups that can and there's a lot of reasons why we're experts in XYZ program we had to deal with it and it's built to help you grow we want to approach it totally different than everybody else going to take pride in that end in again I think the challenge has been out there today need to take a project work or they need like NASA and we're really how do we how do we give you both and the best of everything without that really crazy commitment or without the project-by-project scenario as well"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.95543104,
+          "transcript": " when you look at a distributed team like this and you look at how not that your company culture is stressed over multiple time zones but almost due to feel stressed over multiple creative communities do you feel like at each one point of where you have employees there is a Thursday presence of your company participating in that City that's a really good question you know I think you know if you think that out and I'll probably like yourself or larger agencies for well-known brand agencies like liquid and Silicon Valley back in the day when they were early early on a very strong or Founders presence of an agency or studio in the local market and I think traditionally that's been one"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.9556435,
+          "transcript": " Jacques Pepin with technology and his we absolutely have a presence in AC market for a reason we pride ourselves and occupying a lot of our flyer Partners or Seattle bounds since we're not limited to Geographic. Superchargers has to think about the creative rollouts and we are present so I think the simplest answer is here we have a lot of credence in all those markets a week creative driving overall vision for our no one's Nation fees for How We Roll things out for our clients and veracross the board some of them are in Seattle a couple of them are in November in Europe"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.93252516,
+          "transcript": " set the stage for I want to ask you about design education overall what is your design education background is it formal and informal what do you think of formal programs today in compliment or in contradiction to cut a certificate or independent property grade questions unique background in advertising and my education formally really was a nice flat in between couples with grape design Yahoo deep in the trenches back in the day and order in designing Court in playing around. Elements thinking about mood morning when it was just something you think it was cool because I created from a programmatic perspective"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.9545297,
+          "transcript": " call filtering strategy focused and learning Naples are Limitless technology if your discipline if your spider behind you and passion behind you you can learn anything that you can get out there and make a name for yourself. I can't tell you how many agencies I say there's one specifically and I won't I won't share their name but the guys started as a freelance designer and then 10 years fastest growing creative digital shots out there and they're working with Google they're working with some amazing companies that and that's the kind of thing I be now and now more and more is that certification be learning to drive to leverage technology is helping so much more than the formal attire that sell"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.9506365,
+          "transcript": " I try to learn as much as I can for me learning comes from actions so I'm hoping it would climb and get his revenge Capital group private Equity Firm thought leaders and try to be a salty tear myself so I think for me it's lesser about certifications and more about reading learning absorbing and interacting and her interns so remote and take on take on younger designers to come into are the most amazing because they say they do higher insurance we actually don't because our entire team is senior-level and it's for a reason because we we want to get it Aaron's the pork roast for these very successful vacuuming grass but when people approaches and they say we want to learn"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.9728624,
+          "transcript": " can jump it had to be senior level 4 office visit. You want to have a shared passion in the buyer or really helping us helping clients to grow it also means that your level of expertise is akin to somebody else right hand and your FSH levels to make those big attack to make the way the market so I think brought this letter about the Tricia Lantern roll but I get what you're saying and I think it's awesome at 8 anytime somebody can learn and learn more and for someone to be receptive to someone truly is a big birthday funny for me I was tired early on it was the only job I can get project manager project manager right now all I can do to get my foot in the door in an agency that I wanted to work at and I have bills to pay and they quickly realized I suck as a project manager and I think that's the problem"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.96643084,
+          "transcript": " are we only had a heart with me I think that's the problem with a lot of companies that hire many people that our insurance is sometimes you're just trying to expose them or to go down the wrong path to bar and that can be changed and Foster that to where do you see where do you see your own company growing towards really stoked about taking Arnold on to the next level working hack enables growth Focus brands that could be business to visit or directions number so I can you tell you another company or somebody selling to purple pack of all of this is that we want to be uniquely positioned where when somebody looks at us first impression"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.94876033,
+          "transcript": " care about us they want us to say wow in different you know they're they're not like so-and-so when they look at 10 firms are not sending us an RFP they're saying I really like this I like this program I like that they're gross so you know in the radar again for us it's about scaling Oregon team about 50 all hands on deck was like to be inside of a hundred in the next day or two at the Pittsburgh Zoo Target we want to really help clients to grow and 1/2 more importantly their revenue Target but beyond that I think what we always liedman customer connectivity design connectivity"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.94339526,
+          "transcript": " I'm curious this is a question I asked everyone but what what gets you up at 5 a.m. tomorrow"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.9645973,
+          "transcript": " you know how professionally I would say the idea that we could be more in that we're working to be more right so when I say more it's something that fulfills our our line size for grout that I keep saying it's so big if we aspirationally want to be at knowing that we're getting that much closer to ex is exciting States me the most is when we're forming and for being these really cool programs that not many people at all these marketing companies be read in 2 hours for people that stutter us to be able to create something from nothing and seeded work and that's that's exciting you know it's like Elon Musk Tesla Factory"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.96024823,
+          "transcript": " creating something nobody $10 and people are loving the other buying it I mean there's nothing more exciting and fulfilling than that of course as much as you can and I have two of them so I will keep you busy keep you happy hopefully but that's awesome are you are you are you content with what with the with where you're at in the direction of the directions so don't feel like you know her me where I've always done the right thing as I end up with people that I believe him and I trust them 100% you know there may be times where I give feedback on something but I feel like they know what they're doing and I want them to drive it with me"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.94025254,
+          "transcript": " approaching her differently and you know I'd I don't want to break that because it doesn't work so I think it's really important to trust people and give them the chance to trust them or so so that's exciting and I definitely feel we're on the right track you know we have an array of clients in a Revolt program now in the new program we're launching me a tremendous amount of interest rate be on another cool program as I mentioned product development program and I've never stopped feeling like we hit the Mark tonight I think you have to keep pushing you know keep thriving or more and be more financially but strategically you know it's it's not about Alex shining competition it's just about Reese taking industry"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.9709569,
+          "transcript": " this is more sustainable Way to Tipperary think the Home Design image of working with clients that again how do you say you haven't eaten for us to be working with clients regularly and then whatever you are yeah they have aspirations of certain sales they want to get certain users using your ass they want to do they want to build a brand that maybe it's more of a brad that people remember like XYZ in the market for so long so I think what's really important is we're giving them a vehicle to get there are a lot of firms out there is amazing and you know we are working it's amazing to me because I was actually in the process of looking"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.95603925,
+          "transcript": " form to start a new agency with somebody not that long ago about 2 years back show or are amazing work and I would always feel like that wasn't good enough you know and I think you know it's so sad to rate is now the other designers there's so many brilliant agencies and they all produce a lot of work for a client how can I make sense of that noise how do we approach them grow and how do we look at him as being very different and so I think what that end in mind it is rethinking the traditional way of doing something like that so that's why we're going on a date sometime"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.9397054,
+          "transcript": " ride that wave so to speak to take us to the next level as well as a huge fan of the Seattle creative Community just like any major cities of special and interesting and there's an interesting things like what's happening there between those who have been there a long time be up and comer text people right there in the spotlight I have for you is where do you feel like where do you feel like things are going in Seattle specifically with the creative Community Mash with action to the DMV"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.9674134,
+          "transcript": " Weekender quite well at this point that is a good question I think there's definitely attention I don't know if there's friction this early but there's a tension between designers who kind of heat up the whole digital product development ux research that kind of Worlds I know that I was more traditionally print brand train but only have ever really worked in digital product you and I love it to me if there's an iterative you are progressively building the same thing to get it better better and that's one that's fascinating to me a lot of people that say I'm making a thing and when I'm done making a thing it's done and it moved out into the world and it is good or not are successful or not but it's done and I don't I don't want to think about it again and that's that's fine that's a different way of"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.96584666,
+          "transcript": " doing work but that does create tension between two very different styles of companies hiring designers of looking to build communities around around the different artifacts that come out of that work one being one being very lasting you know I printed something and it will exist in the world is an artifact and one more experience or is it or cheating value out of the experience and less out of the object itself so I think there's there's usually value in both sides but there's not one is better than the other there's probably more money right now and in 1/2 that coin and and I think somehow we have to include both those cuts I don't know take that"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.9587003,
+          "transcript": " I don't think that one will replace the other I don't think that one is dying and the other is growing but there should be there needs to be value seen in both and value put into both because they at different times they're the most appropriate thing to be felt but I don't I don't know how I don't know how that's going to play out in a surly as well as we move away from what was the most racially print Market into a little more seriously we needed the old bag and campaign development surround Prince and another medium you know if the VW Bug comes to mind you know how do you braid back at Mary that world in their city and open-mindedness I'd be able to respond to any of those environments"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.9587578,
+          "transcript": " really familiar with one thing and you do that really well there's no shame in that is so interesting with the pace of Technology quick it out right now as we speaking something is being developed the code develop that will change social order change Hardware in the world to be open-minded to designing for new solutions that really you in any way you said it connect with people because of people using different mediums I think that's the most important thing for us that's how we approach it should be open-minded and Shay for tomorrow but you're not inside of it today"
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.96204734,
+          "transcript": " started in one place and I think something stronger with designing for other channels that they shouldn't have to do you know I I think if they do something really really well and should be embraced and we want to bring them in and there's always a place for that as a permanent it really is the same design history and design theory on boats it's just the means of production is different means of production should be adapted to those ideas first not adapting the ideas I really appreciate the inclusion truly look forward to watching you guys grounds down the future thank you"
+        }
+      ]
+    }
+  ]
+}
+monny:seattle-creative-directory Jonny$ 
