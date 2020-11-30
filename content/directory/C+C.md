@@ -1,7 +1,7 @@
 ---
 title: "C+C"
 featuredImage: ./-hamburgers.png
-website: "https://www.cruxxmedia.com/"
+website: "https://cplusc.com/"
 twit: "https://twitter.com/colehourcohen"
 inst: ""
 category: "C"
