@@ -25,8 +25,6 @@ class Listing extends React.Component {
     // this can be refactored as a variable based approach, and only one graphql query
     // Look at the tags page for an example of this
 
-    const postEdges = this.props.data.ListingQueryPodcast.edges;
-
     const allCats = this.props.data.AllCatsQuery.distinct;
     const allTags = this.props.data.AllTagsQuery.distinct;
 
