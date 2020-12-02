@@ -11,5 +11,5 @@
 package = "netlify-plugin-checklinks"
 
   [plugins.inputs]
-  skipPatterns = [www.google-analytics.com, https://fonts.googleapis.com]
+  skipPatterns = ["www.google-analytics.com, https://fonts.googleapis.com"]
   checkExternal = true
