@@ -12,4 +12,4 @@ package = "netlify-plugin-checklinks"
 
   [plugins.inputs]
   todoPatterns = ["www.google-analytics.com, https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;600;0,700;1,400;1,800&display=swap"]
-  checkExternal = truefalse
+  checkExternal = false
