@@ -7,3 +7,9 @@
   NODE_VERSION = "12.13.0"
   YARN_VERSION = "1.19.1"
   YARN_FLAGS = "--no-ignore-optional"
+[[plugins]]
+package = "netlify-plugin-checklinks"
+
+  [plugins.inputs]
+  skipPatterns = [www.google-analytics.com, https://fonts.googleapis.com]
+  checkExternal = true

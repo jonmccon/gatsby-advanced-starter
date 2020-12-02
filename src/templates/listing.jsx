@@ -1,9 +1,8 @@
 import React from "react";
-import ReactDOM from 'react-dom';
 import Helmet from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../layout";
-import PodcastListing from "../components/PostListing/PodcastListing";
+// import PodcastListing from "../components/PostListing/PodcastListing";
 import PostCats from "../components/Filters/PostCats";
 import PostTags from "../components/Filters/PostTags";
 import DirectoryListing from "../components/PostListing/DirectoryPostListing";
@@ -57,8 +56,7 @@ class Listing extends React.Component {
     const postEdgesDirectoryX = this.props.data.directoryListingQueryX.edges;
     const postEdgesDirectoryY = this.props.data.directoryListingQueryY.edges;
     const postEdgesDirectoryZ = this.props.data.directoryListingQueryZ.edges;
-    const postEdgesDirectoryNumbers = this.props.data
-      .directoryListingQueryNumbers.edges;
+    const postEdgesDirectoryNumbers = this.props.data.directoryListingQueryNumbers.edges;
 
     return (
       <Layout>
@@ -75,7 +73,6 @@ class Listing extends React.Component {
             />
 
             <div className="filters">
-              {/* <div className="directory-block--title">&nbsp;</div> */}
               <PostCats cats={allCats} />
               <PostTags tags={allTags} />
             </div>
@@ -220,6 +217,9 @@ export default Listing;
 /* eslint no-undef: "off" */
 export const listingQuery = graphql`
   {
+    """
+    This is to list interview pages, not currently using them 
+
     ListingQueryPodcast: allMarkdownRemark(
       sort: { fields: [fields___date], order: DESC }
       filter: { frontmatter: { category: { eq: "interview" } } }
@@ -247,6 +247,7 @@ export const listingQuery = graphql`
         }
       }
     }
+    """
     AllCatsQuery: allMarkdownRemark {
       distinct(field: frontmatter___category)
     }

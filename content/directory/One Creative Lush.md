@@ -4,7 +4,7 @@ cover: "./content/blog/imgs/hamburgers.png"
 website: "https://onecreativelush.com/"
 twit: ""
 inst: ""
-category: "alpha"
+category: "O"
 tags:
     - Edmonds
     - small
@@ -12,4 +12,4 @@ tags:
     - print
 ---
 
-Description
+Freelancer
