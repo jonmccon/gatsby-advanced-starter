@@ -197,6 +197,7 @@ exports.createPages = async ({ graphql, actions }) => {
   });
 
   // Create category pages
+  // Add multi category here
   categorySet.forEach((category) => {
     createPage({
       path: `/categories/${_.kebabCase(category)}/`,
