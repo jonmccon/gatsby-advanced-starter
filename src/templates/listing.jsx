@@ -217,37 +217,6 @@ export default Listing;
 /* eslint no-undef: "off" */
 export const listingQuery = graphql`
   {
-    """
-    This is to list interview pages, not currently using them 
-
-    ListingQueryPodcast: allMarkdownRemark(
-      sort: { fields: [fields___date], order: DESC }
-      filter: { frontmatter: { category: { eq: "interview" } } }
-    ) {
-      edges {
-        node {
-          fields {
-            slug
-            date
-          }
-          excerpt
-          timeToRead
-          frontmatter {
-            title
-            tags
-            date
-            featuredImage {
-              childImageSharp {
-                fluid {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-    """
     AllCatsQuery: allMarkdownRemark {
       distinct(field: frontmatter___category)
     }
