@@ -13,8 +13,15 @@ package = "netlify-plugin-checklinks"
 
   [plugins.inputs]
   todoPatterns = [
-    "DNS exists www.google-analytics.com",
-    "200 https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;600;0,700;1,400;1,800&display=swap",
-    "fragment-check public/index.html --> /#interview"
+    "fragment-check",
+    "406",
+    "UNABLE_TO_VERIFY_LEAF_SIGNATURE",
+    "500"
     ]
+  skipPatterns = [
+    "www.google-analytics.com",
+    "https://fonts.googleapis.com/",
+    "--> 200",
+    "file:///"
+  ]
   checkExternal = true
