@@ -15,6 +15,6 @@ package = "netlify-plugin-checklinks"
   todoPatterns = [
     "DNS exists www.google-analytics.com",
     "200 https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;600;0,700;1,400;1,800&display=swap",
-    "id="interview"
+    "fragment-check public/index.html --> /#interview"
     ]
   checkExternal = true
