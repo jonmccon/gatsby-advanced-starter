@@ -4,7 +4,7 @@ featuredImage: ./-hamburgers.png
 website: "https://www.awesomeamber.com/"
 twit: "https://twitter.com/AmberDesign_"
 inst: "https://www.instagram.com/awesomeamberdesign"
-category: "independent"
+category: "A"
 tags:
     - small
     - branding
@@ -15,4 +15,4 @@ tags:
     - packaging
 ---
 
-Description
+Freelancer

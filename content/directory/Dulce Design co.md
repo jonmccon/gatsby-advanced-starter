@@ -4,7 +4,7 @@ featuredImage: ./-hamburgers.png
 website: "http://www.dulcedesign.com/"
 twit: ""
 inst: "https://www.instagram.com/dulcedesigncompany"
-category: "independent"
+category: "D"
 tags:
     - First Hill
     - small
@@ -17,4 +17,4 @@ tags:
     - ux/ui
 ---
 
-Description
+description

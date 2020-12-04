@@ -143,7 +143,9 @@ exports.createPages = async ({ graphql, actions }) => {
           },
         });
       });
-    } else if (edge.node.frontmatter.category === "interview") {
+    } 
+    
+    else if (edge.node.frontmatter.category === "interview") {
       // else interview
 
       createPage({

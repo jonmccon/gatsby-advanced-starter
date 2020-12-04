@@ -1,9 +1,8 @@
 import React from "react";
-import ReactDOM from 'react-dom';
 import Helmet from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../layout";
-import PodcastListing from "../components/PostListing/PodcastListing";
+// import PodcastListing from "../components/PostListing/PodcastListing";
 import PostCats from "../components/Filters/PostCats";
 import PostTags from "../components/Filters/PostTags";
 import DirectoryListing from "../components/PostListing/DirectoryPostListing";
@@ -25,8 +24,6 @@ class Listing extends React.Component {
   render() {
     // this can be refactored as a variable based approach, and only one graphql query
     // Look at the tags page for an example of this
-
-    const postEdges = this.props.data.ListingQueryPodcast.edges;
 
     const allCats = this.props.data.AllCatsQuery.distinct;
     const allTags = this.props.data.AllTagsQuery.distinct;
@@ -57,8 +54,7 @@ class Listing extends React.Component {
     const postEdgesDirectoryX = this.props.data.directoryListingQueryX.edges;
     const postEdgesDirectoryY = this.props.data.directoryListingQueryY.edges;
     const postEdgesDirectoryZ = this.props.data.directoryListingQueryZ.edges;
-    const postEdgesDirectoryNumbers = this.props.data
-      .directoryListingQueryNumbers.edges;
+    const postEdgesDirectoryNumbers = this.props.data.directoryListingQueryNumbers.edges;
 
     return (
       <Layout>
@@ -75,7 +71,6 @@ class Listing extends React.Component {
             />
 
             <div className="filters">
-              {/* <div className="directory-block--title">&nbsp;</div> */}
               <PostCats cats={allCats} />
               <PostTags tags={allTags} />
             </div>
@@ -220,33 +215,6 @@ export default Listing;
 /* eslint no-undef: "off" */
 export const listingQuery = graphql`
   {
-    ListingQueryPodcast: allMarkdownRemark(
-      sort: { fields: [fields___date], order: DESC }
-      filter: { frontmatter: { category: { eq: "interview" } } }
-    ) {
-      edges {
-        node {
-          fields {
-            slug
-            date
-          }
-          excerpt
-          timeToRead
-          frontmatter {
-            title
-            tags
-            date
-            featuredImage {
-              childImageSharp {
-                fluid {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-          }
-        }
-      }
-    }
     AllCatsQuery: allMarkdownRemark {
       distinct(field: frontmatter___category)
     }

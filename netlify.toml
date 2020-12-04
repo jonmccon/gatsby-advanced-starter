@@ -7,3 +7,35 @@
   NODE_VERSION = "12.13.0"
   YARN_VERSION = "1.19.1"
   YARN_FLAGS = "--no-ignore-optional"
+
+[[plugins]]
+# Build time link checker
+package = "netlify-plugin-checklinks"
+
+  [plugins.inputs]
+  todoPatterns = [
+    # Server rejections but not fails
+    "406",
+    "UNABLE_TO_VERIFY_LEAF_SIGNATURE",
+    "ERR_TLS_CERT_ALTNAME_INVALID",
+    "EAI_AGAIN",
+    
+    # hard fails
+    "500",
+    
+    # Interview pages are generated but unused right now
+    'id="interview"'
+    ]
+  skipPatterns = [
+    # assets that don't like the check
+    "www.google-analytics.com",
+    "https://fonts.googleapis.com/",
+    "file:///",
+
+    # usually the result of a number of redirects, then resolving
+    "301",
+    "302"
+  ]
+
+  #turn this off to speed up buildtime
+  checkExternal = true
