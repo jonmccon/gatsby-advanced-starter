@@ -18,6 +18,7 @@ package = "netlify-plugin-checklinks"
     "406",
     "UNABLE_TO_VERIFY_LEAF_SIGNATURE",
     "ERR_TLS_CERT_ALTNAME_INVALID",
+    "EAI_AGAIN",
     
     # hard fails
     "500",
