@@ -32,7 +32,8 @@ package = "netlify-plugin-checklinks"
     "file:///",
 
     # usually the result of a number of redirects, then resolving
-    "--> 200",
+    "301 -->",
+    "302 -->"
   ]
 
   #turn this off to speed up buildtime
