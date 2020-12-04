@@ -145,23 +145,21 @@ exports.createPages = async ({ graphql, actions }) => {
       });
     } 
     
-    // INTERVIEW POSTS
-    // 
-    // else if (edge.node.frontmatter.category === "interview") {
-    //   // else interview
+    else if (edge.node.frontmatter.category === "interview") {
+      // else interview
 
-    //   createPage({
-    //     path: edge.node.fields.slug,
-    //     component: postPage,
-    //     context: {
-    //       slug: edge.node.fields.slug,
-    //       // nexttitle: nextEdge.node.frontmatter.title,
-    //       // nextslug: nextEdge.node.fields.slug,
-    //       // prevtitle: prevEdge.node.frontmatter.title,
-    //       // prevslug: prevEdge.node.fields.slug
-    //     },
-    //   });
-    // }
+      createPage({
+        path: edge.node.fields.slug,
+        component: postPage,
+        context: {
+          slug: edge.node.fields.slug,
+          // nexttitle: nextEdge.node.frontmatter.title,
+          // nextslug: nextEdge.node.fields.slug,
+          // prevtitle: prevEdge.node.frontmatter.title,
+          // prevslug: prevEdge.node.fields.slug
+        },
+      });
+    }
 
     postsEdges.forEach((edge, index) => {
       // Generate a list of tags
