@@ -20,7 +20,7 @@ package = "netlify-plugin-checklinks"
     "ERR_TLS_CERT_ALTNAME_INVALID",
     
     # hard fails
-    "500"
+    "500",
     
     # Interview pages are generated but unused right now
     'id="interview"'
