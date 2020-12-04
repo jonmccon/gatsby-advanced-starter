@@ -9,22 +9,31 @@
   YARN_FLAGS = "--no-ignore-optional"
 
 [[plugins]]
+# Build time link checker
 package = "netlify-plugin-checklinks"
 
   [plugins.inputs]
   todoPatterns = [
-    "fragment-check",
+    # Server rejections but not fails
     "406",
     "UNABLE_TO_VERIFY_LEAF_SIGNATURE",
     "ERR_TLS_CERT_ALTNAME_INVALID",
+    
+    # hard fails
     "500"
-    "id=\"interview\""
+    
+    # Interview pages are generated but unused right now
+    'id="interview"'
     ]
   skipPatterns = [
+    # assets that don't like the check
     "www.google-analytics.com",
     "https://fonts.googleapis.com/",
+    "file:///",
+
+    # usually the result of a number of redirects, then resolving
     "--> 200",
-    "file:///"
   ]
 
+  #turn this off to speed up buildtime
   checkExternal = true
