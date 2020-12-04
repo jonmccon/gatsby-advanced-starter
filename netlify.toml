@@ -16,6 +16,7 @@ package = "netlify-plugin-checklinks"
     "fragment-check",
     "406",
     "UNABLE_TO_VERIFY_LEAF_SIGNATURE",
+    "ERR_TLS_CERT_ALTNAME_INVALID",
     "500"
     ]
   skipPatterns = [
@@ -24,4 +25,5 @@ package = "netlify-plugin-checklinks"
     "--> 200",
     "file:///"
   ]
+  
   checkExternal = true

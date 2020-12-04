@@ -143,21 +143,25 @@ exports.createPages = async ({ graphql, actions }) => {
           },
         });
       });
-    } else if (edge.node.frontmatter.category === "interview") {
-      // else interview
+    } 
+    
+    // INTERVIEW POSTS
+    // 
+    // else if (edge.node.frontmatter.category === "interview") {
+    //   // else interview
 
-      createPage({
-        path: edge.node.fields.slug,
-        component: postPage,
-        context: {
-          slug: edge.node.fields.slug,
-          // nexttitle: nextEdge.node.frontmatter.title,
-          // nextslug: nextEdge.node.fields.slug,
-          // prevtitle: prevEdge.node.frontmatter.title,
-          // prevslug: prevEdge.node.fields.slug
-        },
-      });
-    }
+    //   createPage({
+    //     path: edge.node.fields.slug,
+    //     component: postPage,
+    //     context: {
+    //       slug: edge.node.fields.slug,
+    //       // nexttitle: nextEdge.node.frontmatter.title,
+    //       // nextslug: nextEdge.node.fields.slug,
+    //       // prevtitle: prevEdge.node.frontmatter.title,
+    //       // prevslug: prevEdge.node.fields.slug
+    //     },
+    //   });
+    // }
 
     postsEdges.forEach((edge, index) => {
       // Generate a list of tags
@@ -197,7 +201,6 @@ exports.createPages = async ({ graphql, actions }) => {
   });
 
   // Create category pages
-  // Add multi category here
   categorySet.forEach((category) => {
     createPage({
       path: `/categories/${_.kebabCase(category)}/`,
