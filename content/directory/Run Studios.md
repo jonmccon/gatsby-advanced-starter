@@ -3,15 +3,16 @@ title: "Run Studios"
 featuredImage: ./-hamburgers.png
 website: "https://www.runstudios.com/"
 twit: ""
-inst: ""
+inst: "https://www.instagram.com/runstudios/"
 category: "R"
 tags:
-    - Interbay
+    - Ballard
     - large
     - video
     - motion
     - 3D
-    - interactive
+    - vfx
 ---
 
+https://vimeo.com/runstudios
 
