@@ -22,6 +22,7 @@ package = "netlify-plugin-checklinks"
     
     # hard fails
     "500",
+    "400",
     
     # Interview pages are generated but unused right now
     'id="interview"'
