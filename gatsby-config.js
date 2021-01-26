@@ -24,7 +24,7 @@ module.exports = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "assets",
-        path: `static/`,
+        path: `src/static/`,
       },
     },
     {
@@ -96,7 +96,7 @@ module.exports = {
         background_color: `#FFFFFF`,
         theme_color: `#FEADA3`,
         display: `standalone`,
-        icon: `static/favicon.png`,
+        icon: `src/static/favicon.png`,
       },
     },
     "gatsby-plugin-catch-links",

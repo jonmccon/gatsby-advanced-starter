@@ -13,7 +13,7 @@
 
     /* BACKGROUND PATTERN */
     .pattern {
-        background: url(../../static/pattern04c.png);
+        background: url(../static/pattern04c.png);
         background-color: var(--color-bg-coral);
         display: grid;
         grid-template-columns: 1fr 30fr 1fr;
@@ -50,7 +50,7 @@
     .logo {
         display: grid;
         grid-area: Logo;
-        background-image: url(../../static/scLogo.svg);
+        background-image: url(../static/scLogo.svg);
         background-repeat: no-repeat;
         background-size: contain;
         height: 4em; 

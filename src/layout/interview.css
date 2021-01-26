@@ -2,7 +2,7 @@
 
 /* INTERVIEW PAGE */
 .interviewPattern {
-    background: url(../../static/pattern04c.png);
+    background: url(../static/pattern04c.png);
     background-color: var(--color-bg-gray);
     display: grid;
     grid-template-columns: 2em fit-content(1fr) 270px;
