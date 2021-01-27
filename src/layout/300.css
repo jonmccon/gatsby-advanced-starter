@@ -26,7 +26,7 @@
         grid-row: 2;
         grid-column: 2;
         grid-template-columns: 1.5em repeat(6, 1fr) 1.5em;
-        grid-template-rows: 1fr auto auto auto auto auto auto auto auto 8em;
+        grid-template-rows: 1fr auto auto auto auto auto auto 8em;
         grid-gap: .5em;
         grid-auto-flow: dense;    
         max-width: 400px;
@@ -37,9 +37,7 @@
         grid-template-areas:
             ".              .               Logo            Logo            Logo            Logo            .               ."
             ".              Hello           Hello           Hello           Hello           Hello           Hello           ."
-            "podcast-one    podcast-one     podcast-one     podcast-one     podcast-one     podcast-one     podcast-one     podcast-one"
-            "podcast-two    podcast-two     podcast-two     podcast-two     podcast-two     podcast-two     podcast-two     podcast-two"
-            "podcast-three    podcast-three     podcast-three     podcast-three     podcast-three     podcast-three     podcast-three     podcast-three"
+            ".              showContainer   showContainer   showContainer   showContainer   showContainer   showContainer   ."
             ".              Contact         Contact         Contact         Contact         Contact         Contact         ."
             ".              Filters         Filters         Filters         Filters         Filters         Filters         ."
             ".              Directory       Directory       Directory       Directory       Directory       Directory       ."
@@ -132,27 +130,21 @@
     }
     /* ----------------------------------------------- */
 
-    /* INTERVIEW PROMOS */
+    /* PODCAST SHOW */
 
-    .podcast-promo {
+    #showContainer {
         display: grid;
-        grid-auto-flow: row;
+        grid-area: showContainer;
+        grid-template-columns: repeat(3, minmax(0,1fr));
+        grid-gap: .5em;
     }
 
-    #podcast-ep-one {
+    .podcast {
         display: grid;
-        grid-area: podcast-one;
     }
 
-    #podcast-ep-two {
-        display: grid;
-        grid-area: podcast-two;
-    }
 
-    #podcast-ep-three {
-        display: grid;
-        grid-area: podcast-three;
-    }
+   
 
     /* ----------------------------------------------- */
 

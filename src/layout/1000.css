@@ -35,7 +35,7 @@
         grid-template-areas:
             ".              .               .               .               Logo            Logo            Logo            Logo            .               Contact         Contact         ."
             ".              .               .               Hello           Hello           Hello           Hello           Hello           Hello           .               .               ."
-            ".    podcast-two     podcast-two     podcast-one     podcast-one     podcast-one     podcast-one     podcast-one     podcast-one   podcast-three   podcast-three   ."
+            ".      showContainer     showContainer     showContainer     showContainer     showContainer     showContainer     showContainer     showContainer   showContainer   showContainer   ."
             ".              Filters         Filters         Filters         Filters         Filters         Filters         Filters         Filters         Filters         Filters         ."
             ".              Directory       Directory       Directory       Directory       Directory       Directory       Directory       Directory       Directory       Directory       ."
             /* ". . Footer . . " */
@@ -91,24 +91,15 @@
     .email-form button:hover { }
     /* ----------------------------------------------- */
 
-    /* INTERVIEW PROMOS */
+    /* PODCAST SHOW */
 
-    .podcast-promo {
-        display: grid;
-        grid-auto-flow: row;
+    #showContainer {
     }
 
-    #podcast-ep-one {
-        
-     }
-
-    #podcast-ep-two {
-        
+    .podcast {
     }
 
-    #podcast-ep-three {
-        
-    }
+   
 
     /* ----------------------------------------------- */
 
@@ -145,8 +136,6 @@
 
     /* CATEGORY & TAG CONTAINER*/
     .filters {
-        display: grid;
-        grid-area: Filters;
         font: 400 .8em JetBrains-Mono, sans-serif;
         margin: 4em 0 2em 0;
         /* background-color: var(--color-test); */
