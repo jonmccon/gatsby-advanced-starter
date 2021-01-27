@@ -10,6 +10,7 @@ import SEO from "../components/SEO/SEO";
 import config from "../../data/SiteConfig";
 import Headline from "../components/Intro/Headline";
 import Logo from "../components/Intro/Logo";
+import PodcastPlayer from "../components/Intro/PodcastPlayer";
 
 class Listing extends React.Component {
   // Pagination
@@ -69,6 +70,28 @@ class Listing extends React.Component {
                 "Cataloging the creative studios & internal design teams of the pacific northwest. "
               }
             />
+
+            <div id="podcast-ep-one">
+              <PodcastPlayer
+                podcastSeason="S1:EP1"
+                podcastTitle="Professors Kacey Morrow & Brittany Schade of WWU"
+                podcastURL="https://cdn.simplecast.com/audio/30dabfb8-c618-43a5-81c7-c5c83750983a/episodes/be27c0b6-9a80-4c2c-a30e-95a4c514929e/audio/c611b2e1-d4ec-4a10-b316-99e50205e26a/default_tc.mp3"  
+              />
+            </div>
+            <div id="podcast-ep-two">
+              <PodcastPlayer
+                podcastSeason="S1:EP1"
+                podcastTitle="Professors Kacey Morrow & Brittany Schade of WWU"
+                podcastURL="https://cdn.simplecast.com/audio/30dabfb8-c618-43a5-81c7-c5c83750983a/episodes/1c1d24a9-1967-4e16-ae31-77bd11d5f011/audio/7bf20139-4db8-4732-81e4-e1e92b5a273c/default_tc.mp3"  
+              />
+            </div>
+            <div id="podcast-ep-three">
+              <PodcastPlayer
+                podcastSeason="S1:EP1"
+                podcastTitle="Professors Kacey Morrow & Brittany Schade of WWU"
+                podcastURL="https://cdn.simplecast.com/audio/30dabfb8-c618-43a5-81c7-c5c83750983a/episodes/cbc0fabd-0d1c-4bc1-887a-5786d2d4575e/audio/ede0f625-09dd-4fac-9ab3-58939dd0b806/default_tc.mp3"  
+              />
+            </div>
 
             <div className="filters">
               <PostCats cats={allCats} />

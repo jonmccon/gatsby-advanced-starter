@@ -140,14 +140,17 @@
     }
 
     #podcast-ep-one {
+        display: grid;
         grid-area: podcast-one;
     }
 
     #podcast-ep-two {
+        display: grid;
         grid-area: podcast-two;
     }
 
     #podcast-ep-three {
+        display: grid;
         grid-area: podcast-three;
     }
 
