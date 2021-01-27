@@ -115,7 +115,7 @@
 
     .email-form button {
         color: var(--color-text);
-        font: 400 1.2em JetBrains-Mono, sans-serif;
+        font: var(--text-serif--item);
         text-transform: uppercase;
         background: var(--color-card);
         border: .1em solid var(--color-card);
@@ -141,6 +141,32 @@
 
     .podcast {
         display: grid;
+    }
+
+    .podcast-promo h3 {
+        font: var(--text-mono-std);
+    }
+
+    .podcast-promo h2 {
+        font: var(--text-serif-bld);
+    }
+
+    .rhap_container {
+        -webkit-box-shadow: 0px 4px 0px 0px #000000 !important; 
+        box-shadow: 0px 4px 0px 0px var(--color-bg-coral-dark) !important;
+        border: 5px solid var(--color-bg-coral) !important;
+        border-radius: 10px !important;
+    }
+
+    .rhap_time {
+        font: var(--text-mono-std) !important;
+        color: var(--color-card) !important;
+        background-color: var(--color-bg-coral) !important;
+        -webkit-box-shadow: 0px 0px 5px 2px var(--color-bg-coral); 
+        box-shadow: 0px 0px 5px 2px var(--color-bg-coral);
+        text-shadow: 1px 1px 2px var(--color-bg-coral-dark);
+        padding: .5ch;
+
     }
 
 
