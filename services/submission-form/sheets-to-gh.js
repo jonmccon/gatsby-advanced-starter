@@ -8,7 +8,7 @@ function onFormSubmit(e) {
 
   var title = e.values[X]; // Name of business
   var type = "Submission";
-  var categoryLetter = stringify this value e.values[X] and pull the first letter
+  // var categoryLetter = stringify this value e.values[X] and pull the first letter
 
 
 
