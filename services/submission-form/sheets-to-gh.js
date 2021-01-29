@@ -17,14 +17,16 @@ function onFormSubmit(e) {
   var size = "look it up"
   
   if (data[i][3] == "1-10") {
-                size = "small" 
-              } else if (data[i][3] == "11-40") {
-                size = "medium" 
-              } else if (data[i][3] == "41-100") {
-                size = "large"  
-              } else {
-                size = "huge" 
-              }
+    size = "small" 
+  } else if (data[i][3] == "11-40") {
+    size = "medium" 
+  } else if (data[i][3] == "41-100") {
+    size = "large"  
+  } else if (data[i][3] == "100+") {
+    size = "huge" 
+  } else {
+    size = "dunno"
+  }
 
   var body =  "###### You got a new submission, great job \n" +
               "###### Submitted by " + data[i][1] + " \n" +
