@@ -6,6 +6,7 @@
 
 function onFormSubmit(e) {
 
+  // eslint-disable-next-line no-undef
   var sheet = SpreadsheetApp.getActiveSheet();
   var data = sheet.getDataRange().getValues();
 
