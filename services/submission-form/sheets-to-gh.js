@@ -1,5 +1,4 @@
 
-// replae this token from github
 var ghToken = "fff5095b4b075bca8809b4ea8c13bb2ba12dec36";
 
 function onFormSubmit(e) {
