@@ -18,16 +18,12 @@ Directory submission form uses Google Forms, which dumps everything into a sprea
 
 Services
 
-To deploy the form -> gh issue script from Services > Submission to production, use
-`clasp pull`
-`clasp push`
-Otherwise it's saved here in the repo
+Buttondown is simply the email styling and is only saved in the repo, this needs to be copied into the Buttondown admin 'Design' page
 
 Google Apps Transcription API is used after uploading a mono .flac version of a podcast episode to the bucket on GCP
 The cli tool here is used so that it can async on a large file entirely in GCP and polled for the response.
 
-Buttondown is simply the email styling and is only saved in the repo, this needs to be copied into the Buttondown admin 'Design' page
-
+submission form is a clasp script for sheets, old api ver, no longer works
 
 
 
