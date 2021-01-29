@@ -6,38 +6,51 @@ function onFormSubmit(e) {
 
 
 
-  var title = e.values[X]; // Name of business
+  var title = e.values[2]; // Name of business
   var type = "Submission";
   // var categoryLetter = stringify this value e.values[X] and pull the first letter
+
+  
+  var size =  if (e.values[2] == "1-10") {
+                size = "small" 
+              } else if (e.values[2] == "11-40") {
+                size = "medium" 
+              } else if (e.values[2] == "41-100") {
+                size = "large"  
+              } else {
+                size = "huge" 
+              };
+
 
 
 
   var body =  "* * * * * * * * * \n \n" +
               "You got a new submission, great job \n" +
-              "Submitted by " + e.values[X] + " \n" +
+              "Submitted by " + e.values[1] + " \n" +
               "*** *** *** \n" +
               "--- \n" +
-              "title: \"" + e.values[X] + "\" \n" +
+              "title: \"" + e.values[2] + "\" \n" +
               "featuredImage: ./-hamburgers.png \n" +
-              "website: \"" + e.values[X] + "\" \n" +
-              "twit: \"" + e.values[X] + "\" \n" +
-              "inst: \"" + e.values[X] + "\" \n" +
-              "category: \"" + categoryLetter + "\" \n" +
-              "tags: \"" + e.values[X] + "\" \n" +
+              "website: \"" + e.values[5] + "\" \n" +
+              "twit: \"" + e.values[6] + "\" \n" +
+              "inst: \" \" \n" +
+              // "category: \"" + categoryLetter + "\" \n" +
+              "tags: \"" + e.values[4] + "\" \n" +
+              size
               "--- \n" +
-              "Description \n" +
-              " bonus q&a " + e.values[X] + " \n" +
+              "Would you like to be on the show? \n" +
+              "-" + e.values[8] + " \n" +
+              "- \n"
+              "Live recording? \n" +
+              "-" + e.values[9] + " \n" +
+              "- \n"
+              "Buy a hard copy? \n" +
+              "-" + e.values[10] + " \n" +
+              "- \n"
+              "Additional questions \n" +
+              "-" + e.values[11] + " \n" +
+              "- \n"
               "* * * * * * * * * \n \n";
-
-
-
-  // var type = e.values[6].toLowerCase(); for example: Bug, Enhancement, Question
-  // var priority = "priority-" + e.values[7];
-  // var body = "# Details \n" + e.values[3] + "\n\n" +
-  //            "| Submitted by | Priority | URL | Screenshot | Viewport(s) | Device(s)/Browser(s) |\n" +
-  //            "|---|---|---|---|---|---|\n" +
-  //            "| " +e.values[8] + " | " + e.values[7] + " | " + e.values[1] + " | " + e.values[2] + " | " + e.values[4] + " | " + e.values[5] + " |\n\n";
-
 
 
 
@@ -53,6 +66,18 @@ function onFormSubmit(e) {
     "payload": JSON.stringify(payload)
   };
   
-  // replace this with my repo address
+  // eslint-disable-next-line no-undef
   var response = UrlFetchApp.fetch("https://github.com/jonmccon/api/v3/repos/seattle-creative-directory/issues?access_token="+ghToken, options)
 }
+
+
+
+
+
+// if you want to make a table of values
+  // var type = e.values[6].toLowerCase(); for example: Bug, Enhancement, Question
+  // var priority = "priority-" + e.values[7];
+  // var body = "# Details \n" + e.values[3] + "\n\n" +
+  //            "| Submitted by | Priority | URL | Screenshot | Viewport(s) | Device(s)/Browser(s) |\n" +
+  //            "|---|---|---|---|---|---|\n" +
+  //            "| " +e.values[8] + " | " + e.values[7] + " | " + e.values[1] + " | " + e.values[2] + " | " + e.values[4] + " | " + e.values[5] + " |\n\n";
