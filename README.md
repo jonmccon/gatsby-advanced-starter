@@ -1,7 +1,39 @@
+Hosted on Netlify, Master will deploy on production everytime it's merged into at `seattlecreative.directoy`
+Test will create it's own deployment at `test.seattlecreative.directoy`
+
+Deploy pipeline builds a Gatsby bundle, double checks internal links for sanity and checks external links to make sure they resolve somewhat appropritely. Exceptions as marked in the `netlify.toml` file
+
+A Netlify Function handles the email list subscribe form, that redirects to the homepage on success. 
+(Should be it's own success state)
+
+---
+
+To work locally `npm run develop`
+Run `ipconfig getifaddr en0` to get your ip address for use on another local device, like a phone
 
 
-$ ipconfig getifaddr en0 
-to get the dev address for use on another device
+Directory submission form uses Google Forms, which dumps everything into a spreadsheet as usual. The spreadsheet pushes each new submission to Github as a new issue, formatted like a new entry. Double check and paste in as a new md file to add it to the directory. 
+
+---
+
+Services
+
+To deploy the form -> gh issue script from Services > Submission to production, use
+`clasp pull`
+`clasp push`
+Otherwise it's saved here in the repo
+
+Google Apps Transcription API is used after uploading a mono .flac version of a podcast episode to the bucket on GCP
+The cli tool here is used so that it can async on a large file entirely in GCP and polled for the response.
+
+Buttondown is simply the email styling and is only saved in the repo, this needs to be copied into the Buttondown admin 'Design' page
+
+
+
+
+
+---
+
 
 
 

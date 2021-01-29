@@ -10,20 +10,23 @@ function onFormSubmit(e) {
   var type = "Submission";
   var categoryLetter = stringify this value e.values[X] and pull the first letter
 
+
+
   var body =  "* * * * * * * * * \n \n" +
               "You got a new submission, great job \n" +
               "Submitted by " + e.values[X] + " \n" +
               "*** *** *** \n" +
               "--- \n" +
-              "title: " + e.values[X] + " \n" +
+              "title: \"" + e.values[X] + "\" \n" +
               "featuredImage: ./-hamburgers.png \n" +
-              "website: " + e.values[X] + " \n" +
-              "twit: " + e.values[X] + " \n" +
-              "inst: " + e.values[X] + " \n" +
-              "category: " categoryLetter 
-              "tags: " + e.values[X] + " \n" +
+              "website: \"" + e.values[X] + "\" \n" +
+              "twit: \"" + e.values[X] + "\" \n" +
+              "inst: \"" + e.values[X] + "\" \n" +
+              "category: \"" + categoryLetter + "\" \n" +
+              "tags: \"" + e.values[X] + "\" \n" +
               "--- \n" +
               "Description \n" +
+              " bonus q&a " + e.values[X] + " \n" +
               "* * * * * * * * * \n \n";
 
 
