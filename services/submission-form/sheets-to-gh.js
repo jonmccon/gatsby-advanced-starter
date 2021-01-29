@@ -7,7 +7,9 @@ function onFormSubmit(e) {
   var title = e.values[2]; // Name of business
   var type = "Submission";
   var categoryLetter = e.values[2].charAt(0).toUpperCase();
-  var size =  if (e.values[3] == "1-10") {
+  var size = "look it up"
+  
+  if (e.values[3] == "1-10") {
                 size = "small" 
               } else if (e.values[3] == "11-40") {
                 size = "medium" 
@@ -15,7 +17,7 @@ function onFormSubmit(e) {
                 size = "large"  
               } else {
                 size = "huge" 
-              };
+              }
 
   var body =  "* * * * * * * * * \n \n" +
               "You got a new submission, great job \n" +
