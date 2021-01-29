@@ -4,25 +4,18 @@ var ghToken = "fff5095b4b075bca8809b4ea8c13bb2ba12dec36";
 
 function onFormSubmit(e) {
 
-
-
   var title = e.values[2]; // Name of business
   var type = "Submission";
-  // var categoryLetter = stringify this value e.values[X] and pull the first letter
-
-  
-  var size =  if (e.values[2] == "1-10") {
+  var categoryLetter = e.values[2].charAt(0).toUpperCase();
+  var size =  if (e.values[3] == "1-10") {
                 size = "small" 
-              } else if (e.values[2] == "11-40") {
+              } else if (e.values[3] == "11-40") {
                 size = "medium" 
-              } else if (e.values[2] == "41-100") {
+              } else if (e.values[3] == "41-100") {
                 size = "large"  
               } else {
                 size = "huge" 
               };
-
-
-
 
   var body =  "* * * * * * * * * \n \n" +
               "You got a new submission, great job \n" +
@@ -34,7 +27,7 @@ function onFormSubmit(e) {
               "website: \"" + e.values[5] + "\" \n" +
               "twit: \"" + e.values[6] + "\" \n" +
               "inst: \" \" \n" +
-              // "category: \"" + categoryLetter + "\" \n" +
+              "category: \"" + categoryLetter + "\" \n" +
               "tags: \"" + e.values[4] + "\" \n" +
               size
               "--- \n" +
@@ -51,8 +44,6 @@ function onFormSubmit(e) {
               "-" + e.values[11] + " \n" +
               "- \n"
               "* * * * * * * * * \n \n";
-
-
 
   var payload = {
     "title": title,
