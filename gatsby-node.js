@@ -169,12 +169,13 @@ exports.createPages = async ({ graphql, actions }) => {
         });
       }
 
-      // Generate a list of categories (singlar)
+      // Generate a list of categories (singlar) single use
       if (edge.node.frontmatter.category) {
         categorySet.add(edge.node.frontmatter.category);
       }
 
-      // // Generate a list of categories (plural)
+      // // Generate a list of categories (plural) multi use
+      // // This will help with a multi category branching search (and page generation)
       // if (edge.node.frontmatter.category) {
       //   edge.node.frontmatter.categoryforEach(category => {
       //     categorySet.add(category);

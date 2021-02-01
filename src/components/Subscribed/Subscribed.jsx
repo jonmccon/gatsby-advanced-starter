@@ -1,22 +1,24 @@
 import React, { Component } from "react";
 import Logo from "../Intro/Logo";
 import Headline from "../Intro/Headline";
-import "./About.css";
+import "./Subscribed.css";
 
-class About extends Component {
+class Subscribed extends Component {
   render() {
     return (
       <div className="pattern">
       <div className="container">
         
         <Logo />
-        <Headline headline={`boop`} />
+        <Headline headline={`You're subscribed, this is great 😺`} />
         
       
       </div>
       </div>
+            
+      
     );
   }
 }
 
-export default About;
+export default Subscribed;
