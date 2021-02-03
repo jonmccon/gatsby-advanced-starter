@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Logo from "../Intro/Logo";
 import Headline from "../Intro/Headline";
-import "./Subscribed.css";
+import AboutContent from "../About/AboutContent";
 
 class Subscribed extends Component {
   render() {
@@ -11,6 +11,7 @@ class Subscribed extends Component {
         
         <Logo />
         <Headline headline={`You're subscribed, this is great 😺`} />
+        <AboutContent />
         
       
       </div>

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Logo from "../Intro/Logo";
 import Headline from "../Intro/Headline";
-import "./About.css";
+import AboutContent from "./AboutContent";
 
 class About extends Component {
   render() {
@@ -10,7 +10,8 @@ class About extends Component {
       <div className="container">
         
         <Logo />
-        <Headline headline={`boop`} />
+        <Headline headline={`Hello, welcome to the directory.`} />
+        <AboutContent />
         
       
       </div>
