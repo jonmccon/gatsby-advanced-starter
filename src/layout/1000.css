@@ -61,13 +61,17 @@
         grid-area: Contact;
         align-self: center;
         text-align: right;
-        /* width: max-content; */
+        width: max-content;
     }
 
     .headline-contact--link { 
         font: 400 .8em JetBrains-Mono, sans-serif;
         margin: .3em 0 0 0;
-        justify-self: end;
+        justify-self: end;   
+    }
+    
+    .headline-contact--about {
+        margin-top: .45em;
     }
 
     /* ----------------------------------------------- */

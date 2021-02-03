@@ -23,6 +23,10 @@ class Headline extends Component {
           >
             Contact
           </a>
+          <Link
+          className="headline-contact--link headline-contact--about" 
+          to="/about">About
+          </Link>
                  
           
         </div>
