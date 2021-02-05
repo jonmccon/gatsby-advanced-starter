@@ -77,12 +77,12 @@
         align-self: center;
     }
 
-    .headline-contact {
+    .headline-menu {
         display: grid;
         grid-area: Contact;
     }
 
-    .headline-contact--link {
+    .headline-menu--link {
         color: var(--color-text);
         font: 400 1.2em JetBrains-Mono, sans-serif;
         text-transform: uppercase;
@@ -94,11 +94,11 @@
         align-self: start;
     }
 
-    .headline-contact--about {
+    .headline-menu--about {
         justify-self: end;
     }
 
-    .headline-contact--link:hover {
+    .headline-menu--link:hover {
         background: var(--color-bg-coral);
         box-shadow: -.3em .3em 0px var(--color-listingHover-shadow);
         cursor: pointer;

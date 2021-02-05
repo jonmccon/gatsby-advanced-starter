@@ -9,7 +9,8 @@ import DirectoryListing from "../components/PostListing/DirectoryPostListing";
 import SEO from "../components/SEO/SEO";
 import config from "../../data/SiteConfig";
 import Headline from "../components/Intro/Headline";
-import HeadlineMenu from "../components/Intro/HeadlineMenu";
+import HeadlineMenuRight from "../components/Intro/HeadlineMenuRight";
+import HeadlineMenuLeft from "../components/Intro/HeadlineMenuLeft";
 import Logo from "../components/Intro/Logo";
 import PodcastPlayer from "../components/Intro/PodcastPlayer";
 
@@ -65,8 +66,10 @@ class Listing extends React.Component {
 
         {/* <div className="pattern"> */}
           <div className="container">
+            
             <Logo />
-            <HeadlineMenu />
+            <HeadlineMenuLeft />
+            <HeadlineMenuRight />
             <div className="headline-wrapper">
             <Headline
               headline={

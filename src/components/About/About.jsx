@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Logo from "../Intro/Logo";
 import Headline from "../Intro/Headline";
-import HeadlineMenu from "../Intro/HeadlineMenu";
+import HeadlineMenuRight from "../Intro/HeadlineMenuRight";
 import AboutContent from "./AboutContent";
 
 class About extends Component {
@@ -11,7 +11,7 @@ class About extends Component {
       <div className="container">
         
         <Logo />
-        <HeadlineMenu />
+        <HeadlineMenuRight />
         <div className="headline-wrapper-small">
           <Headline headline={`Hello & welcome.`} />
         </div>
