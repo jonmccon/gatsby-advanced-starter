@@ -12,7 +12,9 @@
     --color-bg-gray: rgb(229, 229, 229);
     --color-bg-gray-dark: rgb(214, 214, 214);
     --color-text: rgb(41, 41, 41);
+    --color-text-tag: rgb(114, 113, 113);
     --color-card: rgb(255, 255, 255);
+    --color-card-half: rgba(255, 255, 255, 0.5);
     --color-listingLink: #2e2e2e;
     --color-listing-purple: #724061b6;
     --color-listingHover-shadow: rgba(113, 64, 96, 0.3);
@@ -21,8 +23,8 @@
     --color-test: #2fdf29;
     --text-mono-std: 400 .8em JetBrains-Mono, sans-serif;
     --text-serif-std: 400 2.8em Spectral, serif;
-    --text-serif-bld: 600 1em Spectral, serif;
-    --text-serif--item: 400 1.2em JetBrains-Mono, sans-serif;
+    --text-serif-bld: 700 1em Spectral, serif;
+    --text-serif--item: 400 1.1em Spectral, serif;
     /* --text-tag-toggle: put in the styles from the test br subscribe button here */
     /* include text styles for desktop and variable baselines */
 }
@@ -33,7 +35,7 @@
 * { }
 
 body {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.3em;
     color: var(--color-text);
 }
