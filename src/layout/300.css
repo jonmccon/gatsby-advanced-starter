@@ -221,10 +221,9 @@
     }
     
     .directory-block--title {
-        background-color: var(--color-bg-gray);
-        color: var(--color-listing-purple);
-        font: var(--text-mono-menu);
-        font-style: italic;
+        /* background-color: var(--color-bg-gray); */
+        color: var(--color-text);
+        font: var(--text-gin-std);
         text-shadow: 0px 1px var(--color-card);
         margin: 2em 0 0 0;
     }
