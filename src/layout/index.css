@@ -22,7 +22,8 @@
     --color-separator: rgba(255, 173, 161, .3);
     --color-test: #2fdf29;
     --text-mono-std: 400 .5em JetBrains-Mono, sans-serif;
-    --text-mono-menu: 400 .8em JetBrains-Mono, sans-serif;
+    --text-mono-input: 400 .8em JetBrains-Mono, sans-serif;
+    --text-mono-menu: 500 .8em JetBrains-Mono, sans-serif;
     --text-serif-std: 400 2.8em Spectral, serif;
     --text-serif-bld: 700 1em Spectral, serif;
     --text-serif--item: 400 1.1em Spectral, serif;

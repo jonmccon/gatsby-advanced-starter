@@ -88,7 +88,7 @@
         grid-area: Contact;
     }
 
-    .headline-menu--link {
+    .headline-menu--link, .email-form button {
         color: var(--color-text);
         font: var(--text-mono-menu);
         text-transform: uppercase;
@@ -108,7 +108,7 @@
         justify-self: end;
     }
 
-    .headline-menu--link:hover {
+    .headline-menu--link:hover, .email-form button:hover {
         background: var(--color-bg-coral);
         box-shadow: -.15em .15em 2px var(--color-listingHover-shadow);
         cursor: pointer;
@@ -121,11 +121,12 @@
     }
 
     .email-form input {
-        font: var(--text-mono-menu);
+        font: var(--text-mono-input);
+        border: 0 none var(--color-card);
         padding: .2em .4em .1em .2em;
         margin: 0 0 .2em .1em;
         text-align: right;
-        background-color: var(--color-card);
+        background-color: var(--color-bg-gray);
         width: 100%;
     }
 
@@ -141,20 +142,12 @@
     }
 
     .email-form button {
-        color: var(--color-text);
-        font: var(--text-serif--item);
-        text-transform: uppercase;
         background: var(--color-card);
-        border: .1em solid var(--color-card);
+        border: 0 none var(--color-card);
         padding: .3em .4em .2em .4em;
         margin: .6em 0 .1em .5em;
     }
 
-    .email-form button:hover {
-        background-color: var(--color-bg-coral);
-        box-shadow: -.3em .3em 0px var(--color-listingHover-shadow);
-        cursor: pointer;
-    }
     /* ----------------------------------------------- */
 
     /* PODCAST SHOW */

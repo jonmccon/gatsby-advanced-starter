@@ -102,7 +102,6 @@
     .email-form { }
 
     .email-form input { 
-        font: var(--text-mono-menu);
         width: 20ch;
     }
 

@@ -16,8 +16,8 @@ export default class Subscribe extends React.Component {
           </div>
         
         <label for="email">
-          <input name="Subscribe" id="email" type="email" placeholder="EMAIL" required />
-          <input type="hidden" name="form-name" value="Subscribe" />
+          <input name="Subscribe" id="email" type="email" placeholder="emails" required />
+          <input type="hidden" name="form-name" value="Newsletter" />
         </label>
 
         <button type="submit">Subscribe</button>
