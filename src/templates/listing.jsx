@@ -12,7 +12,7 @@ import Headline from "../components/Intro/Headline";
 import HeadlineMenuRight from "../components/Intro/HeadlineMenuRight";
 import HeadlineMenuLeft from "../components/Intro/HeadlineMenuLeft";
 import Logo from "../components/Intro/Logo";
-import PodcastPlayer from "../components/Intro/PodcastPlayer";
+import PodcastPlayer from "../components/Audioplayer/PodcastPlayer";
 
 class Listing extends React.Component {
   // Pagination
@@ -268,6 +268,7 @@ export const listingQuery = graphql`
         node {
           frontmatter {
             title
+            episode
             website
             twit
             inst
@@ -285,6 +286,7 @@ export const listingQuery = graphql`
         node {
           frontmatter {
             title
+            episode
             website
             twit
             inst
@@ -302,6 +304,7 @@ export const listingQuery = graphql`
         node {
           frontmatter {
             title
+            episode
             website
             twit
             inst
@@ -319,6 +322,7 @@ export const listingQuery = graphql`
         node {
           frontmatter {
             title
+            episode
             website
             twit
             inst
@@ -336,6 +340,7 @@ export const listingQuery = graphql`
         node {
           frontmatter {
             title
+            episode
             website
             twit
             inst
@@ -353,6 +358,7 @@ export const listingQuery = graphql`
         node {
           frontmatter {
             title
+            episode
             website
             twit
             inst
@@ -370,6 +376,7 @@ export const listingQuery = graphql`
         node {
           frontmatter {
             title
+            episode
             website
             twit
             inst
@@ -387,6 +394,7 @@ export const listingQuery = graphql`
         node {
           frontmatter {
             title
+            episode
             website
             twit
             inst
@@ -404,6 +412,7 @@ export const listingQuery = graphql`
         node {
           frontmatter {
             title
+            episode
             website
             twit
             inst
@@ -421,6 +430,7 @@ export const listingQuery = graphql`
         node {
           frontmatter {
             title
+            episode
             website
             twit
             inst
@@ -438,6 +448,7 @@ export const listingQuery = graphql`
         node {
           frontmatter {
             title
+            episode
             website
             twit
             inst
@@ -455,6 +466,7 @@ export const listingQuery = graphql`
         node {
           frontmatter {
             title
+            episode
             website
             twit
             inst
@@ -472,6 +484,7 @@ export const listingQuery = graphql`
         node {
           frontmatter {
             title
+            episode
             website
             twit
             inst
@@ -489,6 +502,7 @@ export const listingQuery = graphql`
         node {
           frontmatter {
             title
+            episode
             website
             twit
             inst
@@ -506,6 +520,7 @@ export const listingQuery = graphql`
         node {
           frontmatter {
             title
+            episode
             website
             twit
             inst
@@ -523,6 +538,7 @@ export const listingQuery = graphql`
         node {
           frontmatter {
             title
+            episode
             website
             twit
             inst
@@ -540,6 +556,7 @@ export const listingQuery = graphql`
         node {
           frontmatter {
             title
+            episode
             website
             twit
             inst
@@ -557,6 +574,7 @@ export const listingQuery = graphql`
         node {
           frontmatter {
             title
+            episode
             website
             twit
             inst
@@ -574,6 +592,7 @@ export const listingQuery = graphql`
         node {
           frontmatter {
             title
+            episode
             website
             twit
             inst
@@ -591,6 +610,7 @@ export const listingQuery = graphql`
         node {
           frontmatter {
             title
+            episode
             website
             twit
             inst
@@ -608,6 +628,7 @@ export const listingQuery = graphql`
         node {
           frontmatter {
             title
+            episode
             website
             twit
             inst
@@ -625,6 +646,7 @@ export const listingQuery = graphql`
         node {
           frontmatter {
             title
+            episode
             website
             twit
             inst
@@ -642,6 +664,7 @@ export const listingQuery = graphql`
         node {
           frontmatter {
             title
+            episode
             website
             twit
             inst
@@ -659,6 +682,7 @@ export const listingQuery = graphql`
         node {
           frontmatter {
             title
+            episode
             website
             twit
             inst
@@ -676,6 +700,7 @@ export const listingQuery = graphql`
         node {
           frontmatter {
             title
+            episode
             website
             twit
             inst
@@ -693,6 +718,7 @@ export const listingQuery = graphql`
         node {
           frontmatter {
             title
+            episode
             website
             twit
             inst
@@ -710,6 +736,7 @@ export const listingQuery = graphql`
         node {
           frontmatter {
             title
+            episode
             website
             twit
             inst

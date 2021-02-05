@@ -28,6 +28,9 @@ Services
 
 `submission-form` is a Gooogle Apps script that runs on a bound instance of gcp. Looks at the spreadsheet and passes along the info as a Github issue, minor data tweaks to match the sizing multiple choice to a single tag in Gatsby. Pretty brittle, it was updated to the new apps api but the github auth method needs some work for their [eventual api update.](https://developer.github.com/changes/2020-02-10-deprecating-auth-through-query-param/) 
 
+Buildtime Services:
+There are two link checkers, one internal making sure all the pages exist. And one that looks at all outbound links, makes sure they resolve. Known exceptions are in the `netlify.toml` file and generally deal with external sites that resolve but redirect a couple times. 
+
 
 
 

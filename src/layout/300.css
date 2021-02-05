@@ -11,6 +11,10 @@
         font: 600 1em Spectral, serif;
     }
 
+    .highlight {
+        background-color: var(--color-bg-coral-half);
+    }
+
     /* BACKGROUND PATTERN */
     .pattern {
         border: 1em solid var(--color-bg-gray);
@@ -98,10 +102,6 @@
         width: max-content;
         justify-self: center;
         align-self: start;
-    }
-    
-    .highlight {
-        background-color: var(--color-bg-coral-half);
     }
 
     .headline-menu--about {

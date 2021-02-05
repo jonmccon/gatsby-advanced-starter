@@ -1,5 +1,6 @@
 import React from "react";
 import PostTags from "../Filters/PostTags";
+import PodcastPlayer from "../Audioplayer/PodcastPlayer";
 
 class DirectoryPostListing extends React.Component {
   getPostList() {
@@ -9,14 +10,17 @@ class DirectoryPostListing extends React.Component {
         tags: postEdge.node.frontmatter.tags,
         title: postEdge.node.frontmatter.title,
         website: postEdge.node.frontmatter.website,
+        episode: postEdge.node.frontmatter.episode,
       });
     });
     return postList;
   }
 
+
   render() {
     const postList = this.getPostList();
     return (
+      
       <div class="directory-list">
         {postList.map((post) => (
           <React.Fragment>
@@ -30,11 +34,17 @@ class DirectoryPostListing extends React.Component {
                 <li> {post.title} </li>
               </a>
 
+              {post.episode ? 
+              <PodcastPlayer podcastURL={post.episode && post.episode}/> : '' 
+              }
+
               {/* <PostTags tags={post.tags} /> */}
               {/* include social handle, make a new component */}
             </div>
           </React.Fragment>
+
         ))}
+        
       </div>
     );
   }
