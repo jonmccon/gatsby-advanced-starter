@@ -64,7 +64,7 @@ class Listing extends React.Component {
         <Helmet title={config.siteTitle} />
         <SEO />
 
-        {/* <div className="pattern"> */}
+        <div className="pattern">
           <div className="container">
             
             <Logo />
@@ -243,7 +243,7 @@ class Listing extends React.Component {
 
             {/* {this.renderPaging()} */}
           </div>
-        {/* </div> */}
+        </div>
       </Layout>
     );
   }

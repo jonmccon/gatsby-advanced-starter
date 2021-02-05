@@ -8,6 +8,8 @@ import DirectoryListing from "../components/PostListing/DirectoryPostListing";
 import config from "../../data/SiteConfig";
 import Logo from "../components/Intro/Logo";
 import Headline from "../components/Intro/Headline";
+import HeadlineMenuLeft from "../components/Intro/HeadlineMenuLeft";
+import HeadlineMenuRight from "../components/Intro/HeadlineMenuRight";
 
 export default class TagTemplate extends React.Component {
   render() {
@@ -19,9 +21,11 @@ export default class TagTemplate extends React.Component {
       <Layout>
         
           <Helmet title={`Posts tagged as "${tag}" | ${config.siteTitle}`} />
-
+          <div className="pattern">
           <div className="container">
             <Logo />
+            <HeadlineMenuLeft />
+            <HeadlineMenuRight />
             <div className="headline-wrapper-small">
               <Headline headline={tag} />
             </div>
@@ -38,7 +42,7 @@ export default class TagTemplate extends React.Component {
               </div>
             </div>
           </div>
-        
+          </div>
       </Layout>
     );
   }

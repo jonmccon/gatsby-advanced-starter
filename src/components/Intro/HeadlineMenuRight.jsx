@@ -13,7 +13,7 @@ class HeadlineMenuRight extends Component {
           <Subscribe />
 
           <Link
-          className="headline-menu--link headline-menu--about" 
+          className="headline-menu--link" 
           to="/about">About
           </Link>
           

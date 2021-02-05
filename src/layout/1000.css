@@ -64,9 +64,7 @@
     }
 
     .headline-wrapper-small {
-        display: grid;
         grid-area: Headline;
-        min-height: 10vh;
     }
 
     .headline-menu-left {
@@ -90,9 +88,9 @@
     }
 
     .headline-menu--link { 
-        font: 400 .8em JetBrains-Mono, sans-serif;
-        margin: .4em 0 0 0;
-        justify-self: end;   
+        font: var(--text-mono-menu);
+        /* margin: .4em 0 0 0; */
+        /* justify-self: end;    */
     }
     
     .headline-menu--about {
@@ -104,7 +102,7 @@
     .email-form { }
 
     .email-form input { 
-        font: 400 .8em JetBrains-Mono, sans-serif;
+        font: var(--text-mono-menu);
         width: 20ch;
     }
 
@@ -113,7 +111,7 @@
     .email-form input:focus { }
 
     .email-form button { 
-        font: 400 .8em JetBrains-Mono, sans-serif;
+        font: var(--text-mono-menu);
     }
 
     .email-form button:hover { }
@@ -165,7 +163,7 @@
 
     /* CATEGORY & TAG CONTAINER*/
     .filters {
-        font: 400 .8em JetBrains-Mono, sans-serif;
+        font: var(--text-mono-menu);
         margin: 4em 0 2em 0;
         /* background-color: var(--color-test); */
     }

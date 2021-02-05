@@ -8,8 +8,9 @@
 /* COLOR VARIABLES */
 :root {
     --color-bg-coral: rgba(255, 173, 161, 1);
+    --color-bg-coral-half: rgba(255, 173, 161, 0.5);
     --color-bg-coral-dark: rgb(247, 130, 112);
-    --color-bg-gray: rgb(229, 229, 229);
+    --color-bg-gray: rgba(113, 64, 96, 0.05);
     --color-bg-gray-dark: rgb(214, 214, 214);
     --color-text: rgb(41, 41, 41);
     --color-text-tag: rgb(114, 113, 113);
@@ -18,10 +19,10 @@
     --color-listingLink: #2e2e2e;
     --color-listing-purple: #724061b6;
     --color-listingHover-shadow: rgba(113, 64, 96, 0.3);
-    --color-listing-blockBG: rgba(113, 64, 96, 0.05);
     --color-separator: rgba(255, 173, 161, .3);
     --color-test: #2fdf29;
-    --text-mono-std: 400 .8em JetBrains-Mono, sans-serif;
+    --text-mono-std: 400 .5em JetBrains-Mono, sans-serif;
+    --text-mono-menu: 400 .8em JetBrains-Mono, sans-serif;
     --text-serif-std: 400 2.8em Spectral, serif;
     --text-serif-bld: 700 1em Spectral, serif;
     --text-serif--item: 400 1.1em Spectral, serif;
