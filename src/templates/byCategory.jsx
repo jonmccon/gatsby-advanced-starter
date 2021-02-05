@@ -16,13 +16,15 @@ export default class CategoryTemplate extends React.Component {
     const postEdges = this.props.data.allMarkdownRemark.edges;
     return (
       <Layout>
-        <div className="pattern">
+        
           <Helmet
             title={`Posts in category "${category}" | ${config.siteTitle}`}
           />
 
           <div className="container">
-            <Headline />
+            <div className="headline-wrapper-small">
+              <Headline />
+            </div>
 
             <div className="filters">
               <article className="blockTitle">Tags</article>
@@ -37,7 +39,7 @@ export default class CategoryTemplate extends React.Component {
               </div>
             </div>
           </div>
-        </div>
+        
       </Layout>
     );
   }

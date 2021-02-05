@@ -1,21 +1,25 @@
 import React, { Component } from "react";
 import Logo from "../Intro/Logo";
 import Headline from "../Intro/Headline";
+import HeadlineMenu from "../Intro/HeadlineMenu";
 import AboutContent from "./AboutContent";
 
 class About extends Component {
   render() {
     return (
-      <div className="pattern">
+      // <div className="pattern">
       <div className="container">
         
         <Logo />
-        <Headline headline={`Hello, welcome to the directory.`} />
+        <HeadlineMenu />
+        <div className="headline-wrapper-small">
+          <Headline headline={`Hello & welcome.`} />
+        </div>
         <AboutContent />
         
       
       </div>
-      </div>
+      // </div>
     );
   }
 }

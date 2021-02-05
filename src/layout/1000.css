@@ -3,7 +3,7 @@
 @media only screen and (min-width: 1250px) { 
 
     h1 {
-        font: 400 2.5em Spectral, serif;
+        font: 600 3em Spectral, serif;
         line-height: 140%;
     }
     
@@ -34,7 +34,7 @@
         border-radius: 10px;
         grid-template-areas:
             ".              .               .               .               Logo            Logo            Logo            Logo            .               Contact         Contact         ."
-            ".              .               .               Hello           Hello           Hello           Hello           Hello           Hello           .               .               ."
+            ".              .               .               Headline           Headline           Headline           Headline           Headline           Headline           .               .               ."
             ".      showContainer     showContainer     showContainer     showContainer     showContainer     showContainer     showContainer     showContainer   showContainer   showContainer   ."
             ".              Filters         Filters         Filters         Filters         Filters         Filters         Filters         Filters         Filters         Filters         ."
             ".              Directory       Directory       Directory       Directory       Directory       Directory       Directory       Directory       Directory       Directory       ."
@@ -46,7 +46,7 @@
      /* LOGOMARK */
 
      .logo {
-        margin: -.5em 0 0 0;
+        margin: 1em 0 0 0;
       }
 
     /* ----------------------------------------------- */
@@ -54,7 +54,20 @@
     /* HEADLINE */
     .headline {
         margin: -2em 0 2em 0;
-     }
+        /* min-height: 60vh; */
+    }
+
+    .headline-wrapper {
+        display: grid;
+        grid-area: Headline;
+        min-height: 60vh;
+    }
+
+    .headline-wrapper-small {
+        display: grid;
+        grid-area: Headline;
+        min-height: 10vh;
+    }
 
     .headline-contact {
         margin: 2.2em 0 0 0;

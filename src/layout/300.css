@@ -37,7 +37,7 @@
         border-radius: 10px;
         grid-template-areas:
             ".              .               Logo            Logo            Logo            Logo            .               ."
-            ".              Hello           Hello           Hello           Hello           Hello           Hello           ."
+            ".              Headline           Headline           Headline           Headline           Headline           Headline           ."
             ".              showContainer   showContainer   showContainer   showContainer   showContainer   showContainer   ."
             ".              Contact         Contact         Contact         Contact         Contact         Contact         ."
             ".              Filters         Filters         Filters         Filters         Filters         Filters         ."
@@ -53,7 +53,7 @@
         background-repeat: no-repeat;
         background-size: contain;
         height: 4em; 
-        margin: -1em 0 0 0;
+        /* margin: -1em 0 0 0; */
         align-self: top;
         background-position: center;
     }
@@ -63,8 +63,18 @@
     /* HEADLINE */
     .headline {
         display: grid;
-        grid-area: Hello;
         text-align: center;
+    }
+
+    .headline-wrapper {
+        grid-area: Headline;
+        max-height: 20vh;
+    }
+
+    
+
+    .headline h1 {
+        align-self: center;
     }
 
     .headline-contact {
