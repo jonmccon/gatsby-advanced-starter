@@ -1,6 +1,6 @@
 import React from "react";
 import PostTags from "../Filters/PostTags";
-import PodcastPlayer from "../Audioplayer/PodcastPlayer";
+import AudioPlayerSmall from "../Audioplayer/AudioPlayerSmall";
 
 class DirectoryPostListing extends React.Component {
   getPostList() {
@@ -30,13 +30,14 @@ class DirectoryPostListing extends React.Component {
             Needs to be added to the tag listing as well. 
             */}
             <div className="directory-block--item">
-              <a href={post.website} target="_blank">
-                <li> {post.title} </li>
-              </a>
+              
+                <a href={post.website} target="_blank">{post.title}</a>
+                {post.episode ? 
+                <AudioPlayerSmall podcastURL={post.episode && post.episode}/> : '' 
+                }
+              
 
-              {post.episode ? 
-              <PodcastPlayer podcastURL={post.episode && post.episode}/> : '' 
-              }
+              
 
               {/* <PostTags tags={post.tags} /> */}
               {/* include social handle, make a new component */}

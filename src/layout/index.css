@@ -7,6 +7,7 @@
 
 /* COLOR VARIABLES */
 :root {
+    --color-transparent: rgba(255, 255, 255, 0);
     --color-bg-coral: rgba(255, 173, 161, 1);
     --color-bg-coral-half: rgba(255, 173, 161, 0.5);
     --color-bg-coral-dark: rgb(247, 130, 112);

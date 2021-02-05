@@ -172,21 +172,44 @@
     }
 
     .rhap_container {
-        -webkit-box-shadow: 0px 4px 0px 0px #000000 !important; 
-        box-shadow: 0px 4px 0px 0px var(--color-bg-coral-dark) !important;
-        border: 5px solid var(--color-bg-coral) !important;
-        border-radius: 10px !important;
+        -webkit-box-shadow: 0px 4px 0px 0px #000000; 
+        box-shadow: 0px 4px 0px 0px var(--color-bg-coral-dark);
+        border: 5px solid var(--color-bg-coral);
+        border-radius: 10px;
     }
 
     .rhap_time {
         font: var(--text-mono-std) !important;
-        color: var(--color-card) !important;
+        color: var(--color-text) !important;
         background-color: var(--color-bg-coral) !important;
         -webkit-box-shadow: 0px 0px 5px 2px var(--color-bg-coral); 
         box-shadow: 0px 0px 5px 2px var(--color-bg-coral);
         text-shadow: 1px 1px 2px var(--color-bg-coral-dark);
         padding: .5ch;
+    }
 
+    .audioPlayer-small .rhap_container {
+        display: inline-block;
+        -webkit-box-shadow: none; 
+        border: none;
+        box-shadow: none;
+        border-radius: none;
+        padding: 0 0 0 0;
+        background-color: var(--color-transparent);
+        width: 6ch;
+    }
+
+    .audioPlayer-small .rhap_play-pause-button {
+        /* background: url(../static/assets/play_circle-24px.svg);
+        background-repeat: none; */
+    }
+
+    .audioPlayer-small .rhap_current-time {
+        display: none;
+    }
+    
+    .audioPlayer-small .rhap_progress-container {
+        display: none;
     }
 
 
