@@ -42,12 +42,12 @@
         /* border-radius: 10px; */
         grid-template-areas:
             ".              .               Logo            Logo            Logo            Logo            .               ."
-            ".              Headline           Headline           Headline           Headline           Headline           Headline           ."
+            ".              Headline        Headline        Headline        Headline        Headline        Headline        ."
             ".              showContainer   showContainer   showContainer   showContainer   showContainer   showContainer   ."
             ".              Contact         Contact         Contact         Contact         Contact         Contact         ."
             ".              Filters         Filters         Filters         Filters         Filters         Filters         ."
             ".              Directory       Directory       Directory       Directory       Directory       Directory       ."
-            /* ". . Footer . . " */
+            ".              Footer          Footer          Footer          Footer          Footer          Footer          ."
             ;
     }  
 
@@ -171,6 +171,9 @@
         font: var(--text-serif-bld);
     }
 
+
+    /* Audio player Small overrides */
+
     .rhap_container {
         -webkit-box-shadow: 0px 4px 0px 0px #000000; 
         box-shadow: 0px 4px 0px 0px var(--color-bg-coral-dark);
@@ -178,14 +181,18 @@
         border-radius: 10px;
     }
 
+    .rhap_main {
+        display: inline-block;
+    }
+
     .rhap_time {
         font: var(--text-mono-std) !important;
         color: var(--color-text) !important;
-        background-color: var(--color-bg-coral) !important;
-        -webkit-box-shadow: 0px 0px 5px 2px var(--color-bg-coral); 
-        box-shadow: 0px 0px 5px 2px var(--color-bg-coral);
-        text-shadow: 1px 1px 2px var(--color-bg-coral-dark);
-        padding: .5ch;
+        /* background-color: var(--color-bg-coral) !important; */
+        /* -webkit-box-shadow: 0px 0px 5px 2px var(--color-bg-coral);  */
+        /* box-shadow: 0px 0px 5px 2px var(--color-bg-coral); */
+        /* text-shadow: 1px 1px 2px var(--color-bg-coral-dark); */
+        margin: 0 0 0 0;
     }
 
     .audioPlayer-small .rhap_container {
@@ -196,12 +203,19 @@
         border-radius: none;
         padding: 0 0 0 0;
         background-color: var(--color-transparent);
-        width: 6ch;
+        width: 11ch;
+        margin: 0 0 0 1ch;
     }
 
+    .audioPlayer-small .rhap_controls-section {
+        display: inline-block;
+        flex: none;
+    }
+    
     .audioPlayer-small .rhap_play-pause-button {
-        /* background: url(../static/assets/play_circle-24px.svg);
-        background-repeat: none; */
+        /* background-color: var(--color-test); */
+        width: min-content;
+        margin: 0 0 40% 0;
     }
 
     .audioPlayer-small .rhap_current-time {
@@ -211,6 +225,25 @@
     .audioPlayer-small .rhap_progress-container {
         display: none;
     }
+
+    .audioPlayer-small .button {
+        color: var(--color-bg-coral-dark);
+    }
+
+    .audioPlayer-small .episodePromo {
+        display: inline-block;
+        font: var(--text-mono-std);
+        color: var(--color-text);
+        margin: 0 0 0 1ch;
+        background-color:rgba(63, 191, 127, 0.5);
+        padding: .5ch 1ch .5ch 1ch;
+        border-radius: 15% 25% 40% 20%;
+    }
+
+    .smallplayer:hover {
+        color: var(--color-card);
+    }
+
 
 
    
@@ -248,7 +281,7 @@
         color: var(--color-text);
         font: var(--text-gin-std);
         text-shadow: 0px 1px var(--color-card);
-        margin: 2em 0 0 0;
+        margin: 1em 0 0 0;
     }
 
      /* by filter style */
@@ -278,7 +311,7 @@
         display: grid;
         grid-area: Filters;
         margin: 2em 0 2em 0;
-        font: 400 1em JetBrains-Mono, sans-serif;
+        font: var(--text-mono-std);
         font-style: italic;
         text-transform: uppercase;
     }
@@ -318,6 +351,18 @@
     /* Mobile show tags */
     #filter-tag--toggle {           display: none;    }
     #filter-tag--toggle:target {    display: block;   }
+    /* ----------------------------------------------- */
+
+
+    /* Footer styles */
+
+    .footer {
+        display: grid;
+        grid-area: Footer;
+    }
+
+
+
     /* ----------------------------------------------- */
 
 

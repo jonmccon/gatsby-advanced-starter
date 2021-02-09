@@ -29,6 +29,7 @@
     --text-serif-bld: 700 1em Spectral, serif;
     --text-serif--item: 400 1.1em Spectral, serif;
     --text-gin-std: 400 4em Gin-and-Soda, sans-serif;
+    --text-gin-small: 400 2em Gin-and-Soda, sans-serif;
     /* --text-tag-toggle: put in the styles from the test br subscribe button here */
     /* include text styles for desktop and variable baselines */
 }

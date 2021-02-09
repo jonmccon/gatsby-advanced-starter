@@ -11,6 +11,7 @@ class DirectoryPostListing extends React.Component {
         title: postEdge.node.frontmatter.title,
         website: postEdge.node.frontmatter.website,
         episode: postEdge.node.frontmatter.episode,
+        episodePromo: postEdge.node.frontmatter.episodePromo,
       });
     });
     return postList;
@@ -29,16 +30,20 @@ class DirectoryPostListing extends React.Component {
             Add an additional a:hover class for each that changes its own display.
             Needs to be added to the tag listing as well. 
             */}
+
+            
+
             <div className="directory-block--item">
               
                 <a href={post.website} target="_blank">{post.title}</a>
+                
                 {post.episode ? 
-                <AudioPlayerSmall podcastURL={post.episode && post.episode}/> : '' 
+                <AudioPlayerSmall 
+                  podcastURL={post.episode && post.episode}
+                  podcastTitle={post.episodePromo && post.episodePromo} /> : '' 
                 }
-              
-
-              
-
+                
+          
               {/* <PostTags tags={post.tags} /> */}
               {/* include social handle, make a new component */}
             </div>

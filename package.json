@@ -83,9 +83,9 @@
     "redux": "^4.0.5",
     "remark-cli": "^7.0.1",
     "remark-preset-lint-recommended": "^3.0.4",
+    "slate": "^0.57.1",
     "stylelint": "^13.2.1",
     "stylelint-config-prettier": "^8.0.1",
-    "slate": "^0.57.1",
     "stylelint-config-standard": "^20.0.0",
     "typescript": "^3.8.3",
     "write-good": "^1.0.2"
