@@ -81,9 +81,9 @@ class Listing extends React.Component {
             
             {/* PODCAST SHOW */}
             <div id="showContainer">
-              <div class="podcast" id="podcast-ep-three">
+              <div class="podcast">
                 <PodcastPlayer
-                  podcastSeason="S2:EP1"
+                  podcastSeason="S2:EP4"
                   podcastTitle="Michael Gaizutis of RN01"
                   podcastURL="https://cdn.simplecast.com/audio/30dabfb8-c618-43a5-81c7-c5c83750983a/episodes/98f94fa7-ff20-4384-b09e-243e8aa8d020/audio/d89ad511-f4b2-47fe-b9b0-9989295ab736/default_tc.mp3"  
                 />

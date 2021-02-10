@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import AudioPlayer, { RHAP_UI } from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
+import Play from '../../static/assets-svg/button-play-large.svg';   
+import Pause from '../../static/assets-svg/button-pause-large.svg';
 
 
 
@@ -18,6 +20,7 @@ class PodcastPlayer extends Component {
         <AudioPlayer         
           src={podcastURL}
           onPlay={e => console.log("onPlay")}
+          layout="horizontal-reverse" 
           customProgressBarSection={
             [
               RHAP_UI.CURRENT_TIME,
@@ -28,6 +31,10 @@ class PodcastPlayer extends Component {
           customAdditionalControls={[]}  
           customVolumeControls={[]}
           showJumpControls={false}
+          customIcons={{
+            play: <Play />,
+            pause: <Pause /> 
+            }}
         />
       </div>
       

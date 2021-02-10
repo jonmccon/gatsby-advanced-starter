@@ -8,7 +8,7 @@
     }
     
     h2 {
-        font: 600 1em Spectral, serif;
+        /* font: 600 1em Spectral, serif; */
     }
 
     .highlight {
@@ -73,7 +73,7 @@
 
     .headline-wrapper {
         grid-area: Headline;
-        max-height: 20vh;
+        min-height: 30vh;
     }
 
     .headline-wrapper-small {
@@ -161,28 +161,42 @@
 
     .podcast {
         display: grid;
+        text-align: center;
+        margin: 2em 0 0 0;
     }
 
     .podcast-promo h3 {
         font: var(--text-mono-std);
+        margin: 0 0 -1.5em 0;
     }
 
     .podcast-promo h2 {
-        font: var(--text-serif-bld);
+        font: var(--text-mono-title);
     }
 
 
-    /* Audio player Small overrides */
+    /* Audio player overrides */
 
     .rhap_container {
-        -webkit-box-shadow: 0px 4px 0px 0px #000000; 
-        box-shadow: 0px 4px 0px 0px var(--color-bg-coral-dark);
-        border: 5px solid var(--color-bg-coral);
-        border-radius: 10px;
+        -webkit-box-shadow: none !important; 
+        box-shadow: none !important;
+        padding: 0 0 0 0 !important;
+        /* border: 5px solid var(--color-bg-coral); */
+        /* border-radius: 10px; */
     }
 
     .rhap_main {
         display: inline-block;
+    }
+
+    .rhap_controls-section {
+        flex: none !important;
+        display: inline !important;
+    }
+
+    .rhap_main-controls {
+        display: inline-block;
+        width: min-content;
     }
 
     .rhap_time {
@@ -194,6 +208,12 @@
         /* text-shadow: 1px 1px 2px var(--color-bg-coral-dark); */
         margin: 0 0 0 0;
     }
+
+    .rhap_progress-indicator {
+        display: none;
+    }
+
+    /* Inline audio player overrides */
 
     .audioPlayer-small {
         display: inline-block;
@@ -274,6 +294,7 @@
         grid-auto-flow:dense;
         grid-template-columns: repeat(4, minmax(0,1fr));
         grid-gap: .5em;
+        margin-top: 2em;
     }
 
     .directory-list {
@@ -307,7 +328,6 @@
         display: grid;
         min-height: 50vmin;
         grid-column: span 4;
-        font: var(--text-mono-menu);
         grid-auto-flow: row;
     }
 
@@ -354,9 +374,11 @@
     .filters {
         display: grid;
         grid-area: Filters;
-        margin: 2em 0 2em 0;
+        margin: 2em 0 0 0;
         font: var(--text-mono-std);
         font-style: italic;
+        /* padding: 0 0 2em 0; */
+        /* border-bottom: 1px solid var(--color-text-tag); */
         /* text-transform: uppercase; */
     }
 

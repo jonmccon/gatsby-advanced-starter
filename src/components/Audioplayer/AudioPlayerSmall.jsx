@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import AudioPlayer, { RHAP_UI } from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
-import Play from '../../static/assets-svg/play_circle-24px.svg';   
-import Pause from '../../static/assets-svg/pause_circle_outline-24px.svg';   
+import Play from '../../static/assets-svg/button-play-small.svg';   
+import Pause from '../../static/assets-svg/button-pause-small.svg';   
 
 
 // we're on to something here in that the icons in the player are being subbed out for custom icons
