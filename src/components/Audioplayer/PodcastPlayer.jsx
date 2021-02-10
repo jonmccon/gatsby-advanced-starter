@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import AudioPlayer, { RHAP_UI } from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
-import Play from '../../static/assets-svg/button-play-large.svg';   
-import Pause from '../../static/assets-svg/button-pause-large.svg';
+import Play from '../../static/assets-svg/button-play-large.inline.svg';   
+import Pause from '../../static/assets-svg/button-pause-large.inline.svg';
 
 
 

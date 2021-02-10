@@ -76,10 +76,10 @@ module.exports = {
       resolve: "gatsby-plugin-react-svg",
       options: {
         rule: {
-          include: /assets-svg/ // See below to configure properly
+          include: /\.inline\.svg$/// See below to configure properly
         }
       }
-      },
+    },
     "gatsby-transformer-sharp",
     "gatsby-plugin-sharp",
     "gatsby-plugin-react-helmet",
@@ -102,18 +102,18 @@ module.exports = {
         color: config.themeColor,
       },
     },
-    // {
-    //   resolve: `gatsby-plugin-manifest`,
-    //   options: {
-    //     name: `Seattle Creative Directory`,
-    //     short_name: `Seattle Creative`,
-    //     start_url: `/`,
-    //     background_color: `#FFFFFF`,
-    //     theme_color: `#FEADA3`,
-    //     display: `standalone`,
-    //     icon: `src/static/favicon.png`,
-    //   },
-    // },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Seattle Creative Directory`,
+        short_name: `Seattle Creative`,
+        start_url: `/`,
+        background_color: `#FFFFFF`,
+        theme_color: `#FEADA3`,
+        display: `standalone`,
+        icon: `src/static/favicon.png`,
+      },
+    },
     "gatsby-plugin-catch-links",
     "gatsby-plugin-twitter",
     "gatsby-plugin-sitemap",
