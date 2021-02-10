@@ -36,7 +36,7 @@ const config = {
     },
     {
       label: "Email",
-      url: "mailto:jonmccon@gmail.com",
+      url: "mailto:jonny@seattlecreative.directory",
       iconClassName: "fa fa-envelope",
     },
   ],

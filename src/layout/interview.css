@@ -2,8 +2,8 @@
 
 /* INTERVIEW PAGE */
 .interviewPattern {
-    background: url(../../static/pattern04c.png);
-    background-color: var(--color-bg-gray);
+    /* background: url(../static/pattern04c.png);
+    background-color: var(--color-bg-gray); */
     display: grid;
     grid-template-columns: 2em fit-content(1fr) 270px;
     grid-template-rows: 50% 1fr 2em;

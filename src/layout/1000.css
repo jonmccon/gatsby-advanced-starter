@@ -3,7 +3,7 @@
 @media only screen and (min-width: 1250px) { 
 
     h1 {
-        font: 400 2.5em Spectral, serif;
+        font: 600 3em Spectral, serif;
         line-height: 140%;
     }
     
@@ -29,16 +29,16 @@
         grid-gap: .5em;
         grid-auto-flow: dense;    
         max-width: 1200px;
-        background-color: var(--color-card);
-        box-shadow:  0px 0px 30px var(--color-bg-coral-dark);
+        /* background-color: var(--color-card); */
+        /* box-shadow:  0px 0px 30px var(--color-bg-coral-dark); */
         border-radius: 10px;
         grid-template-areas:
-            ".              .               .               .               Logo            Logo            Logo            Logo            .               Contact         Contact         ."
-            ".              .               .               Hello           Hello           Hello           Hello           Hello           Hello           .               .               ."
-            ".    podcast-two     podcast-two     podcast-one     podcast-one     podcast-one     podcast-one     podcast-one     podcast-one   podcast-three   podcast-three   ."
+            ".              MenuLeft        MenuLeft        .               Logo            Logo            Logo            Logo            .               MenuRight       MenuRight       ."
+            ".              .               .               Headline        Headline        Headline        Headline        Headline        Headline        .               .               ."
+            "showContainer              showContainer               showContainer               showContainer   showContainer   showContainer   showContainer   showContainer   showContainer   showContainer               showContainer               showContainer"
             ".              Filters         Filters         Filters         Filters         Filters         Filters         Filters         Filters         Filters         Filters         ."
             ".              Directory       Directory       Directory       Directory       Directory       Directory       Directory       Directory       Directory       Directory       ."
-            /* ". . Footer . . " */
+            ".              Footer          Footer          Footer          Footer          Footer          Footer          Footer          Footer          Footer          Footer          ."
             ;
     }   
 
@@ -46,7 +46,7 @@
      /* LOGOMARK */
 
      .logo {
-        margin: -.5em 0 0 0;
+        margin: 1em 0 0 0;
       }
 
     /* ----------------------------------------------- */
@@ -54,20 +54,46 @@
     /* HEADLINE */
     .headline {
         margin: -2em 0 2em 0;
-     }
-
-    .headline-contact {
-        margin: 2.2em 0 0 0;
-        grid-area: Contact;
-        align-self: center;
-        text-align: right;
-        /* width: max-content; */
+        /* min-height: 60vh; */
     }
 
-    .headline-contact--link { 
-        font: 400 .8em JetBrains-Mono, sans-serif;
-        margin: .3em 0 0 0;
-        justify-self: end;
+    .headline-wrapper {
+        display: grid;
+        grid-area: Headline;
+        min-height: 55vh;
+    }
+
+    .headline-wrapper-small {
+        grid-area: Headline;
+    }
+
+    .headline-menu-left {
+        margin: 5vh 0 0 0;
+        grid-area: MenuLeft;
+        align-self: center;
+        width: max-content;
+    }
+
+    .headline-menu-left a {
+        display: block;
+        margin: 0 0 0 0;
+    }
+
+    .headline-menu-right {
+        margin: 5vh 0 0 0;
+        grid-area: MenuRight;
+        align-self: center;
+        text-align: right;
+        width: max-content;
+    }
+
+    .headline-menu--link { 
+        font: var(--text-mono-menu);
+        /* margin: .4em 0 0 0; */
+        /* justify-self: end;    */
+    }
+    
+    .headline-menu--about {
     }
 
     /* ----------------------------------------------- */
@@ -76,7 +102,6 @@
     .email-form { }
 
     .email-form input { 
-        font: 400 .8em JetBrains-Mono, sans-serif;
         width: 20ch;
     }
 
@@ -85,55 +110,52 @@
     .email-form input:focus { }
 
     .email-form button { 
-        font: 400 .8em JetBrains-Mono, sans-serif;
+        font: var(--text-mono-menu);
     }
 
     .email-form button:hover { }
     /* ----------------------------------------------- */
 
-    /* INTERVIEW PROMOS */
+    /* PODCAST SHOW */
 
-    .podcast-promo {
-        display: grid;
-        grid-auto-flow: row;
+    #showContainer {
     }
 
-    #podcast-ep-one {
-        margin-top: -1em;
-     }
-
-    #podcast-ep-two {
-        display: grid;
+    .podcast {
     }
 
-    #podcast-ep-three {
-        display: grid;
-    }
+   
 
     /* ----------------------------------------------- */
 
 
     /* DIRECTORY LISTING */
     .directory {
-        grid-template-columns: repeat(10, minmax(0,1fr));
+        grid-template-columns: repeat(12, minmax(0,1fr));
     }
 
     .directory-list {
-        font: 400 .8em JetBrains-Mono, sans-serif;        
+        
     }
 
     .directory-block {
         display: grid;
-        grid-column: span 2;
-        margin: 0 0 0 0;
+        grid-column: span 3;
+        margin: 0 0 2em 0;
+        align-self: start;
+        /* if we want to look at evening out the spacing veritcally, set this to center */
     }
 
     .directory-block--item  {
         line-height: 1.6em;
         border-bottom: none;
+        text-align: center;
     }
 
-    .directory-block--title { }
+    .directory-block--title {
+        font: var(--text-gin-small);
+        text-align: center;
+     }
 
     /* by filter style */
     .directory-block--filter { }
@@ -145,10 +167,9 @@
 
     /* CATEGORY & TAG CONTAINER*/
     .filters {
-        display: grid;
-        grid-area: Filters;
-        font: 400 .8em JetBrains-Mono, sans-serif;
-        margin: 4em 0 2em 0;
+        font: var(--text-mono-menu);
+        margin: 6em 0 0 0;
+        text-align: center;
         /* background-color: var(--color-test); */
     }
     
@@ -159,6 +180,26 @@
     #ShowTags {             display: none;  }
     #filter-tag--toggle {   display: block;  }
 
+
+    /* ----------------------------------------------- */
+
+    /* About page content */
+
+    .aboutContent {
+        grid-column: 4 / span 6;
+        grid-row-start: 3;
+    }
+
+    .aboutContent a {
+    }
+
+    .aboutContent a:hover {
+    }
+
+    .spacer {
+        grid-row-start: 4;
+        min-height: 50vmin;
+    }
 
     /* ----------------------------------------------- */
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import PostTags from "../Filters/PostTags";
+import AudioPlayerSmall from "../Audioplayer/AudioPlayerSmall";
 
 class DirectoryPostListing extends React.Component {
   getPostList() {
@@ -9,14 +10,18 @@ class DirectoryPostListing extends React.Component {
         tags: postEdge.node.frontmatter.tags,
         title: postEdge.node.frontmatter.title,
         website: postEdge.node.frontmatter.website,
+        episode: postEdge.node.frontmatter.episode,
+        episodePromo: postEdge.node.frontmatter.episodePromo,
       });
     });
     return postList;
   }
 
+
   render() {
     const postList = this.getPostList();
     return (
+      
       <div class="directory-list">
         {postList.map((post) => (
           <React.Fragment>
@@ -25,16 +30,29 @@ class DirectoryPostListing extends React.Component {
             Add an additional a:hover class for each that changes its own display.
             Needs to be added to the tag listing as well. 
             */}
+
+            
+
             <div className="directory-block--item">
-              <a href={post.website} target="_blank">
-                <li> {post.title} </li>
-              </a>
+              
+              <a href={post.website} target="_blank">{post.title}</a>
+              
+              {post.episodePromo ? 
+              <div class="episodePromo">{post.episodePromo && post.episodePromo}</div> : '' 
+              }
+
+              {post.episode ? 
+              <AudioPlayerSmall 
+                podcastURL={post.episode && post.episode} /> : '' 
+              }
 
               {/* <PostTags tags={post.tags} /> */}
               {/* include social handle, make a new component */}
             </div>
           </React.Fragment>
+
         ))}
+        
       </div>
     );
   }

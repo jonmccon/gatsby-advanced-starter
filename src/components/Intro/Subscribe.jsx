@@ -6,7 +6,7 @@ export default class Subscribe extends React.Component {
     return (
 
         // If a custom success page is needed, change the action attr here
-        <form class="email-form" name="Subscribe" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/">
+        <form class="email-form" name="Subscribe" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/subscribed">
           
           <div hidden aria-hidden="true">
             <label>
@@ -16,8 +16,8 @@ export default class Subscribe extends React.Component {
           </div>
         
         <label for="email">
-          <input name="Subscribe" id="email" type="email" placeholder="EMAIL" required />
-          <input type="hidden" name="form-name" value="Subscribe" />
+          <input name="Subscribe" id="email" type="email" placeholder="emails" required />
+          <input type="hidden" name="form-name" value="Newsletter" />
         </label>
 
         <button type="submit">Subscribe</button>

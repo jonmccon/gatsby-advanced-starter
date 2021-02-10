@@ -24,7 +24,7 @@ module.exports = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "assets",
-        path: `static/`,
+        path: `src/static/`,
       },
     },
     {
@@ -65,6 +65,21 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: 'gatsby-source-simplecast',
+      options: {
+        token: 'eyJhcGlfa2V5IjoiOTYxODdjMGRkNjM1ODRhMTg1MDMxOTI4N2U5ODRlNmUifQ==',
+        podcastId: '30dabfb8-c618-43a5-81c7-c5c83750983a',
+      },
+    },
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: /assets-svg/ // See below to configure properly
+        }
+      }
+      },
     "gatsby-transformer-sharp",
     "gatsby-plugin-sharp",
     "gatsby-plugin-react-helmet",
@@ -96,7 +111,7 @@ module.exports = {
         background_color: `#FFFFFF`,
         theme_color: `#FEADA3`,
         display: `standalone`,
-        icon: `static/favicon.png`,
+        icon: `src/static/favicon.png`,
       },
     },
     "gatsby-plugin-catch-links",
