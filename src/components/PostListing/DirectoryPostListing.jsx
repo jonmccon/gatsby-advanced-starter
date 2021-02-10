@@ -35,15 +35,17 @@ class DirectoryPostListing extends React.Component {
 
             <div className="directory-block--item">
               
-                <a href={post.website} target="_blank">{post.title}</a>
-                
-                {post.episode ? 
-                <AudioPlayerSmall 
-                  podcastURL={post.episode && post.episode}
-                  podcastTitle={post.episodePromo && post.episodePromo} /> : '' 
-                }
-                
-          
+              <a href={post.website} target="_blank">{post.title}</a>
+              
+              {post.episodePromo ? 
+              <div class="episodePromo">{post.episodePromo && post.episodePromo}</div> : '' 
+              }
+
+              {post.episode ? 
+              <AudioPlayerSmall 
+                podcastURL={post.episode && post.episode} /> : '' 
+              }
+
               {/* <PostTags tags={post.tags} /> */}
               {/* include social handle, make a new component */}
             </div>

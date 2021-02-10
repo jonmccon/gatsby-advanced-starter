@@ -155,8 +155,8 @@
     #showContainer {
         display: grid;
         grid-area: showContainer;
-        grid-template-columns: repeat(3, minmax(0,1fr));
-        grid-gap: .5em;
+        /* grid-template-columns: repeat(3, minmax(0,1fr)); */
+        /* grid-gap: .5em; */
     }
 
     .podcast {
@@ -187,12 +187,22 @@
 
     .rhap_time {
         font: var(--text-mono-std) !important;
-        color: var(--color-text) !important;
+        color: var(--color-text-tag) !important;
         /* background-color: var(--color-bg-coral) !important; */
         /* -webkit-box-shadow: 0px 0px 5px 2px var(--color-bg-coral);  */
         /* box-shadow: 0px 0px 5px 2px var(--color-bg-coral); */
         /* text-shadow: 1px 1px 2px var(--color-bg-coral-dark); */
         margin: 0 0 0 0;
+    }
+
+    .audioPlayer-small {
+        display: inline-block;
+        margin: -1em 0 -1em 0;
+    }
+
+    .audioPlayer-small .rhap_main-controls {
+        max-height: 1.6em;
+        margin: -1.4ch 0 0 1ch;
     }
 
     .audioPlayer-small .rhap_container {
@@ -204,7 +214,8 @@
         padding: 0 0 0 0;
         background-color: var(--color-transparent);
         width: 11ch;
-        margin: 0 0 0 1ch;
+        height: min-content;
+        margin: 0 0 -1ch 1ch;
     }
 
     .audioPlayer-small .rhap_controls-section {
@@ -215,7 +226,9 @@
     .audioPlayer-small .rhap_play-pause-button {
         /* background-color: var(--color-test); */
         width: min-content;
-        margin: 0 0 40% 0;
+        height: min-content;
+        /* margin: 0 0 40% 0; */
+        /* padding: 0 0 2.5ch 0; */
     }
 
     .audioPlayer-small .rhap_current-time {
@@ -230,19 +243,23 @@
         color: var(--color-bg-coral-dark);
     }
 
-    .audioPlayer-small .episodePromo {
-        display: inline-block;
-        font: var(--text-mono-std);
-        color: var(--color-text);
-        margin: 0 0 0 1ch;
-        background-color:rgba(63, 191, 127, 0.5);
-        padding: .5ch 1ch .5ch 1ch;
-        border-radius: 15% 25% 40% 20%;
-    }
-
     .smallplayer:hover {
         color: var(--color-card);
     }
+
+    .episodePromo {
+        display: inline-block;
+        font: var(--text-mono-std);
+        color: var(--color-card);
+        margin: 0 -2ch 0 1em;
+        background-color:var(--color-text);
+        box-shadow: 0px 0px 2px var(--color-text-tag);
+        text-shadow: 0px .5px 0px var(--color-text-tag);
+        padding: .5ch 1ch .3ch 1ch;
+        border-radius: 1ch 1.5ch .9ch 1.2ch;
+    }
+
+    
 
 
 
@@ -260,7 +277,7 @@
     }
 
     .directory-list {
-        font: var(--text-serif--item);
+        font: var(--text-mono--item);
     }
 
     .directory-block {
@@ -274,6 +291,7 @@
         list-style: none;
         border-bottom: 1px dashed var(--color-separator);
         text-shadow: 0em .05em 1px var(--color-card-half);
+        margin: .1em 0 0 0;
     }
     
     .directory-block--title {
@@ -295,13 +313,39 @@
 
     /* hover effects */
     .directory-block--item:hover {
-        font: var(--text-serif-bld);
+        font-weight: 600;
+        background: var(--color-bg-card);
+        /* border: .1em dotted var(--color-bg-coral); */
+        /* padding: .2em .4em .1em .4em; */
+        margin: .1em 0 0 0;
+        /* box-shadow: 0em 0em 3px var(--color-listingHover-shadow); */
+        text-decoration: underline;
+    }
+
+    #endcap {
+        margin: 50% 0 0 0;
+    }
+
+    .directory-block--end {
+        border-bottom: 1px solid var(--color-text-tag);
+        padding: 0 0 1.5em 0;
+    }
+
+    .directory-block--end p, .directory-block--end a {
+        color: var(--color-text);
+        font: var(--text-mono-menu);
+        /* text-transform: uppercase; */
+        border-radius: 4px;
+        padding: .3em .4em .2em .4em;
+        margin: 0 0 0 0;
+        text-align: center;
+    }
+
+    .directory-endcap--link:hover {
         background: var(--color-bg-coral);
-        border: .2em solid var(--color-bg-coral);
-        padding: .2em .4em .1em .4em;
-        margin: -.3em -.4em -.2em -.5em;
-        box-shadow: -.2em .2em 0px var(--color-listingHover-shadow);
-        text-decoration: none;
+        box-shadow: -.15em .15em 2px var(--color-listingHover-shadow);
+        cursor: pointer;
+        text-decoration: underline;
     }
     /* ----------------------------------------------- */
 
@@ -313,7 +357,7 @@
         margin: 2em 0 2em 0;
         font: var(--text-mono-std);
         font-style: italic;
-        text-transform: uppercase;
+        /* text-transform: uppercase; */
     }
 
     .filter-cat-container {        
@@ -393,6 +437,21 @@
 
     /* ----------------------------------------------- */
 
+    /* Footer content */
+
+    .footer a {
+        text-align: center;
+        font: var(--text-mono-menu);
+        padding: 0 0 1em 0;
+        color: var(--color-bg-gray-dark);
+        background-color: var(--color-bg-gray);
+    }
+
+    .footer a:hover {
+        color: var(--color-text);
+    }
+
+    /* ----------------------------------------------- */
 
     
 }

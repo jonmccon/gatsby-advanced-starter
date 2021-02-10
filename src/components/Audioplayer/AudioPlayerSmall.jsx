@@ -11,12 +11,10 @@ import Pause from '../../static/assets-svg/pause_circle_outline-24px.svg';
 class AudioPlayerSmall extends Component {
   render() {
     const { podcastURL } = this.props;
-    const { podcastTitle } = this.props;
     
     return (
       <React.Fragment>
-      <a class="audioPlayer-small">
-        <div class="episodePromo">{podcastTitle}</div>
+      <div class="audioPlayer-small">
         <AudioPlayer         
           src={podcastURL}
           onPlay={e => console.log("onPlay")}
@@ -36,7 +34,7 @@ class AudioPlayerSmall extends Component {
             pause: <Pause /> 
             }}
         />
-      </a>
+      </div>
       </React.Fragment>
       
     );

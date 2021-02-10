@@ -22,9 +22,11 @@
     --color-listingHover-shadow: rgba(113, 64, 96, 0.3);
     --color-separator: rgba(255, 173, 161, .3);
     --color-test: #2fdf29;
-    --text-mono-std: 400 .5em JetBrains-Mono, sans-serif;
+    --text-mono-std: 400 .7em JetBrains-Mono, sans-serif;
     --text-mono-input: 400 .8em JetBrains-Mono, sans-serif;
-    --text-mono-menu: 500 .8em JetBrains-Mono, sans-serif;
+    --text-mono--item: 500 .8em JetBrains-Mono, sans-serif;
+    --text-mono--itemHighlight: 600;
+    --text-mono-menu: 400 .8rem JetBrains-Mono, sans-serif;
     --text-serif-std: 400 2.8em Spectral, serif;
     --text-serif-bld: 700 1em Spectral, serif;
     --text-serif--item: 400 1.1em Spectral, serif;

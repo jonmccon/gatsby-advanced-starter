@@ -25,6 +25,14 @@ class HeadlineMenuLeft extends Component {
           >
             Contact
           </a>
+
+          <a
+            className="headline-menu--link"
+            target="_blank"
+            href="https://seattlecreative.show/"
+          >
+            Listen
+          </a>
           
         </div>
       </React.Fragment>

@@ -83,24 +83,9 @@ class Listing extends React.Component {
             <div id="showContainer">
               <div class="podcast" id="podcast-ep-three">
                 <PodcastPlayer
-                  podcastSeason="S1:EP3"
-                  podcastTitle="Ted Leonhardt"
-                  podcastURL="https://cdn.simplecast.com/audio/30dabfb8-c618-43a5-81c7-c5c83750983a/episodes/be27c0b6-9a80-4c2c-a30e-95a4c514929e/audio/c611b2e1-d4ec-4a10-b316-99e50205e26a/default_tc.mp3"  
-                />
-              </div>
-              <div class="podcast" id="podcast-ep-two">
-                <PodcastPlayer
-                  podcastSeason="S1:EP2"
-                  podcastTitle="Andrew Means of Transom"
-                  podcastURL="https://cdn.simplecast.com/audio/30dabfb8-c618-43a5-81c7-c5c83750983a/episodes/1c1d24a9-1967-4e16-ae31-77bd11d5f011/audio/7bf20139-4db8-4732-81e4-e1e92b5a273c/default_tc.mp3"  
-                />
-              </div>
-              <div class="podcast" id="podcast-ep-one">
-                <PodcastPlayer
-                  thumbnail="ds"
-                  podcastSeason="S1:EP1"
-                  podcastTitle="Professors Kacey Morrow & Brittany Schade of WWU"
-                  podcastURL="https://cdn.simplecast.com/audio/30dabfb8-c618-43a5-81c7-c5c83750983a/episodes/cbc0fabd-0d1c-4bc1-887a-5786d2d4575e/audio/ede0f625-09dd-4fac-9ab3-58939dd0b806/default_tc.mp3"  
+                  podcastSeason="S2:EP1"
+                  podcastTitle="Michael Gaizutis of RN01"
+                  podcastURL="https://cdn.simplecast.com/audio/30dabfb8-c618-43a5-81c7-c5c83750983a/episodes/98f94fa7-ff20-4384-b09e-243e8aa8d020/audio/d89ad511-f4b2-47fe-b9b0-9989295ab736/default_tc.mp3"  
                 />
               </div>
             </div>
@@ -218,19 +203,36 @@ class Listing extends React.Component {
                 <DirectoryListing postEdgesDirectory={postEdgesDirectoryZ} />
 
                 <div className="directory-block--title"><a id="numbers"></a>#</div>
-                <DirectoryListing postEdgesDirectory={postEdgesDirectoryNumbers}/>        
+                <DirectoryListing postEdgesDirectory={postEdgesDirectoryNumbers}/> 
+
+                <div className="directory-block--title" id="endcap">*</div>       
+                <div className="directory-block--end">
+                  <p>Don't see yourself?</p>
+                  
+                  <p><a
+                    className="directory-endcap--link highlight"
+                    target="_blank"
+                    href="https://forms.gle/hgCya8qFC4AKpetf6"
+                  >
+                    Get Listed
+                  </a></p>
+                  
+
+                </div>
+                
                 
               </div>
                    
             </div>
 
-            <Footer />
+            
 
             {/* <div className="bottomSpacer"></div> */}
 
             {/* {this.renderPaging()} */}
           </div>
         </div>
+        <Footer />
       </Layout>
     );
   }

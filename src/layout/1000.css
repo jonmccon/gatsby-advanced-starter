@@ -35,7 +35,7 @@
         grid-template-areas:
             ".              MenuLeft        MenuLeft        .               Logo            Logo            Logo            Logo            .               MenuRight       MenuRight       ."
             ".              .               .               Headline        Headline        Headline        Headline        Headline        Headline        .               .               ."
-            ".      showContainer     showContainer     showContainer     showContainer     showContainer    showContainer     showContainer     showContainer   showContainer   showContainer   ."
+            ".              .               .               .               showContainer   showContainer   showContainer   showContainer   .               .               .               ."
             ".              Filters         Filters         Filters         Filters         Filters         Filters         Filters         Filters         Filters         Filters         ."
             ".              Directory       Directory       Directory       Directory       Directory       Directory       Directory       Directory       Directory       Directory       ."
             ".              Footer          Footer          Footer          Footer          Footer          Footer          Footer          Footer          Footer          Footer          ."
@@ -169,6 +169,7 @@
     .filters {
         font: var(--text-mono-menu);
         margin: 4em 0 2em 0;
+        text-align: center;
         /* background-color: var(--color-test); */
     }
     
