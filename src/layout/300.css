@@ -3,7 +3,7 @@
 @media only screen and (min-width: 300px) { 
 
     h1 {
-        font: 400 2em Spectral, serif;
+        font: var(--text-mono-std);
         line-height: 140%;
     }
     
@@ -41,10 +41,10 @@
         /* box-shadow:  0px 0px 30px var(--color-bg-coral-dark); */
         /* border-radius: 10px; */
         grid-template-areas:
-            ".              .               Logo            Logo            Logo            Logo            .               ."
-            ".              Headline        Headline        Headline        Headline        Headline        Headline        ."
+            "MenuLeft       MenuLeft        MenuLeft        MenuLeft        MenuRight       MenuRight       MenuRight       MenuRight"
+            ".              Logo            Logo            Logo            Logo            Logo            Logo            ."
+            ".              .               Headline        Headline        Headline        Headline        .               ."
             ".              showContainer   showContainer   showContainer   showContainer   showContainer   showContainer   ."
-            ".              Contact         Contact         Contact         Contact         Contact         Contact         ."
             ".              Filters         Filters         Filters         Filters         Filters         Filters         ."
             ".              Directory       Directory       Directory       Directory       Directory       Directory       ."
             ".              Footer          Footer          Footer          Footer          Footer          Footer          ."
@@ -58,7 +58,7 @@
         background-repeat: no-repeat;
         background-size: contain;
         height: 4em; 
-        /* margin: -1em 0 0 0; */
+        margin: 10vh 0 0 0;
         align-self: top;
         background-position: center;
     }
@@ -73,11 +73,13 @@
 
     .headline-wrapper {
         grid-area: Headline;
-        min-height: 30vh;
+        min-height: 20vh;
+
     }
 
     .headline-wrapper-small {
         display: grid;
+        grid-area: Headline;
         max-height: 10vh;
         margin: 4em 0 0 0;
         /* background-color:purple; */
@@ -87,9 +89,29 @@
         align-self: center;
     }
 
-    .headline-menu {
-        display: grid;
-        grid-area: Contact;
+    .headline-menu-left {
+        margin: -4vh 0 0 0;
+        grid-area: MenuLeft;
+        align-self: center;
+        width: max-content;
+    }
+
+    .headline-menu-left a {
+        display: block;
+        margin: 0 0 0 0;
+    }
+    
+    .headline-menu-right {
+        margin: -4vh 0 0 0;
+        grid-area: MenuRight;
+        align-self: center;
+        text-align: right;
+        /* width: max-content; */
+    }
+
+    .headline-menu-right a {
+        font-size: .7em;
+        margin: 1em 0 0 0;
     }
 
     .headline-menu--link, .email-form button {
@@ -293,7 +315,7 @@
     }
 
     .directory-list {
-        font: var(--text-mono--item);
+        font: var(--text-mono--itemMobile);
     }
 
     .directory-block {
