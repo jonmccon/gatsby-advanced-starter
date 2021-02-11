@@ -3,7 +3,7 @@
 @media only screen and (min-width: 300px) { 
 
     h1 {
-        font: var(--text-mono-std);
+        font: var(--text-mono-headline);
         line-height: 140%;
     }
     
@@ -81,7 +81,7 @@
         display: grid;
         grid-area: Headline;
         max-height: 10vh;
-        margin: 4em 0 0 0;
+        margin: 0 0 0 0;
         /* background-color:purple; */
     }
 
@@ -110,7 +110,7 @@
     }
 
     .headline-menu-right a {
-        font-size: .7em;
+        font-size: .8em;
         margin: 1em 0 0 0;
     }
 
@@ -392,8 +392,8 @@
         display: grid;
         grid-area: Filters;
         margin: 2em 0 0 0;
-        font: var(--text-mono-std);
-        font-style: italic;
+        font: var(--text-mono-menu);
+        /* font-style: italic; */
         /* padding: 0 0 2em 0; */
         /* border-bottom: 1px solid var(--color-text-tag); */
         /* text-transform: uppercase; */
@@ -460,7 +460,7 @@
     }
 
     .aboutContent a {
-        color:var(--color-listing-purple);
+        color:var(--color-bg-coral-dark);
         text-decoration: none;
     }
 
