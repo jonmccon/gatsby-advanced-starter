@@ -8,6 +8,8 @@ import DirectoryListing from "../components/PostListing/DirectoryPostListing";
 import config from "../../data/SiteConfig";
 import Logo from "../components/Intro/Logo";
 import Headline from "../components/Intro/Headline";
+import HeadlineMenuLeft from "../components/Intro/HeadlineMenuLeft";
+import HeadlineMenuRight from "../components/Intro/HeadlineMenuRight";
 
 export default class TagTemplate extends React.Component {
   render() {
@@ -17,12 +19,16 @@ export default class TagTemplate extends React.Component {
     const postEdges = this.props.data.allMarkdownRemark.edges;
     return (
       <Layout>
-        <div className="pattern">
+        
           <Helmet title={`Posts tagged as "${tag}" | ${config.siteTitle}`} />
-
+          <div className="pattern">
           <div className="container">
             <Logo />
-            <Headline headline={tag} />
+            <HeadlineMenuLeft />
+            <HeadlineMenuRight />
+            <div className="headline-wrapper-small">
+              <Headline headline={tag} />
+            </div>
 
             <div className="filters">
               {/* <article className="blockTitle">Tags</article> */}
@@ -36,7 +42,7 @@ export default class TagTemplate extends React.Component {
               </div>
             </div>
           </div>
-        </div>
+          </div>
       </Layout>
     );
   }
@@ -62,6 +68,7 @@ export const pageQuery = graphql`
         node {
           frontmatter {
             title
+            episode
             website
             twit
             inst

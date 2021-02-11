@@ -1,0 +1,38 @@
+
+.highlight {
+    font-family: SFMono-Regular, Menlo, Monaco,
+               Consolas, "Liberation Mono",
+               "Courier New", monospace;
+    font-size: 12px;
+    font-weight: bold;
+    color: #874226;
+    line-height: 160%;
+    background-color: #ffada1;
+    padding: 1ch;
+    border-radius: 1ch;
+    text-transform: uppercase;
+    margin: 1em 0 0 0;
+}
+
+p {
+    font-family: SFMono-Regular, Menlo, Monaco,
+               Consolas, "Liberation Mono",
+               "Courier New", monospace;
+    font-size: 14px;
+    line-height: 180%;
+    color: #292929;
+}
+
+a {
+    text-decoration: underline;
+}
+
+.newsletter-body {
+    max-width: 600px;
+}
+
+.newsletter-footer p, .newsletter-colophon p {
+    color: #D3D5C2;
+    font: 400 .6em Monaco, monospace;
+    line-height: 100%;
+}   

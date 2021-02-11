@@ -3,6 +3,8 @@ import Helmet from "react-helmet";
 import { graphql, Link } from "gatsby";
 import Layout from "../layout";
 import Headline from "../components/Intro/Headline";
+import HeadlineMenuLeft from "../components/Intro/HeadlineMenuLeft";
+import HeadlineMenuRight from "../components/Intro/HeadlineMenuRight";
 import PostTags from "../components/Filters/PostTags";
 import PostCats from "../components/Filters/PostCats";
 import DirectoryListing from "../components/PostListing/DirectoryPostListing";
@@ -16,13 +18,17 @@ export default class CategoryTemplate extends React.Component {
     const postEdges = this.props.data.allMarkdownRemark.edges;
     return (
       <Layout>
-        <div className="pattern">
+        
           <Helmet
             title={`Posts in category "${category}" | ${config.siteTitle}`}
           />
-
+          <div className="pattern">
           <div className="container">
-            <Headline />
+          <HeadlineMenuLeft />
+          <HeadlineMenuRight />
+            <div className="headline-wrapper-small">
+              <Headline />
+            </div>
 
             <div className="filters">
               <article className="blockTitle">Tags</article>
@@ -37,7 +43,7 @@ export default class CategoryTemplate extends React.Component {
               </div>
             </div>
           </div>
-        </div>
+          </div>
       </Layout>
     );
   }
@@ -63,6 +69,7 @@ export const pageQuery = graphql`
         node {
           frontmatter {
             title
+            episode
             website
             twit
             inst

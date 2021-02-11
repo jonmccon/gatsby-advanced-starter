@@ -3,9 +3,9 @@ import Logo from "../Intro/Logo";
 import Headline from "../Intro/Headline";
 import HeadlineMenuLeft from "../Intro/HeadlineMenuLeft";
 import HeadlineMenuRight from "../Intro/HeadlineMenuRight";
-import AboutContent from "./AboutContent";
+import AboutContent from "../About/AboutContent";
 
-class About extends Component {
+class Subscribed extends Component {
   render() {
     return (
       <div className="pattern">
@@ -15,15 +15,17 @@ class About extends Component {
         <HeadlineMenuLeft />
         <HeadlineMenuRight />
         <div className="headline-wrapper-small">
-          <Headline headline={`Hello & welcome.`} />
+        <Headline headline={`You're subscribed, this is great 😺`} />
         </div>
         <AboutContent />
         
       
       </div>
       </div>
+            
+      
     );
   }
 }
 
-export default About;
+export default Subscribed;
