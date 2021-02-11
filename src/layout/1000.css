@@ -87,6 +87,11 @@
         width: max-content;
     }
 
+    .headline-menu-right a {
+        font-size: .8em;
+        margin: 1em 0 0 0;
+    }
+
     .headline-menu--link { 
         font: var(--text-mono-menu);
         /* margin: .4em 0 0 0; */
@@ -135,7 +140,7 @@
     }
 
     .directory-list {
-        
+        font: var(--text-mono--item);
     }
 
     .directory-block {

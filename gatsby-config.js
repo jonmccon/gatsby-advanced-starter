@@ -72,14 +72,6 @@ module.exports = {
         podcastId: '30dabfb8-c618-43a5-81c7-c5c83750983a',
       },
     },
-    {
-      resolve: "gatsby-plugin-react-svg",
-      options: {
-        rule: {
-          include: /\.inline\.svg$/// See below to configure properly
-        }
-      }
-    },
     "gatsby-transformer-sharp",
     "gatsby-plugin-sharp",
     "gatsby-plugin-react-helmet",
@@ -113,6 +105,16 @@ module.exports = {
         display: `standalone`,
         icon: `src/static/favicon.png`,
       },
+    },
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          // include: /assets-svg/
+          include: /\.inline\.svg$/ /// See below to configure properly
+
+        }
+      }
     },
     "gatsby-plugin-catch-links",
     "gatsby-plugin-twitter",
