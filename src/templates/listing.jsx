@@ -9,7 +9,11 @@ import DirectoryListing from "../components/PostListing/DirectoryPostListing";
 import SEO from "../components/SEO/SEO";
 import config from "../../data/SiteConfig";
 import Headline from "../components/Intro/Headline";
+import HeadlineMenuRight from "../components/Intro/HeadlineMenuRight";
+import HeadlineMenuLeft from "../components/Intro/HeadlineMenuLeft";
 import Logo from "../components/Intro/Logo";
+import PodcastPlayer from "../components/Audioplayer/PodcastPlayer";
+import Footer from "../components/Footer/Footer";
 
 class Listing extends React.Component {
   // Pagination
@@ -63,20 +67,38 @@ class Listing extends React.Component {
 
         <div className="pattern">
           <div className="container">
+            
             <Logo />
+            <HeadlineMenuLeft />
+            <HeadlineMenuRight />
+            <div className="headline-wrapper">
             <Headline
               headline={
-                "Cataloging the creative studios & internal design teams of the pacific northwest. "
+                "Cataloging the creative studios of the Pacific Northwest."
               }
             />
-
+            </div>
+            
+            {/* PODCAST SHOW */}
+            <div id="showContainer">
+              <div class="podcast">
+                <PodcastPlayer
+                  podcastSeason="S2:EP4"
+                  podcastTitle="Michael Gaizutis of RN01"
+                  podcastURL="https://cdn.simplecast.com/audio/30dabfb8-c618-43a5-81c7-c5c83750983a/episodes/98f94fa7-ff20-4384-b09e-243e8aa8d020/audio/d89ad511-f4b2-47fe-b9b0-9989295ab736/default_tc.mp3"  
+                />
+              </div>
+            </div>
+            
+            {/* FILTERS */}
             <div className="filters">
-              <PostCats cats={allCats} />
+              <PostCats cats={ allCats} />
               <PostTags tags={allTags} />
             </div>
+            
 
-            {/* <PodcastListing postEdges={postEdges} />    */}
 
+            {/* DIRECTORY LISTING */}
             <div className="directory">
               {/*             
                   
@@ -89,122 +111,128 @@ class Listing extends React.Component {
                   */}
 
               <div className="directory-block">
+                
                 <div className="directory-block--title"><a id="A"></a>A</div>
                 <DirectoryListing postEdgesDirectory={postEdgesDirectoryA} />
-              </div>
-              <div className="directory-block">
+                
                 <div className="directory-block--title"><a id="B"></a>B</div>
                 <DirectoryListing postEdgesDirectory={postEdgesDirectoryB} />
-              </div>
-              <div className="directory-block">
+
                 <div className="directory-block--title"><a id="C"></a>C</div>
                 <DirectoryListing postEdgesDirectory={postEdgesDirectoryC} />
-              </div>
-              <div className="directory-block">
+
                 <div className="directory-block--title"><a id="D"></a>D</div>
                 <DirectoryListing postEdgesDirectory={postEdgesDirectoryD} />
-              </div>
-              <div className="directory-block">
+
                 <div className="directory-block--title"><a id="E"></a>E</div>
                 <DirectoryListing postEdgesDirectory={postEdgesDirectoryE} />
-              </div>
-              <div className="directory-block">
+
                 <div className="directory-block--title"><a id="F"></a>F</div>
                 <DirectoryListing postEdgesDirectory={postEdgesDirectoryF} />
+
               </div>
+              
               <div className="directory-block">
+
                 <div className="directory-block--title"><a id="G"></a>G</div>
                 <DirectoryListing postEdgesDirectory={postEdgesDirectoryG} />
-              </div>
-              <div className="directory-block">
+
                 <div className="directory-block--title"><a id="H"></a>H</div>
                 <DirectoryListing postEdgesDirectory={postEdgesDirectoryH} />
-              </div>
-              <div className="directory-block">
+
                 <div className="directory-block--title"><a id="I"></a>I</div>
                 <DirectoryListing postEdgesDirectory={postEdgesDirectoryI} />
-              </div>
-              <div className="directory-block">
+
                 <div className="directory-block--title"><a id="J"></a>J</div>
                 <DirectoryListing postEdgesDirectory={postEdgesDirectoryJ} />
-              </div>
-              <div className="directory-block">
+
                 <div className="directory-block--title"><a id="K"></a>K</div>
                 <DirectoryListing postEdgesDirectory={postEdgesDirectoryK} />
-              </div>
-              <div className="directory-block">
+                
                 <div className="directory-block--title"><a id="L"></a>L</div>
                 <DirectoryListing postEdgesDirectory={postEdgesDirectoryL} />
-              </div>
-              <div className="directory-block">
+
                 <div className="directory-block--title"><a id="M"></a>M</div>
                 <DirectoryListing postEdgesDirectory={postEdgesDirectoryM} />
-              </div>
-              <div className="directory-block">
+
                 <div className="directory-block--title"><a id="N"></a>N</div>
                 <DirectoryListing postEdgesDirectory={postEdgesDirectoryN} />
+                
               </div>
-              <div className="directory-block">
+
+              <div className="directory-block">              
+
                 <div className="directory-block--title"><a id="O"></a>O</div>
                 <DirectoryListing postEdgesDirectory={postEdgesDirectoryO} />
-              </div>
-              <div className="directory-block">
+
                 <div className="directory-block--title"><a id="P"></a>P</div>
                 <DirectoryListing postEdgesDirectory={postEdgesDirectoryP} />
-              </div>
-              <div className="directory-block">
+
                 <div className="directory-block--title"><a id="Q"></a>Q</div>
                 <DirectoryListing postEdgesDirectory={postEdgesDirectoryQ} />
-              </div>
-              <div className="directory-block">
+
                 <div className="directory-block--title"><a id="R"></a>R</div>
                 <DirectoryListing postEdgesDirectory={postEdgesDirectoryR} />
-              </div>
-              <div className="directory-block">
+
                 <div className="directory-block--title"><a id="S"></a>S</div>
                 <DirectoryListing postEdgesDirectory={postEdgesDirectoryS} />
+
               </div>
+              
               <div className="directory-block">
+
                 <div className="directory-block--title"><a id="T"></a>T</div>
                 <DirectoryListing postEdgesDirectory={postEdgesDirectoryT} />
-              </div>
-              <div className="directory-block">
+
                 <div className="directory-block--title"><a id="U"></a>U</div>
                 <DirectoryListing postEdgesDirectory={postEdgesDirectoryU} />
-              </div>
-              <div className="directory-block">
+
                 <div className="directory-block--title"><a id="V"></a>V</div>
                 <DirectoryListing postEdgesDirectory={postEdgesDirectoryV} />
-              </div>
-              <div className="directory-block">
+
                 <div className="directory-block--title"><a id="W"></a>W</div>
                 <DirectoryListing postEdgesDirectory={postEdgesDirectoryW} />
-              </div>
-              <div className="directory-block">
-                <div className="directory-block--title"><a id="X"></a>X</div>
-                <DirectoryListing postEdgesDirectory={postEdgesDirectoryX} />
-              </div>
-              <div className="directory-block">
+
+                {/* <div className="directory-block--title"><a id="X"></a>X</div>
+                <DirectoryListing postEdgesDirectory={postEdgesDirectoryX} /> */}
+
                 <div className="directory-block--title"><a id="Y"></a>Y</div>
                 <DirectoryListing postEdgesDirectory={postEdgesDirectoryY} />
-              </div>
-              <div className="directory-block">
+
                 <div className="directory-block--title"><a id="Z"></a>Z</div>
                 <DirectoryListing postEdgesDirectory={postEdgesDirectoryZ} />
-              </div>
-              <div className="directory-block">
+
                 <div className="directory-block--title"><a id="numbers"></a>#</div>
-                <DirectoryListing
-                  postEdgesDirectory={postEdgesDirectoryNumbers}
-                />
+                <DirectoryListing postEdgesDirectory={postEdgesDirectoryNumbers}/> 
+
+                <div className="directory-block--title" id="endcap">*</div>       
+                <div className="directory-block--end">
+                  <p>Don't see yourself?</p>
+                  
+                  <p><a
+                    className="directory-endcap--link highlight"
+                    target="_blank"
+                    href="https://forms.gle/hgCya8qFC4AKpetf6"
+                  >
+                    Get Listed
+                  </a></p>
+                  
+
+                </div>
+                
+                
               </div>
+                   
             </div>
+
+            
 
             {/* <div className="bottomSpacer"></div> */}
 
             {/* {this.renderPaging()} */}
           </div>
         </div>
+        <Footer />
       </Layout>
     );
   }
@@ -229,6 +257,8 @@ export const listingQuery = graphql`
         node {
           frontmatter {
             title
+            episode
+            episodePromo
             website
             twit
             inst
@@ -246,6 +276,8 @@ export const listingQuery = graphql`
         node {
           frontmatter {
             title
+            episode
+            episodePromo
             website
             twit
             inst
@@ -263,6 +295,8 @@ export const listingQuery = graphql`
         node {
           frontmatter {
             title
+            episode
+            episodePromo
             website
             twit
             inst
@@ -280,6 +314,8 @@ export const listingQuery = graphql`
         node {
           frontmatter {
             title
+            episode
+            episodePromo
             website
             twit
             inst
@@ -297,6 +333,8 @@ export const listingQuery = graphql`
         node {
           frontmatter {
             title
+            episode
+            episodePromo
             website
             twit
             inst
@@ -314,6 +352,8 @@ export const listingQuery = graphql`
         node {
           frontmatter {
             title
+            episode
+            episodePromo
             website
             twit
             inst
@@ -331,6 +371,8 @@ export const listingQuery = graphql`
         node {
           frontmatter {
             title
+            episode
+            episodePromo
             website
             twit
             inst
@@ -348,6 +390,8 @@ export const listingQuery = graphql`
         node {
           frontmatter {
             title
+            episode
+            episodePromo
             website
             twit
             inst
@@ -365,6 +409,8 @@ export const listingQuery = graphql`
         node {
           frontmatter {
             title
+            episode
+            episodePromo
             website
             twit
             inst
@@ -382,6 +428,8 @@ export const listingQuery = graphql`
         node {
           frontmatter {
             title
+            episode
+            episodePromo
             website
             twit
             inst
@@ -399,6 +447,8 @@ export const listingQuery = graphql`
         node {
           frontmatter {
             title
+            episode
+            episodePromo
             website
             twit
             inst
@@ -416,6 +466,8 @@ export const listingQuery = graphql`
         node {
           frontmatter {
             title
+            episode
+            episodePromo
             website
             twit
             inst
@@ -433,6 +485,8 @@ export const listingQuery = graphql`
         node {
           frontmatter {
             title
+            episode
+            episodePromo
             website
             twit
             inst
@@ -450,6 +504,8 @@ export const listingQuery = graphql`
         node {
           frontmatter {
             title
+            episode
+            episodePromo
             website
             twit
             inst
@@ -467,6 +523,8 @@ export const listingQuery = graphql`
         node {
           frontmatter {
             title
+            episode
+            episodePromo
             website
             twit
             inst
@@ -484,6 +542,8 @@ export const listingQuery = graphql`
         node {
           frontmatter {
             title
+            episode
+            episodePromo
             website
             twit
             inst
@@ -501,6 +561,8 @@ export const listingQuery = graphql`
         node {
           frontmatter {
             title
+            episode
+            episodePromo
             website
             twit
             inst
@@ -518,6 +580,8 @@ export const listingQuery = graphql`
         node {
           frontmatter {
             title
+            episode
+            episodePromo
             website
             twit
             inst
@@ -535,6 +599,8 @@ export const listingQuery = graphql`
         node {
           frontmatter {
             title
+            episode
+            episodePromo
             website
             twit
             inst
@@ -552,6 +618,8 @@ export const listingQuery = graphql`
         node {
           frontmatter {
             title
+            episode
+            episodePromo
             website
             twit
             inst
@@ -569,6 +637,8 @@ export const listingQuery = graphql`
         node {
           frontmatter {
             title
+            episode
+            episodePromo
             website
             twit
             inst
@@ -586,6 +656,8 @@ export const listingQuery = graphql`
         node {
           frontmatter {
             title
+            episode
+            episodePromo
             website
             twit
             inst
@@ -603,6 +675,8 @@ export const listingQuery = graphql`
         node {
           frontmatter {
             title
+            episode
+            episodePromo
             website
             twit
             inst
@@ -620,6 +694,8 @@ export const listingQuery = graphql`
         node {
           frontmatter {
             title
+            episode
+            episodePromo
             website
             twit
             inst
@@ -637,6 +713,8 @@ export const listingQuery = graphql`
         node {
           frontmatter {
             title
+            episode
+            episodePromo
             website
             twit
             inst
@@ -654,6 +732,8 @@ export const listingQuery = graphql`
         node {
           frontmatter {
             title
+            episode
+            episodePromo
             website
             twit
             inst
@@ -671,6 +751,8 @@ export const listingQuery = graphql`
         node {
           frontmatter {
             title
+            episode
+            episodePromo
             website
             twit
             inst

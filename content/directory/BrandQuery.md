@@ -1,5 +1,5 @@
 ---
-title: "Brand Query"
+title: "BrandQuery"
 featuredImage: ./-hamburgers.png
 website: "https://brandquery.com/"
 twit: "https://twitter.com/brandquery"
@@ -12,7 +12,7 @@ tags:
     - advertising
     - marketing
     - print
-    - video
+    - strategy
     - environmental
     - ux/ui
 ---
