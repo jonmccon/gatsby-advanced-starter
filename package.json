@@ -7,7 +7,7 @@
   "license": "MIT",
   "main": "n/a",
   "scripts": {
-    "dev": "gatsby develop --H 0.0.0.0",
+    "develop": "gatsby develop --H 0.0.0.0",
     "serve": "gatsby serve",
     "build": "gatsby build",
     "build:pp": "gatsby build --prefix-paths",
