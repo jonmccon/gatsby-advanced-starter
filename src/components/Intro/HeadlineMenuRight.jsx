@@ -10,12 +10,28 @@ class HeadlineMenuRight extends Component {
       <React.Fragment>
 
         <div className="headline-menu-right">  
-          <Subscribe />
 
-          <Link
+          <a
+            className="headline-menu--link"
+            target="_blank"
+            href="https://buttondown.email/creativedirectory"
+          >
+            Subscribe
+          </a>
+
+          <a
+            className="headline-menu--link"
+            href="/about"
+          >
+            About
+          </a>
+
+          {/* <Subscribe /> */}
+
+          {/* <Link
           className="headline-menu--link" 
           to="/about">About
-          </Link>
+          </Link> */}
           
         </div>
       </React.Fragment>
