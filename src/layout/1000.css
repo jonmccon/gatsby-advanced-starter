@@ -90,7 +90,7 @@
 
     .headline-menu-right a {
         display: block;
-        
+        text-align: right;
     }
 
     .headline-menu--link { 
