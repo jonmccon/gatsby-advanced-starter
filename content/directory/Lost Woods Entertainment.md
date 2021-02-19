@@ -1,7 +1,7 @@
 --- 
 title: "Lost Woods Entertainment" 
 featuredImage: ./-hamburgers.png 
-website: "www.lostwoodsentertainment.com" 
+website: "https://www.lostwoodsentertainment.com/" 
 twit: "" 
 inst: "" 
 category: "L" 
