@@ -1,6 +1,6 @@
 require('dotenv').config()
 const fetch = require('node-fetch')
-const EMAIL_TOKEN = process.env.EMAIL_TOKEN;
+const EMAIL_TOKEN = process.env.EMAIL_TOKEN
 exports.handler = async event => {
   const email = JSON.parse(event.body).payload.email
   console.log(`Recieved a submission: ${email}`)
@@ -16,5 +16,6 @@ exports.handler = async event => {
     .then(data => {
       console.log(`Submitted to Buttondown:\n ${data}`)
     })
+    .then(() => navigate("/subscribed/"))
     .catch(error => ({ statusCode: 422, body: String(error) }))
 }
