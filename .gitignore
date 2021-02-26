@@ -62,3 +62,5 @@ gcp-transcribe.json
 
 # Environment
 *.env
+# Local Netlify folder
+.netlify

@@ -12,6 +12,7 @@ export default class Subscribe extends React.Component {
           method="POST" 
           data-netlify="true" 
           netlify-honeypot="bot-field" 
+          // action="/subscribed"
           >
           
           <div hidden aria-hidden="true">
