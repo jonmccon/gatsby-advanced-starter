@@ -13,11 +13,14 @@
     "build:pp": "gatsby build --prefix-paths",
     "build:gh": "npm run clean && npm run build:pp && gh-pages -d public",
     "clean": "gatsby clean",
+    "ndev": "netlify dev",
+    "functions": "netlify-lambda build ./functions",
     "lint:js": "eslint --ext .js,.jsx .",
     "lint:md": "remark content/",
     "write-good": "write-good $(glob 'content/posts/**/*.md')",
     "format:js": "prettier '**/*.{js,jsx}' --write",
-    "format:styles": "prettier '**/*.{css,scss}' --write"
+    "format:styles": "prettier '**/*.{css,scss}' --write",
+    "postinstall": "netlify-lambda install"
   },
   "remarkConfig": {
     "plugins": [
@@ -26,6 +29,7 @@
   },
   "dependencies": {
     "@types/google-apps-script": "^1.0.22",
+    "dotenv-webpack": "^6.0.2",
     "gatsby": "^2.31.1",
     "gatsby-image": "^2.3.1",
     "gatsby-plugin-catch-links": "^2.2.1",
