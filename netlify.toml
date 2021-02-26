@@ -24,6 +24,8 @@ package = "netlify-plugin-checklinks"
     "500",
     "400",
     "ECONNREFUSED",
+
+    "401 http://www.rootculturelab.com/",
     
     # Interview pages are generated but unused right now
     'id="interview"'
