@@ -1,7 +1,8 @@
 // require('dotenv').config()
 const fetch = require('node-fetch')
 const EMAIL_TOKEN = process.env.EMAIL_TOKEN
-exports.handler = async event => {
+
+exports.handler = function(event, context) {
   const email = JSON.parse(event.body).payload.email
   console.log(`Recieved a submission: ${email}`)
   return fetch('https://api.buttondown.email/v1/subscribers', {
@@ -10,7 +11,7 @@ exports.handler = async event => {
       Authorization: `Token ${EMAIL_TOKEN}`,
       'Content-Type': 'application/json',
     },
-    body: JSON.stringify({ email,"tags":["embeddedFormNetlify"] }), 
+    body: JSON.stringify({ "email": email, "tags":["embeddedFormNetlify"] }), 
   })
     .then(response => response.json())
     .then(data => {
@@ -19,6 +20,7 @@ exports.handler = async event => {
     .then(() => navigate("/subscribed/"))
     .catch(error => ({ statusCode: 422, body: String(error) }))
 }
+
 
 // .then(() => navigate("/subscribed/"))
 

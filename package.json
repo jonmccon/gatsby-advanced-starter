@@ -1,7 +1,7 @@
 {
   "name": "seattle-creative-directory",
   "description": "Phonebook for Seattle design community",
-  "version": "1.2",
+  "version": "1.2.0",
   "author": "Jonny McConnell <jonmccon@gmail.com>",
   "repository": "https://github.com/jonmccon/seattle-creative-directory",
   "license": "MIT",
