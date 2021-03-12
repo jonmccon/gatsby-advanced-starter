@@ -1,30 +1,30 @@
-// require('dotenv').config()
-const fetch = require('node-fetch')
-const EMAIL_TOKEN = process.env.EMAIL_TOKEN
+// // // require('dotenv').config()
+// // const fetch = require('node-fetch')
+// // const EMAIL_TOKEN = process.env.EMAIL_TOKEN
 
-exports.handler = function(event, context) {
-  const email = JSON.parse(event.body).payload.email
-  console.log(`Recieved a submission: ${email}`)
-  return fetch('https://api.buttondown.email/v1/subscribers', {
-    method: 'POST',
-    headers: {
-      Authorization: `Token ${EMAIL_TOKEN}`,
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({ "email": email, "tags":["embeddedFormNetlify"] }), 
-  })
-    .then(response => response.json())
-    .then(data => {
-      console.log(`Submitted to Buttondown:\n ${data}`)
-    })
-    .then(() => navigate("/subscribed/"))
-    .catch(error => ({ statusCode: 422, body: String(error) }))
-}
+// // exports.handler = async function(event, context) {
+// //   const email = JSON.parse(event.body).payload.email
+// //   console.log(`Recieved a submission: ${email}`)
+// //   return fetch('https://api.buttondown.email/v1/subscribers', {
+// //     method: 'POST',
+// //     headers: {
+// //       Authorization: `Token ${EMAIL_TOKEN}`,
+// //       'Content-Type': 'application/json',
+// //     },
+// //     body: JSON.stringify({ "email": email, "tags":["embeddedFormNetlify"] }), 
+// //   })
+// //     .then(response => response.json())
+// //     .then(data => {
+// //       console.log(`Submitted to Buttondown:\n ${data}`)
+// //     })
+// //     .then(() => navigate("/subscribed/"))
+// //     .catch(error => ({ statusCode: 422, body: String(error) }))
+// // }
 
 
-// .then(() => navigate("/subscribed/"))
+// // .then(() => navigate("/subscribed/"))
 
-// require("dotenv").config()
+// // require("dotenv").config()
 
 // const fetch = require("node-fetch")
 // const { EMAIL_TOKEN } = process.env
@@ -39,7 +39,7 @@ exports.handler = function(event, context) {
 //       Authorization: `Token ${EMAIL_TOKEN}`,
 //       "Content-Type": "application/json",
 //     },
-//     body: JSON.stringify({ email: payload.email, notes: payload.name, "tags":["embeddedFormNetlify"] }),
+//     body: JSON.stringify({ email: payload.email, "tags":["embeddedFormNetlify"] }),
 //   })
 //     .then(response => response.json())
 //     .then(data => {

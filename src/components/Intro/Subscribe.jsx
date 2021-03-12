@@ -35,31 +35,55 @@ import React from "react"
     return (
       
 
-        // If a custom success page is needed, change the action attr here
-        <form 
-          class="email-form" 
-          name="subscribe" 
-          method="POST" 
-          data-netlify="true" 
-          netlify-honeypot="bot-field" 
-          // action="/subscribed"
-          >
-          
-          <div hidden aria-hidden="true">
-            <label>
-                Don’t fill this out if you're human: 
-                <input name="bot-field" />
-            </label>
-          </div>
-        
-        <label for="email">
-          <input name="subscribe" id="email" type="email" placeholder="email" required />
-        </label>
-
-        <button type="submit">Subscribe</button>
-          <p class="successMsg" role="alert" hidden>Messages sent...</p>
-          <p class="errorMsg" role="alert" hidden>Something went wrong...</p>
+      <form netlify name="contact">
+        <input
+          class="form-control valid"
+          name="name"
+          id="name"
+          type="text"
+          onfocus="this.placeholder = ''"
+          onblur="this.placeholder = 'Enter your Name'"
+          placeholder="Enter your Name"
+        />
+        <input
+          class="form-control valid"
+          name="email"
+          id="email"
+          type="email"
+          onfocus="this.placeholder = ''"
+          onblur="this.placeholder = 'Enter your Email'"
+          placeholder="Enter your Email"
+        />
+        <button type="submit" class="button button-contactForm boxed-btn">
+          Sign Up
+        </button>
       </form>
+
+      //   // If a custom success page is needed, change the action attr here
+      //   <form 
+      //     class="email-form" 
+      //     name="subscribe" 
+      //     method="POST" 
+      //     data-netlify="true" 
+      //     netlify-honeypot="bot-field" 
+      //     // action="/subscribed"
+      //     >
+          
+      //     <div hidden aria-hidden="true">
+      //       <label>
+      //           Don’t fill this out if you're human: 
+      //           <input name="bot-field" />
+      //       </label>
+      //     </div>
+        
+      //   <label for="email">
+      //     <input name="subscribe" id="email" type="email" placeholder="email" required />
+      //   </label>
+
+      //   <button type="submit">Subscribe</button>
+      //     <p class="successMsg" role="alert" hidden>Messages sent...</p>
+      //     <p class="errorMsg" role="alert" hidden>Something went wrong...</p>
+      // </form>
     )
   }
 }
