@@ -36,11 +36,7 @@ import React from "react"
       
 
       <form netlify name="contact" data-netlify-honeypot="bot-field" action="subscribed">
-        <input
-          class="hidden"
-          name="bot-field"
-          placeholder="Don't fill this out if you're a human"
-        />
+        
         <input
           class="form-control valid"
           name="email"
@@ -49,6 +45,11 @@ import React from "react"
           onfocus="this.placeholder = ''"
           onblur="this.placeholder = 'Enter your Email'"
           placeholder="Enter your Email"
+        />
+        <input
+          class="hidden"
+          name="bot-field"
+          placeholder="Don't fill this out if you're a human"
         />
         <button type="submit" class="button button-contactForm boxed-btn">
           Sign Up
