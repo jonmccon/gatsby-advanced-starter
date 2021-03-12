@@ -140,6 +140,7 @@
 
     /* SUBSCRIBE */
     .email-form {
+        display: inline;
     }
 
     .email-form input {
