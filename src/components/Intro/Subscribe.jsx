@@ -35,15 +35,11 @@ import React from "react"
     return (
       
 
-      <form netlify name="contact">
+      <form netlify name="contact" data-netlify-honeypot="bot-field" action="subscribed">
         <input
-          class="form-control valid"
-          name="name"
-          id="name"
-          type="text"
-          onfocus="this.placeholder = ''"
-          onblur="this.placeholder = 'Enter your Name'"
-          placeholder="Enter your Name"
+          class="hidden"
+          name="bot-field"
+          placeholder="Don't fill this out if you're a human"
         />
         <input
           class="form-control valid"

@@ -58,4 +58,8 @@ a {
 a:visited {  }
 a:hover {   cursor: pointer; }
 
+.hidden {
+    display: none;
+}
+
 /* ----------------------------------------------- */
