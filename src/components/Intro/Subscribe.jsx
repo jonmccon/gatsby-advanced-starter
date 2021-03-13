@@ -6,7 +6,7 @@ import React from "react"
     return (
       
 
-      <form data-netlify="true" name="contact" data-netlify-honeypot="bot-field" action="subscribed" className="email-form">
+      <form data-netlify="true" name="subscribe" data-netlify-honeypot="bot-field" action="subscribed" className="email-form">
         
         
         <input
