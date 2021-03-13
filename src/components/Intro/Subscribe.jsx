@@ -18,11 +18,11 @@ import React from "react"
           onblur="this.placeholder = 'Emails'"
           placeholder="Emails"
         />
-        <input
+        {/* <input
           className="hidden"
           name="bot-field"
           placeholder="Don't fill this out if you're a human"
-        />
+        /> */}
         
         <button type="submit">
           Subscribe
