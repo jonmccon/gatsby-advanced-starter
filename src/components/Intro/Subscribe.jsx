@@ -6,13 +6,14 @@ import React from "react"
     return (
       
 
-      <form data-netlify="true" name="contact" data-netlify-honeypot="bot-field" action="subscribed" class="email-form">
+      <form data-netlify="true" name="contact" action="subscribed" class="email-form">
         
-        <input
+        {/* data-netlify-honeypot="bot-field" */}
+        {/* <input
           class="hidden"
           name="bot-field"
           placeholder="Don't fill this out if you're a human"
-        />
+        /> */}
         <input
           class="email-form form-control valid"
           name="email"
