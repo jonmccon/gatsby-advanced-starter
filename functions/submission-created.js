@@ -11,7 +11,7 @@ exports.handler = async event => {
       Authorization: `Token ${EMAIL_TOKEN}`,
       "Content-Type": "application/json",
     },
-    body: JSON.stringify({ email: payload.email, notes: payload.name }),
+    body: JSON.stringify({ email: payload.email, tags:["embeddedFormNetlify"] }),
   })
     .then(response => response.json())
     .then(data => {
