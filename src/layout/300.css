@@ -114,7 +114,7 @@
         margin: 1em 0 0 0;
     }
 
-    .headline-menu--link, .email-form button {
+    .headline-menu--link, .email-form button, .submit-form button {
         color: var(--color-text);
         font: var(--text-mono-menu);
         text-transform: uppercase;
@@ -130,7 +130,7 @@
         justify-self: end;
     }
 
-    .headline-menu--link:hover, .email-form button:hover {
+    .headline-menu--link:hover, .email-form button:hover, .submit-form button:hover {
         background: var(--color-bg-coral);
         box-shadow: -.15em .15em 2px var(--color-listingHover-shadow);
         cursor: pointer;
@@ -139,11 +139,12 @@
     /* ----------------------------------------------- */
 
     /* SUBSCRIBE */
-    .email-form {
+
+    .email-form, .submit-form {
         display: inline-block;
     }
 
-    .email-form input {
+    .email-form input, .submit-form input {
         font: var(--text-mono-input);
         border: 0 none var(--color-card);
         padding: .2em .4em .1em .2em;
@@ -153,22 +154,27 @@
         width: 100%;
     }
 
-    .email-form input:hover {
+    .email-form input:hover, .submit-form input:hover {
         background-color: var(--color-bg-coral);
     }
 
-    .email-form input:focus {
+    .email-form input:focus, .submit-form input:focus {
         box-shadow: 0 0 5px var(--color-bg-coral);
         background-color: var(--color-bg-coral);
         outline: none;
         outline-offset: none;
     }
 
-    .email-form button {
+    .email-form button, .submit-form button {
         background: var(--color-card);
         border: 0 none var(--color-card);
         padding: .3em .4em .2em .4em;
         margin: .6em 0 .1em .5em;
+    }
+
+    .submit-form button {
+        font-size: 1em;
+        border: 1px solid var(--color-bg-coral);
     }
 
     /* ----------------------------------------------- */
@@ -450,13 +456,13 @@
     /* ----------------------------------------------- */
 
 
-    /* About page content */
+    /* About & Submit page content */
 
-    .aboutContent {
+    .aboutContent, .submitContent {
         margin: 6em 0 0 0;
         display: grid;
         justify-self: center;
-        grid-column: 2 / span 6;
+        grid-column: 4 / span 6;
         grid-row-start: 6;
     }
 
@@ -473,6 +479,10 @@
         display: grid;
         grid-row-start: 7;
         min-height: 30vmin;
+    }
+
+    .submit-form label {
+        margin: .5em 0 0 0;
     }
 
     /* ----------------------------------------------- */

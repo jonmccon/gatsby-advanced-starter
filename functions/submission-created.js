@@ -1,5 +1,3 @@
-// require('dotenv').config()
-// const fetch = require('node-fetch')
 import fetch from "node-fetch"
 const { EMAIL_TOKEN } = process.env
 exports.handler = async event => {
