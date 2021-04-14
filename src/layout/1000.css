@@ -85,7 +85,6 @@
         grid-area: MenuRight;
         align-self: center;
         text-align: right;
-        width: max-content;
     }
 
     .headline-menu-right a {
@@ -95,8 +94,6 @@
 
     .headline-menu--link { 
         font: var(--text-mono-menu);
-        /* margin: .4em 0 0 0; */
-        /* justify-self: end;    */
     }
     
     .headline-menu--about {
