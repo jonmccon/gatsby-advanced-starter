@@ -14,8 +14,6 @@ import React from "react"
           name="email"
           id="email"
           type="email"
-          onfocus="this.placeholder = ''"
-          onblur="this.placeholder = 'Emails'"
           placeholder="Emails"
         />
         <input
