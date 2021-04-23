@@ -10,13 +10,10 @@ class HeadlineMenuLeft extends Component {
 
         <div className="headline-menu-left">  
           
-          <a
-            className="headline-menu--link highlight"
-            target="_blank"
-            href="https://forms.gle/hgCya8qFC4AKpetf6"
-          >
-            Get Listed
-          </a>
+          <Link
+          className="headline-menu--link highlight" 
+          to="/submit">Get Listed
+          </Link>
 
           <a
             className="headline-menu--link"

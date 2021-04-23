@@ -1,6 +1,6 @@
 import React from "react";
 import Helmet from "react-helmet";
-import { graphql } from "gatsby";
+import { graphql, Link } from "gatsby";
 import Layout from "../layout";
 // import PodcastListing from "../components/PostListing/PodcastListing";
 import PostCats from "../components/Filters/PostCats";
@@ -209,14 +209,12 @@ class Listing extends React.Component {
                 <div className="directory-block--end">
                   <p>Don't see yourself?</p>
                   
-                  <p><a
-                    className="directory-endcap--link highlight"
-                    target="_blank"
-                    href="https://forms.gle/hgCya8qFC4AKpetf6"
-                  >
-                    Get Listed
-                  </a></p>
-                  
+                  <p>
+                  <Link
+                    className="directory-endcap--link highlight" 
+                    to="/submit">Get Listed
+                  </Link>
+                  </p>
 
                 </div>
                 
