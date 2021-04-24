@@ -165,11 +165,18 @@
         outline-offset: none;
     }
 
-    .email-form button, .submit-form button {
+    .email-form button {
         background: var(--color-card);
         border: 0 none var(--color-card);
         padding: .3em .4em .2em .4em;
         margin: .6em 0 .1em .5em;
+    }
+
+    .submit-form button {
+        background: var(--color-card);
+        border: 0 none var(--color-card);
+        margin: 4em 0 0 0;
+        width: 100%;
     }
 
     .submit-form button {
@@ -188,28 +195,36 @@
         display: none;
     }
 
-    .submit-select fieldset {
+    .submit-size, .submit-select fieldset {
         font: var(--text-mono-input);
         display: grid;
-        grid-template-columns:  repeat(5, 1em 1fr);
+        border: none;
+        padding: 0;
+        grid-template-columns:  repeat(5, .1em 1fr);
+        grid-row-gap: .1em;
+        margin: 0 0 2em 0;
     }
 
-    .submit-select fieldset label {
-        margin-top: 0;
+    .submit-select label, .submit-size label {
+        padding: .3em 0 0 .6em;
+        height: 2em;
+        cursor: pointer;
     }
 
-    .submit-select fieldset label:active {
+    .submit-size input:checked + label, .submit-select input:checked + label {
         background-color: var(--color-bg-coral);
+        border-radius: 4px;
     }
 
-
-    .submit-select label {
-        width: max-content;
-        /* background-color: chartreuse; */
+    .submit-select label:hover, .submit-size label:hover {
+        background-color: var(--color-bg-gray);
     }
 
-    .submit-select input {
-        /* opacity: 0; */
+    .submit-select input, .submit-size input { opacity: 0; }
+    .submit-bonus label { display: none; }
+
+    .submit-form p {
+        margin: 3em 0 0 0;
     }
     
 
@@ -515,10 +530,6 @@
         display: grid;
         grid-row-start: 7;
         min-height: 30vmin;
-    }
-
-    .submit-form label {
-        margin: .5em 0 0 0;
     }
 
     /* ----------------------------------------------- */
