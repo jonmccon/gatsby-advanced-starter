@@ -36,6 +36,7 @@ import React from "react"
           type="email"         
           placeholder="Your email address"
           required
+          tabindex="0"
         />
 
         <label htmlFor="submit-name">What is the name of your business?</label>        
@@ -46,6 +47,7 @@ import React from "react"
           type="text"
           placeholder="Business name"
           required
+          tabindex="0"
         />
 
         <label htmlFor="submit-website">Business website or primary web address:</label>        
@@ -56,6 +58,7 @@ import React from "react"
           type="text"
           placeholder="Primary url"
           required
+          tabindex="0"
         />
 
         <label htmlFor="submit-social">Any social accounts or additional urls you want to include?</label>        
@@ -65,6 +68,7 @@ import React from "react"
           id="submit-social"
           type="text"
           placeholder="@socials, etc"
+          tabindex="0"
         />
 
         <label htmlFor="submit-neighborhood">What neighborhood is your primary location in?</label> 
@@ -75,6 +79,7 @@ import React from "react"
           type="text"
           placeholder="Neighborhood"
           required
+          tabindex="0"
         />
         </div>
 
@@ -88,7 +93,7 @@ import React from "react"
                 type="radio"
                 required
             />
-            <label htmlFor="sizeSmall">1-4</label>
+            <label tabindex="0" htmlFor="sizeSmall">1-4</label>
             
             <input
                 className="submit-form form-control valid"
@@ -97,7 +102,7 @@ import React from "react"
                 value="11-40"
                 type="radio"
             />
-            <label htmlFor="sizeMedium">11-40</label> 
+            <label tabindex="0" htmlFor="sizeMedium">11-40</label> 
 
             <input
                 className="submit-form form-control valid"
@@ -106,7 +111,7 @@ import React from "react"
                 value="41-100"
                 type="radio"
             />
-            <label htmlFor="sizeLarge">41-100</label> 
+            <label tabindex="0" htmlFor="sizeLarge">41-100</label> 
 
             <input
                 className="submit-form form-control valid"
@@ -115,7 +120,7 @@ import React from "react"
                 value="100+"
                 type="radio"
             />
-            <label htmlFor="sizeHuge">100+</label> 
+            <label tabindex="0" htmlFor="sizeHuge">100+</label> 
         </div>
 
         <p>What kinds of work do you do?</p>
@@ -124,115 +129,115 @@ import React from "react"
             <legend>What kinds of work do you do?</legend>      
             
             <input type="checkbox" name="3Drendering" value="3D rendering" id="3Drendering" />
-            <label htmlFor="3Drendering">3D rendering</label>
+            <label tabindex="0" htmlFor="3Drendering">3D rendering</label>
             
             <input type="checkbox" name="advertising" value="advertising" id="advertising" />
-            <label htmlFor="advertising">advertising</label>
+            <label tabindex="0" htmlFor="advertising">advertising</label>
 
             <input type="checkbox" name="architecture" value="architecture" id="architecture" />
-            <label htmlFor="architecture">architecture</label>
+            <label tabindex="0" htmlFor="architecture">architecture</label>
 
             <input type="checkbox" name="branding" value="branding" id="branding" />
-            <label htmlFor="branding">branding</label>
+            <label tabindex="0" htmlFor="branding">branding</label>
 
             <input type="checkbox" name="community" value="community" id="community" />
-            <label htmlFor="community">community</label>
+            <label tabindex="0" htmlFor="community">community</label>
 
             <input type="checkbox" name="engineering" value="engineering" id="engineering" />
-            <label htmlFor="engineering">engineering</label>
+            <label tabindex="0" htmlFor="engineering">engineering</label>
 
             <input type="checkbox" name="environmental" value="environmental" id="environmental" />
-            <label htmlFor="environmental">environmental</label>
+            <label tabindex="0" htmlFor="environmental">environmental</label>
 
             <input type="checkbox" name="events" value="events" id="events" />
-            <label htmlFor="events">events</label>
+            <label tabindex="0" htmlFor="events">events</label>
 
             <input type="checkbox" name="exhibition" value="exhibition" id="exhibition" />
-            <label htmlFor="exhibition">exhibition</label>
+            <label tabindex="0" htmlFor="exhibition">exhibition</label>
 
             <input type="checkbox" name="experiential" value="experiential" id="experiential" />
-            <label htmlFor="experiential">experiential</label>
+            <label tabindex="0" htmlFor="experiential">experiential</label>
 
             <input type="checkbox" name="freelance" value="freelance" id="freelance" />
-            <label htmlFor="freelance">freelance</label>
+            <label tabindex="0" htmlFor="freelance">freelance</label>
 
             <input type="checkbox" name="gaming" value="gaming" id="gaming" />
-            <label htmlFor="gaming">gaming</label>
+            <label tabindex="0" htmlFor="gaming">gaming</label>
 
             <input type="checkbox" name="illustration" value="illustration" id="illustration" />
-            <label htmlFor="illustration">illustration</label>
+            <label tabindex="0" htmlFor="illustration">illustration</label>
 
             <input type="checkbox" name="industrial" value="industrial" id="industrial" />
-            <label htmlFor="industrial">industrial</label>
+            <label tabindex="0" htmlFor="industrial">industrial</label>
 
             <input type="checkbox" name="interior" value="interior" id="interior" />
-            <label htmlFor="interior">interior</label>
+            <label tabindex="0" htmlFor="interior">interior</label>
 
             <input type="checkbox" name="marketing" value="marketing" id="marketing" />
-            <label htmlFor="marketing">marketing</label>
+            <label tabindex="0" htmlFor="marketing">marketing</label>
 
             <input type="checkbox" name="motion" value="motion" id="motion" />
-            <label htmlFor="motion">motion</label>
+            <label tabindex="0" htmlFor="motion">motion</label>
 
             <input type="checkbox" name="naming" value="naming" id="naming" />
-            <label htmlFor="naming">naming</label>
+            <label tabindex="0" htmlFor="naming">naming</label>
 
             <input type="checkbox" name="packaging" value="packaging" id="packaging" />
-            <label htmlFor="packaging">packaging</label>
+            <label tabindex="0" htmlFor="packaging">packaging</label>
 
             <input type="checkbox" name="photography" value="photography" id="photography" />
-            <label htmlFor="photography">photography</label>
+            <label tabindex="0" htmlFor="photography">photography</label>
 
             <input type="checkbox" name="presentation" value="presentation" id="presentation" />
-            <label htmlFor="presentation">presentation</label>
+            <label tabindex="0" htmlFor="presentation">presentation</label>
 
             <input type="checkbox" name="press" value="press" id="press" />
-            <label htmlFor="press">press</label>
+            <label tabindex="0" htmlFor="press">press</label>
 
             <input type="checkbox" name="print" value="print" id="print" />
-            <label htmlFor="print">print</label>
+            <label tabindex="0" htmlFor="print">print</label>
 
             <input type="checkbox" name="product" value="product" id="product" />
-            <label htmlFor="product">product</label>
+            <label tabindex="0" htmlFor="product">product</label>
 
             <input type="checkbox" name="publicRelations" value="public relations" id="publicRelations" />
-            <label htmlFor="publicRelations">pr</label>
+            <label tabindex="0" htmlFor="publicRelations">pr</label>
 
             <input type="checkbox" name="research" value="research" id="research" />
-            <label htmlFor="research">research</label>
+            <label tabindex="0" htmlFor="research">research</label>
 
             <input type="checkbox" name="education" value="education" id="education" />
-            <label htmlFor="education">education</label>
+            <label tabindex="0" htmlFor="education">education</label>
 
             <input type="checkbox" name="strategy" value="strategy" id="strategy" />
-            <label htmlFor="strategy">strategy</label>
+            <label tabindex="0" htmlFor="strategy">strategy</label>
 
             <input type="checkbox" name="typography" value="typography" id="typography" />
-            <label htmlFor="typography">typography</label>
+            <label tabindex="0" htmlFor="typography">typography</label>
 
             <input type="checkbox" name="ux-ui" value="ux-ui" id="ux-ui" />
-            <label htmlFor="ux-ui">dogs</label>
+            <label tabindex="0" htmlFor="ux-ui">dogs</label>
 
             <input type="checkbox" name="vfx" value="vfx" id="vfx" />
-            <label htmlFor="vfx">vfx</label>
+            <label tabindex="0" htmlFor="vfx">vfx</label>
 
             <input type="checkbox" name="video" value="video" id="video" />
-            <label htmlFor="video">video</label>
+            <label tabindex="0" htmlFor="video">video</label>
 
             <input type="checkbox" name="sound" value="sound" id="sound" />
-            <label htmlFor="sound">sound</label>
+            <label tabindex="0" htmlFor="sound">sound</label>
 
             <input type="checkbox" name="voice" value="voice" id="voice" />
-            <label htmlFor="voice">voice</label>
+            <label tabindex="0" htmlFor="voice">voice</label>
 
             <input type="checkbox" name="virtual-reality" value="virtual-reality" id="virtual-reality" />
-            <label htmlFor="virtual-reality">virtual reality</label>
+            <label tabindex="0" htmlFor="virtual-reality">virtual reality</label>
 
             <input type="checkbox" name="eCommerce" value="eCommerce" id="eCommerce" />
-            <label htmlFor="eCommerce">eCommerce</label>
+            <label tabindex="0" htmlFor="eCommerce">eCommerce</label>
 
             <input type="checkbox" name="favorite_pet" value="dogs" id="dogs" />
-            <label htmlFor="dogs">dogs</label>
+            <label tabindex="0" htmlFor="dogs">dogs</label>
 
         </fieldset> 
         </div>
@@ -246,6 +251,7 @@ import React from "react"
             id="submit-guest"
             type="text"
             placeholder="Anyone in the community qualifies to be a part it"
+            tabindex="0"
           />
 
 
@@ -257,6 +263,7 @@ import React from "react"
             id="submit-print"
             type="text"
             placeholder="A beautiful resource or the internet is fine"
+            tabindex="0"
           />
 
           <p>If you have any questions or suggestions, let us know:</p> 
@@ -267,6 +274,7 @@ import React from "react"
             id="submit-notes"
             type="text"
             placeholder="Any additional types of work, urls, feelings"
+            tabindex="0"
           />
         </div>        
             
