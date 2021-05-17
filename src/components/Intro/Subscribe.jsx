@@ -14,11 +14,10 @@ import React from "react"
         data-netlify-honeypot="bot-field" 
       >
         
-        
+        <input type="hidden" name="form-name" value="subscribe" /> 
         <input
           className="email-form form-control valid"
           name="email"
-          value="subscribe"
           id="email"
           type="email"
           placeholder="Emails"

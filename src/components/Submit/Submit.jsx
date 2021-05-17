@@ -13,6 +13,7 @@ import React from "react"
         data-netlify="true" 
         data-netlify-honeypot="bot-field" 
       >
+      <input type="hidden" name="form-name" value="submit-new-listing" /> 
         
         
         {/* 
@@ -43,7 +44,6 @@ import React from "react"
           placeholder="Your email address"
           required
           tabindex="0"
-          value="submit-new-listing"
         />
 
         <label htmlFor="submit-name">What is the name of your business?</label>        
