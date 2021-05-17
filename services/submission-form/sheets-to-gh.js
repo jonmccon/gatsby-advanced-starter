@@ -10,7 +10,12 @@ function onFormSubmit(e) {
   var sheet = SpreadsheetApp.getActiveSheet();
   var data = sheet.getDataRange().getValues();
 
+
+  // i can remove these arry finding pieces since we will be reading from json keys
   for (var i = 0; i < data.length; i++) {
+
+
+
 
   var title = data[i][2]; // Name of business
   var type = ['Submission', 'bot'];
@@ -68,6 +73,6 @@ function onFormSubmit(e) {
     "payload": JSON.stringify(payload)
   };
   
-  // eslint-disable-next-line no-undef
+  // and the newer gh approved api method
   var response = UrlFetchApp.fetch("https://api.github.com/repos/jonmccon/seattle-creative-directory/issues?access_token="+ghToken, options)
 }
