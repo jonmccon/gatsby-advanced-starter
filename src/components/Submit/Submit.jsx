@@ -6,7 +6,13 @@ import React from "react"
     return (
       
     <div className="submit-wrapper">
-      <form data-netlify="true" name="submit" data-netlify-honeypot="bot-field" action="subscribed" className="submit-form">
+      <form 
+        name="submit-new-listing"
+        action="subscribed" 
+        className="submit-form"
+        data-netlify="true" 
+        data-netlify-honeypot="bot-field" 
+      >
         
         
         {/* 
@@ -37,6 +43,7 @@ import React from "react"
           placeholder="Your email address"
           required
           tabindex="0"
+          value="submit-new-listing"
         />
 
         <label htmlFor="submit-name">What is the name of your business?</label>        

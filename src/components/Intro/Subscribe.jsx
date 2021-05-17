@@ -6,12 +6,19 @@ import React from "react"
     return (
       
 
-      <form data-netlify="true" name="subscribe" data-netlify-honeypot="bot-field" action="subscribed" className="email-form">
+      <form 
+        name="subscribe"
+        action="subscribed" 
+        className="email-form"
+        data-netlify="true" 
+        data-netlify-honeypot="bot-field" 
+      >
         
         
         <input
           className="email-form form-control valid"
           name="email"
+          value="subscribe"
           id="email"
           type="email"
           placeholder="Emails"

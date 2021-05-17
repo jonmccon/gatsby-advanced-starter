@@ -10,6 +10,8 @@ let payload = JSON.parse(event.body).payload;
 
 }
 
+// buildtime vs runtime naming
+// form_name: 'subscribe'
 
 
 
