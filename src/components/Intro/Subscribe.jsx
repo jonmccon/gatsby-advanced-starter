@@ -1,10 +1,11 @@
-import React from "react"
-
+import React, { useState } from "react"
   export default class Subscribe extends React.Component {
 
   render() {
     return (
       
+
+      // <IndexPage />
 
       <form 
         name="subscribe"
@@ -14,7 +15,7 @@ import React from "react"
         data-netlify-honeypot="bot-field" 
       >
         
-        <input type="hidden" name="form-name" value="subscribe" /> 
+        {/* <input type="hidden" name="form-name" value="subscribe" />  */}
         <input
           className="email-form form-control valid"
           name="email"

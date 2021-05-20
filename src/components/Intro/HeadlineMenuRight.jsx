@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "gatsby";
 import Subscribe from "./Subscribe";
+import EmailForm from "./EmailForm";
 
 
 
@@ -10,7 +11,7 @@ class HeadlineMenuRight extends Component {
       <React.Fragment>
 
         <div className="headline-menu-right">  
-          <Subscribe />
+          <EmailForm />
 
           <Link
           className="headline-menu--link" 

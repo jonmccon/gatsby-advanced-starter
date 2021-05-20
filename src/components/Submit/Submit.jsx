@@ -13,7 +13,7 @@ import React from "react"
         data-netlify="true" 
         data-netlify-honeypot="bot-field" 
       >
-      <input type="hidden" name="form-name" value="submit-new-listing" /> 
+      {/* <input type="hidden" name="form-name" value="submit-new-listing" />  */}
         
         
         {/* 
