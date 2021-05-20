@@ -14,7 +14,7 @@ class AudioPlayerSmall extends Component {
     
     return (
       <React.Fragment>
-      <div class="audioPlayer-small">
+      <div className="audioPlayer-small">
         <AudioPlayer         
           src={podcastURL}
           onPlay={e => console.log("onPlay")}

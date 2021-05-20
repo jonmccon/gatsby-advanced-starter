@@ -28,8 +28,11 @@ const EmailForm = () => {
             required
         />
 
-        <button type="submit">
-            Subscribe
+        <button 
+            type="submit"
+            className="email-form-button"
+        >
+        Subscribe
         </button>
         
       </NetlifyForm>

@@ -81,7 +81,7 @@ class Listing extends React.Component {
             
             {/* PODCAST SHOW */}
             <div id="showContainer">
-              <div class="podcast">
+              <div className="podcast">
                 <PodcastPlayer
                   podcastSeason="S2:EP5"
                   podcastTitle="Tessa Levine-Sauerhoff & Felix Chang of Artefact"
