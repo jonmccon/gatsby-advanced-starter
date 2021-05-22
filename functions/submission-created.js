@@ -12,7 +12,7 @@ exports.handler = async event => {
   const submission = JSON.parse(event.body).payload.data
   const email = JSON.parse(event.body).payload.email
 
-  console.log(`Recieved a submission: ${data}`)
+  console.log(`Recieved a submission: ${submission}`)
 
   // look at the form name and determine which form it came from
   // if subscribe then payload.email
@@ -44,6 +44,7 @@ exports.handler = async event => {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({ submission }), 
+        
       })
         .then(response => response.json())
         .then(data => {
