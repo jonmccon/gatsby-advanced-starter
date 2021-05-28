@@ -28,6 +28,7 @@
     ]
   },
   "dependencies": {
+    "@notionhq/client": "^0.1.8",
     "@types/google-apps-script": "^1.0.22",
     "dotenv-webpack": "^6.0.2",
     "encoding": "^0.1.13",

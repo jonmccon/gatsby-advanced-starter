@@ -1,79 +1,104 @@
 import fetch from "node-fetch"
+const { Client } = require('@notionhq/client');
+
 const { EMAIL_TOKEN } = process.env
-const { NOTION_TOKEN } = process.env
+const notion = new Client({ auth: process.env.NOTION_TOKEN });
 const { NOTION_DB_ID } = process.env
 
 // output all form content to netlify console
-exports.handler = event => {
-let payload = JSON.parse(event.body).payload;
-console.log(payload)
-}
-
-// exports.handler = async event => {
-  
-//   const allData = JSON.parse(event.body).payload.data
-//   const formName = JSON.parse(event.body).payload.form_name
-//   const email = JSON.parse(event.body).payload.email
-
-
-//   console.log(`everything: ${allData}`)
-//   console.log(`form name: ${formName}`)
-
-
-//   // look at the form name and determine which form it came from
-//   // if subscribe then payload.email
-//   // do the email processing and exit
-
-//   // if submit then payload.submit
-//   // do submit processing and exit
-
-//   if (formName == 'Subscribe - Buttondown') {
-//       return fetch('https://api.buttondown.email/v1/subscribers', {
-//         method: 'POST',
-//         headers: {
-//           Authorization: `Token ${EMAIL_TOKEN}`,
-//           'Content-Type': 'application/json',
-//         },
-//         body: JSON.stringify({ email,"tags":["embeddedFormNetlify"] }), 
-//       })
-//         .then(response => response.json())
-//         .then(data => {
-//           console.log(`Submitted to Buttondown:\n ${data}`)
-//         })
-//         .catch(error => ({ statusCode: 422, body: String(error) }))
-    
-//       } else if (formName == 'Submit - Notion') {
-//         return fetch('https://api.notion.com/v1/pages', {
-//         method: 'POST',
-//         headers: {
-//           Authorization: `Token ${NOTION_TOKEN}`,
-//           'Content-Type': 'application/json',
-//         },
-//         body: 
-//         // this syntax is wrong, how do I look at that part of the payload
-//         '{
-//           "parent": { "database_id": "{DATABASE_ID}" },
-//           "properties": {
-//             "Name": {
-//               "title": [
-//                 {
-//                   "text": {
-//                     "content": notionContent
-//                   }
-//                 }
-//               ]
-//             }
-//           }
-//         }'
-        
-//       })
-//         .then(response => response.json())
-//         .then(data => {
-//           console.log(`Submitted to Notion:\n ${data}`)
-//         })
-//         .catch(error => ({ statusCode: 422, body: String(error) }))
-
-//     } 
-
-  
+// exports.handler = event => {
+// let payload = JSON.parse(event.body).payload;
+// console.log(payload)
 // }
+
+exports.handler = async event => {
+  
+  const allData = JSON.parse(event.body).payload
+  const formName = JSON.parse(event.body).payload.form_name
+
+  const notionContent = JSON.parse(event.body).payload.data
+  const email = JSON.parse(event.body).payload.email
+
+  console.log(`form name: ${formName}`)
+  console.log(`everything: ${allData}`)
+  
+
+
+  if (formName == 'Subscribe - Buttondown') {
+      
+    // BUTTONDOWN
+      return fetch('https://api.buttondown.email/v1/subscribers', {
+        method: 'POST',
+        headers: {
+          Authorization: `Token ${EMAIL_TOKEN}`,
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ email,"tags":["embeddedFormNetlify"] }), 
+      })
+        .then(response => response.json())
+        .then(data => {
+          console.log(`Submitted to Buttondown:\n ${data}`)
+        })
+        .catch(error => ({ statusCode: 422, body: String(error) }))
+    
+    // NOTION 
+      } else if (formName == 'Submit - Notion') {
+        (async () => {
+            const response = await notion.pages.create({
+              parent: {
+                database_id: NOTION_DB_ID,
+              },
+              properties: {
+                Name: {
+                  title: [
+                    {
+                      text: {
+                        content: 'Submit - ' + notionContent.submitName,
+                      },
+                    },
+                  ],
+                },
+                'Status': {
+                  select: {
+                    name: 'Backlog',
+                  },
+                },
+                'Bucket': {
+                  'multi_select': [
+                  {
+                    name: 'content',
+                  },
+                  {
+                    name: 'submission',
+                  },
+                  {
+                    name: 'data',
+                  },
+                  ]
+                },
+              },
+              children: [
+                {
+                  object: 'block',
+                  type: 'paragraph',
+                  paragraph: {
+                    text: [
+                      {
+                        type: 'text',
+                        text: {
+                          content: notionContent,                          
+                        },
+                      },
+                    ],
+                  },
+                },
+              ],
+            });
+            
+            console.log(response);
+          })();
+
+    } 
+
+  
+}
