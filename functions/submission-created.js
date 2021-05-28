@@ -15,12 +15,17 @@ exports.handler = async event => {
   
   const allData = JSON.parse(event.body).payload
   const formName = JSON.parse(event.body).payload.form_name
-
-  const notionContent = JSON.parse(event.body).payload.data
+  
   const email = JSON.parse(event.body).payload.email
+  
+  const submitTime = JSON.parse(event.body).payload.created_at
+  const notionContent = JSON.parse(event.body).payload.data
+
+  
 
   console.log(`form name: ${formName}`)
-  console.log(`everything: ${allData}`)
+  console.log(submitTime)
+  console.log(notionContent)
   
 
 
@@ -86,7 +91,7 @@ exports.handler = async event => {
                       {
                         type: 'text',
                         text: {
-                          content: notionContent,                          
+                          content: submitTime,                          
                         },
                       },
                     ],
