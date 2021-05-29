@@ -25,7 +25,9 @@ exports.handler = async event => {
 
   console.log(`form name: ${formName}`)
   console.log(submitTime)
-  console.log(notionContent)
+//   console.log(notionContent)
+  console.log(notionContent.submitName)
+  console.log(notionContent.architecture)
   
 
 
@@ -63,11 +65,11 @@ exports.handler = async event => {
                     },
                   ],
                 },
-                'Status': {
-                  select: {
-                    name: 'Backlog',
-                  },
-                },
+                // 'Status': {
+                //   select: {
+                //     name: 'Backlog',
+                //   },
+                // },
                 'Bucket': {
                   'multi_select': [
                   {
