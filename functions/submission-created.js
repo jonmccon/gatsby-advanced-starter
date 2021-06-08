@@ -50,7 +50,8 @@ exports.handler = async event => {
     
     // NOTION 
       } else if (formName == 'Submit - Notion') {
-        (async () => {
+        // (async () => {
+
             const response = await notion.pages.create({
               parent: {
                 database_id: NOTION_DB_ID,
@@ -65,11 +66,13 @@ exports.handler = async event => {
                     },
                   ],
                 },
-                // 'Status': {
-                //   select: {
-                //     name: 'Backlog',
-                //   },
-                // },
+                // Status
+                'Status': {
+                  select: {
+                    name: 'Backlog',
+                  },
+                },
+                // Tags
                 'Bucket': {
                   'multi_select': [
                   {
@@ -89,11 +92,12 @@ exports.handler = async event => {
                   object: 'block',
                   type: 'paragraph',
                   paragraph: {
+                    // format in a code block as the exact setup
                     text: [
                       {
                         type: 'text',
                         text: {
-                          content: submitTime,                          
+                          content: "```", submitTime,                          
                         },
                       },
                     ],
@@ -103,7 +107,7 @@ exports.handler = async event => {
             });
             
             console.log(response);
-          })();
+          // })();
 
     } 
 
