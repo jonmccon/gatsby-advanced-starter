@@ -21,18 +21,66 @@ exports.handler = async event => {
   const submitTime = JSON.parse(event.body).payload.created_at
   const notionContent = JSON.parse(event.body).payload.data
 
+  var categoryLetter = notionContent.submitName.charAt(0).toUpperCase();
+  var size = "look it up"
   
+  if (notionContent.submitSize == "1-10") {
+    size = "small" 
+  } else if (notionContent.submitSize == "11-40") {
+    size = "medium" 
+  } else if (notionContent.submitSize == "41-100") {
+    size = "large"  
+  } else if (notionContent.submitSize == "100+") {
+    size = "huge" 
+  } else {
+    size = "dunno"
+  }
+
+  var tags = 
+    "-" + notionContent.rendering + " \n" +
+    "-" + notionContent.advertising + " \n" +
+    "-" + notionContent.architecture + " \n" +
+    "-" + notionContent.branding + " \n" +
+    "-" + notionContent.community + " \n" +
+    "-" + notionContent.development + " \n" +
+    "-" + notionContent.environmental + " \n" +
+    "-" + notionContent.events + " \n" +
+    "-" + notionContent.exhibition + " \n" +
+    "-" + notionContent.experiential + " \n" +
+    "-" + notionContent.freelance + " \n" + 
+    "-" + notionContent.gaming + " \n" +
+    "-" + notionContent.illustration + " \n" +
+    "-" + notionContent.industrial + " \n" +
+    "-" + notionContent.interior + " \n" +
+    "-" + notionContent.marketing + " \n" +
+    "-" + notionContent.motion + " \n" +
+    "-" + notionContent.naming + " \n" +
+    "-" + notionContent.packaging + " \n" +
+    "-" + notionContent.photography + " \n" +
+    "-" + notionContent.presentation + " \n" +
+    "-" + notionContent.print + " \n" +
+    "-" + notionContent.product + " \n" +
+    "-" + notionContent.publicRelations + " \n" +
+    "-" + notionContent.research + " \n" +
+    "-" + notionContent.education + " \n" +
+    "-" + notionContent.strategy + " \n" +
+    "-" + notionContent.typography + " \n" +
+    "-" + notionContent.uxui + " \n" +
+    "-" + notionContent.vfx + " \n" +
+    "-" + notionContent.video + " \n" +
+    "-" + notionContent.sound + " \n" +
+    "-" + notionContent.voice + " \n" +
+    "-" + notionContent.virtualReality + " \n" +
+    "-" + notionContent.eCommerce + " \n" +
+
 
   console.log(`form name: ${formName}`)
-  console.log(submitTime)
-//   console.log(notionContent)
-  console.log(notionContent.submitName)
-  console.log(notionContent.architecture)
-  
+  console.log(submitTime) 
 
 
   if (formName == 'Subscribe - Buttondown') {
-      
+    
+    // 
     // BUTTONDOWN
       return fetch('https://api.buttondown.email/v1/subscribers', {
         method: 'POST',
@@ -48,6 +96,7 @@ exports.handler = async event => {
         })
         .catch(error => ({ statusCode: 422, body: String(error) }))
     
+    // 
     // NOTION 
       } else if (formName == 'Submit - Notion') {
         // (async () => {
@@ -61,7 +110,7 @@ exports.handler = async event => {
                   title: [
                     {
                       text: {
-                        content: 'Submit - ' + notionContent.submitName,
+                        content: 'Submission - ' + notionContent.submitName,
                       },
                     },
                   ],
@@ -86,6 +135,9 @@ exports.handler = async event => {
                   },
                   ]
                 },
+                'Assign': {
+                  name: 'Jonny McConnell'
+                }
               },
               children: [
                 {
@@ -97,7 +149,43 @@ exports.handler = async event => {
                       {
                         type: 'text',
                         text: {
-                          content: "```", submitTime,                          
+                          content: submitTime,                          
+                        },
+                      },
+                    ],
+                  },
+                },
+                {
+                  object: 'block',
+                  type: 'paragraph',
+                  paragraph: {
+                    // format in a code block as the exact setup
+                    text: [
+                      {
+                        type: 'text',
+                        text: {
+                          content: 
+                          "###### Submitted by " + notionContent.submitContent + " \n" +
+                          "--- \n" +
+                          "title: \"" + notionContent.submitName + "\" \n" +
+                          "featuredImage: ./-hamburgers.png \n" +
+                          "website: \"" + notionContent.submitWebsite + "\" \n" +
+                          "twit: \"" + notionContent.submitSocial + "\" \n" +
+                          "inst: \" \" \n" +
+                          "category: \"" + categoryLetter + "\" \n" +
+                          "tags: \"" + notionContent.submitNeighborhood + tags + "\" \n" +
+                          "" + size + "\n" +
+                          "--- \n" +
+                          "Description \n " +
+                          "Would you like to be a guest on the show? Or do you want to hear from someone specifically? \n" +
+                          "-" + notionContent.submitGuest + " \n" +
+                          "\n" +
+                          "Would you buy a hardcopy printed directory? \n" +
+                          "-" + notionContent.submitPrint + " \n" +
+                          "\n" +
+                          "If you have any questions or suggestions, let us know: \n" +
+                          "-" + notionContent.submitNotes + " \n" +
+                          "\n"
                         },
                       },
                     ],
