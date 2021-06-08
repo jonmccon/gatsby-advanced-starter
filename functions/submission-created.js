@@ -129,12 +129,12 @@ exports.handler = async event => {
                   },
                   ]
                 },
-                'Assign': {
-                  'object':'user',
-                  'id':'17c5332f-ffd2-4c67-9f0a-6e8ae37c1e82',
-                  'name':'Jonny McConnell',
-                  'type':'person',
-                }
+                // 'Assign': {
+                //   'object':'user',
+                //   'id':'17c5332f-ffd2-4c67-9f0a-6e8ae37c1e82',
+                //   'name':'Jonny McConnell',
+                //   'type':'person',
+                // }
               },
               children: [
                 // {
