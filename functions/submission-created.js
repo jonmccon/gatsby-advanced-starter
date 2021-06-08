@@ -15,71 +15,12 @@ exports.handler = async event => {
   
   const allData = JSON.parse(event.body).payload
   const formName = JSON.parse(event.body).payload.form_name
-  
-  const email = JSON.parse(event.body).payload.email
-  
-  const submitTime = JSON.parse(event.body).payload.created_at
-  const notionContent = JSON.parse(event.body).payload.data
-
-  var categoryLetter = notionContent.submitName.charAt(0).toUpperCase();
-  var size = "look it up"
-  
-  if (notionContent.submitSize == "1-10") {
-    size = "small" 
-  } else if (notionContent.submitSize == "11-40") {
-    size = "medium" 
-  } else if (notionContent.submitSize == "41-100") {
-    size = "large"  
-  } else if (notionContent.submitSize == "100+") {
-    size = "huge" 
-  } else {
-    size = "dunno"
-  }
-
-  var tags = 
-    "-" + notionContent.rendering + " \n" +
-    "-" + notionContent.advertising + " \n" +
-    "-" + notionContent.architecture + " \n" +
-    "-" + notionContent.branding + " \n" +
-    "-" + notionContent.community + " \n" +
-    "-" + notionContent.development + " \n" +
-    "-" + notionContent.environmental + " \n" +
-    "-" + notionContent.events + " \n" +
-    "-" + notionContent.exhibition + " \n" +
-    "-" + notionContent.experiential + " \n" +
-    "-" + notionContent.freelance + " \n" + 
-    "-" + notionContent.gaming + " \n" +
-    "-" + notionContent.illustration + " \n" +
-    "-" + notionContent.industrial + " \n" +
-    "-" + notionContent.interior + " \n" +
-    "-" + notionContent.marketing + " \n" +
-    "-" + notionContent.motion + " \n" +
-    "-" + notionContent.naming + " \n" +
-    "-" + notionContent.packaging + " \n" +
-    "-" + notionContent.photography + " \n" +
-    "-" + notionContent.presentation + " \n" +
-    "-" + notionContent.print + " \n" +
-    "-" + notionContent.product + " \n" +
-    "-" + notionContent.publicRelations + " \n" +
-    "-" + notionContent.research + " \n" +
-    "-" + notionContent.education + " \n" +
-    "-" + notionContent.strategy + " \n" +
-    "-" + notionContent.typography + " \n" +
-    "-" + notionContent.uxui + " \n" +
-    "-" + notionContent.vfx + " \n" +
-    "-" + notionContent.video + " \n" +
-    "-" + notionContent.sound + " \n" +
-    "-" + notionContent.voice + " \n" +
-    "-" + notionContent.virtualReality + " \n" +
-    "-" + notionContent.eCommerce + " \n" +
-
 
   console.log(`form name: ${formName}`)
-  console.log(submitTime) 
 
 
   if (formName == 'Subscribe - Buttondown') {
-    
+    const email = JSON.parse(event.body).payload.email
     // 
     // BUTTONDOWN
       return fetch('https://api.buttondown.email/v1/subscribers', {
@@ -99,7 +40,60 @@ exports.handler = async event => {
     // 
     // NOTION 
       } else if (formName == 'Submit - Notion') {
-        // (async () => {
+        
+        const notionContent = JSON.parse(event.body).payload.data
+
+        var categoryLetter = notionContent.submitName.charAt(0).toUpperCase();
+        var size = "look it up"
+        
+        if (notionContent.submitSize == "1-10") {
+          size = "small" 
+        } else if (notionContent.submitSize == "11-40") {
+          size = "medium" 
+        } else if (notionContent.submitSize == "41-100") {
+          size = "large"  
+        } else if (notionContent.submitSize == "100+") {
+          size = "huge" 
+        } else {
+          size = "dunno"
+        }
+      
+        var tags = 
+          "-" + notionContent.rendering + " \n" +
+          "-" + notionContent.advertising + " \n" +
+          "-" + notionContent.architecture + " \n" +
+          "-" + notionContent.branding + " \n" +
+          "-" + notionContent.community + " \n" +
+          "-" + notionContent.development + " \n" +
+          "-" + notionContent.environmental + " \n" +
+          "-" + notionContent.events + " \n" +
+          "-" + notionContent.exhibition + " \n" +
+          "-" + notionContent.experiential + " \n" +
+          "-" + notionContent.freelance + " \n" + 
+          "-" + notionContent.gaming + " \n" +
+          "-" + notionContent.illustration + " \n" +
+          "-" + notionContent.industrial + " \n" +
+          "-" + notionContent.interior + " \n" +
+          "-" + notionContent.marketing + " \n" +
+          "-" + notionContent.motion + " \n" +
+          "-" + notionContent.naming + " \n" +
+          "-" + notionContent.packaging + " \n" +
+          "-" + notionContent.photography + " \n" +
+          "-" + notionContent.presentation + " \n" +
+          "-" + notionContent.print + " \n" +
+          "-" + notionContent.product + " \n" +
+          "-" + notionContent.publicRelations + " \n" +
+          "-" + notionContent.research + " \n" +
+          "-" + notionContent.education + " \n" +
+          "-" + notionContent.strategy + " \n" +
+          "-" + notionContent.typography + " \n" +
+          "-" + notionContent.uxui + " \n" +
+          "-" + notionContent.vfx + " \n" +
+          "-" + notionContent.video + " \n" +
+          "-" + notionContent.sound + " \n" +
+          "-" + notionContent.voice + " \n" +
+          "-" + notionContent.virtualReality + " \n" +
+          "-" + notionContent.eCommerce + " \n"
 
             const response = await notion.pages.create({
               parent: {
@@ -149,7 +143,7 @@ exports.handler = async event => {
                       {
                         type: 'text',
                         text: {
-                          content: submitTime,                          
+                          content: notionContent.created_time,                          
                         },
                       },
                     ],
@@ -195,7 +189,6 @@ exports.handler = async event => {
             });
             
             console.log(response);
-          // })();
 
     } 
 
