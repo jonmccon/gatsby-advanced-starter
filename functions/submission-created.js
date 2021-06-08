@@ -132,6 +132,7 @@ exports.handler = async event => {
                 'Assign': {
                   'type': 'person',
                   'person': {
+                    'name': 'monny',
                     'email': 'jonmccon@gmail.com',
                   },
                 }
