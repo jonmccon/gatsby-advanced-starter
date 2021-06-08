@@ -130,7 +130,7 @@ exports.handler = async event => {
                   ]
                 },
                 'Assign': {
-                  name: 'Jonny McConnell'
+                  person: 'Jonny McConnell'
                 }
               },
               children: [
