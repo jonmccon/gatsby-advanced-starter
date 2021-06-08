@@ -130,25 +130,28 @@ exports.handler = async event => {
                   ]
                 },
                 'Assign': {
-                  person: 'Jonny McConnell'
+                  'type': 'person',
+                  'person': {
+                    'email': 'jonmccon@gmail.com',
+                  },
                 }
               },
               children: [
-                // {
-                //   object: 'block',
-                //   type: 'paragraph',
-                //   paragraph: {
-                //     // format in a code block as the exact setup
-                //     text: [
-                //       {
-                //         type: 'text',
-                //         text: {
-                //           content: notionContent.created_time,                          
-                //         },
-                //       },
-                //     ],
-                //   },
-                // },
+                {
+                  object: 'block',
+                  type: 'paragraph',
+                  paragraph: {
+                    // format in a code block as the exact setup
+                    text: [
+                      {
+                        type: 'text',
+                        text: {
+                          content: notionContent.created_time,                          
+                        },
+                      },
+                    ],
+                  },
+                },
                 {
                   object: 'block',
                   type: 'paragraph',
