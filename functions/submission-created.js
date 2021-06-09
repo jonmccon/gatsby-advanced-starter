@@ -153,7 +153,7 @@ exports.handler = async event => {
                 {
                   object: 'block',
                   type: 'heading_3',
-                  heading_2: {
+                  heading_3: {
                     text: [
                       {
                         type: 'text',
@@ -167,8 +167,8 @@ exports.handler = async event => {
                 {
                   object: 'block',
                   type: 'rich_text',
-                  paragraph: {
-                    rich_text: [
+                  rich_text: {
+                    text: [
                       {
                         type: 'text',
                         text: {
@@ -198,7 +198,7 @@ exports.handler = async event => {
                 {
                   object: 'block',
                   type: 'paragraph',
-                  heading_2: {
+                  paragraph: {
                     text: [
                       {
                         type: 'text',
@@ -213,7 +213,7 @@ exports.handler = async event => {
                 {
                   object: 'block',
                   type: 'paragraph',
-                  heading_2: {
+                  paragraph: {
                     text: [
                       {
                         type: 'text',
@@ -228,7 +228,7 @@ exports.handler = async event => {
                 {
                   object: 'block',
                   type: 'paragraph',
-                  heading_2: {
+                  paragraph: {
                     text: [
                       {
                         type: 'text',
