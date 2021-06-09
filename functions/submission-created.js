@@ -59,41 +59,41 @@ exports.handler = async event => {
         }
       
         var tags = 
-          "-" + notionContent.rendering + " \n" +
-          "-" + notionContent.advertising + " \n" +
-          "-" + notionContent.architecture + " \n" +
-          "-" + notionContent.branding + " \n" +
-          "-" + notionContent.community + " \n" +
-          "-" + notionContent.development + " \n" +
-          "-" + notionContent.environmental + " \n" +
-          "-" + notionContent.events + " \n" +
-          "-" + notionContent.exhibition + " \n" +
-          "-" + notionContent.experiential + " \n" +
-          "-" + notionContent.freelance + " \n" + 
-          "-" + notionContent.gaming + " \n" +
-          "-" + notionContent.illustration + " \n" +
-          "-" + notionContent.industrial + " \n" +
-          "-" + notionContent.interior + " \n" +
-          "-" + notionContent.marketing + " \n" +
-          "-" + notionContent.motion + " \n" +
-          "-" + notionContent.naming + " \n" +
-          "-" + notionContent.packaging + " \n" +
-          "-" + notionContent.photography + " \n" +
-          "-" + notionContent.presentation + " \n" +
-          "-" + notionContent.print + " \n" +
-          "-" + notionContent.product + " \n" +
-          "-" + notionContent.publicRelations + " \n" +
-          "-" + notionContent.research + " \n" +
-          "-" + notionContent.education + " \n" +
-          "-" + notionContent.strategy + " \n" +
-          "-" + notionContent.typography + " \n" +
-          "-" + notionContent.uxui + " \n" +
-          "-" + notionContent.vfx + " \n" +
-          "-" + notionContent.video + " \n" +
-          "-" + notionContent.sound + " \n" +
-          "-" + notionContent.voice + " \n" +
-          "-" + notionContent.virtualReality + " \n" +
-          "-" + notionContent.eCommerce + " \n"
+          "- " + notionContent.rendering + " \n" +
+          "- " + notionContent.advertising + " \n" +
+          "- " + notionContent.architecture + " \n" +
+          "- " + notionContent.branding + " \n" +
+          "- " + notionContent.community + " \n" +
+          "- " + notionContent.development + " \n" +
+          "- " + notionContent.environmental + " \n" +
+          "- " + notionContent.events + " \n" +
+          "- " + notionContent.exhibition + " \n" +
+          "- " + notionContent.experiential + " \n" +
+          "- " + notionContent.freelance + " \n" + 
+          "- " + notionContent.gaming + " \n" +
+          "- " + notionContent.illustration + " \n" +
+          "- " + notionContent.industrial + " \n" +
+          "- " + notionContent.interior + " \n" +
+          "- " + notionContent.marketing + " \n" +
+          "- " + notionContent.motion + " \n" +
+          "- " + notionContent.naming + " \n" +
+          "- " + notionContent.packaging + " \n" +
+          "- " + notionContent.photography + " \n" +
+          "- " + notionContent.presentation + " \n" +
+          "- " + notionContent.print + " \n" +
+          "- " + notionContent.product + " \n" +
+          "- " + notionContent.publicRelations + " \n" +
+          "- " + notionContent.research + " \n" +
+          "- " + notionContent.education + " \n" +
+          "- " + notionContent.strategy + " \n" +
+          "- " + notionContent.typography + " \n" +
+          "- " + notionContent.uxui + " \n" +
+          "- " + notionContent.vfx + " \n" +
+          "- " + notionContent.video + " \n" +
+          "- " + notionContent.sound + " \n" +
+          "- " + notionContent.voice + " \n" +
+          "- " + notionContent.virtualReality + " \n" +
+          "- " + notionContent.eCommerce + " \n"
 
             const response = await notion.pages.create({
               parent: {
@@ -129,12 +129,10 @@ exports.handler = async event => {
                   },
                   ]
                 },
-                // 'Assign': {
-                //   'object':'user',
-                //   'id':'17c5332f-ffd2-4c67-9f0a-6e8ae37c1e82',
-                //   'name':'Jonny McConnell',
-                //   'type':'person',
-                // }
+                'Assign': {
+                  'object':'user',
+                  'id':'7e5a64e3-56c3-4770-a09',
+                }
               },
               children: [
                 // {
@@ -154,15 +152,28 @@ exports.handler = async event => {
                 // },
                 {
                   object: 'block',
-                  type: 'paragraph',
-                  paragraph: {
-                    // format in a code block as the exact setup
+                  type: 'heading_3',
+                  heading_2: {
                     text: [
                       {
                         type: 'text',
                         text: {
-                          content: 
-                          "###### Submitted by " + notionContent.submitContent + " \n" +
+                          content: "Submitted by " + notionContent.submitContact,
+                        },
+                      },
+                    ],
+                  },
+                },
+                {
+                  object: 'block',
+                  type: 'rich_text',
+                  paragraph: {
+                    rich_text: [
+                      {
+                        type: 'text',
+                        text: {
+                          content:
+                          // format this in code 
                           "--- \n" +
                           "title: \"" + notionContent.submitName + "\" \n" +
                           "featuredImage: ./-hamburgers.png \n" +
@@ -170,19 +181,60 @@ exports.handler = async event => {
                           "twit: \"" + notionContent.submitSocial + "\" \n" +
                           "inst: \" \" \n" +
                           "category: \"" + categoryLetter + "\" \n" +
-                          "tags: \"" + notionContent.submitNeighborhood + tags + "\" \n" +
-                          "" + size + "\n" +
+                          "tags: \"" + "\n" + 
+                          notionContent.submitNeighborhood + "\n" + 
+                          size + "\n" + 
+                          tags + "\n" +
                           "--- \n" +
-                          "Description \n " +
-                          "Would you like to be a guest on the show? Or do you want to hear from someone specifically? \n" +
-                          "-" + notionContent.submitGuest + " \n" +
-                          "\n" +
-                          "Would you buy a hardcopy printed directory? \n" +
-                          "-" + notionContent.submitPrint + " \n" +
-                          "\n" +
-                          "If you have any questions or suggestions, let us know: \n" +
-                          "-" + notionContent.submitNotes + " \n" +
-                          "\n"
+                          "Description \n " + "\n" + "\n"
+                        },
+                        'annotations': {
+                        'code': true 
+                        },
+                      },
+                    ],
+                  },
+                },
+                {
+                  object: 'block',
+                  type: 'paragraph',
+                  heading_2: {
+                    text: [
+                      {
+                        type: 'text',
+                        text: {
+                          content: "Would you like to be a guest on the show? Or do you want to hear from someone specifically? \n" +
+                          "- " + notionContent.submitGuest + " \n"
+                        },
+                      },
+                    ],
+                  },
+                },
+                {
+                  object: 'block',
+                  type: 'paragraph',
+                  heading_2: {
+                    text: [
+                      {
+                        type: 'text',
+                        text: {
+                          content: "Would you buy a hardcopy printed directory? \n" +
+                          "-  " + notionContent.submitPrint + " \n"
+                        },
+                      },
+                    ],
+                  },
+                },
+                {
+                  object: 'block',
+                  type: 'paragraph',
+                  heading_2: {
+                    text: [
+                      {
+                        type: 'text',
+                        text: {
+                          content: "If you have any questions or suggestions, let us know: \n" +
+                          "- " + notionContent.submitNotes + " \n"
                         },
                       },
                     ],
