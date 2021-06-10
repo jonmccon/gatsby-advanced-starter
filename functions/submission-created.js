@@ -112,7 +112,7 @@ exports.handler = async event => {
                 // Status
                 'Status': {
                   select: {
-                    name: 'Backlog',
+                    name: 'Submissions',
                   },
                 },
                 // Tags
