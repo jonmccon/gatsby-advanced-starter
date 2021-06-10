@@ -168,7 +168,7 @@ exports.handler = async event => {
                   object: 'block',
                   type: 'paragraph',
                   paragraph: {
-                    rich_text: [
+                    text: [
                       {
                         type: 'text',
                         text: {
@@ -187,9 +187,6 @@ exports.handler = async event => {
                           tags + "\n" +
                           "--- \n" +
                           "Description \n " + "\n" + "\n"
-                        },
-                        'annotations': {
-                        'code': true 
                         },
                       },
                     ],
