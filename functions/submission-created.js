@@ -130,8 +130,12 @@ exports.handler = async event => {
                   ]
                 },
                 'Assign': {
-                  'object':'user',
-                  'id':'7e5a64e3-56c3-4770-a09',
+                  "object":"user",
+                  "id":"17c5332f-ffd2-4c67-9f0a-6e8ae37c1e82",
+                  "name":"Jonny McConnell",
+                  "type":"person",
+                    "person":{
+                      "email":"jonmccon@gmail.com"}
                 }
               },
               children: [
