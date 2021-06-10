@@ -4,6 +4,7 @@ const { Client } = require('@notionhq/client');
 const { EMAIL_TOKEN } = process.env
 const notion = new Client({ auth: process.env.NOTION_TOKEN });
 const { NOTION_DB_ID } = process.env
+const { NOTION_USER_ID } = process.env
 
 // output all form content to netlify console
 // exports.handler = event => {
@@ -58,6 +59,7 @@ exports.handler = async event => {
           size = "dunno"
         }
       
+        // needs to check if not empty, then include it
         var tags = 
           "- " + notionContent.rendering + " \n" +
           "- " + notionContent.advertising + " \n" +
@@ -129,31 +131,17 @@ exports.handler = async event => {
                   },
                   ]
                 },
+                // Assign a user, not currently working
                 // 'Assign': {
                 //   "object":"user",
                 //   "type":"person",
                 //     "person":{
-                //       "name":"Jonny McConnell",
-                //       "id":"17c5332f-ffd2-4c67-9f0a-6e8ae37c1e82"
+                //       "id": NOTION_USER_ID,
                 //   }
                 // }
               },
               children: [
-                // {
-                //   object: 'block',
-                //   type: 'paragraph',
-                //   paragraph: {
-                //     // format in a code block as the exact setup
-                //     text: [
-                //       {
-                //         type: 'text',
-                //         text: {
-                //           content: notionContent.created_time,                          
-                //         },
-                //       },
-                //     ],
-                //   },
-                // },
+                // Title on card
                 {
                   object: 'block',
                   type: 'heading_3',
@@ -168,6 +156,7 @@ exports.handler = async event => {
                     ],
                   },
                 },
+                // Directory listing data
                 {
                   object: 'block',
                   type: 'paragraph',
@@ -196,6 +185,7 @@ exports.handler = async event => {
                     ],
                   },
                 },
+                // Additional q's
                 {
                   object: 'block',
                   type: 'paragraph',
