@@ -166,9 +166,9 @@ exports.handler = async event => {
                 },
                 {
                   object: 'block',
-                  type: 'rich_text',
-                  rich_text: {
-                    text: [
+                  type: 'paragraph',
+                  paragraph: {
+                    rich_text: [
                       {
                         type: 'text',
                         text: {
