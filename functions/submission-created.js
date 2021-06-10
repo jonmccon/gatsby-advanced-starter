@@ -185,12 +185,12 @@ exports.handler = async event => {
                           "twit: \"" + notionContent.submitSocial + "\" \n" +
                           "inst: \" \" \n" +
                           "category: \"" + categoryLetter + "\" \n" +
-                          "tags: \"" + "\n" + 
-                          notionContent.submitNeighborhood + "\n" + 
-                          size + "\n" + 
+                          "tags: " + "\n" + 
+                          "- " + notionContent.submitNeighborhood + "\n" + 
+                          "- " + size + "\n" + 
                           tags + "\n" +
-                          "--- \n" +
-                          "Description \n " + "\n" + "\n"
+                          "--- \n \n" +
+                          "Description \n " + "\n \n"
                         },
                       },
                     ],
