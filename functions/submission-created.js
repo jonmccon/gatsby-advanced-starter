@@ -129,13 +129,14 @@ exports.handler = async event => {
                   },
                   ]
                 },
-                'Assign': {                 
-                  "type":"person",
-                    "person":{
-                      "id":"17c5332f-ffd2-4c67-9f0a-6e8ae37c1e82",
-                      "name":"Jonny McConnell",
-                    }
-                }
+                // 'Assign': {
+                //   "object":"user",
+                //   "type":"person",
+                //     "person":{
+                //       "name":"Jonny McConnell",
+                //       "id":"17c5332f-ffd2-4c67-9f0a-6e8ae37c1e82"
+                //   }
+                // }
               },
               children: [
                 // {
