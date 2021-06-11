@@ -1,29 +1,40 @@
-import React from "react"
-
-export default class Subscribe extends React.Component {
+import React, { useState } from "react"
+  export default class Subscribe extends React.Component {
 
   render() {
     return (
+      
 
-        // If a custom success page is needed, change the action attr here
-        <form class="email-form" name="Subscribe" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/subscribed/">
-        {/* // <form class="email-form" name="Subscribe" method="POST" data-netlify="true" netlify-honeypot="bot-field"> */}
+      // <IndexPage />
 
-          
-          <div hidden aria-hidden="true">
-            <label>
-                Don’t fill this out if you're human: 
-                <input name="bot-field" />
-            </label>
-          </div>
+      <form 
+        name="subscribe"
+        action="subscribed" 
+        className="email-form"
+        data-netlify="true" 
+        data-netlify-honeypot="bot-field" 
+      >
         
-        <label for="email">
-          <input name="Subscribe" id="email" type="email" placeholder="emails" required />
-          <input type="hidden" name="form-name" value="Newsletter" />
-        </label>
-
-        <button type="submit">Subscribe</button>
+        {/* <input type="hidden" name="form-name" value="subscribe" />  */}
+        <input
+          className="email-form form-control valid"
+          name="email"
+          id="email"
+          type="email"
+          placeholder="Emails"
+        />
+        <input
+          className="hidden"
+          name="bot-field"
+          placeholder="Don't fill this out if you're a human"
+        />
+        
+        <button type="submit">
+          Subscribe
+        </button>
       </form>
+
+      
     )
   }
 }

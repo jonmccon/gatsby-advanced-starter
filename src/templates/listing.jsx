@@ -1,6 +1,6 @@
 import React from "react";
 import Helmet from "react-helmet";
-import { graphql } from "gatsby";
+import { graphql, Link } from "gatsby";
 import Layout from "../layout";
 // import PodcastListing from "../components/PostListing/PodcastListing";
 import PostCats from "../components/Filters/PostCats";
@@ -81,11 +81,11 @@ class Listing extends React.Component {
             
             {/* PODCAST SHOW */}
             <div id="showContainer">
-              <div class="podcast">
+              <div className="podcast">
                 <PodcastPlayer
-                  podcastSeason="S2:EP4"
-                  podcastTitle="Michael Gaizutis of RN01"
-                  podcastURL="https://cdn.simplecast.com/audio/30dabfb8-c618-43a5-81c7-c5c83750983a/episodes/98f94fa7-ff20-4384-b09e-243e8aa8d020/audio/d89ad511-f4b2-47fe-b9b0-9989295ab736/default_tc.mp3"  
+                  podcastSeason="S2:EP5"
+                  podcastTitle="Tessa Levine-Sauerhoff & Felix Chang of Artefact"
+                  podcastURL="https://cdn.simplecast.com/audio/30dabfb8-c618-43a5-81c7-c5c83750983a/episodes/fbcb8e91-6628-4147-aef6-d5b3a08c8986/audio/00ba3747-d513-4066-8027-a3e511e685f5/default_tc.mp3"  
                 />
               </div>
             </div>
@@ -209,14 +209,12 @@ class Listing extends React.Component {
                 <div className="directory-block--end">
                   <p>Don't see yourself?</p>
                   
-                  <p><a
-                    className="directory-endcap--link highlight"
-                    target="_blank"
-                    href="https://forms.gle/hgCya8qFC4AKpetf6"
-                  >
-                    Get Listed
-                  </a></p>
-                  
+                  <p>
+                  <Link
+                    className="directory-endcap--link highlight" 
+                    to="/submit">Get Listed
+                  </Link>
+                  </p>
 
                 </div>
                 

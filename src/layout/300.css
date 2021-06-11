@@ -115,7 +115,7 @@
         text-align: right;
     }
 
-    .headline-menu--link, .email-form button {
+    .headline-menu--link, .email-form-button, .submit-form-button {
         color: var(--color-text);
         font: var(--text-mono-menu);
         text-transform: uppercase;
@@ -130,7 +130,7 @@
         justify-self: end;
     }
 
-    .headline-menu--link:hover, .email-form button:hover {
+    .headline-menu--link:hover, .email-form-button:hover, .submit-form-button:hover {
         background: var(--color-bg-coral);
         box-shadow: -.15em .15em 2px var(--color-listingHover-shadow);
         cursor: pointer;
@@ -138,11 +138,13 @@
     }
     /* ----------------------------------------------- */
 
-    /* SUBSCRIBE */
-    .email-form {
+    /* SUBSCRIBE & SUBMIT */
+
+    .email-form, .submit-form {
+        display: inline-block;
     }
 
-    .email-form input {
+    .email-form, .submit-form {
         font: var(--text-mono-input);
         border: 0 none var(--color-card);
         padding: .2em .4em .1em .2em;
@@ -152,23 +154,83 @@
         width: 100%;
     }
 
-    .email-form input:hover {
+    .email-form:hover, .submit-form:hover {
         background-color: var(--color-bg-coral);
     }
 
-    .email-form input:focus {
+    .email-form:focus, .submit-form:focus {
         box-shadow: 0 0 5px var(--color-bg-coral);
         background-color: var(--color-bg-coral);
         outline: none;
         outline-offset: none;
     }
 
-    .email-form button {
+    .email-form-button {
         background: var(--color-card);
         border: 0 none var(--color-card);
         padding: .3em .4em .2em .4em;
         margin: .6em 0 .1em .5em;
     }
+
+    /* .email-form-button:hover {
+        cursor: pointer;
+        background-color: var(--color-bg-coral);
+        box-shadow: 0 0 5px var(--color-bg-coral);
+        text-decoration-line: underline;
+    } */
+
+    .submit-form-button {
+        background: var(--color-card);
+        border: 0 none var(--color-card);
+        margin: 4em 0 0 0;
+        width: 100%;
+        font-size: 1em;
+        border: 1px solid var(--color-bg-coral);
+    }
+
+    .submit-form {
+        text-align: left;
+        font: var(--text-mono-inputSubmit);
+        margin: .6em 0 0 0;
+        padding: 1ch;
+    }
+
+    .submit-written label, fieldset legend {
+        display: none;
+    }
+
+    .submit-size, .submit-select fieldset {
+        font: var(--text-mono-input);
+        display: grid;
+        border: none;
+        padding: 0;
+        grid-template-columns:  repeat(2, .1em 1fr);
+        grid-row-gap: .4em;
+        margin: 0 0 2em 0;
+    }
+
+    .submit-select label, .submit-size label {
+        padding: .3em 0 0 .6em;
+        height: 2em;
+        cursor: pointer;
+    }
+
+    .submit-size input:checked + label, .submit-select input:checked + label {
+        background-color: var(--color-bg-coral);
+        border-radius: 4px;
+    }
+
+    .submit-select label:hover, .submit-size label:hover {
+        background-color: var(--color-bg-gray);
+    }
+
+    .submit-select input, .submit-size input { opacity: 0; }
+    .submit-bonus label { display: none; }
+
+    .submit-wrapper p {
+        margin: 3em 0 0 0;
+    }
+    
 
     /* ----------------------------------------------- */
 
@@ -449,9 +511,9 @@
     /* ----------------------------------------------- */
 
 
-    /* About page content */
+    /* About & Submit page content */
 
-    .aboutContent {
+    .aboutContent, .submitContent {
         margin: 6em 0 0 0;
         display: grid;
         justify-self: center;

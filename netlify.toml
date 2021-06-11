@@ -1,10 +1,10 @@
 [build]
   base = "."
-  functions = "./functions"
+  functions = "functions-buildtime"
   publish = "public"
   command = "gatsby build"
 [build.environment]
-  NODE_VERSION = "12.13.0"
+  NODE_VERSION = "14.16.0"
   YARN_VERSION = "1.19.1"
   YARN_FLAGS = "--no-ignore-optional"
 

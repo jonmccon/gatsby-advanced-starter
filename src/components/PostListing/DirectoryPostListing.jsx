@@ -22,7 +22,7 @@ class DirectoryPostListing extends React.Component {
     const postList = this.getPostList();
     return (
       
-      <div class="directory-list">
+      <div className="directory-list">
         {postList.map((post) => (
           <React.Fragment>
             {/* 
@@ -38,7 +38,7 @@ class DirectoryPostListing extends React.Component {
               <a href={post.website} target="_blank">{post.title}</a>
               
               {post.episodePromo ? 
-              <div class="episodePromo">{post.episodePromo && post.episodePromo}</div> : '' 
+              <div className="episodePromo">{post.episodePromo && post.episodePromo}</div> : '' 
               }
 
               {post.episode ? 

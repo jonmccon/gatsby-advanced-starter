@@ -14,7 +14,7 @@ class PodcastPlayer extends Component {
     const { podcastURL } = this.props;
     
     return (
-      <div class="podcast-promo">
+      <div className="podcast-promo">
         <h3>{podcastSeason}</h3>
         <h2>{podcastTitle}</h2>
         <AudioPlayer         
