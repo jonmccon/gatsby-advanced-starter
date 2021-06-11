@@ -24,6 +24,7 @@ package = "netlify-plugin-checklinks"
     "500",
     "400",
     "ECONNREFUSED",
+    "ECONNRESET",
     
     # Interview pages are generated but unused right now
     'id="interview"'
@@ -40,4 +41,4 @@ package = "netlify-plugin-checklinks"
   ]
 
   #turn this off to speed up buildtime
-  checkExternal = false
+  checkExternal = true

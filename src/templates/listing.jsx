@@ -70,7 +70,7 @@ class Listing extends React.Component {
             
             <Logo />
             <HeadlineMenuLeft />
-            {/* <HeadlineMenuRight /> */}
+            <HeadlineMenuRight />
             <div className="headline-wrapper">
             <Headline
               headline={

@@ -83,23 +83,18 @@
     .headline-menu-right {
         margin: 5vh 0 0 0;
         grid-area: MenuRight;
-<<<<<<< HEAD
-        align-self: center;
+        align-self: start;
         text-align: right;
-=======
-        justify-self: end;
-        width: max-content;
-        
->>>>>>> master
     }
 
-    .headline-menu-right a {
+    /* .headline-menu-right a {
         display: block;
         text-align: right;
-    }
+    } */
 
     .headline-menu--link { 
         font: var(--text-mono-menu);
+        text-align: right;
     }
     
     .headline-menu--about {
