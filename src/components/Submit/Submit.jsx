@@ -6,7 +6,7 @@ const Submit = () => {
 
   // Post-Submit Navigate
   const postSubmit = () => {
-    navigate('/tags/photography')
+    navigate('/submitted')
   }
 
   // Simple controlled form setup (Control your own state)
@@ -129,7 +129,7 @@ const Submit = () => {
           name="submitNeighborhood"
           id="submit-neighborhood"
           type="text"
-          placeholder="Neighborhood"
+          placeholder="Neighborhood you're based in"
           value={formValues.name} 
           onChange={handleChange}
           required
@@ -334,7 +334,7 @@ const Submit = () => {
             onChange={handleChange}
             tabindex="0"
           />
-        </div>        
+        </div>     
 
         <button type="submit" className="submit-form-button">
           Submit

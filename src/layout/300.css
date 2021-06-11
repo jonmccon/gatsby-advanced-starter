@@ -227,7 +227,7 @@
     .submit-select input, .submit-size input { opacity: 0; }
     .submit-bonus label { display: none; }
 
-    .submit-form p {
+    .submit-wrapper p {
         margin: 3em 0 0 0;
     }
     
