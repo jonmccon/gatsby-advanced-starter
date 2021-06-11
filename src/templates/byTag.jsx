@@ -25,7 +25,7 @@ export default class TagTemplate extends React.Component {
           <div className="container">
             <Logo />
             <HeadlineMenuLeft />
-            <HeadlineMenuRight />
+            {/* <HeadlineMenuRight /> */}
             <div className="headline-wrapper-small">
               <Headline headline={tag} />
             </div>

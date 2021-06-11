@@ -13,7 +13,7 @@ class About extends Component {
         
         <Logo />
         <HeadlineMenuLeft />
-        <HeadlineMenuRight />
+        {/* <HeadlineMenuRight /> */}
         <div className="headline-wrapper-small">
           <Headline headline={`Hello & welcome.`} />
         </div>

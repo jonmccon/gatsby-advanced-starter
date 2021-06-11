@@ -92,8 +92,8 @@
     .headline-menu-left {
         margin: -4vh 0 0 0;
         grid-area: MenuLeft;
-        align-self: center;
         width: max-content;
+        align-self: start;
     }
 
     .headline-menu-left a {
@@ -104,14 +104,15 @@
     .headline-menu-right {
         margin: -4vh 0 0 0;
         grid-area: MenuRight;
-        align-self: center;
+        width: max-content;
         text-align: right;
-        /* width: max-content; */
+
     }
 
     .headline-menu-right a {
-        font-size: .8em;
-        margin: 1em 0 0 0;
+        display: block;
+        margin: 0 0 0 0;
+        text-align: right;
     }
 
     .headline-menu--link, .email-form-button, .submit-form-button {
@@ -122,8 +123,7 @@
         padding: .3em .4em .2em .4em;
         margin: -2em 0 0 3em;
         width: max-content;
-        justify-self: center;
-        align-self: start;
+        
     }
 
     .headline-menu--about {
