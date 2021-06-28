@@ -26,6 +26,7 @@ package = "netlify-plugin-checklinks"
     "ECONNREFUSED",
     "ECONNRESET",
     "DNS missing:",
+    "https://design.facebook.com/"
     
     # Interview pages are generated but unused right now
     'id="interview"'
