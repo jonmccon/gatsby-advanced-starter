@@ -8,6 +8,7 @@ import HeadlineMenuRight from "../components/Intro/HeadlineMenuRight";
 import PostTags from "../components/Filters/PostTags";
 import PostCats from "../components/Filters/PostCats";
 import DirectoryListing from "../components/PostListing/DirectoryPostListing";
+import Footer from "../components/Footer/Footer";
 import config from "../../data/SiteConfig";
 
 export default class CategoryTemplate extends React.Component {
@@ -25,7 +26,7 @@ export default class CategoryTemplate extends React.Component {
           <div className="pattern">
           <div className="container">
           <HeadlineMenuLeft />
-          {/* <HeadlineMenuRight /> */}
+          <HeadlineMenuRight />
             <div className="headline-wrapper-small">
               <Headline />
             </div>
@@ -44,6 +45,7 @@ export default class CategoryTemplate extends React.Component {
             </div>
           </div>
           </div>
+        <Footer />
       </Layout>
     );
   }

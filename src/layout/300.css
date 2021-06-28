@@ -504,7 +504,10 @@
     .footer {
         display: grid;
         grid-area: Footer;
+        height: fit-content;
     }
+
+    
 
 
 
@@ -544,12 +547,13 @@
         text-align: center;
         font: var(--text-mono-menu);
         padding: 0 0 1em 0;
-        color: var(--color-bg-gray-dark);
+        color: var(--color-text);
         background-color: var(--color-bg-gray);
     }
 
     .footer a:hover {
-        color: var(--color-text);
+        color: var(--color-bg-coral);
+        text-decoration: underline;
     }
 
     /* ----------------------------------------------- */
