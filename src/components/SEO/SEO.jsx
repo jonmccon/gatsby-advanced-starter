@@ -10,19 +10,19 @@ class SEO extends Component {
     let description;
     let image;
     let postURL;
-    // if (postSEO) {
-    //   const postMeta = postNode.frontmatter;
-    //   ({ title } = postMeta);
-    //   description = postMeta.description
-    //     ? postMeta.description
-    //     : postNode.excerpt;
-    //   image = postMeta.cover;
-    //   postURL = urljoin(config.siteUrl, config.pathPrefix, postPath);
-    // } else {
+    if (postSEO) {
+      const postMeta = postNode.frontmatter;
+      ({ title } = postMeta);
+      description = postMeta.description
+        ? postMeta.description
+        : postNode.excerpt;
+      image = postMeta.cover;
+      postURL = urljoin(config.siteUrl, config.pathPrefix, postPath);
+    } else {
       title = config.siteTitle;
       description = config.siteDescription;
       image = config.siteLogo;
-    // }
+    }
 
     // rm'd this image string matching for now
     // see #58 for details https://github.com/Vagr9K/gatsby-advanced-starter/issues/58
