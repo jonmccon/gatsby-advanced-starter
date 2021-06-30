@@ -13,10 +13,6 @@ class HeadlineMenuRight extends Component {
         <div className="headline-menu-right">  
           <EmailForm />
 
-          <Link
-          className="headline-menu--link" 
-          to="/about">About
-          </Link>
           {/* <a
             className="headline-menu--link"
             href="/about"

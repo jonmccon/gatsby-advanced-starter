@@ -10,18 +10,10 @@ class HeadlineMenuLeft extends Component {
 
         <div className="headline-menu-left">  
           
-          <Link
+          {/* <Link
           className="headline-menu--link highlight" 
           to="/submit">Get Listed
-          </Link>
-
-          <a
-            className="headline-menu--link"
-            target="_blank"
-            href="mailto:jonny@seattlecreative.directory"
-          >
-            Contact
-          </a>
+          </Link> */}
 
           <a
             className="headline-menu--link"
@@ -30,6 +22,11 @@ class HeadlineMenuLeft extends Component {
           >
             Listen
           </a>
+
+          <Link
+          className="headline-menu--link" 
+          to="/about">About
+          </Link>
           
           
         </div>

@@ -10,6 +10,11 @@ class Footer extends Component {
     
     return (
       <footer className="footer">
+
+          <Link
+            className="highlight" 
+            to="/submit">Get Listed
+          </Link> 
         
           <a
             target="_blank"
@@ -18,8 +23,14 @@ class Footer extends Component {
              Made in the PNW
           </a>
 
-        
-        
+          <a
+            target="_blank"
+            href="https://www.instagram.com/seattlecreative.directory/"
+          >
+             Follow on Instagram
+          </a>
+          
+
       </footer>
     );
   }

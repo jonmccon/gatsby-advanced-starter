@@ -10,6 +10,7 @@ import Logo from "../components/Intro/Logo";
 import Headline from "../components/Intro/Headline";
 import HeadlineMenuLeft from "../components/Intro/HeadlineMenuLeft";
 import HeadlineMenuRight from "../components/Intro/HeadlineMenuRight";
+import Footer from "../components/Footer/Footer";
 
 export default class TagTemplate extends React.Component {
   render() {
@@ -25,7 +26,7 @@ export default class TagTemplate extends React.Component {
           <div className="container">
             <Logo />
             <HeadlineMenuLeft />
-            {/* <HeadlineMenuRight /> */}
+            <HeadlineMenuRight />
             <div className="headline-wrapper-small">
               <Headline headline={tag} />
             </div>
@@ -43,6 +44,7 @@ export default class TagTemplate extends React.Component {
             </div>
           </div>
           </div>
+        <Footer />
       </Layout>
     );
   }
