@@ -23,12 +23,12 @@ class Footer extends Component {
              Made in the PNW
           </a>
 
-          <a
+          {/* <a
             target="_blank"
             href="https://www.instagram.com/seattlecreative.directory/"
           >
              Follow on Instagram
-          </a>
+          </a> */}
           
 
       </footer>
