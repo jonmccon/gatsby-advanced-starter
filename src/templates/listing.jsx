@@ -83,9 +83,9 @@ class Listing extends React.Component {
             <div id="showContainer">
               <div className="podcast">
                 <PodcastPlayer
-                  podcastSeason="S2:EP5"
-                  podcastTitle="Tessa Levine-Sauerhoff & Felix Chang of Artefact"
-                  podcastURL="https://cdn.simplecast.com/audio/30dabfb8-c618-43a5-81c7-c5c83750983a/episodes/fbcb8e91-6628-4147-aef6-d5b3a08c8986/audio/00ba3747-d513-4066-8027-a3e511e685f5/default_tc.mp3"  
+                  podcastSeason="S2:EP6"
+                  podcastTitle="Tim Yeadon of Clyde Golden"
+                  podcastURL="https://cdn.simplecast.com/audio/30dabfb8-c618-43a5-81c7-c5c83750983a/episodes/7caad909-7961-4562-ba8f-4b7b86e22696/audio/473b8b14-34bb-4f9a-9778-9a67c52c5e04/default_tc.mp3"  
                 />
               </div>
             </div>

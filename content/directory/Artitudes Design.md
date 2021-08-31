@@ -1,16 +1,32 @@
 ---
 title: "Artitudes Design"
 featuredImage: ./-hamburgers.png
-website: "http://www.artitudesdesign.com/"
+website: "https://artitudes.com/"
 twit: "https://twitter.com/ArtitudesDesign"
 inst: "https://www.instagram.com/artitudes"
 category: "A"
 tags:
     - Issaquah
-    - small
-    - presentation
-    - motion
-    - branding
+    - 3D rendering 
+    - branding 
+    - events 
+    - experiential 
+    - illustration 
+    - motion 
+    - naming 
+    - packaging
+    - presentation 
+    - print 
+    - strategy 
+    - typography 
+    - video 
 ---
 
 Description
+https://www.linkedin.com/company/138581/admin/
+https://www.facebook.com/artitudesdesign
+@ArtitudesDesign
+https://vimeo.com/user7133162
+https://www.youtube.com/user/ArtitudesDesign
+https://www.instagram.com/artitudes/
+https://www.pinterest.com/artitudesdesign/_saved/" 
