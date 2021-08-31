@@ -27,6 +27,14 @@ class HeadlineMenuLeft extends Component {
           className="headline-menu--link" 
           to="/about">About
           </Link>
+
+          <a
+            className="headline-menu--link"
+            target="_blank"
+            href="https://discord.gg/mrEwG5fDWJ"
+          >
+            Chat
+          </a>
           
           
         </div>
