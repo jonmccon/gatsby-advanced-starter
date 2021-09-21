@@ -142,7 +142,7 @@ const Submit = () => {
                 className="submit-form form-control valid"
                 name="submitSize"
                 id="sizeSmall"
-                value="1-4"
+                value="1-10"
                 type="radio" 
                 onChange={handleChange}
                 required
