@@ -11,7 +11,6 @@ tags:
     - illustration
     - branding
     - typography
-    - freelance
 ---
 
-Description
+Freelancer

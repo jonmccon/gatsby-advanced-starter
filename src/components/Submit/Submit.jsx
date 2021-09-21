@@ -32,7 +32,6 @@ const Submit = () => {
     events:'',
     exhibition:'',
     experiential:'',
-    freelance:'', // ********* Do we want this?
     gaming:'',
     illustration:'',
     industrial:'',
@@ -215,9 +214,6 @@ const Submit = () => {
 
             <input type="checkbox" name="experiential" value="experiential" id="experiential" onChange={handleChange}/>
             <label tabindex="0" htmlFor="experiential">experiential</label>
-
-            <input type="checkbox" name="freelance" value="freelance" id="freelance" onChange={handleChange}/>
-            <label tabindex="0" htmlFor="freelance">freelance</label>
 
             <input type="checkbox" name="gaming" value="gaming" id="gaming" onChange={handleChange}/>
             <label tabindex="0" htmlFor="gaming">gaming</label>
