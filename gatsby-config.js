@@ -28,6 +28,13 @@ module.exports = {
       },
     },
     {
+      resolve: "gatsby-plugin-google-analytics",
+      options: {
+        trackingId: config.googleAnalyticsID,
+        head: true,
+      },
+    },
+    {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "directory",
@@ -80,12 +87,6 @@ module.exports = {
       resolve: `gatsby-plugin-styled-components`,
       options: {
         // Add any options here
-      },
-    },
-    {
-      resolve: "gatsby-plugin-google-analytics",
-      options: {
-        trackingId: config.googleAnalyticsID,
       },
     },
     {
