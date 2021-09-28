@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import { navigate } from 'gatsby'
 import NetlifyForm from 'react-ssg-netlify-forms'
+import { trackCustomEvent } from "gatsby-plugin-google-analytics"
 
 const Submit = () => {
 
@@ -332,7 +333,14 @@ const Submit = () => {
           />
         </div>     
 
-        <button type="submit" className="submit-form-button">
+        <button type="submit" className="submit-form-button"
+          onClick={e => {
+            e.preventDefault()
+            trackCustomEvent({
+              category: "Submission",
+              action: "Successful submission",
+            })
+          }}>
           Submit
         </button>
       

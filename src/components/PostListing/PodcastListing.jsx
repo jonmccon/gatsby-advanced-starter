@@ -24,6 +24,7 @@ class PostListing extends React.Component {
       <div className="podcast">
         {/* This is the post list that create a link */}
         {/* add in the cover image here too */}
+        {/* Should be used for featured grid area on top */}
 
         {postList.map((post) => (
           <Link className="podcast--link" to={post.path} key={post.title}>
