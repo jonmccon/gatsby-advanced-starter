@@ -71,7 +71,6 @@ exports.handler = async event => {
           "- " + notionContent.events + " \n" +
           "- " + notionContent.exhibition + " \n" +
           "- " + notionContent.experiential + " \n" +
-          "- " + notionContent.freelance + " \n" + 
           "- " + notionContent.gaming + " \n" +
           "- " + notionContent.illustration + " \n" +
           "- " + notionContent.industrial + " \n" +

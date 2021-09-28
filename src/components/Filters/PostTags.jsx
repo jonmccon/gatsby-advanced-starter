@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import _ from "lodash";
 import { Link } from "gatsby";
+import { trackCustomEvent } from "gatsby-plugin-google-analytics";
 
 class PostTags extends Component {
   render() {
@@ -26,7 +27,19 @@ class PostTags extends Component {
               key={tag}
               to={`/tags/${_.kebabCase(tag)}`}
             >
-              <a className="filter-tag--attr" type="anchor">{tag}</a>
+              <a 
+                className="filter-tag--attr" 
+                type="anchor"
+                onClick={e => {
+                  trackCustomEvent({
+                    category: "Filters",
+                    action: "Clicked",
+                    label: {tag},
+                  })
+                }} 
+              >
+                {tag}
+              </a>
             </Link>
             
           ))}

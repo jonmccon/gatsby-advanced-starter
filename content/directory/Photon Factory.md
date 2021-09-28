@@ -14,7 +14,6 @@ tags:
     - community
     - exhibition
     - experiential
-    - freelance
     - illustration
     - interior
     - marketing
@@ -31,5 +30,4 @@ tags:
 https://www.facebook.com/photonfactoryseattle
 https://www.linkedin.com/company/photonfactory
 
-tags: ""
-small
+Freelancer

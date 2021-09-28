@@ -9,8 +9,7 @@ tags:
     - Tacoma
     - small
     - illustration
-    - freelance
 ---
-
+Freelancer
 
 

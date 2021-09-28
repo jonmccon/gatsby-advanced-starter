@@ -1,5 +1,6 @@
 import React from "react";
 import PostTags from "../Filters/PostTags";
+import { trackCustomEvent } from "gatsby-plugin-google-analytics";
 import AudioPlayerSmall from "../Audioplayer/AudioPlayerSmall";
 
 class DirectoryPostListing extends React.Component {
@@ -20,6 +21,7 @@ class DirectoryPostListing extends React.Component {
 
   render() {
     const postList = this.getPostList();
+    const postTitle = postList.title;
     return (
       
       <div className="directory-list">
@@ -35,7 +37,19 @@ class DirectoryPostListing extends React.Component {
 
             <div className="directory-block--item">
               
-              <a href={post.website} target="_blank">{post.title}</a>
+              <a 
+                href={post.website} 
+                target="_blank"
+                onClick={e => {
+                  trackCustomEvent({
+                    category: "Directory Listing",
+                    action: "Clicked",
+                    label: {postTitle},
+                  })
+                }}
+              >
+                {post.title}
+              </a>
               
               {post.episodePromo ? 
               <div className="episodePromo">{post.episodePromo && post.episodePromo}</div> : '' 

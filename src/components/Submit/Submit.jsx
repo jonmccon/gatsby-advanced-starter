@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import { navigate } from 'gatsby'
 import NetlifyForm from 'react-ssg-netlify-forms'
+import { trackCustomEvent } from "gatsby-plugin-google-analytics"
 
 const Submit = () => {
 
@@ -32,7 +33,6 @@ const Submit = () => {
     events:'',
     exhibition:'',
     experiential:'',
-    freelance:'', // ********* Do we want this?
     gaming:'',
     illustration:'',
     industrial:'',
@@ -143,7 +143,7 @@ const Submit = () => {
                 className="submit-form form-control valid"
                 name="submitSize"
                 id="sizeSmall"
-                value="1-4"
+                value="1-10"
                 type="radio" 
                 onChange={handleChange}
                 required
@@ -215,9 +215,6 @@ const Submit = () => {
 
             <input type="checkbox" name="experiential" value="experiential" id="experiential" onChange={handleChange}/>
             <label tabindex="0" htmlFor="experiential">experiential</label>
-
-            <input type="checkbox" name="freelance" value="freelance" id="freelance" onChange={handleChange}/>
-            <label tabindex="0" htmlFor="freelance">freelance</label>
 
             <input type="checkbox" name="gaming" value="gaming" id="gaming" onChange={handleChange}/>
             <label tabindex="0" htmlFor="gaming">gaming</label>
@@ -336,7 +333,14 @@ const Submit = () => {
           />
         </div>     
 
-        <button type="submit" className="submit-form-button">
+        <button type="submit" className="submit-form-button"
+          onClick={e => {
+            e.preventDefault()
+            trackCustomEvent({
+              category: "Submission",
+              action: "Successful submission",
+            })
+          }}>
           Submit
         </button>
       
