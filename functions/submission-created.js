@@ -1,10 +1,18 @@
 import fetch from "node-fetch"
+import axios from "axios"
+import cheerio from "cheerio"
+import express from "express"
+
 const { Client } = require('@notionhq/client');
 
 const { EMAIL_TOKEN } = process.env
 const notion = new Client({ auth: process.env.NOTION_TOKEN });
 const { NOTION_DB_ID } = process.env
-const { NOTION_USER_ID } = process.env
+// const { NOTION_USER_ID } = process.env
+
+// begin fetchurls 
+const PORT = 8000
+const app = express()
 
 // output all form content to netlify console
 // exports.handler = event => {
@@ -12,13 +20,14 @@ const { NOTION_USER_ID } = process.env
 // console.log(payload)
 // }
 
+
+
 exports.handler = async event => {
-  
+
   const allData = JSON.parse(event.body).payload
   const formName = JSON.parse(event.body).payload.form_name
 
   console.log(`form name: ${formName}`)
-
 
   if (formName == 'Subscribe - Buttondown') {
     const email = JSON.parse(event.body).payload.email
@@ -40,10 +49,35 @@ exports.handler = async event => {
     
     // 
     // NOTION 
-      } else if (formName == 'Submit - Notion') {
+    } else if (formName == 'Submit - Notion') {
         
         const notionContent = JSON.parse(event.body).payload.data
+        const url = notionContent.submitWebsite
 
+        try {          
+        axios(url)
+          .then(response => {
+            const html= response.data
+            const $ = cheerio.load(html)
+            const articles = []
+
+            $('h1', html).each(function() {
+              const title = $(this).text()
+              // const url = $(this).find('a').attr('href')
+              articles.push({
+                title,
+                // url
+              })
+            })
+            console.log(articles)
+          }).catch(err => console.log(err))
+
+        app.listen(PORT, () => console.log('server ran on PORT ${PORT}'))
+
+      } catch( ex ) {
+        // end fetch
+        
+        // begin data parsing
         var categoryLetter = notionContent.submitName.charAt(0).toUpperCase();
         var size = "look it up"
         
@@ -61,40 +95,40 @@ exports.handler = async event => {
       
         // needs to check if not empty, then include it
         var tags = 
-          "- " + notionContent.rendering + " \n" +
-          "- " + notionContent.advertising + " \n" +
-          "- " + notionContent.architecture + " \n" +
-          "- " + notionContent.branding + " \n" +
-          "- " + notionContent.community + " \n" +
-          "- " + notionContent.development + " \n" +
-          "- " + notionContent.environmental + " \n" +
-          "- " + notionContent.events + " \n" +
-          "- " + notionContent.exhibition + " \n" +
-          "- " + notionContent.experiential + " \n" +
-          "- " + notionContent.gaming + " \n" +
-          "- " + notionContent.illustration + " \n" +
-          "- " + notionContent.industrial + " \n" +
-          "- " + notionContent.interior + " \n" +
-          "- " + notionContent.marketing + " \n" +
-          "- " + notionContent.motion + " \n" +
-          "- " + notionContent.naming + " \n" +
-          "- " + notionContent.packaging + " \n" +
-          "- " + notionContent.photography + " \n" +
-          "- " + notionContent.presentation + " \n" +
-          "- " + notionContent.print + " \n" +
-          "- " + notionContent.product + " \n" +
-          "- " + notionContent.publicRelations + " \n" +
-          "- " + notionContent.research + " \n" +
-          "- " + notionContent.education + " \n" +
-          "- " + notionContent.strategy + " \n" +
-          "- " + notionContent.typography + " \n" +
-          "- " + notionContent.uxui + " \n" +
-          "- " + notionContent.vfx + " \n" +
-          "- " + notionContent.video + " \n" +
-          "- " + notionContent.sound + " \n" +
-          "- " + notionContent.voice + " \n" +
-          "- " + notionContent.virtualReality + " \n" +
-          "- " + notionContent.eCommerce + " \n"
+          "- " + !!notionContent.rendering + " \n" +
+          "- " + !!notionContent.advertising + " \n" +
+          "- " + !!notionContent.architecture + " \n" +
+          "- " + !!notionContent.branding + " \n" +
+          "- " + !!notionContent.community + " \n" +
+          "- " + !!notionContent.development + " \n" +
+          "- " + !!notionContent.environmental + " \n" +
+          "- " + !!notionContent.events + " \n" +
+          "- " + !!notionContent.exhibition + " \n" +
+          "- " + !!notionContent.experiential + " \n" +
+          "- " + !!notionContent.gaming + " \n" +
+          "- " + !!notionContent.illustration + " \n" +
+          "- " + !!notionContent.industrial + " \n" +
+          "- " + !!notionContent.interior + " \n" +
+          "- " + !!notionContent.marketing + " \n" +
+          "- " + !!notionContent.motion + " \n" +
+          "- " + !!notionContent.naming + " \n" +
+          "- " + !!notionContent.packaging + " \n" +
+          "- " + !!notionContent.photography + " \n" +
+          "- " + !!notionContent.presentation + " \n" +
+          "- " + !!notionContent.print + " \n" +
+          "- " + !!notionContent.product + " \n" +
+          "- " + !!notionContent.publicRelations + " \n" +
+          "- " + !!notionContent.research + " \n" +
+          "- " + !!notionContent.education + " \n" +
+          "- " + !!notionContent.strategy + " \n" +
+          "- " + !!notionContent.typography + " \n" +
+          "- " + !!notionContent.uxui + " \n" +
+          "- " + !!notionContent.vfx + " \n" +
+          "- " + !!notionContent.video + " \n" +
+          "- " + !!notionContent.sound + " \n" +
+          "- " + !!notionContent.voice + " \n" +
+          "- " + !!notionContent.virtualReality + " \n" +
+          "- " + !!notionContent.eCommerce + " \n"
 
             const response = await notion.pages.create({
               parent: {
@@ -231,11 +265,8 @@ exports.handler = async event => {
                   },
                 },
               ],
-            });
-            
+            }); 
             console.log(response);
-
-    } 
-
-  
+      }
+    }   
 }
