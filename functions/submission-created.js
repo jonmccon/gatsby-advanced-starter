@@ -10,10 +10,6 @@ const notion = new Client({ auth: process.env.NOTION_TOKEN });
 const { NOTION_DB_ID } = process.env
 // const { NOTION_USER_ID } = process.env
 
-// begin fetchurls 
-const PORT = 8000
-const app = express()
-
 // output all form content to netlify console
 // exports.handler = event => {
 // let payload = JSON.parse(event.body).payload;
@@ -54,7 +50,11 @@ exports.handler = async event => {
         const notionContent = JSON.parse(event.body).payload.data
         const url = notionContent.submitWebsite
 
-        try {          
+        try {
+          
+        // begin fetchurls 
+        const PORT = 8000
+        const app = express()  
         axios(url)
           .then(response => {
             const html= response.data
@@ -75,7 +75,8 @@ exports.handler = async event => {
         app.listen(PORT, () => console.log('server ran on PORT ${PORT}'))
 
       } catch( ex ) {
-        // end fetch
+
+      
         
         // begin data parsing
         var categoryLetter = notionContent.submitName.charAt(0).toUpperCase();
@@ -90,7 +91,7 @@ exports.handler = async event => {
         } else if (notionContent.submitSize == "100+") {
           size = "huge" 
         } else {
-          size = "dunno"
+          size
         }
       
         // needs to check if not empty, then include it
@@ -267,6 +268,6 @@ exports.handler = async event => {
               ],
             }); 
             console.log(response);
-      }
+          }
     }   
 }
