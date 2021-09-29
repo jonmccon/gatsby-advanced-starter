@@ -82,7 +82,7 @@ const Submit = () => {
           value={formValues.name} 
           onChange={handleChange} 
           required
-          tabindex="0"
+          tabIndex="0"
         />
 
         <label htmlFor="submit-name">What is the name of your business?</label>        
@@ -95,7 +95,7 @@ const Submit = () => {
           value={formValues.name} 
           onChange={handleChange} 
           required
-          tabindex="0"
+          tabIndex="0"
         />
 
         <label htmlFor="submit-website">Business website or primary web address:</label>        
@@ -108,7 +108,7 @@ const Submit = () => {
           value={formValues.name} 
           onChange={handleChange}
           required
-          tabindex="0"
+          tabIndex="0"
         />
 
         <label htmlFor="submit-social">Any social accounts or additional urls you want to include?</label>        
@@ -120,7 +120,7 @@ const Submit = () => {
           placeholder="@socials, etc"
           value={formValues.name} 
           onChange={handleChange}
-          tabindex="0"
+          tabIndex="0"
         />
 
         <label htmlFor="submit-neighborhood">What neighborhood is your primary location in?</label> 
@@ -133,7 +133,7 @@ const Submit = () => {
           value={formValues.name} 
           onChange={handleChange}
           required
-          tabindex="0"
+          tabIndex="0"
         />
         </div>
 
@@ -148,7 +148,7 @@ const Submit = () => {
                 onChange={handleChange}
                 required
             />
-            <label tabindex="0" htmlFor="sizeSmall">1-4</label>
+            <label tabIndex="0" htmlFor="sizeSmall">1-4</label>
             
             <input
                 className="submit-form form-control valid"
@@ -158,7 +158,7 @@ const Submit = () => {
                 type="radio" 
                 onChange={handleChange}
             />
-            <label tabindex="0" htmlFor="sizeMedium">11-40</label> 
+            <label tabIndex="0" htmlFor="sizeMedium">11-40</label> 
 
             <input
                 className="submit-form form-control valid"
@@ -168,7 +168,7 @@ const Submit = () => {
                 type="radio" 
                 onChange={handleChange}
             />
-            <label tabindex="0" htmlFor="sizeLarge">41-100</label> 
+            <label tabIndex="0" htmlFor="sizeLarge">41-100</label> 
 
             <input
                 className="submit-form form-control valid"
@@ -178,7 +178,7 @@ const Submit = () => {
                 type="radio" 
                 onChange={handleChange}
             />
-            <label tabindex="0" htmlFor="sizeHuge">100+</label> 
+            <label tabIndex="0" htmlFor="sizeHuge">100+</label> 
         </div>
 
         <p>What kinds of work do you do?</p>
@@ -187,106 +187,106 @@ const Submit = () => {
             <legend>What kinds of work do you do?</legend>      
             
             <input type="checkbox" name="rendering" value="3D rendering" id="rendering" onChange={handleChange}/>
-            <label tabindex="0" htmlFor="rendering">3D rendering</label>
+            <label tabIndex="0" htmlFor="rendering">3D rendering</label>
             
             <input type="checkbox" name="advertising" value="advertising" id="advertising" onChange={handleChange}/>
-            <label tabindex="0" htmlFor="advertising">advertising</label>
+            <label tabIndex="0" htmlFor="advertising">advertising</label>
 
             <input type="checkbox" name="architecture" value="architecture" id="architecture" onChange={handleChange}/>
-            <label tabindex="0" htmlFor="architecture">architecture</label>
+            <label tabIndex="0" htmlFor="architecture">architecture</label>
 
             <input type="checkbox" name="branding" value="branding" id="branding" onChange={handleChange}/>
-            <label tabindex="0" htmlFor="branding">branding</label>
+            <label tabIndex="0" htmlFor="branding">branding</label>
 
             <input type="checkbox" name="community" value="community" id="community" onChange={handleChange}/>
-            <label tabindex="0" htmlFor="community">community</label>
+            <label tabIndex="0" htmlFor="community">community</label>
 
             <input type="checkbox" name="development" value="development" id="development" onChange={handleChange}/>
-            <label tabindex="0" htmlFor="development">development</label>
+            <label tabIndex="0" htmlFor="development">development</label>
 
             <input type="checkbox" name="environmental" value="environmental" id="environmental" onChange={handleChange}/>
-            <label tabindex="0" htmlFor="environmental">environmental</label>
+            <label tabIndex="0" htmlFor="environmental">environmental</label>
 
             <input type="checkbox" name="events" value="events" id="events" onChange={handleChange}/>
-            <label tabindex="0" htmlFor="events">events</label>
+            <label tabIndex="0" htmlFor="events">events</label>
 
             <input type="checkbox" name="exhibition" value="exhibition" id="exhibition" onChange={handleChange}/>
-            <label tabindex="0" htmlFor="exhibition">exhibition</label>
+            <label tabIndex="0" htmlFor="exhibition">exhibition</label>
 
             <input type="checkbox" name="experiential" value="experiential" id="experiential" onChange={handleChange}/>
-            <label tabindex="0" htmlFor="experiential">experiential</label>
+            <label tabIndex="0" htmlFor="experiential">experiential</label>
 
             <input type="checkbox" name="gaming" value="gaming" id="gaming" onChange={handleChange}/>
-            <label tabindex="0" htmlFor="gaming">gaming</label>
+            <label tabIndex="0" htmlFor="gaming">gaming</label>
 
             <input type="checkbox" name="illustration" value="illustration" id="illustration" onChange={handleChange}/>
-            <label tabindex="0" htmlFor="illustration">illustration</label>
+            <label tabIndex="0" htmlFor="illustration">illustration</label>
 
             <input type="checkbox" name="industrial" value="industrial" id="industrial" onChange={handleChange}/>
-            <label tabindex="0" htmlFor="industrial">industrial</label>
+            <label tabIndex="0" htmlFor="industrial">industrial</label>
 
             <input type="checkbox" name="interior" value="interior" id="interior" onChange={handleChange}/>
-            <label tabindex="0" htmlFor="interior">interior</label>
+            <label tabIndex="0" htmlFor="interior">interior</label>
 
             <input type="checkbox" name="marketing" value="marketing" id="marketing" onChange={handleChange}/>
-            <label tabindex="0" htmlFor="marketing">marketing</label>
+            <label tabIndex="0" htmlFor="marketing">marketing</label>
 
             <input type="checkbox" name="motion" value="motion" id="motion" onChange={handleChange}/>
-            <label tabindex="0" htmlFor="motion">motion</label>
+            <label tabIndex="0" htmlFor="motion">motion</label>
 
             <input type="checkbox" name="naming" value="naming" id="naming" onChange={handleChange}/>
-            <label tabindex="0" htmlFor="naming">naming</label>
+            <label tabIndex="0" htmlFor="naming">naming</label>
 
             <input type="checkbox" name="packaging" value="packaging" id="packaging" onChange={handleChange}/>
-            <label tabindex="0" htmlFor="packaging">packaging</label>
+            <label tabIndex="0" htmlFor="packaging">packaging</label>
 
             <input type="checkbox" name="photography" value="photography" id="photography" onChange={handleChange}/>
-            <label tabindex="0" htmlFor="photography">photography</label>
+            <label tabIndex="0" htmlFor="photography">photography</label>
 
             <input type="checkbox" name="presentation" value="presentation" id="presentation" onChange={handleChange}/>
-            <label tabindex="0" htmlFor="presentation">presentation</label>
+            <label tabIndex="0" htmlFor="presentation">presentation</label>
 
             <input type="checkbox" name="print" value="print" id="print" onChange={handleChange}/>
-            <label tabindex="0" htmlFor="print">print</label>
+            <label tabIndex="0" htmlFor="print">print</label>
 
             <input type="checkbox" name="product" value="product" id="product" onChange={handleChange}/>
-            <label tabindex="0" htmlFor="product">product</label>
+            <label tabIndex="0" htmlFor="product">product</label>
 
             <input type="checkbox" name="publicRelations" value="public relations" id="publicRelations" onChange={handleChange}/>
-            <label tabindex="0" htmlFor="publicRelations">public relations</label>
+            <label tabIndex="0" htmlFor="publicRelations">public relations</label>
 
             <input type="checkbox" name="research" value="research" id="research" onChange={handleChange}/>
-            <label tabindex="0" htmlFor="research">research</label>
+            <label tabIndex="0" htmlFor="research">research</label>
 
             <input type="checkbox" name="education" value="education" id="education" onChange={handleChange}/>
-            <label tabindex="0" htmlFor="education">education</label>
+            <label tabIndex="0" htmlFor="education">education</label>
 
             <input type="checkbox" name="strategy" value="strategy" id="strategy" onChange={handleChange}/>
-            <label tabindex="0" htmlFor="strategy">strategy</label>
+            <label tabIndex="0" htmlFor="strategy">strategy</label>
 
             <input type="checkbox" name="typography" value="typography" id="typography" onChange={handleChange}/>
-            <label tabindex="0" htmlFor="typography">typography</label>
+            <label tabIndex="0" htmlFor="typography">typography</label>
 
             <input type="checkbox" name="uxui" value="uxui" id="uxui" onChange={handleChange}/>
-            <label tabindex="0" htmlFor="uxui">UX/UI</label>
+            <label tabIndex="0" htmlFor="uxui">UX/UI</label>
 
             <input type="checkbox" name="vfx" value="vfx" id="vfx" onChange={handleChange}/>
-            <label tabindex="0" htmlFor="vfx">vfx</label>
+            <label tabIndex="0" htmlFor="vfx">vfx</label>
 
             <input type="checkbox" name="video" value="video" id="video" onChange={handleChange}/>
-            <label tabindex="0" htmlFor="video">video</label>
+            <label tabIndex="0" htmlFor="video">video</label>
 
             <input type="checkbox" name="sound" value="sound" id="sound" onChange={handleChange}/>
-            <label tabindex="0" htmlFor="sound">sound</label>
+            <label tabIndex="0" htmlFor="sound">sound</label>
 
             <input type="checkbox" name="voice" value="voice" id="voice" onChange={handleChange}/>
-            <label tabindex="0" htmlFor="voice">voice</label>
+            <label tabIndex="0" htmlFor="voice">voice</label>
 
             <input type="checkbox" name="virtualReality" value="virtualReality" id="virtualReality" onChange={handleChange}/>
-            <label tabindex="0" htmlFor="virtualReality">virtual reality</label>
+            <label tabIndex="0" htmlFor="virtualReality">virtual reality</label>
 
             <input type="checkbox" name="eCommerce" value="eCommerce" id="eCommerce" onChange={handleChange}/>
-            <label tabindex="0" htmlFor="eCommerce">eCommerce</label>
+            <label tabIndex="0" htmlFor="eCommerce">eCommerce</label>
 
         </fieldset> 
         </div>
@@ -302,7 +302,7 @@ const Submit = () => {
             placeholder="Anyone in the community qualifies to be a part it"
             value={formValues.name} 
             onChange={handleChange}
-            tabindex="0"
+            tabIndex="0"
           />
 
 
@@ -316,7 +316,7 @@ const Submit = () => {
             placeholder="A beautiful resource or the internet is fine"
             value={formValues.name} 
             onChange={handleChange}
-            tabindex="0"
+            tabIndex="0"
           />
 
           <p>If you have any questions or suggestions, let us know:</p> 
@@ -329,7 +329,7 @@ const Submit = () => {
             placeholder="Any additional types of work, urls, feelings"
             value={formValues.name} 
             onChange={handleChange}
-            tabindex="0"
+            tabIndex="0"
           />
         </div>     
 
