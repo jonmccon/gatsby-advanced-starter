@@ -335,7 +335,6 @@ const Submit = () => {
 
         <button type="submit" className="submit-form-button"
           onClick={e => {
-            e.preventDefault()
             trackCustomEvent({
               category: "Submission",
               action: "Successful submission",
