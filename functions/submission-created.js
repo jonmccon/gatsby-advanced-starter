@@ -75,6 +75,9 @@ exports.handler = async event => {
         app.listen(PORT, () => console.log('server ran on PORT ${PORT}'))
 
       } catch( ex ) {
+        console.log('fetch failed'))
+
+      } finally {
 
       
         
