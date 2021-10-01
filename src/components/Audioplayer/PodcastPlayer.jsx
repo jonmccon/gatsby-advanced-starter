@@ -39,10 +39,7 @@ class PodcastPlayer extends Component {
                 trackCustomEvent({
                   category: "Audio Player",
                   action: "Play - Featured",
-                  label: {podcastTitle},
-                  value: "1"
-                  // may need a value here, the analytics console and package docs differ on requirements
-                  // this value was not included in the deploy to test
+                  label: podcastTitle,
                 })
               }}
             />,
@@ -52,7 +49,7 @@ class PodcastPlayer extends Component {
               trackCustomEvent({
                 category: "Audio Player",
                 action: "Pause - Featured",
-                label: {podcastTitle},
+                label: podcastTitle,
               })
             }}
             /> 

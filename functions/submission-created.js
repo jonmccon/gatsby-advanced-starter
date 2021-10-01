@@ -1,14 +1,10 @@
 import fetch from "node-fetch"
-import axios from "axios"
-import cheerio from "cheerio"
-import express from "express"
-
 const { Client } = require('@notionhq/client');
 
 const { EMAIL_TOKEN } = process.env
 const notion = new Client({ auth: process.env.NOTION_TOKEN });
 const { NOTION_DB_ID } = process.env
-// const { NOTION_USER_ID } = process.env
+const { NOTION_USER_ID } = process.env
 
 // output all form content to netlify console
 // exports.handler = event => {
@@ -16,14 +12,13 @@ const { NOTION_DB_ID } = process.env
 // console.log(payload)
 // }
 
-
-
 exports.handler = async event => {
-
+  
   const allData = JSON.parse(event.body).payload
   const formName = JSON.parse(event.body).payload.form_name
 
   console.log(`form name: ${formName}`)
+
 
   if (formName == 'Subscribe - Buttondown') {
     const email = JSON.parse(event.body).payload.email
@@ -45,43 +40,10 @@ exports.handler = async event => {
     
     // 
     // NOTION 
-    } else if (formName == 'Submit - Notion') {
+      } else if (formName == 'Submit - Notion') {
         
         const notionContent = JSON.parse(event.body).payload.data
-        const url = notionContent.submitWebsite
 
-        try {
-          
-        // begin fetchurls 
-        const PORT = 8000
-        const app = express()  
-        axios(url)
-          .then(response => {
-            const html= response.data
-            const $ = cheerio.load(html)
-            const articles = []
-
-            $('h1', html).each(function() {
-              const title = $(this).text()
-              // const url = $(this).find('a').attr('href')
-              articles.push({
-                title,
-                // url
-              })
-            })
-            console.log(articles)
-          }).catch(err => console.log(err))
-
-        app.listen(PORT, () => console.log('server ran on PORT ${PORT}'))
-
-      } catch( ex ) {
-        console.log('fetch failed'))
-
-      } finally {
-
-      
-        
-        // begin data parsing
         var categoryLetter = notionContent.submitName.charAt(0).toUpperCase();
         var size = "look it up"
         
@@ -94,7 +56,7 @@ exports.handler = async event => {
         } else if (notionContent.submitSize == "100+") {
           size = "huge" 
         } else {
-          size
+          size = "dunno"
         }
       
         // needs to check if not empty, then include it
@@ -269,8 +231,11 @@ exports.handler = async event => {
                   },
                 },
               ],
-            }); 
+            });
+            
             console.log(response);
-          }
-    }   
+
+    } 
+
+  
 }

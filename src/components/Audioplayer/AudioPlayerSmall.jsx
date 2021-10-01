@@ -38,7 +38,7 @@ class AudioPlayerSmall extends Component {
                 trackCustomEvent({
                   category: "Audio Player",
                   action: "Play - Inline",
-                  label: {podcastTitle},
+                  label: podcastTitle,
                 })
               }}
             />,
@@ -48,7 +48,7 @@ class AudioPlayerSmall extends Component {
               trackCustomEvent({
                 category: "Audio Player",
                 action: "Pause - Inline",
-                label: {podcastTitle},
+                label: podcastTitle,
               })
             }}
             /> 

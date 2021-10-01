@@ -30,13 +30,6 @@ class PostTags extends Component {
               <a 
                 className="filter-tag--attr" 
                 type="anchor"
-                onClick={e => {
-                  trackCustomEvent({
-                    category: "Filters",
-                    action: "Clicked",
-                    label: {tag},
-                  })
-                }} 
               >
                 {tag}
               </a>

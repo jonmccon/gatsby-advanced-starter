@@ -16,14 +16,7 @@ class PostCats extends Component {
             >
               <a 
                 className="filter-cat--jump" 
-                type="anchor"
-                onClick={e => {
-                  trackCustomEvent({
-                    category: "Filters",
-                    action: "Clicked",
-                    label: {category},
-                  })
-                }}  
+                type="anchor" 
               >
                 {category}
               </a>

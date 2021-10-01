@@ -74,7 +74,7 @@ class Listing extends React.Component {
             <div className="headline-wrapper">
             <Headline
               headline={
-                "Cataloging the creative studios of the Pacific Northwest."
+                "Cataloging the creative studios of the Pacific Northwest"
               }
             />
             </div>
