@@ -21,7 +21,7 @@ const config = {
   userLocation: "Seattle, Earth", // User location to display in the author segment.
   userAvatar: "/static/avatar.gif", // User avatar to display in the author segment.
   userDescription:
-    "PNW", // User description to display in the author segment.
+    "PNW boop", // User description to display in the author segment.
   // Links to social profiles/projects you want to display in the author segment/navigation bar.
   userLinks: [
     {
