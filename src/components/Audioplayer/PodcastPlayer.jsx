@@ -39,7 +39,7 @@ class PodcastPlayer extends Component {
                 trackCustomEvent({
                   category: "Audio Player",
                   action: "Play - Featured",
-                  label: podcastTitle,
+                  label: {podcastTitle},
                 })
               }}
             />,
@@ -49,7 +49,7 @@ class PodcastPlayer extends Component {
               trackCustomEvent({
                 category: "Audio Player",
                 action: "Pause - Featured",
-                label: podcastTitle,
+                label: {podcastTitle},
               })
             }}
             /> 
