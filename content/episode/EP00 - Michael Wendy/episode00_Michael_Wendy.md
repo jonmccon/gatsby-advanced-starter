@@ -1,7 +1,6 @@
 ---
 title: "Michael Ellsworth & Wendy Quisenberry- on bacon, corgies, & the beauty of lowercase"
 featuredImage: ./Portrait_test02.png
-cover:
 alt: "portrait of Michael Ellsworth and Wendy Quisenberry"
 studio: ['Civilization', 'https://builtbycivilization.com']
 linkA: ['Design Lecture Series', 'https://designlectur.es']
