@@ -2,9 +2,9 @@ const config = {
   siteTitle: "Seattle Creative Directory", // Site title.
   siteTitleShort: "SCD", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
   siteTitleAlt: "Seattle Creative Directory", // Alternative site title for SEO.
-  siteLogo: "icons/icon-512x512.png", // Logo used for SEO and manifest.
+  siteLogo: "/icons/icon-512x512.png", // Logo used for SEO and manifest.
   siteUrl: "https://seattlecreative.directory", // Domain of your website without pathPrefix.
-  pathPrefix: "/", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
+  pathPrefix: "", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
   siteDescription: "Phonebook for the Seattle design community", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
   siteRssTitle: "Seattle Creative Directory Rss feed", // Title of the RSS feed
@@ -19,7 +19,7 @@ const config = {
   userEmail: "jonmccon@gmail.com", // Email used for RSS feed's author segment
   userTwitter: "jonmccon", // Optionally renders "Follow Me" in the UserInfo segment.
   userLocation: "Seattle, Earth", // User location to display in the author segment.
-  userAvatar: "static/avatar.gif", // User avatar to display in the author segment.
+  userAvatar: "/static/avatar.gif", // User avatar to display in the author segment.
   userDescription:
     "Yeah, I like animals better than people sometimes... Especially dogs. Dogs are the best. Every time you come home, they act like they haven't seen you in a year. And the good thing about dogs... is they got different dogs for different people.", // User description to display in the author segment.
   // Links to social profiles/projects you want to display in the author segment/navigation bar.
