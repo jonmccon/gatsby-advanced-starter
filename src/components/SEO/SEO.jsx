@@ -24,12 +24,15 @@ class SEO extends Component {
       image = config.siteLogo;
     }
 
-    if (
-      !image.match(
-        `(https?|ftp|file)://[-A-Za-z0-9+&@#/%?=~_|!:,.;]+[-A-Za-z0-9+&@#/%=~_|]`
-      )
-    )
-      image = urljoin(config.siteUrl, config.pathPrefix, image);
+    // rm'd this image string matching for now
+    // see #58 for details https://github.com/Vagr9K/gatsby-advanced-starter/issues/58
+
+    // if (
+    //   !image.match(
+    //     `(https?|ftp|file)://[-A-Za-z0-9+&@#/%?=~_|!:,.;]+[-A-Za-z0-9+&@#/%=~_|]`
+    //   )
+    // )
+    //   image = urljoin(config.siteUrl, config.pathPrefix, image);
 
     const blogURL = urljoin(config.siteUrl, config.pathPrefix);
     const schemaOrgJSONLD = [
@@ -130,4 +133,4 @@ export default SEO;
 // <meta property="twitter:url" content="https://test.seattlecreative.directory/">
 // <meta property="twitter:title" content="Cataloging the creative studios of the Pacific Northwest">
 // <meta property="twitter:description" content="Phonebook for the Seattle design community">
-// <meta property="twitter:image" content="/icons/icon-512x512.png"></meta>
+// <meta property="twitter:image" content="/icons/icon-512x512.png">
