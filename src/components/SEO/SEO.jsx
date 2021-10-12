@@ -114,24 +114,3 @@ class SEO extends Component {
 }
 
 export default SEO;
-
-
-
-// <!-- Primary Meta Tags -->
-// <title>Cataloging the creative studios of the Pacific Northwest</title>
-// <meta name="title" content="Cataloging the creative studios of the Pacific Northwest">
-// <meta name="description" content="Phonebook for the Seattle design community">
-
-// <!-- Open Graph / Facebook -->
-// <meta property="og:type" content="website">
-// <meta property="og:url" content="https://test.seattlecreative.directory/">
-// <meta property="og:title" content="Cataloging the creative studios of the Pacific Northwest">
-// <meta property="og:description" content="Phonebook for the Seattle design community">
-// <meta property="og:image" content="/icons/icon-512x512.png">
-
-// <!-- Twitter -->
-// <meta property="twitter:card" content="summary_large_image">
-// <meta property="twitter:url" content="https://test.seattlecreative.directory/">
-// <meta property="twitter:title" content="Cataloging the creative studios of the Pacific Northwest">
-// <meta property="twitter:description" content="Phonebook for the Seattle design community">
-// <meta property="twitter:image" content="/icons/icon-512x512.png">
