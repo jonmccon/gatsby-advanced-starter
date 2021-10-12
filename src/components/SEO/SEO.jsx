@@ -24,9 +24,6 @@ class SEO extends Component {
       image = config.siteLogo;
     }
 
-    // rm'd this image string matching for now
-    // see #58 for details https://github.com/Vagr9K/gatsby-advanced-starter/issues/58
-
     if (
       !image.match(
         `(https?|ftp|file)://[-A-Za-z0-9+&@#/%?=~_|!:,.;]+[-A-Za-z0-9+&@#/%=~_|]`
