@@ -88,12 +88,13 @@ class SEO extends Component {
         </script>
 
         {/* OpenGraph tags */}
+        <meta property="og:type" content="website" />
         <meta property="og:url" content={postSEO ? postURL : blogURL} />
         {postSEO ? <meta property="og:type" content="article" /> : null}
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
-        {/* <meta property="og:image" content={image} /> */}
-        <meta property="og:image" content="/icons/icon-512x512.png" />
+        <meta property="og:image" content={image} />
+        {/* <meta property="og:image" content="/icons/icon-512x512.png" /> */}
         <meta
           property="fb:app_id"
           content={config.siteFBAppID ? config.siteFBAppID : ""}
@@ -107,8 +108,8 @@ class SEO extends Component {
         />
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
-        {/* <meta name="twitter:image" content={image} /> */}
-        <meta name="twitter:image" content="/icons/icon-512x512.png" />
+        <meta name="twitter:image" content={image} />
+        {/* <meta name="twitter:image" content="/icons/icon-512x512.png" /> */}
       </Helmet>
     );
   }
