@@ -5,13 +5,16 @@ website: "https://www.genui.co/"
 twit: "https://twitter.com/generalui"
 inst: ""
 category: "G"
-tags:
-    - Fremont
-    - large
+city: "Seattle"
+neighborhood: "Fremont"
+size: "large"
+map: ""
+discipline:
     - product
     - ux/ui
     - engineering
     - strategy
+published: true
 ---
 
 Description

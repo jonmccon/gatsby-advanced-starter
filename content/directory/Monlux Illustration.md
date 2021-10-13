@@ -5,10 +5,13 @@ website: "https://monlux-illustration.square.site/"
 twit: "https://twitter.com/markmonlux"
 inst: "https://www.instagram.com/markmonlux/"
 category: "M"
-tags:
-    - Tacoma
-    - small
+city: "Tacoma"
+neighborhood: ""
+size: "small"
+map: ""
+discipline:
     - illustration
+published: true
 ---
 Freelancer
 

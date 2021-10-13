@@ -5,13 +5,16 @@ website: "http://somelabdesign.com/"
 twit: ""
 inst: ""
 category: "S"
-tags:
-    - Orcas Island
-    - small
+city: "Orcas Island"
+neighborhood: ""
+size: "small"
+map: ""
+discipline:
     - branding
     - print
     - ux/ui
     - environmental
+published: true
 ---
 
 Description

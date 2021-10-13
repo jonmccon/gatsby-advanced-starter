@@ -5,12 +5,15 @@ website: "https://www.mercerislandgroup.net/"
 twit: ""
 inst: ""
 category: "M"
-tags:
-    - Mercer Island
-    - small
+city: "Mercer Island"
+neighborhood: ""
+size: "small"
+map: ""
+discipline:
     - branding
     - marketing
     - strategy
+published: true
 ---
 
 Description

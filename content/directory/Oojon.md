@@ -5,12 +5,16 @@ website: "http://www.oojon.com/"
 twit: "https://twitter.com/the_oojon"
 inst: "https://www.instagram.com/the_oojon"
 category: "O"
-tags:
-    - small
+city: "Seattle"
+neighborhood: ""
+size: "small"
+map: ""
+discipline:
     - branding
     - illustration
     - ux/ui
     - typography
+published: true
 ---
 
 Description

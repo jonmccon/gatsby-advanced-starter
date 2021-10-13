@@ -5,14 +5,17 @@ website: "https://www.productcreationstudio.com/"
 twit: "https://twitter.com/PCS_News"
 inst: "https://www.instagram.com/productcreationstudio"
 category: "P"
-tags:
-    - South Lake Union
-    - medium
+city: "Seattle"
+neighborhood: "South Lake Union"
+size: "medium"
+map: ""
+discipline:
     - industrial
     - product
     - strategy
     - ux/ui
     - engineering
+published: true
 ---
 
 Description

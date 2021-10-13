@@ -5,10 +5,13 @@ website: "https://www.emeraldcg.com/"
 twit: ""
 inst: "https://www.instagram.com/emeraldcity_graphics"
 category: "E"
-tags:
-    - Kent
-    - large
+city: "Kent"
+neighborhood: ""
+size: "large"
+map: ""
+discipline:
     - printer
+published: true
 ---
 
 Description

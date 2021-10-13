@@ -5,13 +5,16 @@ website: "https://swecker.co/"
 twit: ""
 inst: ""
 category: "S"
-tags:
-    - Pioneer Square
-    - small
+city: "Seattle"
+neighborhood: "Pioneer Square"
+size: "small"
+map: ""
+discipline:
     - engineering
     - ux/ui
     - motion
     - advertising
+published: true
 ---
 
 Description

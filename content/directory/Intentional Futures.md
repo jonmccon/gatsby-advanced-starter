@@ -5,14 +5,17 @@ website: "https://intentionalfutures.com/"
 twit: "https://twitter.com/intentfutures"
 inst: "https://www.instagram.com/intentionalfutures"
 category: "I"
-tags:
-    - Capitol Hill
-    - medium
+city: "Seattle"
+neighborhood: "Capitol Hill"
+size: "medium"
+map: ""
+discipline:
     - strategy
     - research
     - product
     - motion
     - ux/ui
+published: true
 ---
 
 Description

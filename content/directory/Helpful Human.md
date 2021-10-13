@@ -5,11 +5,14 @@ website: "http://www.helpfulhuman.com/"
 twit: "https://twitter.com/helpfulhuman"
 inst: "https://www.instagram.com/helpfulhuman"
 category: "H"
-tags:
-    - Pioneer Square
-    - small
+city: "Seattle"
+neighborhood: "Pioneer Square"
+size: "small"
+map: ""
+discipline:
     - ux/ui
     - engineering
+published: true
 ---
 
 Description

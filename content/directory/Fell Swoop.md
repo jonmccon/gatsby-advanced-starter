@@ -5,14 +5,17 @@ website: "https://www.fellswoop.com/"
 twit: "https://twitter.com/Fell_Swoop"
 inst: ""
 category: "F"
-tags:
-    - Pike Place Market
-    - small
+city: "Seattle"
+neighborhood: "Pike Place Market"
+size: "small"
+map: ""
+discipline:
     - research
     - ux/ui
     - illustration
     - motion
     - strategy
+published: true
 ---
 
 Description

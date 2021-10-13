@@ -5,10 +5,13 @@ website: "https://www.designcitizen.com/"
 twit: ""
 inst: "https://www.instagram.com/design.citizen/"
 category: "D"
-tags:
-    - Capitol Hill
-    - small
+city: "Seattle"
+neighborhood: "Capitol Hill"
+size: "small"
+map: ""
+discipline:
     - recruiter
+published: true
 ---
 
 Description

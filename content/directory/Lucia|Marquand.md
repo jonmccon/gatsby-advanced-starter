@@ -5,10 +5,13 @@ website: "http://luciamarquand.com/"
 twit: "https://twitter.com/luciamarquand"
 inst: ""
 category: "L"
-tags:
-    - Downtown
-    - small
+city: "Seattle"
+neighborhood: "Downtown"
+size: "small"
+map: ""
+discipline:
     - print
+published: true
 ---
 
 Description

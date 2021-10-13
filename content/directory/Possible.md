@@ -5,13 +5,16 @@ website: "https://www.possible.com/"
 twit: "https://twitter.com/possible"
 inst: "https://www.instagram.com/possible"
 category: "P"
-tags:
-    - Downtown
-    - large
+city: "Seattle"
+neighborhood: "Downtown"
+size: "large"
+map: ""
+discipline:
     - branding
     - advertising
     - ux/ui
     - marketing
+published: true
 ---
 
 Description

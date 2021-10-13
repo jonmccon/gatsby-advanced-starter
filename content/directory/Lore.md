@@ -5,12 +5,15 @@ website: "http://lorenaming.com/"
 twit: ""
 inst: ""
 category: "L"
-tags:
-    - Ballard
-    - small
+city: "Seattle"
+neighborhood: "Ballard"
+size: "small"
+map: ""
+discipline:
     - branding
     - advertising
     - naming
+published: true
 ---
 
 Description

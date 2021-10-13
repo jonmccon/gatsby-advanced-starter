@@ -5,12 +5,15 @@ website: "https://www.mheducation.com/"
 twit: "https://twitter.com/MHEducation"
 inst: "https://www.instagram.com/mheducation"
 category: "M"
-tags:
-    - Pioneer Square
-    - large
+city: "Seattle"
+neighborhood: "Pioneer Square"
+size: "large"
+map: ""
+discipline:
     - ux/ui
     - product
     - research
+published: true
 ---
 
 Description

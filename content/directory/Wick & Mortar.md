@@ -5,9 +5,11 @@ website: "https://www.wickandmortar.com/"
 twit: "https://twitter.com/wickandmortar"
 inst: "https://www.instagram.com/wickandmortar"
 category: "W"
-tags:
-    - Pioneer Square
-    - medium
+city: "Seattle"
+neighborhood: "Pioneer Square"
+size: "medium"
+map: ""
+discipline:
     - branding
     - strategy
     - packaging
@@ -17,6 +19,7 @@ tags:
     - photography
     - video
     - advertising
+published: true
 ---
 
 Description

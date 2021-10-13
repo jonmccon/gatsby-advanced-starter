@@ -5,9 +5,11 @@ website: "https://whatisyourm.com/"
 twit: "https://twitter.com/_M_Agency"
 inst: "https://www.instagram.com/_M_Agency"
 category: "M"
-tags:
-    - Tacoma
-    - small
+city: "Tacoma"
+neighborhood: ""
+size: "small"
+map: ""
+discipline:
     - marketing
     - strategy
     - branding
@@ -17,6 +19,7 @@ tags:
     - photography
     - video
     - print
+published: true
 ---
 
 Description

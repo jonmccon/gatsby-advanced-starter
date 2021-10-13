@@ -5,12 +5,15 @@ website: "https://yondrstudio.com/"
 twit: ""
 inst: "https://instagram.com/studioyondr/"
 category: "Y"
-tags:
-    - Edmonds
-    - small
+city: "Edmonds"
+neighborhood: ""
+size: "small"
+map: ""
+discipline:
     - illustration
     - branding
     - typography
+published: true
 ---
 
 Freelancer

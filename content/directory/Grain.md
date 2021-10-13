@@ -5,10 +5,13 @@ website: "http://www.graindesign.com/"
 twit: "https://twitter.com/grain_design"
 inst: "https://www.instagram.com/grain_design"
 category: "G"
-tags:
-    - Bainbridge
-    - small
+city: "Seattle"
+neighborhood: "Bainbridge"
+size: "small"
+map: ""
+discipline:
     - industrial
+published: true
 ---
 
 Description

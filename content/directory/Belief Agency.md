@@ -5,14 +5,17 @@ website: "https://beliefagency.com/"
 twit: "https://twitter.com/beliefagency"
 inst: "https://www.instagram.com/beliefagency"
 category: "B"
-tags:
-    - Fremont
-    - medium
+city: "Seattle"
+neighborhood: "Fremont"
+size: "medium"
+map: ""
+discipline:
     - strategy
     - video
     - branding
     - engineering
     - interactive
+published: true
 ---
 
 Description

@@ -5,11 +5,14 @@ website: "http://www.gatherseattle.com/"
 twit: ""
 inst: "https://www.instagram.com/gatherseattle"
 category: "G"
-tags:
-    - Pioneer Square
-    - small
+city: "Seattle"
+neighborhood: "Pioneer Square"
+size: "small"
+map: ""
+discipline:
     - events
     - community
+published: true
 ---
 
 Description

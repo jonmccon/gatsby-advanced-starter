@@ -5,9 +5,11 @@ website: "https://www.girvin.com/"
 twit: "https://twitter.com/girvindesign"
 inst: "https://www.instagram.com/girvinbranding/"
 category: "G"
-tags:
-    - Belltown
-    - small
+city: "Seattle"
+neighborhood: "Belltown"
+size: "small"
+map: ""
+discipline:
     - branding
     - illustration
     - print
@@ -15,6 +17,7 @@ tags:
     - packaging
     - environmental
     - ux/ui
+published: true
 ---
 
 Description

@@ -5,11 +5,14 @@ website: "https://ntrsct.com"
 twit: " "
 inst: "https://www.instagram.com/ntrsct.designs/"
 category: "N"
-tags: 
-    - small
+city: "Seattle"
+neighborhood: ""
+size: "small"
+map: ""
+discipline:
     - branding
     - strategy
-
+published: true
 ---
 
 Description

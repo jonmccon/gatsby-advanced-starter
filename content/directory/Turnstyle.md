@@ -5,15 +5,18 @@ website: "http://turnstyle.studio/"
 twit: "https://twitter.com/turnstylestudio"
 inst: "https://www.instagram.com/turnstylestudio"
 category: "T"
-tags:
-    - Fremont
-    - small
+city: "Seattle"
+neighborhood: "Fremont"
+size: "small"
+map: ""
+discipline:
     - strategy
     - branding
     - ux/ui
     - print
     - packaging
     - environmental
+published: true
 ---
 
 Description

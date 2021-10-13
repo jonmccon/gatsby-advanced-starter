@@ -5,13 +5,16 @@ website: "https://doubleknotcreative.com/"
 twit: "https://twitter.com/doubleknottweet"
 inst: ""
 category: "D"
-tags:
-    - South Lake Union
-    - small
+city: "Seattle"
+neighborhood: "South Lake Union"
+size: "small"
+map: ""
+discipline:
     - branding
     - packaging
     - print
     - marketing
+published: true
 ---
 
 Description

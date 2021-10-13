@@ -5,11 +5,14 @@ website: "https://www.foundryinteractive.com/"
 twit: "https://twitter.com/foundryinc"
 inst: ""
 category: "F"
-tags:
-    - Pioneer Square
-    - small
+city: "Seattle"
+neighborhood: "Pioneer Square"
+size: "small"
+map: ""
+discipline:
     - engineering
     - ux/ui
+published: true
 ---
 
 Description

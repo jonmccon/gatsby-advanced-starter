@@ -5,10 +5,13 @@ website: "https://www.pratt.org/"
 twit: "https://twitter.com/prattfinearts"
 inst: "https://www.instagram.com/prattfinearts"
 category: "P"
-tags:
-    - Central District
-    - medium
+city: "Seattle"
+neighborhood: "Central District"
+size: "medium"
+map: ""
+discipline:
     - school
+published: true
 ---
 
 Description

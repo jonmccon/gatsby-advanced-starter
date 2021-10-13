@@ -5,9 +5,11 @@ website: "https://www.valvesoftware.com/"
 twit: "https://twitter.com/valvesoftware"
 inst: ""
 category: "V"
-tags:
-    - Bellevue
-    - large
+city: "Bellevue"
+neighborhood: "large"
+size: ""
+map: ""
+discipline:
     - ux/ui
     - industrial
     - engineering
@@ -15,6 +17,7 @@ tags:
     - product
     - motion
     - packaging
+published: true
 ---
 
 Description

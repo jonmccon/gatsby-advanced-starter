@@ -5,9 +5,11 @@ website: "https://jayray.com/"
 twit: ""
 inst: "https://www.instagram.com/jayrayadspr/"
 category: "J"
-tags:
-    - Tacoma
-    - small
+city: "Tacoma"
+neighborhood: ""
+size: "small"
+map: ""
+discipline:
     - branding
     - print
     - advertising
@@ -15,6 +17,7 @@ tags:
     - ux/ui
     - strategy
     - research
+published: true
 ---
 
 Description

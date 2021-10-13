@@ -5,13 +5,16 @@ website: "https://www.copacino.com/"
 twit: ""
 inst: "https://www.instagram.com/copacinofujikado/"
 category: "C"
-tags:
-    - Downtown
-    - medium
+city: "Seattle"
+neighborhood: "Downtown"
+size: "medium"
+map: ""
+discipline:
     - branding
     - marketing
     - strategy
     - advertising
+published: true
 ---
 
 Description

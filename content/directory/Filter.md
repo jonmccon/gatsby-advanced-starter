@@ -5,10 +5,13 @@ website: "https://filterdigital.com/"
 twit: "https://twitter.com/FilterDigital"
 inst: "https://www.instagram.com/filterdigital"
 category: "F"
-tags:
-    - Downtown
-    - medium
+city: "Seattle"
+neighborhood: "Downtown"
+size: "medium"
+map: ""
+discipline:
     - recruiter
+published: true
 ---
 
 Description

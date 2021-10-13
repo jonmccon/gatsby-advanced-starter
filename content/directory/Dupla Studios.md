@@ -5,14 +5,17 @@ website: "http://duplastudios.com/"
 twit: "https://twitter.com/duplastudios"
 inst: "https://www.instagram.com/duplastudios/"
 category: "D"
-tags:
-    - Queen Anne
-    - small
+city: "Seattle"
+neighborhood: "Queen Anne"
+size: "small"
+map: ""
+discipline:
     - research
     - ux/ui
     - product
     - interactive
     - branding
+published: true
 ---
 
 Description

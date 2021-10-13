@@ -5,10 +5,13 @@ website: "https://www.adobe.com"
 twit: "https://twitter.com/adobe"
 inst: ""
 category: "A"
-tags:
-    - Fremont
-    - large
+city: "Seattle"
+neighborhood: "Fremont"
+size: "large"
+map: ""
+discipline:
     - product
+published: true
 ---
 
 Description

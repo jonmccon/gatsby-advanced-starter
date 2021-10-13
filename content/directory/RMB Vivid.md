@@ -5,13 +5,16 @@ website: "http://rmbvivid.com/"
 twit: "https://twitter.com/RMBVivid"
 inst: ""
 category: "R"
-tags:
-    - Pike Place Market
-    - small
+city: "Seattle"
+neighborhood: "Pike Place Market"
+size: "small"
+map: ""
+discipline:
     - exhibition
     - environmental
     - ux/ui
     - print
+published: true
 ---
 
 Description

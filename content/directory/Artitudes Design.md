@@ -5,8 +5,11 @@ website: "https://artitudes.com/"
 twit: "https://twitter.com/ArtitudesDesign"
 inst: "https://www.instagram.com/artitudes"
 category: "A"
-tags:
-    - Issaquah
+city: "Issaquah"
+neighborhood: ""
+size: "medium"
+map: ""
+discipline:
     - 3D rendering 
     - branding 
     - events 
@@ -20,6 +23,7 @@ tags:
     - strategy 
     - typography 
     - video 
+published: true
 ---
 
 Description

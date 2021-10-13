@@ -5,9 +5,11 @@ website: "https://fuzzco.com/"
 twit: ""
 inst: "https://www.instagram.com/fuzzco"
 category: "F"
-tags:
-    - Pioneer Square
-    - small
+city: "Seattle"
+neighborhood: "Pioneer Square"
+size: "small"
+map: ""
+discipline:
     - branding
     - ux/ui
     - strategy
@@ -15,6 +17,7 @@ tags:
     - illustration
     - photography
     - video
+published: true
 ---
 
 Description

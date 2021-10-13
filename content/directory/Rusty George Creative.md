@@ -5,9 +5,11 @@ website: "https://rustygeorge.com/"
 twit: "https://twitter.com/RustyGCreative"
 inst: "https://www.instagram.com/rustygeorgecreative"
 category: "R"
-tags:
-    - Tacoma
-    - small
+city: "Tacoma"
+neighborhood: "small"
+size: ""
+map: ""
+discipline:
     - branding
     - ux/ui
     - advertising
@@ -15,6 +17,7 @@ tags:
     - strategy
     - video
     - environmental
+published: true
 ---
 
 Description

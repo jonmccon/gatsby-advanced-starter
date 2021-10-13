@@ -5,11 +5,15 @@ website: "https://fitch.com/home"
 twit: ""
 inst: "https://instagram.com/fitch_design/"
 category: "F"
-tags:
-    - Downtown
+city: "Seattle"
+neighborhood: "Downtown"
+size: ""
+map: ""
+discipline:
     - branding
     - environmental
     - architecture
+published: true
 ---
 
 Description

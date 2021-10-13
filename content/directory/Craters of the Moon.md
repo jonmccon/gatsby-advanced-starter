@@ -5,12 +5,15 @@ website: "https://www.cotm-marketing.com/"
 twit: "https://twitter.com/COTMmarketing"
 inst: ""
 category: "C"
-tags:
-    - Cle Elum
-    - small
+city: "Cle Elum"
+neighborhood: ""
+size: "small"
+map: ""
+discipline:
     - advertising
     - marketing
     - video
+published: true
 ---
 
 

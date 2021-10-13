@@ -5,10 +5,13 @@ website: "https://www.allovus.com/"
 twit: "https://twitter.com/AllovusDesign"
 inst: "https://www.instagram.com/allovusdesign"
 category: "A"
-tags:
-    - Gig Harbor
-    - small
+city: "Gig Harbor"
+neighborhood: ""
+size: "small"
+map: ""
+discipline:
     - recruiter
+published: true
 ---
 
 Description

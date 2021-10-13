@@ -5,15 +5,18 @@ website: "https://www.gacreative.com/"
 twit: "https://twitter.com/GA_Creative"
 inst: ""
 category: "G"
-tags:
-    - Bellevue
-    - medium
+city: "Seattle"
+neighborhood: "Bellevue"
+size: "medium"
+map: ""
+discipline:
     - branding
     - ux/ui
     - marketing
     - advertising
     - print
     - video
+published: true
 ---
 
 Description

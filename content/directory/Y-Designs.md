@@ -5,13 +5,16 @@ website: "https://y-designs.com/"
 twit: "https://twitter.com/ydseattle"
 inst: ""
 category: "Y"
-tags:
-    - Pioneer Square
-    - small
+city: "Seattle"
+neighborhood: "Pioneer Square"
+size: "small"
+map: ""
+discipline:
     - ux/ui
     - engineering
     - branding
     - product
+published: true
 ---
 
 Description

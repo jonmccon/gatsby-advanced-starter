@@ -5,14 +5,17 @@ website: "http://www.partly-sunny.com/"
 twit: "https://twitter.com/ptsunny"
 inst: ""
 category: "P"
-tags:
-    - Ballard
-    - small
+city: "Seattle"
+neighborhood: "Ballard"
+size: "small"
+map: ""
+discipline:
     - strategy
     - branding
     - packaging
     - print
     - environmental
+published: true
 ---
 
 Description

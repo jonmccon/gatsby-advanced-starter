@@ -5,9 +5,11 @@ website: "https://www.easci.com/"
 twit: "https://twitter.com/easci"
 inst: ""
 category: "E"
-tags:
-    - Capitol Hill
-    - small
+city: "Seattle"
+neighborhood: "Capitol Hill"
+size: "small"
+map: ""
+discipline:
     - strategy
     - marketing
     - ux/ui
@@ -16,6 +18,7 @@ tags:
     - interactive
     - video
     - engineering
+published: true
 ---
 
 Description

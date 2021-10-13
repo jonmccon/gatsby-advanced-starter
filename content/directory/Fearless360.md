@@ -5,11 +5,15 @@ website: "http://fearless360.com/"
 twit: "https://twitter.com/fearless360team"
 inst: ""
 category: "F"
-tags:
-    - small
+city: "Seattle"
+neighborhood: ""
+size: "small"
+map: ""
+discipline:
     - vfx
     - video
     - community
+published: true
 ---
 
 description

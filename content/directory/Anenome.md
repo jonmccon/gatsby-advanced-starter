@@ -5,8 +5,11 @@ website: "https://anemone.studio"
 twit: "https://twitter.com/anemone_es"
 inst: "https://www.instagram.com/spectrolite.app/"
 category: "A"
-tags:
-    - small
+city: "Seattle"
+neighborhood: "Roosevelt"
+size: "small"
+map: ""
+discipline:
     - community 
     - engineering
     - events 
@@ -22,6 +25,7 @@ tags:
     - ux/ui
     - video
     - voice
+published: true
 ---
 
 Description

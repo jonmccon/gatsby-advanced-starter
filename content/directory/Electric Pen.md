@@ -5,14 +5,17 @@ website: "https://electricpen.com/"
 twit: ""
 inst: "https://www.instagram.com/electric.pen"
 category: "E"
-tags:
-    - Fremont
-    - small
+city: "Seattle"
+neighborhood: "Fremont"
+size: "small"
+map: ""
+discipline:
     - branding
     - presentation
     - marketing
     - ux/ui
     - print
+published: true
 ---
 
 Description

@@ -5,14 +5,17 @@ website: "https://www.cmdagency.com/"
 twit: "https://twitter.com/CMDCreates"
 inst: "https://www.instagram.com/cmdcreates"
 category: "C"
-tags:
-    - SODO
-    - large
+city: "Seattle"
+neighborhood: "SODO"
+size: "large"
+map: ""
+discipline:
     - strategy
     - marketing
     - advertising
     - video
     - ux/ui
+published: true
 ---
 
 Description

@@ -5,15 +5,18 @@ website: "https://colorcreative.com/"
 twit: ""
 inst: "https://www.instagram.com/plan.create.destroy/"
 category: "C"
-tags:
-    - Bellevue
-    - large
+city: "Seattle"
+neighborhood: "Bellevue"
+size: "large"
+map: ""
+discipline:
     - motion
     - 3D
     - video
     - branding
     - ux/ui
     - strategy
+published: true
 ---
 
 

@@ -5,13 +5,16 @@ website: "https://www.houseofsorcery.com/"
 twit: ""
 inst: "https://www.instagram.com/houseofsorcery"
 category: "H"
-tags:
-    - Georgetown
-    - small
+city: "Seattle"
+neighborhood: "Georgetown"
+size: "small"
+map: ""
+discipline:
     - branding
     - community
     - interior
     - environmental
+published: true
 ---
 
 

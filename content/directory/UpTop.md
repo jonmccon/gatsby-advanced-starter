@@ -5,13 +5,16 @@ website: "https://www.uptopcorp.com/"
 twit: "https://twitter.com/UpTopCorp"
 inst: "https://www.instagram.com/uptopcorp"
 category: "U"
-tags:
-    - Pioneer Square
-    - small
+city: "Seattle"
+neighborhood: "Pioneer Square"
+size: "small"
+map: ""
+discipline:
     - ux/ui
     - research
     - strategy
     - engineering
+published: true
 ---
 
 Description

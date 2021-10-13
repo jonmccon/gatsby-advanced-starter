@@ -5,10 +5,13 @@ website: "https://www.redjetfilms.com/"
 twit: ""
 inst: ""
 category: "R"
-tags:
-    - Queen Anne
-    - small
+city: "Seattle"
+neighborhood: "Queen Anne"
+size: "small"
+map: ""
+discipline:
     - video
+published: true
 ---
 
 https://www.youtube.com/user/redjetfilms

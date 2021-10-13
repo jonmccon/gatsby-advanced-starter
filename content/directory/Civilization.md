@@ -5,14 +5,17 @@ website: "https://builtbycivilization.com/"
 twit: "https://twitter.com/bycivilization"
 inst: ""
 category: "C"
-tags:
-    - Pioneer Square
-    - small
+city: "Seattle"
+neighborhood: "Pioneer Square"
+size: "small"
+map: ""
+discipline:
     - branding
     - ux/ui
     - print
     - environmental
     - exhibition
+published: true
 ---
 
 Description

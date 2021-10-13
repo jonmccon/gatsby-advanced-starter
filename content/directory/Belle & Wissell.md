@@ -5,9 +5,11 @@ website: "http://www.bwco.info/"
 twit: "https://twitter.com/BelleandWissell"
 inst: ""
 category: "B"
-tags:
-    - Georgetown
-    - small
+city: "Seattle"
+neighborhood: "Georgetown"
+size: "small"
+map: ""
+discipline:
     - interactive
     - environmental
     - exhibition
@@ -20,6 +22,7 @@ tags:
     - vfx 
     - video 
     - sound 
+published: true
 ---
 
 Description

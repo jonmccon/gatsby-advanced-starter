@@ -5,12 +5,15 @@ website: "https://www.codetactic.com/"
 twit: ""
 inst: ""
 category: "C"
-tags:
-    - Ballard
-    - small
+city: "Seattle"
+neighborhood: "Ballard"
+size: "small"
+map: ""
+discipline:
     - ux/ui
     - engineering
     - marketing
+published: true
 ---
 
 Description

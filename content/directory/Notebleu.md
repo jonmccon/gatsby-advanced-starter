@@ -5,11 +5,14 @@ website: "https://notebleu.com/"
 twit: ""
 inst: ""
 category: "N"
-tags:
-    - Queen Anne
-    - small
+city: "Seattle"
+neighborhood: "Queen Anne"
+size: "small"
+map: ""
+discipline:
     - engineering
     - ux/ui
+published: true
 ---
 
 Description

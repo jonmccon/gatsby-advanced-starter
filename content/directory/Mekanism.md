@@ -5,13 +5,16 @@ website: "https://mekanism.com/"
 twit: "https://twitter.com/mekanism"
 inst: "https://www.instagram.com/mekanism"
 category: "M"
-tags:
-    - Capitol Hill
-    - large
+city: "Seattle"
+neighborhood: "Capitol Hill"
+size: "large"
+map: ""
+discipline:
     - advertising
     - motion
     - video
     - branding
+published: true
 ---
 
 Description

@@ -5,9 +5,11 @@ website: "https://www.hellowildern.com/"
 twit: ""
 inst: "https://www.instagram.com/hellowildern"
 category: "W"
-tags:
-    - Capitol Hill
-    - small
+city: "Seattle"
+neighborhood: "Capitol Hill"
+size: "small"
+map: ""
+discipline:
     - branding
     - ux/ui
     - research
@@ -16,6 +18,7 @@ tags:
     - packaging
     - marketing
     - photography
+published: true
 ---
 
 Description

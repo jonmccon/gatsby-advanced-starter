@@ -5,11 +5,14 @@ website: "https://olsonkundig.com/"
 twit: "https://twitter.com/olsonkundig"
 inst: "https://www.instagram.com/olsonkundig"
 category: "O"
-tags:
-    - Pioneer Square
-    - large
+city: "Seattle"
+neighborhood: "Pioneer Square"
+size: "large"
+map: ""
+discipline:
     - architecture
     - environmental
+published: true
 ---
 
 Description

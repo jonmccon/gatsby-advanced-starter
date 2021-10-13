@@ -5,9 +5,11 @@ website: "http://columnseattle.com/"
 twit: "https://twitter.com/columnseattle"
 inst: ""
 category: "C"
-tags:
-    - Pioneer Square
-    - small
+city: "Seattle"
+neighborhood: "Pioneer Square"
+size: "small"
+map: ""
+discipline:
     - branding
     - strategy
     - packaging
@@ -16,6 +18,7 @@ tags:
     - photography
     - typography
     - illustration
+published: true
 ---
 
 Description

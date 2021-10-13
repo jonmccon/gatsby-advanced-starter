@@ -5,9 +5,11 @@ website: "https://www.microsoft.com/design"
 twit: "https://twitter.com/MicrosoftDesign"
 inst: "https://www.instagram.com/microsoft.design"
 category: "M"
-tags:
-    - Redmond
-    - huge
+city: "Redmond"
+neighborhood: ""
+size: "huge"
+map: ""
+discipline:
     - ux/ui
     - product
     - research
@@ -17,6 +19,7 @@ tags:
     - motion
     - video
     - engineering
+published: true
 ---
 
 Description

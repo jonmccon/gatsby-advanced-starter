@@ -5,15 +5,18 @@ website: "https://tmarksdesign.com/"
 twit: "https://twitter.com/tdaddy61"
 inst: "https://instagram.com/terry.marks/"
 category: "T"
-tags:
-    - South Lake Union
-    - small
+city: "Seattle"
+neighborhood: "South Lake Union"
+size: "small"
+map: ""
+discipline:
     - branding
     - strategy
     - ux/ui
     - packaging
     - print
     - video
+published: true
 ---
 
 Description

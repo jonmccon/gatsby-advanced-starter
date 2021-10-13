@@ -5,9 +5,11 @@ website: "https://wongdoody.com/"
 twit: "https://twitter.com/wongdoody"
 inst: "https://www.instagram.com/WONGDOODY"
 category: "W"
-tags:
-    - Downtown
-    - large
+city: "Seattle"
+neighborhood: "Downtown"
+size: "large"
+map: ""
+discipline:
     - strategy
     - research
     - ux/ui
@@ -17,6 +19,7 @@ tags:
     - print
     - motion
     - photography
+published: true
 ---
 
 Description

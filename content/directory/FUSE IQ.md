@@ -5,13 +5,16 @@ website: "https://www.fuseiq.com/"
 twit: "https://twitter.com/fuseiq"
 inst: ""
 category: "F"
-tags:
-    - Pioneer Square
-    - medium
+city: "Seattle"
+neighborhood: "Pioneer Square"
+size: "medium"
+map: ""
+discipline:
     - engineering
     - strategy
     - branding
     - ux/ui
+published: true
 ---
 
 Description

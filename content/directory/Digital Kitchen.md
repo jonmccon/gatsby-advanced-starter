@@ -5,15 +5,18 @@ website: "https://www.thisisdk.com/"
 twit: "https://twitter.com/digitalkitchen"
 inst: ""
 category: "D"
-tags:
-    - Downtown
-    - medium
+city: "Seattle"
+neighborhood: "Downtown"
+size: "medium"
+map: ""
+discipline:
     - motion
     - video
     - interactive
     - environmental
     - ux/ui
     - branding
+published: true
 ---
 
 Description

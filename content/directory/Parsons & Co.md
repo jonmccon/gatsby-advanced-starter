@@ -5,11 +5,14 @@ website: "https://www.parsonsandco.com/"
 twit: "https://twitter.com/ParsonsandCo1"
 inst: "https://www.instagram.com/parsonsandco"
 category: "P"
-tags:
-    - Ballard
-    - small
+city: "Seattle"
+neighborhood: "Ballard"
+size: "small"
+map: ""
+discipline:
     - ux/ui
     - marketing
+published: true
 ---
 
 Description

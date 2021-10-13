@@ -5,15 +5,18 @@ website: "https://ontramarketing.com/"
 twit: "https://twitter.com/ontramarketing"
 inst: "https://www.instagram.com/ontramarketing"
 category: "O"
-tags:
-    - Woodinville
-    - small
+city: "Woodinville"
+neighborhood: ""
+size: "small"
+map: ""
+discipline:
     - branding
     - ux/ui
     - print
     - marketing
     - video
     - photography
+published: true
 ---
 
 Description

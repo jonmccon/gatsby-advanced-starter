@@ -5,13 +5,16 @@ website: "https://uwapress.uw.edu/"
 twit: "https://twitter.com/UWAPress"
 inst: "https://www.instagram.com/uwapress"
 category: "U"
-tags:
-    - U District
-    - medium
+city: "Seattle"
+neighborhood: "U District"
+size: "medium"
+map: ""
+discipline:
     - print
     - product
     - packaging
     - photography
+published: true
 ---
 
 Description

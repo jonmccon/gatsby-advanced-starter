@@ -5,11 +5,14 @@ website: "https://pikestreetpress.com/"
 twit: "https://twitter.com/"
 inst: "https://www.instagram.com/pikestreetpress"
 category: "P"
-tags:
-    - Pike Place Market
-    - small
+city: "Seattle"
+neighborhood: "Pike Place Market"
+size: "small"
+map: ""
+discipline:
     - printer
     - branding
+published: true
 ---
 
 Description

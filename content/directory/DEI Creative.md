@@ -5,9 +5,11 @@ website: "https://deicreative.com/"
 twit: ""
 inst: "https://www.instagram.com/deicreative"
 category: "D"
-tags:
-    - Capitol Hill
-    - small
+city: "Seattle"
+neighborhood: "Capitol Hill"
+size: "small"
+map: ""
+discipline:
     - branding
     - print
     - packaging
@@ -15,6 +17,7 @@ tags:
     - photography
     - illustration
     - research
+published: true
 ---
 
 Description

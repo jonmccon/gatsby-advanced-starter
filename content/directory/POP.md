@@ -5,12 +5,15 @@ website: "https://www.wearepop.com/"
 twit: ""
 inst: "https://www.instagram.com/pop_agency"
 category: "P"
-tags:
-    - Downtown
-    - large
+city: "Seattle"
+neighborhood: "Downtown"
+size: "large"
+map: ""
+discipline:
     - ux/ui
     - engineering
     - product
+published: true
 ---
 
 Description

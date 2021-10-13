@@ -5,10 +5,13 @@ website: "https://spu.edu/academics/college-of-arts-sciences/art/majors-minors/m
 twit: ""
 inst: "https://www.instagram.com/spac_gallery"
 category: "S"
-tags:
-    - Queen Anne
-    - large
+city: "Seattle"
+neighborhood: "Queen Anne"
+size: "large"
+map: ""
+discipline:
     - school
+published: true
 ---
 
 Description

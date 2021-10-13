@@ -5,13 +5,17 @@ website: "https://chalkboxstudio.com/"
 twit: " "
 inst: "https://www.instagram.com/chalkboxcreative/"
 category: "C"
-tags: 
-    - small
+city: "Seattle"
+neighborhood: ""
+size: "small"
+map: ""
+discipline:
     - branding
     - illustration
     - packaging
     - print
     - ux/ui
+published: true
 ---
 
 Description

@@ -5,13 +5,16 @@ website: "http://www.acrylicize.com"
 twit: "https://twitter.com/acrylicize"
 inst: "https://www.instagram.com/acrylicize"
 category: "A"
-tags:
-    - Capitol Hill
-    - medium
+city: "Seattle"
+neighborhood: "Capitol Hill"
+size: "medium"
+map: ""
+discipline:
     - branding
     - community
     - environmental
     - interior
+published: true
 ---
 
 

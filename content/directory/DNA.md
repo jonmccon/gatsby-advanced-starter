@@ -5,13 +5,16 @@ website: "http://dnaseattle.com/"
 twit: "https://twitter.com/dnaseattle"
 inst: "https://www.instagram.com/dnaseattle/"
 category: "D"
-tags:
-    - Downtown
-    - medium
+city: "Seattle"
+neighborhood: "Downtown"
+size: "medium"
+map: ""
+discipline:
     - strategy
     - advertising
     - marketing
     - video
+published: true
 ---
 
 Description

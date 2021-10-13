@@ -5,10 +5,13 @@ website: "https://www.plu.edu/artd/"
 twit: ""
 inst: "https://instagram.com/plu_artdesign/"
 category: "P"
-tags:
-    - Tacoma
-    - large
+city: "Tacoma"
+neighborhood: ""
+size: "large"
+map: ""
+discipline:
     - school
+published: true
 ---
 
 Description

@@ -5,15 +5,18 @@ website: "http://www.eggbranding.com/"
 twit: "https://twitter.com/eggseattle"
 inst: ""
 category: "E"
-tags:
-    - Vashon Island
-    - small
+city: "Vashon Island"
+neighborhood: ""
+size: "small"
+map: ""
+discipline:
     - branding
     - marketing
     - strategy
     - advertising
     - naming
     - experiential
+published: true
 ---
 
 Description

@@ -5,12 +5,15 @@ website: "https://suyamapetersondeguchi.com/"
 twit: ""
 inst: "https://instagram.com/suyamapetersondeguchi/"
 category: "S"
-tags:
-    - South Park
-    - small
+city: "Seattle"
+neighborhood: "South Park"
+size: "small"
+map: ""
+discipline:
     - architecture
     - industrial
     - environmental
+published: true
 ---
 
 Description

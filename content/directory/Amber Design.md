@@ -5,14 +5,18 @@ website: "https://www.awesomeamber.com/"
 twit: "https://twitter.com/AmberDesign_"
 inst: "https://www.instagram.com/awesomeamberdesign"
 category: "A"
-tags:
-    - small
+city: "Marysville"
+neighborhood: ""
+size: "small"
+map: ""
+discipline:
     - branding
     - print
     - ux/ui
     - marketing
     - photography
     - packaging
+published: true
 ---
 
 Freelancer

@@ -5,10 +5,13 @@ website: "https://art.washington.edu/design"
 twit: ""
 inst: "https://www.instagram.com/uwsoa"
 category: "U"
-tags:
-    - U District
-    - large
+city: "Seattle"
+neighborhood: "U District"
+size: "large"
+map: ""
+discipline:
     - school
+published: true
 ---
 
 Description

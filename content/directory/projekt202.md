@@ -5,15 +5,18 @@ website: "https://projekt202.com/"
 twit: "https://twitter.com/projekt202"
 inst: "https://www.instagram.com/projekt202"
 category: "P"
-tags:
-    - Downtown
-    - large
+city: "Seattle"
+neighborhood: "Downtown"
+size: "large"
+map: ""
+discipline:
     - ux/ui
     - strategy
     - research
     - engineering
     - marketing
     - advertising
+published: true
 ---
 
 Description

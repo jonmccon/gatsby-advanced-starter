@@ -5,10 +5,13 @@ website: "https://www.handcrankfilms.com/"
 twit: ""
 inst: "https://www.instagram.com/handcrankfilms/"
 category: "H"
-tags:
-    - Ballard
-    - small
+city: "Seattle"
+neighborhood: "Ballard"
+size: "small"
+map: ""
+discipline:
     - video
+published: true
 ---
 
 https://vimeo.com/handcrankfilms/

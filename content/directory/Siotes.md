@@ -5,15 +5,18 @@ website: "http://siotes.com/"
 twit: ""
 inst: "https://www.instagram.com/siotes"
 category: "S"
-tags:
-    - Pioneer Square
-    - small
+city: "Seattle"
+neighborhood: "Pioneer Square"
+size: "small"
+map: ""
+discipline:
     - branding
     - print
     - illustration
     - typography
     - packaging
     - environmental
+published: true
 ---
 
 Description

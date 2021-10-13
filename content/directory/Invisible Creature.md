@@ -5,11 +5,14 @@ website: "https://www.invisiblecreature.com/"
 twit: "https://twitter.com/icreature"
 inst: "https://www.instagram.com/icreature"
 category: "I"
-tags:
-    - Maple Valley
-    - small
+city: "Maple Valley"
+neighborhood: ""
+size: "small"
+map: ""
+discipline:
     - illustration
     - product
+published: true
 ---
 
 Description

@@ -5,13 +5,16 @@ website: "https://www.runstudios.com/"
 twit: ""
 inst: "https://www.instagram.com/runstudios/"
 category: "R"
-tags:
-    - Ballard
-    - large
+city: "Seattle"
+neighborhood: "Ballard"
+size: "large"
+map: ""
+discipline:
     - video
     - motion
     - 3D
     - vfx
+published: true
 ---
 
 https://vimeo.com/runstudios

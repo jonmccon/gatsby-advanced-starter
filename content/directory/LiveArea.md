@@ -5,12 +5,15 @@ website: "https://www.liveareacx.com/"
 twit: "https://twitter.com/LiveArea"
 inst: ""
 category: "L"
-tags:
-    - Downtown
-    - large
+city: "Seattle"
+neighborhood: "Downtown"
+size: "large"
+map: ""
+discipline:
     - ux/ui
     - strategy
     - marketing
+published: true
 ---
 
 Description

@@ -5,12 +5,15 @@ website: "http://www.rootculturelab.com/"
 twit: ""
 inst: "https://www.instagram.com/rcldesignseattle"
 category: "R"
-tags:
-    - Madrona
-    - small
+city: "Seattle"
+neighborhood: "Madrona"
+size: "small"
+map: ""
+discipline:
     - architecture
     - branding
     - strategy
+published: true
 ---
 
 Description

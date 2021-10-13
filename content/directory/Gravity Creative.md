@@ -5,12 +5,15 @@ website: "http://www.gravitycreative.com/"
 twit: "https://twitter.com/gravitycreative"
 inst: "https://www.instagram.com/gravitycreative_seattle/"
 category: "G"
-tags:
-    - Belltown
-    - small
+city: "Seattle"
+neighborhood: "Belltown"
+size: "small"
+map: ""
+discipline:
     - branding
     - packaging
     - ux/ui
+published: true
 ---
 
 Description

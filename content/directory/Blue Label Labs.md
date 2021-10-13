@@ -5,13 +5,16 @@ website: "https://www.bluelabellabs.com/"
 twit: "https://twitter.com/bluelabellabs"
 inst: ""
 category: "B"
-tags:
-    - Redmond
-    - large
+city: "Seattle"
+neighborhood: "Redmond"
+size: "large"
+map: ""
+discipline:
     - branding
     - engineering
     - marketing
     - ux/ui
+published: true
 ---
 
 Description

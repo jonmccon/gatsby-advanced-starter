@@ -5,13 +5,16 @@ website: "https://www.mutuus-studio.com/"
 twit: ""
 inst: "https://www.instagram.com/mutuus_studio"
 category: "M"
-tags:
-    - SODO
-    - small
+city: "Seattle"
+neighborhood: "SODO"
+size: "small"
+map: ""
+discipline:
     - environmental
     - architecture
     - industrial
     - product
+published: true
 ---
 
 Description

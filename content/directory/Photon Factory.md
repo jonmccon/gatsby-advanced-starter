@@ -5,9 +5,11 @@ website: "https://www.photonfactory.org"
 twit: ""
 inst: "https://www.instagram.com/photonfactory"
 category: "P"
-tags:
-    - Pioneer Square
-    - medium
+city: "Seattle"
+neighborhood: "Pioneer Square"
+size: "medium"
+map: ""
+discipline:
     - 3D
     - advertising
     - branding
@@ -24,7 +26,7 @@ tags:
     - strategy
     - typography
     - ux/ui
-
+published: true
 ---
 
 https://www.facebook.com/photonfactoryseattle

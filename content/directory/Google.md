@@ -5,9 +5,11 @@ website: "https://design.google/"
 twit: "https://twitter.com/googledesign"
 inst: "https://www.instagram.com/googledesign"
 category: "G"
-tags:
-    - Fremont
-    - huge
+city: "Seattle"
+neighborhood: "Fremont"
+size: "huge"
+map: ""
+discipline:
     - ux/ui
     - product
     - research
@@ -18,6 +20,7 @@ tags:
     - video
     - engineering
     - inhouse
+published: true
 ---
 
 Description

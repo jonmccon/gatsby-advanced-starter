@@ -5,9 +5,11 @@ website: "https://graphiti.com/"
 twit: "https://twitter.com/Graphiti"
 inst: "https://www.instagram.com/graphiti_associates/"
 category: "G"
-tags:
-    - Fremont
-    - small
+city: "Seattle"
+neighborhood: "Fremont"
+size: "small"
+map: ""
+discipline:
     - branding
     - strategy
     - ux/ui
@@ -16,6 +18,7 @@ tags:
     - print
     - environmental
     - packaging
+published: true
 ---
 
 Description

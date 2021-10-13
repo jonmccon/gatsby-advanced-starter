@@ -5,13 +5,16 @@ website: "http://pushdesign.net/"
 twit: ""
 inst: ""
 category: "P"
-tags:
-    - Pioneer Square
-    - small
+city: "Seattle"
+neighborhood: "Pioneer Square"
+size: "small"
+map: ""
+discipline:
     - branding
     - ux/ui
     - print
     - strategy
+published: true
 ---
 
 Description

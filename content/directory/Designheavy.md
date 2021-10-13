@@ -5,14 +5,17 @@ website: "http://designheavy.com/"
 twit: ""
 inst: ""
 category: "D"
-tags:
-    - Crown Hill
-    - small
+city: "Seattle"
+neighborhood: "Crown Hill"
+size: "small"
+map: ""
+discipline:
     - branding
     - print
     - environmental
     - ux/ui
     - packaging
+published: true
 ---
 
 

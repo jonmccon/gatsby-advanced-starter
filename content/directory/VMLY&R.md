@@ -5,12 +5,15 @@ website: "https://www.vml.com/"
 twit: "https://twitter.com/VMLYR"
 inst: "https://www.instagram.com/vmlyr"
 category: "V"
-tags:
-    - South Lake Union
-    - large
+city: "Seattle"
+neighborhood: "South Lake Union"
+size: "large"
+map: ""
+discipline:
     - advertising
     - marketing
     - video
+published: true
 ---
 
 Description

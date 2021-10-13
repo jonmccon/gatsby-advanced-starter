@@ -5,12 +5,15 @@ website: "http://www.sqtomato.com/"
 twit: ""
 inst: ""
 category: "S"
-tags:
-    - SODO
-    - small
+city: "Seattle"
+neighborhood: "SODO"
+size: "small"
+map: ""
+discipline:
     - advertising
     - marketing
     - ux/ui
+published: true
 ---
 
 Description

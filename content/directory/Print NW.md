@@ -5,10 +5,13 @@ website: "http://printnw.rocks/"
 twit: "https://twitter.com/printnw"
 inst: "https://www.instagram.com/print_nw"
 category: "P"
-tags:
-    - Tacoma
-    - large
+city: "Tacoma"
+neighborhood: ""
+size: "large"
+map: ""
+discipline:
     - printer
+published: true
 ---
 
 Description

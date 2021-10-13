@@ -5,11 +5,14 @@ website: "https://www.theflowerpress.net/"
 twit: ""
 inst: ""
 category: "F"
-tags:
-    - Queen Anne
-    - small
+city: "Seattle"
+neighborhood: "Queen Anne"
+size: "small"
+map: ""
+discipline:
     - ux/ui
     - engineering
+published: true
 ---
 
 Description

@@ -5,12 +5,15 @@ website: "https://www.wildgravity.net/"
 twit: "https://twitter.com/WildGravityLLC"
 inst: "https://www.instagram.com/wild.gravity/"
 category: "W"
-tags:
-    - First Hill
-    - medium
+city: "Seattle"
+neighborhood: "First Hill"
+size: "medium"
+map: ""
+discipline:
     - video
     - motion
     - photography
+published: true
 ---
 
 Description

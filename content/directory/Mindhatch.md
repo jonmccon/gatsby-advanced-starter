@@ -5,10 +5,14 @@ website: "https://www.mindhatchllc.com/"
 twit: "https://twitter.com/mindhatchllc"
 inst: "https://www.instagram.com/mindhatch_llc"
 category: "M"
-tags:
-    - small
+city: "Seattle"
+neighborhood: ""
+size: "small"
+map: ""
+discipline:
     - strategy
     - research
+published: true
 ---
 
 Description

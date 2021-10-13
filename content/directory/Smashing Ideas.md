@@ -5,15 +5,18 @@ website: "https://smashingideas.com/"
 twit: "https://twitter.com/smashingideas"
 inst: "https://www.instagram.com/smashing_ideas_agency"
 category: "S"
-tags:
-    - Belltown
-    - large
+city: "Seattle"
+neighborhood: "Belltown"
+size: "large"
+map: ""
+discipline:
     - strategy
     - research
     - motion
     - ux/ui
     - product
     - engineering
+published: true
 ---
 
 Description

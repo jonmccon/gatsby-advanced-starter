@@ -5,14 +5,17 @@ website: "https://modernspecies.com/"
 twit: "https://twitter.com/ModSpec"
 inst: "https://www.instagram.com/modspec"
 category: "M"
-tags:
-    - Pike Place Market
-    - small
+city: "Seattle"
+neighborhood: "Pike Place Market"
+size: "small"
+map: ""
+discipline:
     - branding
     - packaging
     - print
     - environmental
     - ux/ui
+published: true
 ---
 
 Description

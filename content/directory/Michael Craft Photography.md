@@ -5,10 +5,13 @@ website: "https://www.michaelcraftphotography.com/"
 twit: ""
 inst: "https://www.instagram.com/michaelcraftphotographyseattle/"
 category: "M"
-tags:
-    - Queen Anne
-    - small
+city: "Seattle"
+neighborhood: "Queen Anne"
+size: "small"
+map: ""
+discipline:
     - photography
+published: true
 ---
 
 

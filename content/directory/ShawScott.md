@@ -5,11 +5,14 @@ website: "http://shawscott.com/"
 twit: "https://twitter.com/ShawScott"
 inst: "https://instagram.com/_shawscott/"
 category: "S"
-tags:
-    - Madison Park
-    - medium
+city: "Seattle"
+neighborhood: "Madison Park"
+size: "medium"
+map: ""
+discipline:
     - marketing
     - advertising
+published: true
 ---
 
 Description

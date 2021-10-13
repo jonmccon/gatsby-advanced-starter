@@ -5,9 +5,11 @@ website: "https://brandquery.com/"
 twit: "https://twitter.com/brandquery"
 inst: "https://www.instagram.com/brandquery/"
 category: "B"
-tags:
-    - Mount Vernon
-    - small
+city: "Mount Vernon"
+neighborhood: ""
+size: "small"
+map: ""
+discipline:
     - branding
     - advertising
     - marketing
@@ -15,6 +17,7 @@ tags:
     - strategy
     - environmental
     - ux/ui
+published: true
 ---
 
 

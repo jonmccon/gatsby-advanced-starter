@@ -5,9 +5,11 @@ website: "http://tether.com/"
 twit: "https://twitter.com/tether"
 inst: "https://www.instagram.com/tether"
 category: "T"
-tags:
-    - Pioneer Square
-    - medium
+city: "Seattle"
+neighborhood: "Pioneer Square"
+size: "medium"
+map: ""
+discipline:
     - branding
     - packaging
     - industrial
@@ -16,6 +18,7 @@ tags:
     - strategy
     - video
     - advertising
+published: true
 ---
 
 Description

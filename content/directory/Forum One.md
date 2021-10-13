@@ -5,13 +5,16 @@ website: "https://www.forumone.com/"
 twit: "https://twitter.com/forumone"
 inst: "https://www.instagram.com/forum_one"
 category: "F"
-tags:
-    - Belltown
-    - large
+city: "Seattle"
+neighborhood: "Belltown"
+size: "large"
+map: ""
+discipline:
     - ux/ui
     - branding
     - engineering
     - strategy
+published: true
 ---
 
 Description

@@ -5,9 +5,11 @@ website: "https://cognitionstudio.com/"
 twit: "https://twitter.com/cognitionstudio"
 inst: ""
 category: "C"
-tags:
-    - Ballard
-    - small
+city: "Seattle"
+neighborhood: "Ballard"
+size: "small"
+map: ""
+discipline:
     - strategy
     - branding
     - interactive
@@ -16,6 +18,7 @@ tags:
     - motion
     - marketing
     - environmental
+published: true
 ---
 
 Description

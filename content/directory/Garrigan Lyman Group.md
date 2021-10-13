@@ -5,14 +5,17 @@ website: "https://www.glg.com/"
 twit: "https://twitter.com/garriganlyman"
 inst: "https://www.instagram.com/garriganlyman"
 category: "G"
-tags:
-    - Downtown
-    - large
+city: "Seattle"
+neighborhood: "Downtown"
+size: "large"
+map: ""
+discipline:
     - branding
     - strategy
     - advertising
     - strategy
     - ux/ui
+published: true
 ---
 
 Description

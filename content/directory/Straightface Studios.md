@@ -5,12 +5,15 @@ website: "http://sfstudios.com/"
 twit: "https://twitter.com/StraightfaceHQ"
 inst: ""
 category: "S"
-tags:
-    - Queen Anne
-    - small
+city: "Seattle"
+neighborhood: "Queen Anne"
+size: "small"
+map: ""
+discipline:
     - motion
     - 3D
     - video
+published: true
 ---
 
 https://vimeo.com/straightface

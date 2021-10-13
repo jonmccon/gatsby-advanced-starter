@@ -5,13 +5,16 @@ website: "https://rotatorcreative.com/"
 twit: ""
 inst: "https://instagram.com/rotatorcreative/"
 category: "R"
-tags:
-    - Tacoma
-    - small
+city: "Tacoma"
+neighborhood: ""
+size: "small"
+map: ""
+discipline:
     - branding
     - strategy
     - environmental
     - ux/ui
+published: true
 ---
 
 Description

@@ -5,13 +5,16 @@ website: "http://pleyground.design/"
 twit: "https://twitter.com/pley_ground"
 inst: "https://www.instagram.com/pley.ground"
 category: "P"
-tags:
-    - Pioneer Square
-    - small
+city: "Seattle"
+neighborhood: "Pioneer Square"
+size: "small"
+map: ""
+discipline:
     - typography
     - print
     - illustration
     - branding
+published: true
 ---
 
 Description

@@ -5,13 +5,16 @@ website: "https://blindtigerdesign.com/"
 twit: "https://twitter.com/blindtigerdsgn"
 inst: ""
 category: "B"
-tags:
-    - Ballard
-    - small
+city: "Seattle"
+neighborhood: "Ballard"
+size: "small"
+map: ""
+discipline:
     - packaging
     - branding
     - strategy
     - product
+published: true
 ---
 
 Description

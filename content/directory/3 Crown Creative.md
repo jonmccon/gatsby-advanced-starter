@@ -5,12 +5,15 @@ website: "https://3crowncreative.com/"
 twit: ""
 inst: ""
 category: "numbers"
-tags:
-    - Fremont
-    - small
+city: "Seattle"
+neighborhood: "Fremont"
+size: "small"
+map:
+discipline:
     - branding
     - ux/ui
     - engineering
+published: true
 ---
 
 Description

@@ -5,13 +5,16 @@ website: "https://www.statesofmatter.com/"
 twit: "https://twitter.com/statesmatter"
 inst: "https://instagram.com/statesofmatter/"
 category: "S"
-tags:
-    - Pioneer Square
-    - small
+city: "Seattle"
+neighborhood: "Pioneer Square"
+size: "small"
+map: ""
+discipline:
     - branding
     - print
     - packaging
     - strategy
+published: true
 ---
 
 Description

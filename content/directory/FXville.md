@@ -5,11 +5,14 @@ website: "https://www.fxville.com/"
 twit: "https://twitter.com/FXVille"
 inst: ""
 category: "F"
-tags:
-    - Queen Anne
-    - small
+city: "Seattle"
+neighborhood: "Queen Anne"
+size: "small"
+map: ""
+discipline:
     - vfx
     - gaming
+published: true
 ---
 
 https://www.youtube.com/fxvilleinc

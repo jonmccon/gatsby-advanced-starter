@@ -5,11 +5,14 @@ website: "http://www.plyinteractive.com/"
 twit: "https://twitter.com/plyinc"
 inst: ""
 category: "P"
-tags:
-    - Queen Anne
-    - small
+city: "Seattle"
+neighborhood: "Queen Anne"
+size: "small"
+map: ""
+discipline:
     - ux/ui
     - engineering
+published: true
 ---
 
 Description

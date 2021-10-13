@@ -5,11 +5,15 @@ website: "https://www.beargroup.com/"
 twit: "https://twitter.com/bearideas" 
 inst: "" 
 category: "B" 
-tags: 
-    - Westlake
-    - medium
+city: "Seattle"
+neighborhood: "Westlake"
+size: "medium"
+map: ""
+discipline:
     - eCommerce
+published: true
 --- 
+
 Would you like to be on the show? 
 -Possibly! 
 

@@ -5,13 +5,16 @@ website: "http://www.pilotlab.com/"
 twit: "https://twitter.com/thepilotlab"
 inst: "https://www.instagram.com/pilot.lab/"
 category: "P"
-tags:
-    - Capitol Hill
-    - medium
+city: "Seattle"
+neighborhood: "Capitol Hill"
+size: "medium"
+map: ""
+discipline:
     - ux/ui
     - engineering
     - strategy
     - research
+published: true
 ---
 
 Description

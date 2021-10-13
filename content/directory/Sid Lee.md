@@ -5,9 +5,11 @@ website: "https://sidlee.com/"
 twit: "https://twitter.com/sidlee"
 inst: "https://www.instagram.com/sidlee_official"
 category: "S"
-tags:
-    - Downtown
-    - large
+city: "Seattle"
+neighborhood: "Downtown"
+size: "large"
+map: ""
+discipline:
     - branding
     - packaging
     - environmental
@@ -15,6 +17,7 @@ tags:
     - engineering
     - experience
     - marketing
+published: true
 ---
 
 Description

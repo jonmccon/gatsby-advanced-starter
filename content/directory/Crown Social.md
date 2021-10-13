@@ -5,9 +5,11 @@ website: "https://crownsocial.com/"
 twit: "https://twitter.com/crownsocial"
 inst: "https://www.instagram.com/crownsocial"
 category: "C"
-tags:
-    - South Lake Union
-    - medium
+city: "Seattle"
+neighborhood: "South Lake Union"
+size: "medium"
+map: ""
+discipline:
     - advertising
     - marketing
     - ux/ui
@@ -16,6 +18,7 @@ tags:
     - video
     - illustration
     - photography
+published: true
 ---
 
 Description

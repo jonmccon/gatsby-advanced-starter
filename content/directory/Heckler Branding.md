@@ -5,10 +5,13 @@ website: "https://www.hecklerbranding.com/"
 twit: "https://twitter.com/hecklerbranding"
 inst: ""
 category: "H"
-tags:
-    - South Lake Union
-    - small
+city: "Seattle"
+neighborhood: "South Lake Union"
+size: "small"
+map: ""
+discipline:
     - branding
+published: true
 ---
 
 Description

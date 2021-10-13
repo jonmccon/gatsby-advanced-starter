@@ -5,9 +5,11 @@ website: "http://www.dulcedesign.com/"
 twit: ""
 inst: "https://www.instagram.com/dulcedesigncompany"
 category: "D"
-tags:
-    - First Hill
-    - small
+city: "Seattle"
+neighborhood: "First Hill"
+size: "small"
+map: ""
+discipline:
     - branding
     - print
     - advertising
@@ -15,6 +17,7 @@ tags:
     - packaging
     - environmental
     - ux/ui
+published: true
 ---
 
 description

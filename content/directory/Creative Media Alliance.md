@@ -5,9 +5,11 @@ website: "http://creativemediaalliance.com/"
 twit: "https://twitter.com/cmaseattle"
 inst: "https://www.instagram.com/cmaseattle/"
 category: "C"
-tags:
-    - Pioneer Square
-    - medium
+city: "Seattle"
+neighborhood: "Pioneer Square"
+size: "medium"
+map: ""
+discipline:
     - marketing
     - advertising
     - video
@@ -16,6 +18,7 @@ tags:
     - engineering
     - print
     - strategy
+published: true
 ---
 
 Description

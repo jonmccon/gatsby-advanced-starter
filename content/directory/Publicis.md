@@ -5,13 +5,16 @@ website: "http://publicisseattle.com/"
 twit: "https://twitter.com/PublicisSeattle"
 inst: "https://instagram.com/publicisseattle/"
 category: "P"
-tags:
-    - Queen Anne
-    - large
+city: "Seattle"
+neighborhood: "Queen Anne"
+size: "large"
+map: ""
+discipline:
     - branding
     - advertising
     - marketing
     - video
+published: true
 ---
 
 Description

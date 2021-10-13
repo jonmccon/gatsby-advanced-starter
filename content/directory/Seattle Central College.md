@@ -5,10 +5,13 @@ website: "https://creativearts.seattlecentral.edu/programs/graphic-design"
 twit: ""
 inst: "https://instagram.com/seattlecentral/"
 category: "S"
-tags:
-    - Capitol Hill
-    - large
+city: "Seattle"
+neighborhood: "Capitol Hill"
+size: "large"
+map: ""
+discipline:
     - school
+published: true
 ---
 
 Description

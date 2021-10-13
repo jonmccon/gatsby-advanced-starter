@@ -5,12 +5,15 @@ website: "https://littlehandsofstone.com/"
 twit: ""
 inst: "https://www.instagram.com/lhos206/"
 category: "L"
-tags:
-    - Fremont
-    - small
+city: "Seattle"
+neighborhood: "Fremont"
+size: "small"
+map: ""
+discipline:
     - video
     - motion
     - advertising
+published: true
 ---
 
 Description

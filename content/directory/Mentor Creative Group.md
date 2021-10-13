@@ -5,13 +5,16 @@ website: "http://www.mentorcg.com/"
 twit: "https://twitter.com/mentorcg"
 inst: "https://www.instagram.com/mentorcreator"
 category: "M"
-tags:
-    - Fremont
-    - small
+city: "Seattle"
+neighborhood: "Fremont"
+size: "small"
+map: ""
+discipline:
     - ux/ui
     - branding
     - research
     - engineering
+published: true
 ---
 
 Description

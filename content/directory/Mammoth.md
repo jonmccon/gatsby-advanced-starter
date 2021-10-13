@@ -5,14 +5,17 @@ website: "https://mammothagency.com/"
 twit: ""
 inst: ""
 category: "M"
-tags:
-    - Capitol Hill
-    - small
+city: "Seattle"
+neighborhood: "Capitol Hill"
+size: "small"
+map: ""
+discipline:
     - advertising
     - branding
     - video
     - ux/ui
     - marketing
+published: true
 ---
 
 Description

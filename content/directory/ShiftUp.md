@@ -5,13 +5,15 @@ website: "http://shiftupagency.com"
 twit: ""
 inst: ""
 category: "S"
-tags:
-    - Fremont
-    - small
+city: "Seattle"
+neighborhood: "Fremont"
+size: "small"
+map: ""
+discipline:
     - ux/ui
     - strategy
     - branding
-
+published: true
 ---
 
 Description

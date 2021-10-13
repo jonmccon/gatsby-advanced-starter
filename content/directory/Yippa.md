@@ -5,13 +5,17 @@ website: "https://yippa.com/"
 twit: "https://twitter.com/yippadesign"
 inst: ""
 category: "Y"
-tags:
-    - small
+city: "Seattle"
+neighborhood: ""
+size: "small"
+map: ""
+discipline:
     - branding
     - strategy
     - print
     - engineering
     - ux/ui
+published: true
 ---
 
 Description

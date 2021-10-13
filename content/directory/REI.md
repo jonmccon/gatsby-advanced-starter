@@ -5,9 +5,11 @@ website: "https://www.rei.com/"
 twit: "https://twitter.com/rei"
 inst: "https://www.instagram.com/rei"
 category: "R"
-tags:
-    - Kent
-    - large
+city: "Kent"
+neighborhood: "large"
+size: ""
+map: ""
+discipline:
     - branding
     - print
     - ux/ui
@@ -15,6 +17,8 @@ tags:
     - illustration
     - packaging
     - marketing
+    - inhouse
+published: true
 ---
 
 Description

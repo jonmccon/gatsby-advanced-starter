@@ -5,9 +5,11 @@ website: "https://jozifirecrackerfactory.com/"
 twit: "https://twitter.com/jozifirecracker"
 inst: ""
 category: "J"
-tags:
-    - South Lake Union
-    - small
+city: "Seattle"
+neighborhood: "South Lake Union"
+size: "small"
+map: ""
+discipline:
     - advertising
     - ux/ui
     - branding
@@ -15,6 +17,7 @@ tags:
     - video
     - marketing
     - print
+published: true
 ---
 
 Description

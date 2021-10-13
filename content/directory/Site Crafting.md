@@ -5,13 +5,16 @@ website: "https://www.sitecrafting.com/"
 twit: "https://twitter.com/sitecrafting"
 inst: "https://www.instagram.com/sitecrafting"
 category: "S"
-tags:
-    - Tacoma
-    - medium
+city: "Tacoma"
+neighborhood: "medium"
+size: ""
+map: ""
+discipline:
     - ux/ui
     - research
     - marketing
     - engineering
+published: true
 ---
 
 Description

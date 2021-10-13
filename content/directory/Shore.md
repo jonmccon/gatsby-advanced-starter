@@ -5,9 +5,11 @@ website: "https://madebyshore.com/"
 twit: ""
 inst: "https://instagram.com/madebyshore/"
 category: "S"
-tags:
-    - Pioneer Square
-    - small
+city: "Seattle"
+neighborhood: "Pioneer Square"
+size: "small"
+map: ""
+discipline:
     - branding
     - strategy
     - print
@@ -18,6 +20,7 @@ tags:
     - engineering
     - product
     - typography
+published: true
 ---
 
 Description

@@ -5,9 +5,11 @@ website: "https://www.retail-voodoo.com/"
 twit: "https://twitter.com/RetailVoodoo"
 inst: "https://instagram.com/retailvoodoo/"
 category: "R"
-tags:
-    - Laurelhurst
-    - small
+city: "Seattle"
+neighborhood: "Laurelhurst"
+size: "small"
+map: ""
+discipline:
     - branding
     - packaging
     - research
@@ -15,6 +17,7 @@ tags:
     - environmental
     - marketing
     - print
+published: true
 ---
 
 Description

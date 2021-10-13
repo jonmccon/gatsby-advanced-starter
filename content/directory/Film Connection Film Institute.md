@@ -5,11 +5,14 @@ website: "https://www.filmconnection.com/"
 twit: ""
 inst: "https://www.instagram.com/filmconnectionfilminstitute/"
 category: "F"
-tags:
-    - Pioneer Square
-    - medium
+city: "Seattle"
+neighborhood: "Pioneer Square"
+size: "medium"
+map: ""
+discipline:
     - video
     - school
+published: true
 ---
 
 description

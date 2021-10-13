@@ -5,13 +5,16 @@ website: "https://seattle.wunderman.com/"
 twit: "https://twitter.com/WunThompson"
 inst: "https://www.instagram.com/wunthompson"
 category: "W"
-tags:
-    - South Lake Union
-    - large
+city: "Seattle"
+neighborhood: "South Lake Union"
+size: "large"
+map: ""
+discipline:
     - strategy
     - marketing
     - ux/ui
     - product
+published: true
 ---
 
 Description

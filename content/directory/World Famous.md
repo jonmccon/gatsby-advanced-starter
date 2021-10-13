@@ -5,12 +5,15 @@ website: "http://www.worldfamousinc.com/"
 twit: "https://twitter.com/WorldFamousInc"
 inst: "https://instagram.com/worldfamousinc/"
 category: "W"
-tags:
-    - Capitol Hill
-    - medium
+city: "Seattle"
+neighborhood: "Capitol Hill"
+size: "medium"
+map: ""
+discipline:
     - video
     - marketing
     - advertising
+published: true
 ---
 
 Description

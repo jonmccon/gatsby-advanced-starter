@@ -5,9 +5,11 @@ website: "https://www.tengundesign.com/"
 twit: ""
 inst: "https://www.instagram.com/tengundesign"
 category: "T"
-tags:
-    - Edmonds
-    - large
+city: "Edmonds"
+neighborhood: ""
+size: "large"
+map: ""
+discipline:
     - branding
     - illustration
     - typography
@@ -17,6 +19,7 @@ tags:
     - motion
     - ux/ui
     - engineering
+published: true
 ---
 
 Description

@@ -5,14 +5,17 @@ website: "https://www.4thavenuemedia.com/"
 twit: ""
 inst: ""
 category: "numbers"
-tags:
-    - Mercer Island
-    - small
+city: "Seattle"
+neighborhood: "Mercer Island"
+size: "small"
+map: ""
+discipline:
     - branding
     - strategy
     - school
     - video
     - marketing
+published: true
 ---
 
 Description

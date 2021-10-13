@@ -5,14 +5,17 @@ website: "https://vsg360.com/"
 twit: ""
 inst: "https://www.instagram.com/vsgmarketing/"
 category: "V"
-tags:
-    - Tacoma
-    - medium
+city: "Tacoma"
+neighborhood: ""
+size: "medium"
+map: ""
+discipline:
     - branding
     - marketing
     - ux/ui
     - strategy
     - print
+published: true
 ---
 
 Description

@@ -5,10 +5,13 @@ website: "http://seattlecentralcreativeacademy.com/"
 twit: ""
 inst: "https://instagram.com/creative_academy/"
 category: "S"
-tags:
-    - Capitol Hill
-    - large
+city: "Seattle"
+neighborhood: "Capitol Hill"
+size: "large"
+map: ""
+discipline:
     - school
+published: true
 ---
 
 Description

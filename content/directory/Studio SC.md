@@ -5,12 +5,15 @@ website: "http://studio-sc.com/"
 twit: "https://twitter.com/studiosc"
 inst: "https://instagram.com/studio_sc_seattle/"
 category: "S"
-tags:
-    - Pioneer Square
-    - small
+city: "Seattle"
+neighborhood: "Pioneer Square"
+size: "small"
+map: ""
+discipline:
     - environmental
     - industrial
     - branding
+published: true
 ---
 
 Description

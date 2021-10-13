@@ -5,10 +5,13 @@ website: "https://olypress.com/"
 twit: ""
 inst: "https://instagram.com/olympuspress/"
 category: "O"
-tags:
-    - SeaTac
-    - medium
+city: "SeaTac"
+neighborhood: ""
+size: "medium"
+map: ""
+discipline:
     - printer
+published: true
 ---
 
 Description

@@ -5,12 +5,15 @@ website: "https://www.becu.org/"
 twit: ""
 inst: ""
 category: "B"
-tags:
-    - Tukwila
-    - large
+city: "Tukwila"
+neighborhood: ""
+size: "large"
+map: ""
+discipline:
     - inhouse
     - ux/ui
     - branding
+published: true
 ---
 
 Description

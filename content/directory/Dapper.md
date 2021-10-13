@@ -5,15 +5,18 @@ website: "http://dapperad.com/"
 twit: ""
 inst: ""
 category: "D"
-tags:
-    - Belltown
-    - small
+city: "Seattle"
+neighborhood: "Belltown"
+size: "small"
+map: ""
+discipline:
     - branding
     - print
     - packaging
     - illustration
     - ux/ui
     - environmental
+published: true
 ---
 
 Description

@@ -5,9 +5,11 @@ website: "https://www.freshconsulting.com/"
 twit: "https://twitter.com/FreshConsulting"
 inst: "https://www.instagram.com/freshconsulting/"
 category: "F"
-tags:
-    - Bellevue
-    - large
+city: "Seattle"
+neighborhood: "Bellevue"
+size: "large"
+map: ""
+discipline:
     - strategy
     - branding
     - ux/ui
@@ -15,6 +17,7 @@ tags:
     - motion
     - engineering
     - product
+published: true
 ---
 
 Description

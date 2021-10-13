@@ -5,14 +5,17 @@ website: "https://thisplace.com/"
 twit: "https://twitter.com/thisplacestudio"
 inst: "https://instagram.com/thisplacestudios/"
 category: "T"
-tags:
-    - Fremont
-    - large
+city: "Seattle"
+neighborhood: "Fremont"
+size: "large"
+map: ""
+discipline:
     - strategy
     - engineering
     - ux/ui
     - product
     - research
+published: true
 ---
 
 Description

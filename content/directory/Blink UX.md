@@ -5,12 +5,15 @@ website: "https://blinkux.com/"
 twit: "https://twitter.com/BlinkUX"
 inst: ""
 category: "B"
-tags:
-    - Downtown
-    - large
+city: "Seattle"
+neighborhood: "Downtown"
+size: "large"
+map: ""
+discipline:
     - ux/ui
     - strategy
     - research
+published: true
 ---
 
 Description

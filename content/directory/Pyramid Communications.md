@@ -5,15 +5,18 @@ website: "https://www.pyramidcommunications.com/"
 twit: "https://twitter.com/PyramidComms"
 inst: "https://www.instagram.com/pyramidcomms"
 category: "P"
-tags:
-    - Pike Place Market
-    - medium
+city: "Seattle"
+neighborhood: "Pike Place Market"
+size: "medium"
+map: ""
+discipline:
     - strategy
     - advertising
     - print
     - engineering
     - branding
     - ux/ui
+published: true
 ---
 
 Description

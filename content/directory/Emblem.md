@@ -5,8 +5,11 @@ website: "http://studioemblem.com/"
 twit: ""
 inst: "https://www.instagram.com/studioemblem/"
 category: "E"
-tags:
-    - small
+city: "Seattle"
+neighborhood: ""
+size: "small"
+map: ""
+discipline:
     - branding
     - strategy
     - illustration
@@ -14,6 +17,7 @@ tags:
     - environmental
     - motion
     - ux/ui
+published: true
 ---
 
 Description

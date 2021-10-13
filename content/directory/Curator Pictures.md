@@ -5,13 +5,16 @@ website: "https://curatorpictures.com/"
 twit: ""
 inst: ""
 category: "C"
-tags:
-    - Fremont
-    - small
+city: "Seattle"
+neighborhood: "Fremont"
+size: "small"
+map: ""
+discipline:
     - video
     - advertising
     - community
     - branding
+published: true
 ---
 
 

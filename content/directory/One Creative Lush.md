@@ -5,11 +5,14 @@ website: "https://onecreativelush.com/"
 twit: ""
 inst: ""
 category: "O"
-tags:
-    - Edmonds
-    - small
+city: "Edmonds"
+neighborhood: ""
+size: "small"
+map: ""
+discipline:
     - branding
     - print
+published: true
 ---
 
 Freelancer

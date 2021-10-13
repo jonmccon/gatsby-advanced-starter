@@ -5,11 +5,14 @@ website: "https://www.cruxxmedia.com/"
 twit: ""
 inst: ""
 category: "C"
-tags:
-    - Eastlake
-    - medium
+city: "Seattle"
+neighborhood: "Eastlake"
+size: "medium"
+map: ""
+discipline:
     - advertising
     - marketing
+published: true
 ---
 
 

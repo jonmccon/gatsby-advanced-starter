@@ -5,13 +5,16 @@ website: "http://www.studiomatthews.com/"
 twit: ""
 inst: ""
 category: "S"
-tags:
-    - Capitol Hill
-    - small
+city: "Seattle"
+neighborhood: "Capitol Hill"
+size: "small"
+map: ""
+discipline:
     - environmental
     - exhibition
     - branding
     - print
+published: true
 ---
 
 Description

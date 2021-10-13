@@ -5,12 +5,15 @@ website: "https://www.htc.com/us/"
 twit: "https://twitter.com/HTCUSA"
 inst: "https://www.instagram.com/htc/"
 category: "H"
-tags:
-    - Pioneer Square
-    - large
+city: "Seattle"
+neighborhood: "Pioneer Square"
+size: "large"
+map: ""
+discipline:
     - product
     - motion
     - engineering
+published: true
 ---
 
 Description

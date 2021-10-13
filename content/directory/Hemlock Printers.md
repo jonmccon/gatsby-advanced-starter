@@ -5,10 +5,13 @@ website: "https://www.hemlock.com/"
 twit: "https://twitter.com/HemlockPrinters"
 inst: "https://www.instagram.com/HemlockPrinters"
 category: "H"
-tags:
-    - Pioneer Square
-    - large
+city: "Seattle"
+neighborhood: "Pioneer Square"
+size: "large"
+map: ""
+discipline:
     - printer
+published: true
 ---
 
 Description

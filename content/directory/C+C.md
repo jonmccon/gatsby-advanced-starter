@@ -5,13 +5,16 @@ website: "https://cplusc.com/"
 twit: "https://twitter.com/colehourcohen"
 inst: ""
 category: "C"
-tags:
-    - Pioneer Square
-    - large
+city: "Seattle"
+neighborhood: "Pioneer Square"
+size: "large"
+map: ""
+discipline:
     - advertising
     - marketing
     - branding
     - public relations
+published: true
 ---
 
 

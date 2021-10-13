@@ -5,12 +5,15 @@ website: "http://www.blamo.agency/"
 twit: ""
 inst: "https://www.instagram.com/blamo_corps"
 category: "B"
-tags:
-    - Capitol Hill
-    - small
+city: "Seattle"
+neighborhood: "Capitol Hill"
+size: "small"
+map: ""
+discipline:
     - interactive
     - product
     - branding
+published: true
 ---
 
 Description

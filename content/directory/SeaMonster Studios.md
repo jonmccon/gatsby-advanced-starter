@@ -5,13 +5,16 @@ website: "https://www.seamonsterstudios.com/"
 twit: "https://twitter.com/the_seamonsters"
 inst: "https://instagram.com/seamonsterstudios/"
 category: "S"
-tags:
-    - Downtown
-    - small
+city: "Seattle"
+neighborhood: "Downtown"
+size: "small"
+map: ""
+discipline:
     - ux/ui
     - engineering
     - branding
     - strategy
+published: true
 ---
 
 Description

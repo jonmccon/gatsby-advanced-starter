@@ -5,14 +5,17 @@ website: "https://hydrogenadvertising.com/"
 twit: "https://twitter.com/hydrogen_tweets"
 inst: "https://www.instagram.com/hydrogen_advertising"
 category: "H"
-tags:
-    - Downtown
-    - small
+city: "Seattle"
+neighborhood: "Downtown"
+size: "small"
+map: ""
+discipline:
     - marketing
     - advertising
     - branding
     - video
     - print
+published: true
 ---
 
 Description

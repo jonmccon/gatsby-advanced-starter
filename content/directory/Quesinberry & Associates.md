@@ -5,12 +5,15 @@ website: "https://quesinberry.com/"
 twit: ""
 inst: "https://instagram.com/quesinberryandassociates/"
 category: "Q"
-tags:
-    - Capitol Hill
-    - small
+city: "Seattle"
+neighborhood: "Capitol Hill"
+size: "small"
+map: ""
+discipline:
     - branding
     - marketing
     - print
+published: true
 ---
 
 Description

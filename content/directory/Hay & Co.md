@@ -5,12 +5,15 @@ website: "https://www.hayandcodesign.com/"
 twit: ""
 inst: "https://instagram.com/hayandcodesign/"
 category: "H"
-tags:
-    - Kenmore
-    - small
+city: "Seattle"
+neighborhood: "Kenmore"
+size: "small"
+map: ""
+discipline:
     - branding
     - ux/ui
     - print
+published: true
 ---
 
 Description

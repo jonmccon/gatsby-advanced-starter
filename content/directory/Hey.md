@@ -5,9 +5,11 @@ website: "https://heyadvertising.com/"
 twit: "https://twitter.com/HeyAdvertising"
 inst: "https://www.instagram.com/heyadvertising/"
 category: "H"
-tags:
-    - Capitol Hill
-    - medium
+city: "Seattle"
+neighborhood: "Capitol Hill"
+size: "medium"
+map: ""
+discipline:
     - branding
     - advertising
     - video
@@ -15,6 +17,7 @@ tags:
     - marketing
     - print
     - research
+published: true
 ---
 
 Description

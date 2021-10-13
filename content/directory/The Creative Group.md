@@ -5,10 +5,13 @@ website: "https://www.roberthalf.com/"
 twit: "https://twitter.com/roberthalf"
 inst: "https://www.instagram.com/roberthalf"
 category: "T"
-tags:
-    - Downtown
-    - large
+city: "Seattle"
+neighborhood: "Downtown"
+size: "large"
+map: ""
+discipline:
     - recruiter
+published: true
 ---
 
 Description

@@ -5,8 +5,11 @@ website: "https://madebyneversink.com/"
 twit: "https://twitter.com/MadeByNeversink"
 inst: "https://www.instagram.com/madebyneversink"
 category: "N"
-tags:
-    - small
+city: "Seattle"
+neighborhood: ""
+size: "small"
+map: ""
+discipline:
     - branding
     - packaging
     - advertising
@@ -14,6 +17,7 @@ tags:
     - ux/ui
     - photography
     - print
+published: true
 ---
 
 Description
