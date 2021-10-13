@@ -9,7 +9,7 @@ city: "Tacoma"
 neighborhood: ""
 size: "small"
 map: ""
-discipline:
+tags:
     - illustration
 published: true
 ---

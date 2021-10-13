@@ -9,7 +9,7 @@ city: "Olympia"
 neighborhood: "Downtown"
 size: "medium"
 map: ""
-discipline:
+tags:
     - strategy
     - research
     - ux/ui

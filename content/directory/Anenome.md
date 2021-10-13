@@ -9,7 +9,7 @@ city: "Seattle"
 neighborhood: "Roosevelt"
 size: "small"
 map: ""
-discipline:
+tags:
     - community 
     - engineering
     - events 

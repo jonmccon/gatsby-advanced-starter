@@ -9,7 +9,7 @@ city: "Seattle"
 neighborhood: "Greenwood"
 size: "small"
 map: ""
-discipline:
+tags:
     - environmental
     - industrial
 published: true

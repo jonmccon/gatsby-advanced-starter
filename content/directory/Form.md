@@ -9,7 +9,7 @@ city: "Seattle"
 neighborhood: "U District"
 size: "small"
 map: ""
-discipline:
+tags:
     - branding
     - ux/ui
     - print

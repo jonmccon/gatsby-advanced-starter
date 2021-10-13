@@ -9,7 +9,7 @@ city: "Seattle"
 neighborhood: "Pike Place Market"
 size: "small"
 map: ""
-discipline:
+tags:
     - printer
     - branding
 published: true

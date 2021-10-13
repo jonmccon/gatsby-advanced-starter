@@ -9,7 +9,7 @@ city: "Seattle"
 neighborhood: "Bainbridge"
 size: "small"
 map: ""
-discipline:
+tags:
     - industrial
 published: true
 ---

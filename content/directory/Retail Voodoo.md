@@ -9,7 +9,7 @@ city: "Seattle"
 neighborhood: "Laurelhurst"
 size: "small"
 map: ""
-discipline:
+tags:
     - branding
     - packaging
     - research

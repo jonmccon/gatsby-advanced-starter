@@ -9,7 +9,7 @@ city: "Seattle"
 neighborhood: "Ballard"
 size: "small"
 map: ""
-discipline:
+tags:
     - video
 published: true
 ---

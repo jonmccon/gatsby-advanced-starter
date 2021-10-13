@@ -9,7 +9,7 @@ city: "Seattle"
 neighborhood: "Pike Place Market"
 size: "large"
 map: ""
-discipline:
+tags:
     - industrial
     - strategy
     - ux/ui

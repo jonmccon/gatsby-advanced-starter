@@ -4,12 +4,12 @@ featuredImage: ./-hamburgers.png
 website: "http://www.seattleartmuseum.org/"
 twit: "https://twitter.com/iheartsam"
 inst: "https://www.instagram.com/seattleartmuseum"
-category: "S
+category: "S"
 city: "Seattle"
 neighborhood: "Pike Place Market"
 size: "medium"
 map: ""
-discipline:
+tags:
     - branding
     - marketing
     - environmental

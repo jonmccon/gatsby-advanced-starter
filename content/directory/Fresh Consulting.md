@@ -9,7 +9,7 @@ city: "Seattle"
 neighborhood: "Bellevue"
 size: "large"
 map: ""
-discipline:
+tags:
     - strategy
     - branding
     - ux/ui

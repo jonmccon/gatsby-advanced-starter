@@ -9,7 +9,7 @@ city: "Seattle"
 neighborhood: "Fremont"
 size: "medium"
 map: ""
-discipline:
+tags:
     - engineering
     - ux/ui
 published: true

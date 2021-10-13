@@ -9,7 +9,7 @@ city: "Seattle"
 neighborhood: "Westlake"
 size: "medium"
 map: ""
-discipline:
+tags:
     - eCommerce
 published: true
 --- 

@@ -9,7 +9,7 @@ city: "Seattle"
 neighborhood: "Fremont"
 size: "large"
 map: ""
-discipline:
+tags:
     - recruiter
 published: true
 ---

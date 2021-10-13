@@ -9,7 +9,7 @@ city: "Seattle"
 neighborhood: "Pike Place Market"
 size: "medium"
 map: ""
-discipline:
+tags:
     - strategy
     - advertising
     - print

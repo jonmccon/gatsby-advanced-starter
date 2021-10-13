@@ -9,7 +9,7 @@ city: "Seattle"
 neighborhood: "Downtown"
 size: ""
 map: ""
-discipline:
+tags:
     - branding
     - environmental
     - architecture

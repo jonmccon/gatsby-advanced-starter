@@ -9,7 +9,7 @@ city: "Maple Valley"
 neighborhood: ""
 size: "small"
 map: ""
-discipline:
+tags:
     - illustration
     - product
 published: true

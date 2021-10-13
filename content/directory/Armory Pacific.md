@@ -9,7 +9,7 @@ city: "Seattle"
 neighborhood: "SODO"
 size: "small"
 map: ""
-discipline:
+tags:
     - video
     - motion
 published: true

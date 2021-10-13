@@ -9,7 +9,7 @@ city: "Seattle"
 neighborhood: "Eastlake"
 size: "medium"
 map: ""
-discipline:
+tags:
     - branding
     - advertising
     - marketing

@@ -9,7 +9,7 @@ city: "Seattle"
 neighborhood: "South Lake Union"
 size: "small"
 map: ""
-discipline:
+tags:
     - branding
     - strategy
     - ux/ui

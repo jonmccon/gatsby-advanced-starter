@@ -9,7 +9,7 @@ city: "Seattle"
 neighborhood: "Pioneer Square"
 size: "large"
 map: ""
-discipline:
+tags:
     - ux/ui
     - product
     - research

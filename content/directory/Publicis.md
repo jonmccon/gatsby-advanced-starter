@@ -9,7 +9,7 @@ city: "Seattle"
 neighborhood: "Queen Anne"
 size: "large"
 map: ""
-discipline:
+tags:
     - branding
     - advertising
     - marketing

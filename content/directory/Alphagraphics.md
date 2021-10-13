@@ -9,7 +9,7 @@ city: "Seattle"
 neighborhood: "Belltown"
 size: "medium"
 map: ""
-discipline:
+tags:
     - printer
     - marketing
     - product

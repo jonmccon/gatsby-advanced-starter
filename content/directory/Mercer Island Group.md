@@ -9,7 +9,7 @@ city: "Mercer Island"
 neighborhood: ""
 size: "small"
 map: ""
-discipline:
+tags:
     - branding
     - marketing
     - strategy

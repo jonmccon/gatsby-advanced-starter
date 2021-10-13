@@ -9,7 +9,7 @@ city: "Seattle"
 neighborhood: "Capitol Hill"
 size: "small"
 map: ""
-discipline:
+tags:
     - recruiter
 published: true
 ---

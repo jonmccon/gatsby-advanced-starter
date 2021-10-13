@@ -9,7 +9,7 @@ city: "Seattle"
 neighborhood: "Westlake"
 size: "huge"
 map: ""
-discipline:
+tags:
     - ux/ui
     - product
     - engineering

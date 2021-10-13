@@ -9,7 +9,7 @@ city: "Seattle"
 neighborhood: "U District"
 size: "medium"
 map: ""
-discipline:
+tags:
     - print
     - product
     - packaging

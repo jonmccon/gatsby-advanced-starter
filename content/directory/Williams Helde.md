@@ -9,7 +9,7 @@ city: "Seattle"
 neighborhood: "Ballard"
 size: "medium"
 map: ""
-discipline:
+tags:
     - video
     - advertising
     - marketing

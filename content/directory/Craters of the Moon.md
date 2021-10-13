@@ -9,7 +9,7 @@ city: "Cle Elum"
 neighborhood: ""
 size: "small"
 map: ""
-discipline:
+tags:
     - advertising
     - marketing
     - video

@@ -9,7 +9,7 @@ city: "Seattle"
 neighborhood: "Pioneer Square"
 size: "medium"
 map: ""
-discipline:
+tags:
     - 3D
     - advertising
     - branding

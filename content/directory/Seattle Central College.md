@@ -9,7 +9,7 @@ city: "Seattle"
 neighborhood: "Capitol Hill"
 size: "large"
 map: ""
-discipline:
+tags:
     - school
 published: true
 ---

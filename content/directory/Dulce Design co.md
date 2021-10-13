@@ -9,7 +9,7 @@ city: "Seattle"
 neighborhood: "First Hill"
 size: "small"
 map: ""
-discipline:
+tags:
     - branding
     - print
     - advertising

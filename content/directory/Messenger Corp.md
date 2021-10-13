@@ -9,7 +9,7 @@ city: "Seattle"
 neighborhood: "Georgetown"
 size: "medium"
 map: ""
-discipline:
+tags:
     - strategy
     - branding
     - print

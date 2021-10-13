@@ -9,7 +9,7 @@ city: "Seattle"
 neighborhood: "Madrona"
 size: "small"
 map: ""
-discipline:
+tags:
     - architecture
     - branding
     - strategy

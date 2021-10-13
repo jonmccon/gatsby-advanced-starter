@@ -9,7 +9,7 @@ city: "SeaTac"
 neighborhood: ""
 size: "medium"
 map: ""
-discipline:
+tags:
     - printer
 published: true
 ---

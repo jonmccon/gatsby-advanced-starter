@@ -9,7 +9,7 @@ city: "Mount Vernon"
 neighborhood: ""
 size: "small"
 map: ""
-discipline:
+tags:
     - branding
     - advertising
     - marketing

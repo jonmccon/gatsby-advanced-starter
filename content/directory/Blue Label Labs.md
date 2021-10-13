@@ -9,7 +9,7 @@ city: "Seattle"
 neighborhood: "Redmond"
 size: "large"
 map: ""
-discipline:
+tags:
     - branding
     - engineering
     - marketing

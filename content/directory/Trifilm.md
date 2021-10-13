@@ -9,7 +9,7 @@ city: "Kirkland"
 neighborhood: ""
 size: "medium"
 map: ""
-discipline:
+tags:
     - video
     - motion
     - branding

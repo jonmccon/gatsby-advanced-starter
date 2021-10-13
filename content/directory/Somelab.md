@@ -9,7 +9,7 @@ city: "Orcas Island"
 neighborhood: ""
 size: "small"
 map: ""
-discipline:
+tags:
     - branding
     - print
     - ux/ui

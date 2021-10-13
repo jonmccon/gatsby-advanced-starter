@@ -9,7 +9,7 @@ city: "Seattle"
 neighborhood: "Downtown"
 size: "large"
 map: ""
-discipline:
+tags:
     - ux/ui
     - research
     - product

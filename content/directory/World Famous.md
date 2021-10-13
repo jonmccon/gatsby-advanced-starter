@@ -9,7 +9,7 @@ city: "Seattle"
 neighborhood: "Capitol Hill"
 size: "medium"
 map: ""
-discipline:
+tags:
     - video
     - marketing
     - advertising

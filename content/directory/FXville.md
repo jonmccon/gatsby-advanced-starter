@@ -9,7 +9,7 @@ city: "Seattle"
 neighborhood: "Queen Anne"
 size: "small"
 map: ""
-discipline:
+tags:
     - vfx
     - gaming
 published: true

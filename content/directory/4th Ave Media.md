@@ -9,7 +9,7 @@ city: "Seattle"
 neighborhood: "Mercer Island"
 size: "small"
 map: ""
-discipline:
+tags:
     - branding
     - strategy
     - school

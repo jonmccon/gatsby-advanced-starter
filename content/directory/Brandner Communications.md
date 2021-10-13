@@ -9,7 +9,7 @@ city: "Federal Way"
 neighborhood: ""
 size: "medium"
 map: ""
-discipline:
+tags:
     - branding
     - marketing
     - video

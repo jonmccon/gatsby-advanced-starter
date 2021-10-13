@@ -9,7 +9,7 @@ city: "Seattle"
 neighborhood: "Downtown"
 size: "medium"
 map: ""
-discipline:
+tags:
     - branding
     - marketing
     - strategy

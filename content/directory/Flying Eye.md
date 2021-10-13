@@ -9,7 +9,7 @@ city: "Seattle"
 neighborhood: "Fremont"
 size: "small"
 map: ""
-discipline:
+tags:
     - branding
     - print
     - ux/ui

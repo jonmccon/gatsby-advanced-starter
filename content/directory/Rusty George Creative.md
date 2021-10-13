@@ -9,7 +9,7 @@ city: "Tacoma"
 neighborhood: "small"
 size: ""
 map: ""
-discipline:
+tags:
     - branding
     - ux/ui
     - advertising

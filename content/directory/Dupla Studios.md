@@ -9,7 +9,7 @@ city: "Seattle"
 neighborhood: "Queen Anne"
 size: "small"
 map: ""
-discipline:
+tags:
     - research
     - ux/ui
     - product

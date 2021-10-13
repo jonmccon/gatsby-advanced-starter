@@ -9,7 +9,7 @@ city: "Seattle"
 neighborhood: "Belltown"
 size: "large"
 map: ""
-discipline:
+tags:
     - strategy
     - research
     - motion

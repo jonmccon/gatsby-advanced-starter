@@ -9,7 +9,7 @@ city: "Seattle"
 neighborhood: "First Hill"
 size: "medium"
 map: ""
-discipline:
+tags:
     - video
     - motion
     - photography

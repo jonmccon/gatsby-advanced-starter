@@ -9,7 +9,7 @@ city: "Seattle"
 neighborhood: "Madison Park"
 size: "medium"
 map: ""
-discipline:
+tags:
     - marketing
     - advertising
 published: true

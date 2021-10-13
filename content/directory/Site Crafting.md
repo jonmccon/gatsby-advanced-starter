@@ -9,7 +9,7 @@ city: "Tacoma"
 neighborhood: "medium"
 size: ""
 map: ""
-discipline:
+tags:
     - ux/ui
     - research
     - marketing

@@ -9,7 +9,7 @@ city: "Seattle"
 neighborhood: "Central District"
 size: "medium"
 map: ""
-discipline:
+tags:
     - school
 published: true
 ---

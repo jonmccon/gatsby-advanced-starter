@@ -9,7 +9,7 @@ city: "Seattle"
 neighborhood: "South Lake Union"
 size: "huge"
 map: ""
-discipline:
+tags:
     - product
     - ux/ui
     - research

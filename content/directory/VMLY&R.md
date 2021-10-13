@@ -9,7 +9,7 @@ city: "Seattle"
 neighborhood: "South Lake Union"
 size: "large"
 map: ""
-discipline:
+tags:
     - advertising
     - marketing
     - video

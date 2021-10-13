@@ -50,7 +50,10 @@ exports.createPages = async ({ graphql, actions }) => {
   // Get a full list of markdown posts
   const markdownQueryResult = await graphql(`
     {
-      allMarkdownRemark(sort: { order: ASC, fields: frontmatter___title }) {
+      allMarkdownRemark( 
+        sort: { order: ASC, fields: frontmatter___title }
+        filter: { frontmatter: { published: { eq: true }}}
+        ) {
         edges {
           node {
             fields {

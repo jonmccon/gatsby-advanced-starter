@@ -9,7 +9,7 @@ city: "Seattle"
 neighborhood: "SODO"
 size: "large"
 map: ""
-discipline:
+tags:
     - environmental
     - ux/ui
     - research

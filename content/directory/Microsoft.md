@@ -9,7 +9,7 @@ city: "Redmond"
 neighborhood: ""
 size: "huge"
 map: ""
-discipline:
+tags:
     - ux/ui
     - product
     - research

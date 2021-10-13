@@ -9,7 +9,7 @@ city: "Seattle"
 neighborhood: "Belltown"
 size: "small"
 map: ""
-discipline:
+tags:
     - branding
     - packaging
     - ux/ui

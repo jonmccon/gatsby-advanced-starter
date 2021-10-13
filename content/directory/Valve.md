@@ -9,7 +9,7 @@ city: "Bellevue"
 neighborhood: "large"
 size: ""
 map: ""
-discipline:
+tags:
     - ux/ui
     - industrial
     - engineering

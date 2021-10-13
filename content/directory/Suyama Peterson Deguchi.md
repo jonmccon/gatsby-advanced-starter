@@ -9,7 +9,7 @@ city: "Seattle"
 neighborhood: "South Park"
 size: "small"
 map: ""
-discipline:
+tags:
     - architecture
     - industrial
     - environmental

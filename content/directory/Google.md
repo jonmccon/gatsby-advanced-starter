@@ -9,7 +9,7 @@ city: "Seattle"
 neighborhood: "Fremont"
 size: "huge"
 map: ""
-discipline:
+tags:
     - ux/ui
     - product
     - research

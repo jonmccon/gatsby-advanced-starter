@@ -9,7 +9,7 @@ city: "Edmonds"
 neighborhood: ""
 size: "large"
 map: ""
-discipline:
+tags:
     - branding
     - illustration
     - typography

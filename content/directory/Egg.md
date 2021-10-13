@@ -9,7 +9,7 @@ city: "Vashon Island"
 neighborhood: ""
 size: "small"
 map: ""
-discipline:
+tags:
     - branding
     - marketing
     - strategy

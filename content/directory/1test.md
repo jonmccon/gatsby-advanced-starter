@@ -1,5 +1,6 @@
 ---
-title: "Artefact"
+title: "test post for publishing"
+# slug: "test-post"
 featuredImage: ./-hamburgers.png
 website: "https://www.artefactgroup.com"
 twit: "https://twitter.com/artefactgroup"

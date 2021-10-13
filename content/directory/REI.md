@@ -9,7 +9,7 @@ city: "Kent"
 neighborhood: "large"
 size: ""
 map: ""
-discipline:
+tags:
     - branding
     - print
     - ux/ui

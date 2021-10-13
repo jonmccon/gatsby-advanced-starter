@@ -9,7 +9,7 @@ city: "Seattle"
 neighborhood: "Georgetown"
 size: "small"
 map: ""
-discipline:
+tags:
     - interactive
     - environmental
     - exhibition

@@ -9,7 +9,7 @@ city: "Seattle"
 neighborhood: ""
 size: "small"
 map: ""
-discipline:
+tags:
     - vfx
     - video
     - community

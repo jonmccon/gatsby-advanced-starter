@@ -9,7 +9,7 @@ city: "Seattle"
 neighborhood: "Crown Hill"
 size: "small"
 map: ""
-discipline:
+tags:
     - branding
     - print
     - environmental

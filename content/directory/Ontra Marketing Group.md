@@ -9,7 +9,7 @@ city: "Woodinville"
 neighborhood: ""
 size: "small"
 map: ""
-discipline:
+tags:
     - branding
     - ux/ui
     - print

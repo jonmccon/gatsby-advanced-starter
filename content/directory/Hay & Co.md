@@ -9,7 +9,7 @@ city: "Seattle"
 neighborhood: "Kenmore"
 size: "small"
 map: ""
-discipline:
+tags:
     - branding
     - ux/ui
     - print

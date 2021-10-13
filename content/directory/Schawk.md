@@ -9,7 +9,7 @@ city: "Redmond"
 neighborhood: "large"
 size: ""
 map: ""
-discipline:
+tags:
     - printer
     - photography
     - packaging

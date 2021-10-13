@@ -9,7 +9,7 @@ city: "Gig Harbor"
 neighborhood: ""
 size: "small"
 map: ""
-discipline:
+tags:
     - recruiter
 published: true
 ---

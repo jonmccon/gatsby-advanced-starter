@@ -9,7 +9,7 @@ city: "Seattle"
 neighborhood: "International District"
 size: "large"
 map: ""
-discipline:
+tags:
     - product
     - photography
     - ux/ui

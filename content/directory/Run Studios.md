@@ -9,7 +9,7 @@ city: "Seattle"
 neighborhood: "Ballard"
 size: "large"
 map: ""
-discipline:
+tags:
     - video
     - motion
     - 3D

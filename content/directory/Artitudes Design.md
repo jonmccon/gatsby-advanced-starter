@@ -9,7 +9,7 @@ city: "Issaquah"
 neighborhood: ""
 size: "medium"
 map: ""
-discipline:
+tags:
     - 3D rendering 
     - branding 
     - events 

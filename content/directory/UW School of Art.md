@@ -9,7 +9,7 @@ city: "Seattle"
 neighborhood: "U District"
 size: "large"
 map: ""
-discipline:
+tags:
     - school
 published: true
 ---

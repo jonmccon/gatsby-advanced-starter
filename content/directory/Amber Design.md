@@ -9,7 +9,7 @@ city: "Marysville"
 neighborhood: ""
 size: "small"
 map: ""
-discipline:
+tags:
     - branding
     - print
     - ux/ui

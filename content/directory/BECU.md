@@ -9,7 +9,7 @@ city: "Tukwila"
 neighborhood: ""
 size: "large"
 map: ""
-discipline:
+tags:
     - inhouse
     - ux/ui
     - branding

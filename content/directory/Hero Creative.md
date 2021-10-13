@@ -9,7 +9,7 @@ city: "Seattle"
 neighborhood: "Pioneer Square"
 size: "small"
 map: ""
-discipline:
+tags:
     - strategy
     - branding
     - photography

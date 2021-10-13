@@ -9,7 +9,7 @@ city: "Seattle"
 neighborhood: "Queen Anne"
 size: "medium"
 map: ""
-discipline:
+tags:
     - environmental
     - exhibition
     - branding

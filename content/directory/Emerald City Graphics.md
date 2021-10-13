@@ -9,7 +9,7 @@ city: "Kent"
 neighborhood: ""
 size: "large"
 map: ""
-discipline:
+tags:
     - printer
 published: true
 ---
