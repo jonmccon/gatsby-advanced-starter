@@ -2,43 +2,44 @@ import React from "react";
 import Helmet from "react-helmet";
 import { graphql, Link } from "gatsby";
 import Layout from "../layout";
-import PostTags from "../components/Filters/PostTags";
-import PostCats from "../components/Filters/PostCats";
-import DirectoryListing from "../components/PostListing/DirectoryPostListing";
-import config from "../../data/SiteConfig";
-import Logo from "../components/Intro/Logo";
 import Headline from "../components/Intro/Headline";
 import HeadlineMenuLeft from "../components/Intro/HeadlineMenuLeft";
 import HeadlineMenuRight from "../components/Intro/HeadlineMenuRight";
+import PostTags from "../components/Filters/PostTags";
+import PostCats from "../components/Filters/PostCats";
+import DirectoryListing from "../components/PostListing/DirectoryPostListing";
 import Footer from "../components/Footer/Footer";
+import config from "../../data/SiteConfig";
 
-export default class TagTemplate extends React.Component {
+export default class CategoryTemplate extends React.Component {
   render() {
     const allTags = this.props.data.AllTagsQuery.distinct;
     const allCats = this.props.data.AllCatsQuery.distinct;
-    const { size } = this.props.pageContext;
+    const { neighborhood } = this.props.pageContext;
     const postEdges = this.props.data.allMarkdownRemark.edges;
     return (
       <Layout>
         
-          <Helmet title={`Posts tagged as "${size}" | ${config.siteTitle}`} />
+          <Helmet
+            title={`Posts in category "${neighborhood}" | ${config.siteTitle}`}
+          />
           <div className="pattern">
           <div className="container">
-            <Logo />
-            <HeadlineMenuLeft />
-            <HeadlineMenuRight />
+          <HeadlineMenuLeft />
+          <HeadlineMenuRight />
             <div className="headline-wrapper-small">
-              <Headline headline={size} />
+              <Headline />
             </div>
 
             <div className="filters">
-              {/* <article className="blockTitle">Tags</article> */}
-              {/* <PostCats cats={allCats} /> */}
+              <article className="blockTitle">Tags</article>
+              <PostCats cats={allCats} />
               <PostTags tags={allTags} />
             </div>
 
             <div className="directory">
-              <div className="directory-block--filter">
+              <div className="directoryBlockFilter">
+                <article className="blockTitle">{neighborhood}</article>
                 <DirectoryListing postEdgesDirectory={postEdges} />
               </div>
             </div>
@@ -52,7 +53,7 @@ export default class TagTemplate extends React.Component {
 
 /* eslint no-undef: "off" */
 export const pageQuery = graphql`
-  query SizePage($size: String) {
+  query SeattlePage($neighborhood: String) {
     AllCatsQuery: allMarkdownRemark {
       distinct(field: frontmatter___category)
     }
@@ -64,9 +65,9 @@ export const pageQuery = graphql`
       limit: 1000
       sort: { fields: [fields___date], order: DESC }
       filter: { frontmatter: { 
-        size: { in: [$size] } 
+        neighborhood: { eq: $neighborhood } 
         published: { eq: true }
-        } }
+        }}
     ) {
       totalCount
       edges {

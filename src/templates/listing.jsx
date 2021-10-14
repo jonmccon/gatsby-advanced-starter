@@ -5,7 +5,6 @@ import Layout from "../layout";
 // import PodcastListing from "../components/PostListing/PodcastListing";
 import PostCats from "../components/Filters/PostCats";
 import PostTags from "../components/Filters/PostTags";
-import TagSeattleNeighborhood from "../components/Filters/TagSeattleNeighborhood";
 import DirectoryListing from "../components/PostListing/DirectoryPostListing";
 import SEO from "../components/SEO/SEO";
 import config from "../../data/SiteConfig";
@@ -31,8 +30,10 @@ class Listing extends React.Component {
     // Look at the tags page for an example of this
 
     const allCats = this.props.data.AllCatsQuery.distinct;
-    const allTags = this.props.data.AllTagsQuery.distinct;
+    const tagSize = this.props.data.TagSizeQuery.distinct;
     const tagSeattle = this.props.data.TagSeattleQuery.distinct;
+    const tagCity = this.props.data.TagCityQuery.distinct;
+    const allTags = this.props.data.AllTagsQuery.distinct;
 
 
     const postEdgesDirectoryA = this.props.data.directoryListingQueryA.edges;
@@ -95,24 +96,15 @@ class Listing extends React.Component {
             
             {/* FILTERS */}
             <div className="filters">
-
               
               <div className="filter-tag-container">
                 {/* only on mobile */}
-                <PostCats cats={allCats} />
-                
-
-                {/* Hardcoded size  */}
-                {/* <Link className="filter-tag--size" to="/tags/small">small</Link>
-                <Link className="filter-tag--size" to="/tags/medium">medium</Link>
-                <Link className="filter-tag--size" to="/tags/large">large</Link>
-                <Link className="filter-tag--size" to="/tags/huge">huge</Link> */}
+                <PostCats cats={allCats} />  
               
-              
-              <PostTags tags={tagSize} />
-              <TagSeattleNeighborhood tags={tagSeattle} />
-              <TagCity tags={tagCity} />
-              <PostTags tags={allTags} />
+                <PostTags tags={tagSize} />
+                <PostTags tags={tagSeattle} />
+                <PostTags tags={tagCity} />
+                <PostTags tags={allTags} />
 
               </div>
 
@@ -266,13 +258,19 @@ export const listingQuery = graphql`
     AllCatsQuery: allMarkdownRemark {
       distinct(field: frontmatter___category)
     }
-    AllTagsQuery: allMarkdownRemark {
-      distinct(field: frontmatter___tags)
+    TagSizeQuery: allMarkdownRemark {
+      distinct(field: frontmatter___size)
     }
     TagSeattleQuery: allMarkdownRemark(
       filter: { frontmatter: { city: { eq: "Seattle" } published: { eq: true } }}
     ) {
       distinct(field: frontmatter___neighborhood)
+    }
+    TagCityQuery: allMarkdownRemark {
+      distinct(field: frontmatter___city)
+    }
+    AllTagsQuery: allMarkdownRemark {
+      distinct(field: frontmatter___tags)
     }
     directoryListingQueryA: allMarkdownRemark(
       sort: { fields: frontmatter___title, order: ASC }

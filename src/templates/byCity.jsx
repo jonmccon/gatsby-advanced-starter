@@ -52,7 +52,7 @@ export default class TagTemplate extends React.Component {
 
 /* eslint no-undef: "off" */
 export const pageQuery = graphql`
-  query TagPage($tag: String) {
+  query CityPage($city: String) {
     AllCatsQuery: allMarkdownRemark {
       distinct(field: frontmatter___category)
     }

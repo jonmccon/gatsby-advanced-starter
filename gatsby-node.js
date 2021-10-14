@@ -42,12 +42,16 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions;
+  
+  // actual pages
   const listingPage = path.resolve("./src/templates/listing.jsx");
   const postPage = path.resolve("./src/templates/post.jsx");
+
+  // filter pages
   const tagPage = path.resolve("./src/templates/byTag.jsx");
   const categoryPage = path.resolve("./src/templates/byCategory.jsx");
   const cityPage = path.resolve("./src/templates/byCity.jsx");
-  const neighborhoodPage = path.resolve("./src/templates/byNeighborhood.jsx");
+  const neighborhoodPage = path.resolve("./src/templates/bySeattleNeighborhood.jsx");
   const sizePage = path.resolve("./src/templates/bySize.jsx");
   
 
@@ -205,15 +209,6 @@ exports.createPages = async ({ graphql, actions }) => {
     });
   });
 
-  //  Create tag pages
-  tagSet.forEach((tag) => {
-    createPage({
-      path: `/tags/${_.kebabCase(tag)}/`,
-      component: tagPage,
-      context: { tag },
-    });
-  });
-
   // Create category pages
   categorySet.forEach((category) => {
     createPage({
@@ -222,32 +217,41 @@ exports.createPages = async ({ graphql, actions }) => {
       context: { category },
     });
   });
+  
+  //  Create city pages
+  sizeSet.forEach((size) => {
+    createPage({
+      path: `/tags/${_.kebabCase(size)}/`,
+      component: sizePage,
+      context: { size },
+    });
+  });
 
-    //  Create city pages
-    citySet.forEach((tag) => {
-      createPage({
-        path: `/tags/${_.kebabCase(tag)}/`,
-        component: tagPage,
-        context: { tag },
-      });
+  //  Create city pages
+  citySet.forEach((city) => {
+    createPage({
+      path: `/tags/${_.kebabCase(city)}/`,
+      component: cityPage,
+      context: { city },
     });
-    
-    //  Create city pages
-    neighborhoodSet.forEach((tag) => {
-      createPage({
-        path: `/tags/${_.kebabCase(tag)}/`,
-        component: tagPage,
-        context: { tag },
-      });
+  });
+  
+  //  Create city pages
+  neighborhoodSet.forEach((neighborhood) => {
+    createPage({
+      path: `/tags/${_.kebabCase(neighborhood)}/`,
+      component: neighborhoodPage,
+      context: { neighborhood },
     });
+  });
 
-    //  Create city pages
-    sizeSet.forEach((tag) => {
-      createPage({
-        path: `/tags/${_.kebabCase(tag)}/`,
-        component: tagPage,
-        context: { tag },
-      });
+  //  Create tag pages
+  tagSet.forEach((tag) => {
+    createPage({
+      path: `/tags/${_.kebabCase(tag)}/`,
+      component: tagPage,
+      context: { tag },
     });
+  });
 
 };
