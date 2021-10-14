@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/cmdcreates"
 category: "C"
 city: "Seattle"
 neighborhood: "SODO"
-size: "large"
+size: "Large (41-100)"
 map: ""
 tags:
     - strategy

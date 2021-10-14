@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/mindhatch_llc"
 category: "M"
 city: "Seattle"
 neighborhood: ""
-size: "small"
+size: "Small (1-10)"
 map: ""
 tags:
     - strategy

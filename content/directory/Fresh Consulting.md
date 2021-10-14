@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/freshconsulting/"
 category: "F"
 city: "Seattle"
 neighborhood: "Bellevue"
-size: "large"
+size: "Large (41-100)"
 map: ""
 tags:
     - strategy

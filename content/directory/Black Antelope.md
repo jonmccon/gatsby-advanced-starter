@@ -7,7 +7,7 @@ inst: ""
 category: "B"
 city: "Seattle"
 neighborhood: ""
-size: "small"
+size: "Small (1-10)"
 map: ""
 tags:
     - engineering

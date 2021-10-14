@@ -7,7 +7,7 @@ inst: "https://instagram.com/wwu_design/"
 category: "W"
 city: "Bellingham"
 neighborhood: ""
-size: "large"
+size: "Large (41-100)"
 map: ""
 tags:
     - school

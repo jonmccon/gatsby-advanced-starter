@@ -7,7 +7,7 @@ inst: ""
 category: "S"
 city: "Seattle"
 neighborhood: "Fremont"
-size: "small"
+size: "Small (1-10)"
 map: ""
 tags:
     - ux/ui

@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/microsoft.design"
 category: "M"
 city: "Redmond"
 neighborhood: ""
-size: "huge"
+size: "Huge (100+)"
 map: ""
 tags:
     - ux/ui

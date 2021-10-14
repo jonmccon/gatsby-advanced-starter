@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/clydegolden"
 category: "C"
 city: "Seattle"
 neighborhood: "Ballard"
-size: "small"
+size: "Small (1-10)"
 map: ""
 tags:
     - branding

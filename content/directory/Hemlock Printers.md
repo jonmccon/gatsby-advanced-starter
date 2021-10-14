@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/HemlockPrinters"
 category: "H"
 city: "Seattle"
 neighborhood: "Pioneer Square"
-size: "large"
+size: "Large (41-100)"
 map: ""
 tags:
     - printer

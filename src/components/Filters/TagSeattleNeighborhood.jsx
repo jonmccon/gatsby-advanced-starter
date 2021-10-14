@@ -3,13 +3,13 @@ import _ from "lodash";
 import { Link } from "gatsby";
 import { trackCustomEvent } from "gatsby-plugin-google-analytics";
 
-class PostTags extends Component {
+class TagSeattleNeighborhood extends Component {
   render() {
     const { tags } = this.props;
     return (
 
       <div className="filter-tag-container">
-        
+                
         {/* my need to do sorting here instead of in the query */}
         {/* General list of all tags */}
         <div id="filter-tag--toggle">
@@ -37,4 +37,4 @@ class PostTags extends Component {
   }
 }
 
-export default PostTags;
+export default TagSeattleNeighborhood;

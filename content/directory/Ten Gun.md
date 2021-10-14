@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/tengundesign"
 category: "T"
 city: "Edmonds"
 neighborhood: ""
-size: "large"
+size: "Large (41-100)"
 map: ""
 tags:
     - branding

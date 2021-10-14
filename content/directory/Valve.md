@@ -6,8 +6,8 @@ twit: "https://twitter.com/valvesoftware"
 inst: ""
 category: "V"
 city: "Bellevue"
-neighborhood: "large"
-size: ""
+neighborhood: ""
+size: "Large (41-100)"
 map: ""
 tags:
     - ux/ui

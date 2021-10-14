@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/wild.gravity/"
 category: "W"
 city: "Seattle"
 neighborhood: "First Hill"
-size: "medium"
+size: "Medium (11-40)"
 map: ""
 tags:
     - video

@@ -7,7 +7,7 @@ inst: ""
 category: "A"
 city: "Seattle"
 neighborhood: "Fremont"
-size: "large"
+size: "Large (41-100)"
 map: ""
 tags:
     - product

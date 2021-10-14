@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/pop_agency"
 category: "P"
 city: "Seattle"
 neighborhood: "Downtown"
-size: "large"
+size: "Large (41-100)"
 map: ""
 tags:
     - ux/ui

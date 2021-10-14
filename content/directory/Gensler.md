@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/genslerseattle"
 category: "G"
 city: "Seattle"
 neighborhood: "Downtown"
-size: "large"
+size: "Large (41-100)"
 map: ""
 tags:
     - branding

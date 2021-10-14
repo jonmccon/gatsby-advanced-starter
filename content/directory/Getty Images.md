@@ -7,7 +7,7 @@ inst: ""
 category: "G"
 city: "Seattle"
 neighborhood: "International District"
-size: "large"
+size: "Large (41-100)"
 map: ""
 tags:
     - product

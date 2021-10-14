@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/we.are.watts"
 category: "W"
 city: "Seattle"
 neighborhood: "Pioneer Square"
-size: "medium"
+size: "Medium (11-40)"
 map: ""
 tags:
     - motion

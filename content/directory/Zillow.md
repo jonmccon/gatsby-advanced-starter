@@ -7,7 +7,7 @@ inst: ""
 category: "Z"
 city: "Seattle"
 neighborhood: "Downtown"
-size: "large"
+size: "Large (41-100)"
 map: ""
 tags:
     - ux/ui

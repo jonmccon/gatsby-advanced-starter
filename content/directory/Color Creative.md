@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/plan.create.destroy/"
 category: "C"
 city: "Seattle"
 neighborhood: "Bellevue"
-size: "large"
+size: "Large (41-100)"
 map: ""
 tags:
     - motion

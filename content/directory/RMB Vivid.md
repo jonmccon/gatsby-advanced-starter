@@ -7,7 +7,7 @@ inst: ""
 category: "R"
 city: "Seattle"
 neighborhood: "Pike Place Market"
-size: "small"
+size: "Small (1-10)"
 map: ""
 tags:
     - exhibition

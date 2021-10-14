@@ -79,6 +79,8 @@ export const pageQuery = graphql`
             twit
             inst
             category
+            city
+            neighborhood
             tags
           }
         }

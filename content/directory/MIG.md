@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/migcommunity"
 category: "M"
 city: "Seattle"
 neighborhood: "Pioneer Square"
-size: "large"
+size: "Large (41-100)"
 map: ""
 tags:
     - environmental

@@ -16,19 +16,19 @@ export default class TagTemplate extends React.Component {
   render() {
     const allTags = this.props.data.AllTagsQuery.distinct;
     const allCats = this.props.data.AllCatsQuery.distinct;
-    const { tag } = this.props.pageContext;
+    const { size } = this.props.pageContext;
     const postEdges = this.props.data.allMarkdownRemark.edges;
     return (
       <Layout>
         
-          <Helmet title={`Posts tagged as "${tag}" | ${config.siteTitle}`} />
+          <Helmet title={`Posts tagged as "${size}" | ${config.siteTitle}`} />
           <div className="pattern">
           <div className="container">
             <Logo />
             <HeadlineMenuLeft />
             <HeadlineMenuRight />
             <div className="headline-wrapper-small">
-              <Headline headline={tag} />
+              <Headline headline={size} />
             </div>
 
             <div className="filters">
@@ -64,7 +64,7 @@ export const pageQuery = graphql`
       limit: 1000
       sort: { fields: [fields___date], order: DESC }
       filter: { frontmatter: { 
-        tags: { in: [$tag] } 
+        size: { in: [$size] } 
         published: { eq: true }
         } }
     ) {

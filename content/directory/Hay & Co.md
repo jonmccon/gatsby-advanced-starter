@@ -5,9 +5,9 @@ website: "https://www.hayandcodesign.com/"
 twit: ""
 inst: "https://instagram.com/hayandcodesign/"
 category: "H"
-city: "Seattle"
-neighborhood: "Kenmore"
-size: "small"
+city: "Kenmore"
+neighborhood: ""
+size: "Small (1-10)"
 map: ""
 tags:
     - branding

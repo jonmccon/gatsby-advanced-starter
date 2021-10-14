@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/rcldesignseattle"
 category: "R"
 city: "Seattle"
 neighborhood: "Madrona"
-size: "small"
+size: "Small (1-10)"
 map: ""
 tags:
     - architecture

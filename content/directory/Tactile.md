@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/tactiledesign"
 category: "T"
 city: "Seattle"
 neighborhood: "Belltown"
-size: "medium"
+size: "Medium (11-40)"
 map: ""
 tags:
     - ux/ui

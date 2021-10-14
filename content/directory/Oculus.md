@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/oculus"
 category: "O"
 city: "Seattle"
 neighborhood: "SODO"
-size: "large"
+size: "Large (41-100)"
 map: ""
 tags:
     - environmental

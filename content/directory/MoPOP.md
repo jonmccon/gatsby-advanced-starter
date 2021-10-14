@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/mopopseattle"
 category: "M"
 city: "Seattle"
 neighborhood: "Queen Anne"
-size: "medium"
+size: "Medium (11-40)"
 map: ""
 tags:
     - environmental

@@ -7,7 +7,7 @@ inst: ""
 category: "E"
 city: "Seattle"
 neighborhood: "Capitol Hill"
-size: "small"
+size: "Small (1-10)"
 map: ""
 tags:
     - strategy

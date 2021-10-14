@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/modspec"
 category: "M"
 city: "Seattle"
 neighborhood: "Pike Place Market"
-size: "small"
+size: "Small (1-10)"
 map: ""
 tags:
     - branding

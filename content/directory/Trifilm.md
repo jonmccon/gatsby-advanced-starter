@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/trifilm"
 category: "T"
 city: "Kirkland"
 neighborhood: ""
-size: "medium"
+size: "Medium (11-40)"
 map: ""
 tags:
     - video

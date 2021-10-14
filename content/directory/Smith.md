@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/humansofsmith"
 category: "S"
 city: "Seattle"
 neighborhood: "Pioneer Square"
-size: "large"
+size: "Large (41-100)"
 map: ""
 tags:
     - ux/ui

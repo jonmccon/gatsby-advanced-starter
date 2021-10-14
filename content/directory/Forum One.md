@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/forum_one"
 category: "F"
 city: "Seattle"
 neighborhood: "Belltown"
-size: "large"
+size: "Large (41-100)"
 map: ""
 tags:
     - ux/ui

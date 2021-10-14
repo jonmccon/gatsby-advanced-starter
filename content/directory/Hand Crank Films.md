@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/handcrankfilms/"
 category: "H"
 city: "Seattle"
 neighborhood: "Ballard"
-size: "small"
+size: "Small (1-10)"
 map: ""
 tags:
     - video

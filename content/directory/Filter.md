@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/filterdigital"
 category: "F"
 city: "Seattle"
 neighborhood: "Downtown"
-size: "medium"
+size: "Medium (11-40)"
 map: ""
 tags:
     - recruiter

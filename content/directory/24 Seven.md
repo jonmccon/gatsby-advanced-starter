@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/24seventalent"
 category: "numbers"
 city: "Seattle"
 neighborhood: "Downtown"
-size: "large"
+size: "Large (41-100)"
 map: ""
 tags:
     - recruiter

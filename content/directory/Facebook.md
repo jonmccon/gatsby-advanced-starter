@@ -7,7 +7,7 @@ inst: ""
 category: "F"
 city: "Seattle"
 neighborhood: "Westlake"
-size: "huge"
+size: "Huge (100+)"
 map: ""
 tags:
     - ux/ui

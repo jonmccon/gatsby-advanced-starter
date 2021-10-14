@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/vitamintalent"
 category: "V"
 city: "Seattle"
 neighborhood: "Fremont"
-size: "small"
+size: "Small (1-10)"
 map: ""
 tags:
     - recruiter

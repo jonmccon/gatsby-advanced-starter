@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/fujisanmarketing/"
 category: "F"
 city: "Seattle"
 neighborhood: "Fremont"
-size: "small"
+size: "Small (1-10)"
 map: ""
 tags:
     - marketing

@@ -7,7 +7,7 @@ inst: "https://instagram.com/retailvoodoo/"
 category: "R"
 city: "Seattle"
 neighborhood: "Laurelhurst"
-size: "small"
+size: "Small (1-10)"
 map: ""
 tags:
     - branding

@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/armorypacific/"
 category: "A"
 city: "Seattle"
 neighborhood: "SODO"
-size: "small"
+size: "Small (1-10)"
 map: ""
 tags:
     - video

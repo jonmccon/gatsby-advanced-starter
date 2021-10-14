@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/ontramarketing"
 category: "O"
 city: "Woodinville"
 neighborhood: ""
-size: "small"
+size: "Small (1-10)"
 map: ""
 tags:
     - branding

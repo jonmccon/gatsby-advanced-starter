@@ -7,7 +7,7 @@ inst: "https://instagram.com/suyamapetersondeguchi/"
 category: "S"
 city: "Seattle"
 neighborhood: "South Park"
-size: "small"
+size: "Small (1-10)"
 map: ""
 tags:
     - architecture

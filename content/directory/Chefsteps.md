@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/chefsteps"
 category: "C"
 city: "Seattle"
 neighborhood: "Pike Place Market"
-size: "medium"
+size: "Medium (11-40)"
 map: ""
 tags:
     - interactive

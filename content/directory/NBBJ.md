@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/nbbjdesign"
 category: "N"
 city: "Seattle"
 neighborhood: "South Lake Union"
-size: "large"
+size: "Large (41-100)"
 map: ""
 tags:
     - architecture

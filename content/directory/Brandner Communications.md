@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/teambrandner/"
 category: "B"
 city: "Federal Way"
 neighborhood: ""
-size: "medium"
+size: "Medium (11-40)"
 map: ""
 tags:
     - branding

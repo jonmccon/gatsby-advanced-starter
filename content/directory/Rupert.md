@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/rupert.studio"
 category: "R"
 city: "Seattle"
 neighborhood: "Fremont"
-size: "small"
+size: "Small (1-10)"
 map: ""
 tags:
     - strategy

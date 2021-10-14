@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/WONGDOODY"
 category: "W"
 city: "Seattle"
 neighborhood: "Downtown"
-size: "large"
+size: "Large (41-100)"
 map: ""
 tags:
     - strategy

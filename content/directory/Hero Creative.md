@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/herocreativemedia"
 category: "H"
 city: "Seattle"
 neighborhood: "Pioneer Square"
-size: "small"
+size: "Small (1-10)"
 map: ""
 tags:
     - strategy

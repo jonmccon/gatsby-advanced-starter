@@ -7,7 +7,7 @@ inst: "https://instagram.com/vectorform/"
 category: "V"
 city: "Seattle"
 neighborhood: "Belltown"
-size: "large"
+size: "Large (41-100)"
 map: ""
 tags:
     - ux/ui

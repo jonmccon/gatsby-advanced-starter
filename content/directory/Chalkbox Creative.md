@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/chalkboxcreative/"
 category: "C"
 city: "Seattle"
 neighborhood: ""
-size: "small"
+size: "Small (1-10)"
 map: ""
 tags:
     - branding

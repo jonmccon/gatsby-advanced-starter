@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/nordstrom"
 category: "N"
 city: "Seattle"
 neighborhood: "Downtown"
-size: "large"
+size: "Large (41-100)"
 map: ""
 tags:
     - environmental

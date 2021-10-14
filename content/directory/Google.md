@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/googledesign"
 category: "G"
 city: "Seattle"
 neighborhood: "Fremont"
-size: "huge"
+size: "Huge (100+)"
 map: ""
 tags:
     - ux/ui

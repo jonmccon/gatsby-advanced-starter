@@ -7,7 +7,7 @@ inst: "https://instagram.com/plu_artdesign/"
 category: "P"
 city: "Tacoma"
 neighborhood: ""
-size: "large"
+size: "Large (41-100)"
 map: ""
 tags:
     - school

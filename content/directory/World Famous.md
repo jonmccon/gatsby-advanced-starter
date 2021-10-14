@@ -7,7 +7,7 @@ inst: "https://instagram.com/worldfamousinc/"
 category: "W"
 city: "Seattle"
 neighborhood: "Capitol Hill"
-size: "medium"
+size: "Medium (11-40)"
 map: ""
 tags:
     - video

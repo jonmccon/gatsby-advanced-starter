@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/anthrotechux"
 category: "A"
 city: "Olympia"
 neighborhood: "Downtown"
-size: "medium"
+size: "Medium (11-40)"
 map: ""
 tags:
     - strategy

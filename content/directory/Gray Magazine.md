@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/Gray_Magazine"
 category: "G"
 city: "Seattle"
 neighborhood: "Georgetown"
-size: "small"
+size: "Small (1-10)"
 map: ""
 tags:
     - press

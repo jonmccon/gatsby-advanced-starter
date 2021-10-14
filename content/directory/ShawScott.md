@@ -7,7 +7,7 @@ inst: "https://instagram.com/_shawscott/"
 category: "S"
 city: "Seattle"
 neighborhood: "Madison Park"
-size: "medium"
+size: "Medium (11-40)"
 map: ""
 tags:
     - marketing

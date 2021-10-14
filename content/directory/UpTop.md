@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/uptopcorp"
 category: "U"
 city: "Seattle"
 neighborhood: "Pioneer Square"
-size: "small"
+size: "Small (1-10)"
 map: ""
 tags:
     - ux/ui

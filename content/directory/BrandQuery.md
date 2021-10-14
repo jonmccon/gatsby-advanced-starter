@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/brandquery/"
 category: "B"
 city: "Mount Vernon"
 neighborhood: ""
-size: "small"
+size: "Small (1-10)"
 map: ""
 tags:
     - branding

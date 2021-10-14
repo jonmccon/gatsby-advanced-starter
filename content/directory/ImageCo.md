@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/imageco/"
 category: "I"
 city: "Seattle"
 neighborhood: "Fremont"
-size: "small"
+size: "Small (1-10)"
 map: ""
 tags:
     - branding

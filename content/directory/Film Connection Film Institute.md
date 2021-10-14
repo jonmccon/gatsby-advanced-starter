@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/filmconnectionfilminstitute/"
 category: "F"
 city: "Seattle"
 neighborhood: "Pioneer Square"
-size: "medium"
+size: "Medium (11-40)"
 map: ""
 tags:
     - video

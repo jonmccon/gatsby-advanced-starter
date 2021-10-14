@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/design.citizen/"
 category: "D"
 city: "Seattle"
 neighborhood: "Capitol Hill"
-size: "small"
+size: "Small (1-10)"
 map: ""
 tags:
     - recruiter

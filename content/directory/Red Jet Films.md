@@ -7,7 +7,7 @@ inst: ""
 category: "R"
 city: "Seattle"
 neighborhood: "Queen Anne"
-size: "small"
+size: "Small (1-10)"
 map: ""
 tags:
     - video

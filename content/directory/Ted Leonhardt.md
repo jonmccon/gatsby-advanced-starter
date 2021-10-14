@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/TedCLeonhardt"
 category: "T"
 city: "Seattle"
 neighborhood: "Ballard"
-size: "small"
+size: "Small (1-10)"
 map: ""
 tags:
     - strategy

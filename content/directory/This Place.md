@@ -7,7 +7,7 @@ inst: "https://instagram.com/thisplacestudios/"
 category: "T"
 city: "Seattle"
 neighborhood: "Fremont"
-size: "large"
+size: "Large (41-100)"
 map: ""
 tags:
     - strategy

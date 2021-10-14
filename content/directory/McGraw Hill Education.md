@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/mheducation"
 category: "M"
 city: "Seattle"
 neighborhood: "Pioneer Square"
-size: "large"
+size: "Large (41-100)"
 map: ""
 tags:
     - ux/ui

@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/formmade"
 category: "F"
 city: "Seattle"
 neighborhood: "U District"
-size: "small"
+size: "Small (1-10)"
 map: ""
 tags:
     - branding

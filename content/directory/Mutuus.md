@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/mutuus_studio"
 category: "M"
 city: "Seattle"
 neighborhood: "SODO"
-size: "small"
+size: "Small (1-10)"
 map: ""
 tags:
     - environmental

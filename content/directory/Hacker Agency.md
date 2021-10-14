@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/hackeragency"
 category: "H"
 city: "Seattle"
 neighborhood: "Downtown"
-size: "large"
+size: "Large (41-100)"
 map: ""
 tags:
     - advertising

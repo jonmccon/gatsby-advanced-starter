@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/duplastudios/"
 category: "D"
 city: "Seattle"
 neighborhood: "Queen Anne"
-size: "small"
+size: "Small (1-10)"
 map: ""
 tags:
     - research

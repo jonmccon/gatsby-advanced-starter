@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/uwapress"
 category: "U"
 city: "Seattle"
 neighborhood: "U District"
-size: "medium"
+size: "Medium (11-40)"
 map: ""
 tags:
     - print

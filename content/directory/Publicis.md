@@ -7,7 +7,7 @@ inst: "https://instagram.com/publicisseattle/"
 category: "P"
 city: "Seattle"
 neighborhood: "Queen Anne"
-size: "large"
+size: "Large (41-100)"
 map: ""
 tags:
     - branding

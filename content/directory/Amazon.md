@@ -7,7 +7,7 @@ inst: ""
 category: "A"
 city: "Seattle"
 neighborhood: "South Lake Union"
-size: "huge"
+size: "Huge (100+)"
 map: ""
 tags:
     - product

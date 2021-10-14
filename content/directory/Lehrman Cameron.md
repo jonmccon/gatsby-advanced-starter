@@ -7,7 +7,7 @@ inst: ""
 category: "L"
 city: "Seattle"
 neighborhood: "Greenwood"
-size: "small"
+size: "Small (1-10)"
 map: ""
 tags:
     - environmental

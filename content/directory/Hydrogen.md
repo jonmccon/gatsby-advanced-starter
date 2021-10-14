@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/hydrogen_advertising"
 category: "H"
 city: "Seattle"
 neighborhood: "Downtown"
-size: "small"
+size: "Small (1-10)"
 map: ""
 tags:
     - marketing

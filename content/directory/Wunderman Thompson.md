@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/wunthompson"
 category: "W"
 city: "Seattle"
 neighborhood: "South Lake Union"
-size: "large"
+size: "Large (41-100)"
 map: ""
 tags:
     - strategy

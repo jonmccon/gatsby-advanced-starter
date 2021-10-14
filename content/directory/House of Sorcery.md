@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/houseofsorcery"
 category: "H"
 city: "Seattle"
 neighborhood: "Georgetown"
-size: "small"
+size: "Small (1-10)"
 map: ""
 tags:
     - branding

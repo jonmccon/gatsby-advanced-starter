@@ -7,7 +7,7 @@ inst: "https://instagram.com/we_are_rational/"
 category: "R"
 city: "Seattle"
 neighborhood: "Downtown"
-size: "medium"
+size: "Medium (11-40)"
 map: ""
 tags:
     - research

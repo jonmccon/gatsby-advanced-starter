@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/alphagraphicsseattle"
 category: "A"
 city: "Seattle"
 neighborhood: "Belltown"
-size: "medium"
+size: "Medium (11-40)"
 map: ""
 tags:
     - printer

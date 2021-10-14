@@ -7,7 +7,7 @@ inst: ""
 category: "A"
 city: "Seattle"
 neighborhood: "Pioneer Square"
-size: "small"
+size: "Small (1-10)"
 map: ""
 tags:
     - industrial

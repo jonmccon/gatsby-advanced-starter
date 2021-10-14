@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/icreature"
 category: "I"
 city: "Maple Valley"
 neighborhood: ""
-size: "small"
+size: "Small (1-10)"
 map: ""
 tags:
     - illustration

@@ -7,7 +7,7 @@ inst: ""
 category: "C"
 city: "Cle Elum"
 neighborhood: ""
-size: "small"
+size: "Small (1-10)"
 map: ""
 tags:
     - advertising

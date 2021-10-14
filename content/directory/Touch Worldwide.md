@@ -7,7 +7,7 @@ inst: "https://instagram.com/touch_worldwide/"
 category: "T"
 city: "Seattle"
 neighborhood: "Pioneer Square"
-size: "medium"
+size: "Medium (11-40)"
 map: ""
 tags:
     - exhibition

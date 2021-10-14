@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/mekanism"
 category: "M"
 city: "Seattle"
 neighborhood: "Capitol Hill"
-size: "large"
+size: "Large (41-100)"
 map: ""
 tags:
     - advertising

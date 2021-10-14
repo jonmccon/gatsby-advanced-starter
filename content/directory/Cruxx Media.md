@@ -7,7 +7,7 @@ inst: ""
 category: "C"
 city: "Seattle"
 neighborhood: "Eastlake"
-size: "medium"
+size: "Medium (11-40)"
 map: ""
 tags:
     - advertising

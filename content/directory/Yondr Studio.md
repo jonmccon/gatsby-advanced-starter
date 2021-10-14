@@ -7,7 +7,7 @@ inst: "https://instagram.com/studioyondr/"
 category: "Y"
 city: "Edmonds"
 neighborhood: ""
-size: "small"
+size: "Small (1-10)"
 map: ""
 tags:
     - illustration

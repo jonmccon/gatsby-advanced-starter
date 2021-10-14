@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/teague1926"
 category: "T"
 city: "Seattle"
 neighborhood: "Pike Place Market"
-size: "large"
+size: "Large (41-100)"
 map: ""
 tags:
     - industrial

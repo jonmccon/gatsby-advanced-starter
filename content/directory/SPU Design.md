@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/spac_gallery"
 category: "S"
 city: "Seattle"
 neighborhood: "Queen Anne"
-size: "large"
+size: "Large (41-100)"
 map: ""
 tags:
     - school

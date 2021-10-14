@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/spectrolite.app/"
 category: "A"
 city: "Seattle"
 neighborhood: "Roosevelt"
-size: "small"
+size: "Small (1-10)"
 map: ""
 tags:
     - community 

@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/smashing_ideas_agency"
 category: "S"
 city: "Seattle"
 neighborhood: "Belltown"
-size: "large"
+size: "Large (41-100)"
 map: ""
 tags:
     - strategy

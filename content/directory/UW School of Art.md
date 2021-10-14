@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/uwsoa"
 category: "U"
 city: "Seattle"
 neighborhood: "U District"
-size: "large"
+size: "Large (41-100)"
 map: ""
 tags:
     - school

@@ -7,7 +7,7 @@ inst: ""
 category: "D"
 city: "Seattle"
 neighborhood: "Downtown"
-size: "large"
+size: "Large (41-100)"
 map: ""
 tags:
     - marketing

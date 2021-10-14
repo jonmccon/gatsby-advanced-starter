@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/prattfinearts"
 category: "P"
 city: "Seattle"
 neighborhood: "Central District"
-size: "medium"
+size: "Medium (11-40)"
 map: ""
 tags:
     - school

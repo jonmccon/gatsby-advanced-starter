@@ -7,7 +7,7 @@ inst: "https://instagram.com/seattlecentral/"
 category: "S"
 city: "Seattle"
 neighborhood: "Capitol Hill"
-size: "large"
+size: "Large (41-100)"
 map: ""
 tags:
     - school

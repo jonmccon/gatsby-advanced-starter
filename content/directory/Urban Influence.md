@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/pigeonwisdom"
 category: "U"
 city: "Seattle"
 neighborhood: "Capitol Hill"
-size: "medium"
+size: "Medium (11-40)"
 map: ""
 tags:
     - ux/ui

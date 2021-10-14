@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/messengercorporation/"
 category: "M"
 city: "Seattle"
 neighborhood: "Georgetown"
-size: "medium"
+size: "Medium (11-40)"
 map: ""
 tags:
     - strategy

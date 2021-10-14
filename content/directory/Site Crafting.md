@@ -6,8 +6,8 @@ twit: "https://twitter.com/sitecrafting"
 inst: "https://www.instagram.com/sitecrafting"
 category: "S"
 city: "Tacoma"
-neighborhood: "medium"
-size: ""
+neighborhood: ""
+size: "Medium (11-40)"
 map: ""
 tags:
     - ux/ui

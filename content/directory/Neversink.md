@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/madebyneversink"
 category: "N"
 city: "Seattle"
 neighborhood: ""
-size: "small"
+size: "Small (1-10)"
 map: ""
 tags:
     - branding

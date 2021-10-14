@@ -7,7 +7,7 @@ inst: ""
 category: "B"
 city: "Tukwila"
 neighborhood: ""
-size: "large"
+size: "Large (41-100)"
 map: ""
 tags:
     - inhouse

@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/williamshelde"
 category: "W"
 city: "Seattle"
 neighborhood: "Ballard"
-size: "medium"
+size: "Medium (11-40)"
 map: ""
 tags:
     - video

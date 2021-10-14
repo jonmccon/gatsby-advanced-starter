@@ -7,7 +7,7 @@ inst: ""
 category: "G"
 city: "Seattle"
 neighborhood: "Bellevue"
-size: "medium"
+size: "Medium (11-40)"
 map: ""
 tags:
     - branding

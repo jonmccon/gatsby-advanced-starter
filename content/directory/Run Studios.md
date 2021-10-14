@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/runstudios/"
 category: "R"
 city: "Seattle"
 neighborhood: "Ballard"
-size: "large"
+size: "Large (41-100)"
 map: ""
 tags:
     - video

@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/seanwolcott"
 category: "R"
 city: "Seattle"
 neighborhood: "Pioneer Square"
-size: "small"
+size: "Small (1-10)"
 map: ""
 tags:
     - branding

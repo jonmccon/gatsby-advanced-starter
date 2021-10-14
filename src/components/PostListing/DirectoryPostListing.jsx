@@ -13,6 +13,7 @@ class DirectoryPostListing extends React.Component {
         website: postEdge.node.frontmatter.website,
         episode: postEdge.node.frontmatter.episode,
         episodePromo: postEdge.node.frontmatter.episodePromo,
+        color: postEdge.node.frontmatter.color,
       });
     });
     return postList;
@@ -52,7 +53,7 @@ class DirectoryPostListing extends React.Component {
               </a>
               
               {post.episodePromo ? 
-              <div className="episodePromo">{post.episodePromo && post.episodePromo}</div> : '' 
+              <div className={`episodePromo ${post.color}`}>{post.episodePromo && post.episodePromo}</div> : '' 
               }
 
               {post.episode ? 

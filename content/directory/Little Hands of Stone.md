@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/lhos206/"
 category: "L"
 city: "Seattle"
 neighborhood: "Fremont"
-size: "small"
+size: "Small (1-10)"
 map: ""
 tags:
     - video

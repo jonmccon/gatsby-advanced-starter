@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/crownsocial"
 category: "C"
 city: "Seattle"
 neighborhood: "South Lake Union"
-size: "medium"
+size: "Medium (11-40)"
 map: ""
 tags:
     - advertising

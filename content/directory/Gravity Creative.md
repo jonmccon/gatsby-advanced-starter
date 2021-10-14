@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/gravitycreative_seattle/"
 category: "G"
 city: "Seattle"
 neighborhood: "Belltown"
-size: "small"
+size: "Small (1-10)"
 map: ""
 tags:
     - branding

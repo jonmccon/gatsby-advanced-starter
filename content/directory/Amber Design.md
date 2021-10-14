@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/awesomeamberdesign"
 category: "A"
 city: "Marysville"
 neighborhood: ""
-size: "small"
+size: "Small (1-10)"
 map: ""
 tags:
     - branding

@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/print_nw"
 category: "P"
 city: "Tacoma"
 neighborhood: ""
-size: "large"
+size: "Large (41-100)"
 map: ""
 tags:
     - printer

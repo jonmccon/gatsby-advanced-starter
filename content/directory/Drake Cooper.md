@@ -7,7 +7,7 @@ inst: ""
 category: "D"
 city: "Seattle"
 neighborhood: "South Lake Union"
-size: "medium"
+size: "Medium (11-40)"
 map: ""
 tags:
     - branding

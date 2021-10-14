@@ -7,7 +7,7 @@ inst: "https://instagram.com/seamonsterstudios/"
 category: "S"
 city: "Seattle"
 neighborhood: "Downtown"
-size: "small"
+size: "Small (1-10)"
 map: ""
 tags:
     - ux/ui

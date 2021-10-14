@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/garriganlyman"
 category: "G"
 city: "Seattle"
 neighborhood: "Downtown"
-size: "large"
+size: "Large (41-100)"
 map: ""
 tags:
     - branding

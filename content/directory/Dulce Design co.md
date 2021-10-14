@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/dulcedesigncompany"
 category: "D"
 city: "Seattle"
 neighborhood: "First Hill"
-size: "small"
+size: "Small (1-10)"
 map: ""
 tags:
     - branding

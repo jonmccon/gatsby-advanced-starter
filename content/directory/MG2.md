@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/mg2_design"
 category: "M"
 city: "Seattle"
 neighborhood: "Downtown"
-size: "large"
+size: "Large (41-100)"
 map: ""
 tags:
     - environmental

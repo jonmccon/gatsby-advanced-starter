@@ -5,6 +5,7 @@ import Layout from "../layout";
 // import PodcastListing from "../components/PostListing/PodcastListing";
 import PostCats from "../components/Filters/PostCats";
 import PostTags from "../components/Filters/PostTags";
+import TagSeattleNeighborhood from "../components/Filters/TagSeattleNeighborhood";
 import DirectoryListing from "../components/PostListing/DirectoryPostListing";
 import SEO from "../components/SEO/SEO";
 import config from "../../data/SiteConfig";
@@ -31,6 +32,8 @@ class Listing extends React.Component {
 
     const allCats = this.props.data.AllCatsQuery.distinct;
     const allTags = this.props.data.AllTagsQuery.distinct;
+    const tagSeattle = this.props.data.TagSeattleQuery.distinct;
+
 
     const postEdgesDirectoryA = this.props.data.directoryListingQueryA.edges;
     const postEdgesDirectoryB = this.props.data.directoryListingQueryB.edges;
@@ -92,8 +95,27 @@ class Listing extends React.Component {
             
             {/* FILTERS */}
             <div className="filters">
-              <PostCats cats={ allCats} />
+
+              
+              <div className="filter-tag-container">
+                {/* only on mobile */}
+                <PostCats cats={allCats} />
+                
+
+                {/* Hardcoded size  */}
+                {/* <Link className="filter-tag--size" to="/tags/small">small</Link>
+                <Link className="filter-tag--size" to="/tags/medium">medium</Link>
+                <Link className="filter-tag--size" to="/tags/large">large</Link>
+                <Link className="filter-tag--size" to="/tags/huge">huge</Link> */}
+              
+              
+              <PostTags tags={tagSize} />
+              <TagSeattleNeighborhood tags={tagSeattle} />
+              <TagCity tags={tagCity} />
               <PostTags tags={allTags} />
+
+              </div>
+
             </div>
             
 
@@ -246,6 +268,11 @@ export const listingQuery = graphql`
     }
     AllTagsQuery: allMarkdownRemark {
       distinct(field: frontmatter___tags)
+    }
+    TagSeattleQuery: allMarkdownRemark(
+      filter: { frontmatter: { city: { eq: "Seattle" } published: { eq: true } }}
+    ) {
+      distinct(field: frontmatter___neighborhood)
     }
     directoryListingQueryA: allMarkdownRemark(
       sort: { fields: frontmatter___title, order: ASC }

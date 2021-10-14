@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/vmlyr"
 category: "V"
 city: "Seattle"
 neighborhood: "South Lake Union"
-size: "large"
+size: "Large (41-100)"
 map: ""
 tags:
     - advertising

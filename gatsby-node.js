@@ -46,6 +46,10 @@ exports.createPages = async ({ graphql, actions }) => {
   const postPage = path.resolve("./src/templates/post.jsx");
   const tagPage = path.resolve("./src/templates/byTag.jsx");
   const categoryPage = path.resolve("./src/templates/byCategory.jsx");
+  const cityPage = path.resolve("./src/templates/byCity.jsx");
+  const neighborhoodPage = path.resolve("./src/templates/byNeighborhood.jsx");
+  const sizePage = path.resolve("./src/templates/bySize.jsx");
+  
 
   // Get a full list of markdown posts
   const markdownQueryResult = await graphql(`
@@ -62,8 +66,10 @@ exports.createPages = async ({ graphql, actions }) => {
             frontmatter {
               title
               episode
-              tags
               category
+              tags
+              city
+              neighborhood
               date
             }
           }
@@ -79,6 +85,11 @@ exports.createPages = async ({ graphql, actions }) => {
 
   const tagSet = new Set();
   const categorySet = new Set();
+  const citySet = new Set();
+  const neighborhoodSet = new Set();
+  const sizeSet = new Set();
+
+
 
   const postsEdges = markdownQueryResult.data.allMarkdownRemark.edges;
 
@@ -211,4 +222,32 @@ exports.createPages = async ({ graphql, actions }) => {
       context: { category },
     });
   });
+
+    //  Create city pages
+    citySet.forEach((tag) => {
+      createPage({
+        path: `/tags/${_.kebabCase(tag)}/`,
+        component: tagPage,
+        context: { tag },
+      });
+    });
+    
+    //  Create city pages
+    neighborhoodSet.forEach((tag) => {
+      createPage({
+        path: `/tags/${_.kebabCase(tag)}/`,
+        component: tagPage,
+        context: { tag },
+      });
+    });
+
+    //  Create city pages
+    sizeSet.forEach((tag) => {
+      createPage({
+        path: `/tags/${_.kebabCase(tag)}/`,
+        component: tagPage,
+        context: { tag },
+      });
+    });
+
 };

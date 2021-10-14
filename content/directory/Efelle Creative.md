@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/efellecreative"
 category: "E"
 city: "Seattle"
 neighborhood: "Downtown"
-size: "medium"
+size: "Medium (11-40)"
 map: ""
 tags:
     - ux/ui

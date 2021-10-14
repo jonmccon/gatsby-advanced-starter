@@ -7,7 +7,7 @@ inst: "https://instagram.com/quesinberryandassociates/"
 category: "Q"
 city: "Seattle"
 neighborhood: "Capitol Hill"
-size: "small"
+size: "Small (1-10)"
 map: ""
 tags:
     - branding

@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/amp_agency/"
 category: "A"
 city: "Seattle"
 neighborhood: "Pike Place Market"
-size: "large"
+size: "Large (41-100)"
 map: ""
 tags:
     - branding

@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/grain_design"
 category: "G"
 city: "Seattle"
 neighborhood: "Bainbridge"
-size: "small"
+size: "Small (1-10)"
 map: ""
 tags:
     - industrial

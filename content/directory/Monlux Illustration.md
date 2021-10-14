@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/markmonlux/"
 category: "M"
 city: "Tacoma"
 neighborhood: ""
-size: "small"
+size: "Small (1-10)"
 map: ""
 tags:
     - illustration

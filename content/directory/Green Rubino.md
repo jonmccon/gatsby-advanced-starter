@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/GreenRubino"
 category: "G"
 city: "Seattle"
 neighborhood: "Eastlake"
-size: "medium"
+size: "Medium (11-40)"
 map: ""
 tags:
     - branding

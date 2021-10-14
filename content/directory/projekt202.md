@@ -7,7 +7,7 @@ inst: "https://www.instagram.com/projekt202"
 category: "P"
 city: "Seattle"
 neighborhood: "Downtown"
-size: "large"
+size: "Large (41-100)"
 map: ""
 tags:
     - ux/ui
