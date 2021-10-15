@@ -175,12 +175,24 @@
     .filters {
         font: var(--text-mono-menu);
         margin: 6em 0 0 0;
-        text-align: center;
+        text-align: left;
+        max-height: 400px;
         /* background-color: var(--color-test); */
     }
     
     .filter-cat-container {
         display: none;   
+    }
+
+    .filter-tag-container { 
+    }
+
+    .allCats {
+        grid-column: span 2; 
+    }
+
+    .tagSize {
+        grid-column: span 1; 
     }
 
     #ShowTags {             display: none;  }

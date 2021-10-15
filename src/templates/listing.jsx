@@ -97,16 +97,15 @@ class Listing extends React.Component {
             {/* FILTERS */}
             <div className="filters">
               
-              <div className="filter-tag-container">
-                {/* only on mobile */}
-                <PostCats cats={allCats} />  
               
-                <PostTags tags={tagSize} />
-                <PostTags tags={tagSeattle} />
-                <PostTags tags={tagCity} />
-                <PostTags tags={allTags} />
+                {/* only on mobile */}
+                {/* <div className="allCats"><PostCats cats={allCats} /></div> */}
+                <div className="tagSize"><PostTags tags={tagSize} /></div>
+                <div className="tagSeattle"><PostTags tags={tagSeattle} /></div>
+                <div className="tagCity"><PostTags tags={tagCity} /></div>
+                <div className="allTags"><PostTags tags={allTags} /></div>
 
-              </div>
+              
 
             </div>
             

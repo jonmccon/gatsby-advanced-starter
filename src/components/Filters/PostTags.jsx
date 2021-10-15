@@ -12,7 +12,7 @@ class PostTags extends Component {
         
         {/* my need to do sorting here instead of in the query */}
         {/* General list of all tags */}
-        <div id="filter-tag--toggle">
+        {/* <div id="filter-tag--toggle"> */}
         {tags &&
           tags.map(tag => (
             <Link
@@ -28,9 +28,9 @@ class PostTags extends Component {
             </Link>
             
           ))}
-        </div>
+        {/* </div> */}
         
-        <a id="ShowTags" href="#filter-tag--toggle">SHOW TAGS</a>
+        {/* <a id="ShowTags" href="#filter-tag--toggle">SHOW TAGS</a> */}
 
       </div>
     );
