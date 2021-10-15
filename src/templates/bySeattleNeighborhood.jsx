@@ -25,7 +25,7 @@ export default class CategoryTemplate extends React.Component {
           />
           <div className="pattern">
           <div className="container">
-          <Logo />
+          
           <HeadlineMenuLeft />
           <HeadlineMenuRight />
             <div className="headline-wrapper-small">

@@ -66,9 +66,9 @@ export const pageQuery = graphql`
       limit: 1000
       sort: { fields: [fields___date], order: DESC }
       filter: { frontmatter: { 
-        size: { in: [$size] } 
+        size: { eq: $size } 
         published: { eq: true }
-        } }
+        }}
     ) {
       totalCount
       edges {

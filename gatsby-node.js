@@ -192,6 +192,18 @@ exports.createPages = async ({ graphql, actions }) => {
       if (edge.node.frontmatter.category) {
         categorySet.add(edge.node.frontmatter.category);
       }
+      
+      if (edge.node.frontmatter.city) {
+        citySet.add(edge.node.frontmatter.city);
+      }
+
+      if (edge.node.frontmatter.neighborhood) {
+        neighborhoodSet.add(edge.node.frontmatter.neighborhood);
+      }
+
+      if (edge.node.frontmatter.size) {
+        sizeSet.add(edge.node.frontmatter.size);
+      }
 
       // // Generate a list of categories (plural) multi use
       // // This will help with a multi category branching search (and page generation)
@@ -212,7 +224,7 @@ exports.createPages = async ({ graphql, actions }) => {
   // Create category pages
   categorySet.forEach((category) => {
     createPage({
-      path: `/categories/${_.kebabCase(category)}/`,
+      path: `/tags/${_.kebabCase(category)}/`,
       component: categoryPage,
       context: { category },
     });

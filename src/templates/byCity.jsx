@@ -24,7 +24,7 @@ export default class TagTemplate extends React.Component {
           <Helmet title={`Posts tagged as "${city}" | ${config.siteTitle}`} />
           <div className="pattern">
           <div className="container">
-            <Logo />
+            
             <HeadlineMenuLeft />
             <HeadlineMenuRight />
             <div className="headline-wrapper-small">
@@ -64,7 +64,7 @@ export const pageQuery = graphql`
       limit: 1000
       sort: { fields: [fields___date], order: DESC }
       filter: { frontmatter: { 
-        city: { in: [$city] } 
+        city: { eq: $city } 
         published: { eq: true }
         } }
     ) {
