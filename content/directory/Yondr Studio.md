@@ -6,7 +6,7 @@ twit: ""
 inst: "https://instagram.com/studioyondr/"
 category: "Y"
 city: "Edmonds"
-neighborhood: ""
+neighborhood:
 size: "Small (1-10)"
 map: ""
 tags:

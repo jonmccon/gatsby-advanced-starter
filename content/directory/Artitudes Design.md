@@ -6,11 +6,11 @@ twit: "https://twitter.com/ArtitudesDesign"
 inst: "https://www.instagram.com/artitudes"
 category: "A"
 city: "Issaquah"
-neighborhood: ""
+neighborhood:
 size: "Medium (11-40)"
 map: ""
 tags:
-    - 3D rendering 
+    - 3D 
     - branding 
     - events 
     - experiential 

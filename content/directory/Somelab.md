@@ -6,7 +6,7 @@ twit: ""
 inst: ""
 category: "S"
 city: "Orcas Island"
-neighborhood: ""
+neighborhood:
 size: "Small (1-10)"
 map: ""
 tags:

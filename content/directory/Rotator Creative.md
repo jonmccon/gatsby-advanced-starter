@@ -6,7 +6,7 @@ twit: ""
 inst: "https://instagram.com/rotatorcreative/"
 category: "R"
 city: "Tacoma"
-neighborhood: ""
+neighborhood:
 size: "Small (1-10)"
 map: ""
 tags:

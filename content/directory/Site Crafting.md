@@ -6,7 +6,7 @@ twit: "https://twitter.com/sitecrafting"
 inst: "https://www.instagram.com/sitecrafting"
 category: "S"
 city: "Tacoma"
-neighborhood: ""
+neighborhood:
 size: "Medium (11-40)"
 map: ""
 tags:

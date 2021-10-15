@@ -6,7 +6,7 @@ twit: "https://twitter.com/ontramarketing"
 inst: "https://www.instagram.com/ontramarketing"
 category: "O"
 city: "Woodinville"
-neighborhood: ""
+neighborhood:
 size: "Small (1-10)"
 map: ""
 tags:

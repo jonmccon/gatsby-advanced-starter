@@ -100,12 +100,35 @@ class Listing extends React.Component {
               
                 {/* only on mobile */}
                 {/* <div className="allCats"><PostCats cats={allCats} /></div> */}
-                <div className="tagSize"><PostTags tags={tagSize} /></div>
-                <div className="tagSeattle"><PostTags tags={tagSeattle} /></div>
-                <div className="tagCity"><PostTags tags={tagCity} /></div>
-                <div className="allTags"><PostTags tags={allTags} /></div>
+                
+                <div className="tagSize">
+                  <div>
+                    <h5>SIZE</h5>
+                    <PostTags tags={tagSize} />
+                    </div>
+                  </div>
+                
+                <div className="tagSeattle">
+                  <div>
+                    <h5>SEATTLE BY NEIGHBORHOOD</h5>
+                    <PostTags tags={tagSeattle} />
+                    </div>
+                  </div>
+                
+                <div className="tagCity">
+                  <div>
+                    <h5>GREATER PNW</h5>
+                    <PostTags tags={tagCity} />
+                    </div>
+                  </div>
 
-              
+                <div className="allTags">
+                  <div>
+                    <h5>DISCIPLINE</h5>
+                    <PostTags tags={allTags} />
+                    </div>
+                  </div>
+
 
             </div>
             

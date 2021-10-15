@@ -7,7 +7,7 @@ twit: "https://twitter.com/artefactgroup"
 inst: ""
 category: "A"
 city: "Seattle"
-neighborhood: "Pioneer Square"
+neighborhood: "Poop"
 size: "Medium (11-40)"
 map: ""
 tags:

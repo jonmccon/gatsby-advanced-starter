@@ -6,7 +6,7 @@ twit: "https://twitter.com/fearless360team"
 inst: ""
 category: "F"
 city: "Seattle"
-neighborhood: ""
+neighborhood:
 size: "Small (1-10)"
 map: ""
 tags:

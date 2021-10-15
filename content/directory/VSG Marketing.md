@@ -6,7 +6,7 @@ twit: ""
 inst: "https://www.instagram.com/vsgmarketing/"
 category: "V"
 city: "Tacoma"
-neighborhood: ""
+neighborhood:
 size: "Medium (11-40)"
 map: ""
 tags:

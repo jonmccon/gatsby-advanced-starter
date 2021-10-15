@@ -6,7 +6,7 @@ twit: "https://twitter.com/AllovusDesign"
 inst: "https://www.instagram.com/allovusdesign"
 category: "A"
 city: "Gig Harbor"
-neighborhood: ""
+neighborhood:
 size: "Small (1-10)"
 map: ""
 tags:

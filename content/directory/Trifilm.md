@@ -6,7 +6,7 @@ twit: "https://twitter.com/trifilm"
 inst: "https://www.instagram.com/trifilm"
 category: "T"
 city: "Kirkland"
-neighborhood: ""
+neighborhood:
 size: "Medium (11-40)"
 map: ""
 tags:

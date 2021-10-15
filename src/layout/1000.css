@@ -6,6 +6,11 @@
         font: var(--text-serif-title);
         line-height: 140%;
     }
+
+    h5 {
+        font: var(--text-mono--item);
+        margin-block-start: 0;
+    }
     
     /* BACKGROUND PATTERN */
     .pattern {
@@ -32,7 +37,7 @@
             ".              MenuLeft        MenuLeft        .               Logo            Logo            Logo            Logo            .               MenuRight       MenuRight       ."
             ".              .               .               Headline        Headline        Headline        Headline        Headline        Headline        .               .               ."
             "showContainer              showContainer               showContainer               showContainer   showContainer   showContainer   showContainer   showContainer   showContainer   showContainer               showContainer               showContainer"
-            ".              Filters         Filters         Filters         Filters         Filters         Filters         Filters         Filters         Filters         Filters         ."
+            "Filters        Filters         Filters         Filters         Filters         Filters         Filters         Filters         Filters         Filters         Filters         Filters"
             ".              Directory       Directory       Directory       Directory       Directory       Directory       Directory       Directory       Directory       Directory       ."
             ".              .          .          .          .          .          .          .          .          .          .          ."
             ".              Footer          Footer          Footer          Footer          Footer          Footer          Footer          Footer          Footer          Footer          ."
@@ -176,7 +181,7 @@
         font: var(--text-mono-menu);
         margin: 6em 0 0 0;
         text-align: left;
-        max-height: 400px;
+        max-height: 350px;
         /* background-color: var(--color-test); */
     }
     
@@ -193,6 +198,30 @@
 
     .tagSize {
         grid-column: span 1; 
+    }
+
+    .tagSeattle, .tagCity {
+        grid-column: span 2;
+        padding-left: 1em;
+        border-left: 1px solid #292929; 
+    }
+
+    .tagSeattle div, .tagCity div {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column: span 2; 
+    }
+    
+    .allTags {
+        grid-column: span 3; 
+        padding-left: 1em;
+        border-left: 1px solid #000; 
+    }
+
+    .allTags div {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column: span 3;
     }
 
     #ShowTags {             display: none;  }

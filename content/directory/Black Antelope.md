@@ -6,7 +6,7 @@ twit: ""
 inst: ""
 category: "B"
 city: "Seattle"
-neighborhood: ""
+neighborhood:
 size: "Small (1-10)"
 map: ""
 tags:

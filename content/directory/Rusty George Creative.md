@@ -6,7 +6,7 @@ twit: "https://twitter.com/RustyGCreative"
 inst: "https://www.instagram.com/rustygeorgecreative"
 category: "R"
 city: "Tacoma"
-neighborhood: ""
+neighborhood:
 size: "Small (1-10)"
 map: ""
 tags:

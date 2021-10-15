@@ -7,7 +7,7 @@ inst: "https://instagram.com/fitch_design/"
 category: "F"
 city: "Seattle"
 neighborhood: "Downtown"
-size: ""
+size: "Small (1-10)"
 map: ""
 tags:
     - branding

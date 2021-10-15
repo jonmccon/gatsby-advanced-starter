@@ -2,11 +2,11 @@
 title: "Chalkbox Creative"
 featuredImage: ./-hamburgers.png
 website: "https://chalkboxstudio.com/"
-twit: " "
+twit: ""
 inst: "https://www.instagram.com/chalkboxcreative/"
 category: "C"
 city: "Seattle"
-neighborhood: ""
+neighborhood:
 size: "Small (1-10)"
 map: ""
 tags:

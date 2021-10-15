@@ -6,7 +6,7 @@ twit: "https://twitter.com/_M_Agency"
 inst: "https://www.instagram.com/_M_Agency"
 category: "M"
 city: "Tacoma"
-neighborhood: ""
+neighborhood:
 size: "Small (1-10)"
 map: ""
 tags:

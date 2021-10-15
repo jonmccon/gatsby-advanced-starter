@@ -6,7 +6,7 @@ twit: "https://twitter.com/rei"
 inst: "https://www.instagram.com/rei"
 category: "R"
 city: "Kent"
-neighborhood: ""
+neighborhood:
 size: "Large (41-100)"
 map: ""
 tags:

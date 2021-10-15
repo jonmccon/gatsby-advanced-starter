@@ -6,7 +6,7 @@ twit: "https://twitter.com/markmonlux"
 inst: "https://www.instagram.com/markmonlux/"
 category: "M"
 city: "Tacoma"
-neighborhood: ""
+neighborhood:
 size: "Small (1-10)"
 map: ""
 tags:

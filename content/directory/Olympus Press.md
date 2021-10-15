@@ -6,7 +6,7 @@ twit: ""
 inst: "https://instagram.com/olympuspress/"
 category: "O"
 city: "SeaTac"
-neighborhood: ""
+neighborhood:
 size: "Medium (11-40)"
 map: ""
 tags:

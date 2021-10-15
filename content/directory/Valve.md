@@ -6,7 +6,7 @@ twit: "https://twitter.com/valvesoftware"
 inst: ""
 category: "V"
 city: "Bellevue"
-neighborhood: ""
+neighborhood:
 size: "Large (41-100)"
 map: ""
 tags:

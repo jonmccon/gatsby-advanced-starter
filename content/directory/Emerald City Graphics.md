@@ -6,7 +6,7 @@ twit: ""
 inst: "https://www.instagram.com/emeraldcity_graphics"
 category: "E"
 city: "Kent"
-neighborhood: ""
+neighborhood:
 size: "Large (41-100)"
 map: ""
 tags:

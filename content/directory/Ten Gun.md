@@ -6,7 +6,7 @@ twit: ""
 inst: "https://www.instagram.com/tengundesign"
 category: "T"
 city: "Edmonds"
-neighborhood: ""
+neighborhood:
 size: "Large (41-100)"
 map: ""
 tags:

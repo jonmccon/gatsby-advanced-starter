@@ -6,7 +6,7 @@ twit: ""
 inst: "https://instagram.com/plu_artdesign/"
 category: "P"
 city: "Tacoma"
-neighborhood: ""
+neighborhood:
 size: "Large (41-100)"
 map: ""
 tags:

@@ -6,7 +6,7 @@ twit: ""
 inst: ""
 category: "O"
 city: "Edmonds"
-neighborhood: ""
+neighborhood:
 size: "Small (1-10)"
 map: ""
 tags:

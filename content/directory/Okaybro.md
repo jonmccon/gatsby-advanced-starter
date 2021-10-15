@@ -6,7 +6,7 @@ twit: ""
 inst: "https://www.instagram.com/okaybro"
 category: "O"
 city: "Seattle"
-neighborhood: ""
+neighborhood:
 size: "Small (1-10)"
 map: ""
 tags:

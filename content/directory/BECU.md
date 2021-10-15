@@ -6,7 +6,7 @@ twit: ""
 inst: ""
 category: "B"
 city: "Tukwila"
-neighborhood: ""
+neighborhood:
 size: "Large (41-100)"
 map: ""
 tags:

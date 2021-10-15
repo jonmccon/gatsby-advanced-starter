@@ -6,7 +6,7 @@ twit: "https://twitter.com/AmberDesign_"
 inst: "https://www.instagram.com/awesomeamberdesign"
 category: "A"
 city: "Marysville"
-neighborhood: ""
+neighborhood:
 size: "Small (1-10)"
 map: ""
 tags:

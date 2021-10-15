@@ -6,7 +6,7 @@ twit: "https://twitter.com/brandquery"
 inst: "https://www.instagram.com/brandquery/"
 category: "B"
 city: "Mount Vernon"
-neighborhood: ""
+neighborhood:
 size: "Small (1-10)"
 map: ""
 tags:

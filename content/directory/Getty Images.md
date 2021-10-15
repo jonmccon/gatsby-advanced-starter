@@ -6,7 +6,7 @@ twit: "https://twitter.com/GettyImages"
 inst: ""
 category: "G"
 city: "Seattle"
-neighborhood: "International District"
+neighborhood: "The ID"
 size: "Large (41-100)"
 map: ""
 tags:

@@ -21,7 +21,9 @@ export default class TagTemplate extends React.Component {
     return (
       <Layout>
         
-          <Helmet title={`Posts tagged as "${size}" | ${config.siteTitle}`} />
+          <Helmet 
+            title={`Posts tagged as "${size}" | ${config.siteTitle}`} 
+          />
           <div className="pattern">
           <div className="container">
             <Logo />
@@ -80,6 +82,7 @@ export const pageQuery = graphql`
             category
             city
             neighborhood
+            size
             tags
           }
         }

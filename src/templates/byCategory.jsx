@@ -81,6 +81,7 @@ export const pageQuery = graphql`
             category
             city
             neighborhood
+            size
             tags
           }
         }

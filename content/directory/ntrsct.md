@@ -2,11 +2,11 @@
 title: "ntrsct designs"
 featuredImage: ./-hamburgers.png
 website: "https://ntrsct.com"
-twit: " "
+twit: ""
 inst: "https://www.instagram.com/ntrsct.designs/"
 category: "N"
 city: "Seattle"
-neighborhood: ""
+neighborhood:
 size: "Small (1-10)"
 map: ""
 tags:

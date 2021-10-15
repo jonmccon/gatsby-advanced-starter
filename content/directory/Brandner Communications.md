@@ -6,7 +6,7 @@ twit: ""
 inst: "https://www.instagram.com/teambrandner/"
 category: "B"
 city: "Federal Way"
-neighborhood: ""
+neighborhood:
 size: "Medium (11-40)"
 map: ""
 tags:

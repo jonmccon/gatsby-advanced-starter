@@ -6,7 +6,7 @@ twit: "https://twitter.com/KiteBrand"
 inst: ""
 category: "K"
 city: "Seattle"
-neighborhood: ""
+neighborhood:
 size: "Small (1-10)"
 map: ""
 tags:

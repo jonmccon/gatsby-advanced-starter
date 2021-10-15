@@ -6,7 +6,7 @@ twit: ""
 inst: "https://instagram.com/wwu_design/"
 category: "W"
 city: "Bellingham"
-neighborhood: ""
+neighborhood:
 size: "Large (41-100)"
 map: ""
 tags:

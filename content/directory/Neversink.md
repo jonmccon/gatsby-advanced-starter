@@ -6,7 +6,7 @@ twit: "https://twitter.com/MadeByNeversink"
 inst: "https://www.instagram.com/madebyneversink"
 category: "N"
 city: "Seattle"
-neighborhood: ""
+neighborhood:
 size: "Small (1-10)"
 map: ""
 tags:

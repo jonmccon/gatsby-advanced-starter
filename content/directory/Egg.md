@@ -6,7 +6,7 @@ twit: "https://twitter.com/eggseattle"
 inst: ""
 category: "E"
 city: "Vashon Island"
-neighborhood: ""
+neighborhood:
 size: "Small (1-10)"
 map: ""
 tags:

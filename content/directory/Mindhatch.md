@@ -6,7 +6,7 @@ twit: "https://twitter.com/mindhatchllc"
 inst: "https://www.instagram.com/mindhatch_llc"
 category: "M"
 city: "Seattle"
-neighborhood: ""
+neighborhood:
 size: "Small (1-10)"
 map: ""
 tags:

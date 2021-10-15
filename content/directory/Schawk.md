@@ -6,7 +6,7 @@ twit: "https://twitter.com/schawk"
 inst: "https://www.instagram.com/schawkstudios"
 category: "S"
 city: "Redmond"
-neighborhood: ""
+neighborhood:
 size: "Large (41-100)"
 map: ""
 tags:

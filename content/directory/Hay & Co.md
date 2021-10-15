@@ -6,7 +6,7 @@ twit: ""
 inst: "https://instagram.com/hayandcodesign/"
 category: "H"
 city: "Kenmore"
-neighborhood: ""
+neighborhood:
 size: "Small (1-10)"
 map: ""
 tags:

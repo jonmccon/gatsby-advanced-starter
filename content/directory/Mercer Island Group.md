@@ -6,7 +6,7 @@ twit: ""
 inst: ""
 category: "M"
 city: "Mercer Island"
-neighborhood: ""
+neighborhood:
 size: "Small (1-10)"
 map: ""
 tags:

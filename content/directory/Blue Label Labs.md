@@ -6,7 +6,7 @@ twit: "https://twitter.com/bluelabellabs"
 inst: ""
 category: "B"
 city: "Redmond"
-neighborhood: ""
+neighborhood:
 size: "Large (41-100)"
 map: ""
 tags:

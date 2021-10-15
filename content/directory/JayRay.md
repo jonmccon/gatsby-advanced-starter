@@ -6,7 +6,7 @@ twit: ""
 inst: "https://www.instagram.com/jayrayadspr/"
 category: "J"
 city: "Tacoma"
-neighborhood: ""
+neighborhood:
 size: "Small (1-10)"
 map: ""
 tags:

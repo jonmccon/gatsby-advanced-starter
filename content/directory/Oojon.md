@@ -6,7 +6,7 @@ twit: "https://twitter.com/the_oojon"
 inst: "https://www.instagram.com/the_oojon"
 category: "O"
 city: "Seattle"
-neighborhood: ""
+neighborhood:
 size: "Small (1-10)"
 map: ""
 tags:

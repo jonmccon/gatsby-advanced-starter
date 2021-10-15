@@ -6,7 +6,7 @@ twit: "https://twitter.com/MicrosoftDesign"
 inst: "https://www.instagram.com/microsoft.design"
 category: "M"
 city: "Redmond"
-neighborhood: ""
+neighborhood:
 size: "Huge (100+)"
 map: ""
 tags:
