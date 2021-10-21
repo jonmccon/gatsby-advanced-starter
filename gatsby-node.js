@@ -74,6 +74,7 @@ exports.createPages = async ({ graphql, actions }) => {
               tags
               city
               neighborhood
+              size
               date
             }
           }
@@ -230,7 +231,7 @@ exports.createPages = async ({ graphql, actions }) => {
     });
   });
   
-  //  Create city pages
+  //  Create size pages
   sizeSet.forEach((size) => {
     createPage({
       path: `/tags/${_.kebabCase(size)}/`,
