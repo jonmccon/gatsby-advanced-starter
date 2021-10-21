@@ -14,7 +14,7 @@ const config = {
   postDefaultCategoryID: "Directory", // Default category for posts.
   dateFromFormat: "YYYY-MM-DD", // Date format used in the frontmatter.
   dateFormat: "DD/MM/YYYY", // Date format for display.
-  postsPerPage: 4, // Amount of posts displayed per listing page.
+  postsPerPage: 300, // Amount of posts displayed per listing page.
   userName: "jonmccon", // Username to display in the author segment.
   userEmail: "jonmccon@gmail.com", // Email used for RSS feed's author segment
   userTwitter: "jonmccon", // Optionally renders "Follow Me" in the UserInfo segment.
