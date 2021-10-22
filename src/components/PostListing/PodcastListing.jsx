@@ -6,13 +6,12 @@ class PostListing extends React.Component {
     const postList = [];
     this.props.postEdges.forEach((postEdge) => {
       postList.push({
-        path: postEdge.node.fields.slug,
         tags: postEdge.node.frontmatter.tags,
-        featuredImage: postEdge.node.frontmatter.featuredImage,
         title: postEdge.node.frontmatter.title,
-        date: postEdge.node.fields.date,
-        excerpt: postEdge.node.excerpt,
-        timeToRead: postEdge.node.timeToRead,
+        website: postEdge.node.frontmatter.website,
+        episode: postEdge.node.frontmatter.episode,
+        episodePromo: postEdge.node.frontmatter.episodePromo,
+        color: postEdge.node.frontmatter.color,
       });
     });
     return postList;
