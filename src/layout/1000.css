@@ -36,7 +36,7 @@
         grid-template-areas:
             ".              MenuLeft        MenuLeft        .               Logo            Logo            Logo            Logo            .               MenuRight       MenuRight       ."
             ".              .               .               Headline        Headline        Headline        Headline        Headline        Headline        .               .               ."
-            "showContainer              showContainer               showContainer               showContainer   showContainer   showContainer   showContainer   showContainer   showContainer   showContainer               showContainer               showContainer"
+            "showContainer  showContainer   showContainer   showContainer   showContainer   showContainer   showContainer   showContainer   showContainer   showContainer   showContainer   showContainer"
             "Filters        Filters         Filters         Filters         Filters         Filters         Filters         Filters         Filters         Filters         Filters         Filters"
             ".              Directory       Directory       Directory       Directory       Directory       Directory       Directory       Directory       Directory       Directory       ."
             ".              .          .          .          .          .          .          .          .          .          .          ."
@@ -130,9 +130,14 @@
     /* PODCAST SHOW */
 
     #showContainer {
+        
     }
 
     .podcast {
+        grid-template-columns: repeat(4, minmax(0,1fr));
+        grid-gap: .5em;
+        margin: 0;
+
     }
 
    

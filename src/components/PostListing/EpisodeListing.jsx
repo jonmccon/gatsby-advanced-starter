@@ -2,10 +2,10 @@ import React from "react";
 import { Link } from "gatsby";
 
 class EpisodeListing extends React.Component {
-  getPostList() {
-    const postList = [];
-    this.props.postEdges.forEach((postEdge) => {
-      postList.push({
+  getEpisodeList() {
+    const episodeList = [];
+    this.props.postEdgesDirectory.forEach((postEdge) => {
+      episodeList.push({
         tags: postEdge.node.frontmatter.tags,
         title: postEdge.node.frontmatter.title,
         website: postEdge.node.frontmatter.website,
@@ -15,21 +15,21 @@ class EpisodeListing extends React.Component {
         color: postEdge.node.frontmatter.color,
       });
     });
-    return postList;
+    return episodeList;
   }
 
   render() {
-    const postList = this.getPostList();
+    const episodeList = this.getEpisodeList();
     return (
       <div className="podcast">
         {/* This is the post list that create a link */}
         {/* add in the cover image here too */}
         {/* Should be used for featured grid area on top */}
 
-        {postList.map((post) => (
-          <Link className="podcast--link" to={post.path} key={post.title}>
+        {episodeList.map((post) => (
+          <div className={`podcastEpisode ${post.color}`}>
             <h2>{post.title}</h2>
-          </Link>
+          </div>
         ))}
       </div>
     );

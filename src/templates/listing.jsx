@@ -35,6 +35,7 @@ class Listing extends React.Component {
     const tagCity = this.props.data.TagCityQuery.distinct;
     const allTags = this.props.data.AllTagsQuery.distinct;
 
+    const episodeEdges = this.props.data.allPosts.edges;
 
     const postEdgesDirectoryA = this.props.data.directoryListingQueryA.edges;
     const postEdgesDirectoryB = this.props.data.directoryListingQueryB.edges;
@@ -86,7 +87,7 @@ class Listing extends React.Component {
             {/* PODCAST SHOW */}
             <div id="showContainer">
 
-              {/* <EpisodeListing></EpisodeListing> */}
+            <EpisodeListing postEdgesDirectory={episodeEdges} />
               {/* <div className="podcast">
                 <PodcastPlayer
                   podcastSeason="S2:EP6"
@@ -295,6 +296,31 @@ export const listingQuery = graphql`
     }
     AllTagsQuery: allMarkdownRemark {
       distinct(field: frontmatter___tags)
+    }
+    allPosts: allMarkdownRemark(
+      sort: { fields: frontmatter___title, order: ASC }
+      filter: { frontmatter: { episodeURL: { regex: "https:\/\/cdn.simplecast.com\/" } published: { eq: true }
+        } }
+    ) {
+      edges {
+        node {
+          frontmatter {
+            title
+            website
+            twit
+            inst
+            category
+            city
+            neighborhood
+            size
+            tags
+            episodeURL
+            episodePerson
+            episodePromo
+            color
+          }
+        }
+      }
     }
     directoryListingQueryA: allMarkdownRemark(
       sort: { fields: frontmatter___title, order: ASC }
