@@ -11,7 +11,7 @@ class DirectoryPostListing extends React.Component {
         tags: postEdge.node.frontmatter.tags,
         title: postEdge.node.frontmatter.title,
         website: postEdge.node.frontmatter.website,
-        episode: postEdge.node.frontmatter.episode,
+        episodeURL: postEdge.node.frontmatter.episodeURL,
         episodePromo: postEdge.node.frontmatter.episodePromo,
         color: postEdge.node.frontmatter.color,
       });
@@ -56,9 +56,9 @@ class DirectoryPostListing extends React.Component {
               <div className={`episodePromo ${post.color}`}>{post.episodePromo && post.episodePromo}</div> : '' 
               }
 
-              {post.episode ? 
+              {post.episodeURL ? 
               <AudioPlayerSmall 
-                podcastURL={post.episode && post.episode} /> : '' 
+                podcastURL={post.episodeURL && post.episodeURL} /> : '' 
               }
 
               {/* <PostTags tags={post.tags} /> */}

@@ -2,7 +2,6 @@ import React from "react";
 import Helmet from "react-helmet";
 import { graphql, Link } from "gatsby";
 import Layout from "../layout";
-// import PodcastListing from "../components/PostListing/PodcastListing";
 import PostCats from "../components/Filters/PostCats";
 import PostTags from "../components/Filters/PostTags";
 import DirectoryListing from "../components/PostListing/DirectoryPostListing";
@@ -14,6 +13,7 @@ import HeadlineMenuLeft from "../components/Intro/HeadlineMenuLeft";
 import Logo from "../components/Intro/Logo";
 import PodcastPlayer from "../components/Audioplayer/PodcastPlayer";
 import Footer from "../components/Footer/Footer";
+import EpisodeListing from "../components/PostListing/EpisodeListing";
 
 class Listing extends React.Component {
   // Pagination
@@ -85,13 +85,15 @@ class Listing extends React.Component {
             
             {/* PODCAST SHOW */}
             <div id="showContainer">
-              <div className="podcast">
+
+              {/* <EpisodeListing></EpisodeListing> */}
+              {/* <div className="podcast">
                 <PodcastPlayer
                   podcastSeason="S2:EP6"
                   podcastTitle="Tim Yeadon of Clyde Golden"
                   podcastURL="https://cdn.simplecast.com/audio/30dabfb8-c618-43a5-81c7-c5c83750983a/episodes/7caad909-7961-4562-ba8f-4b7b86e22696/audio/473b8b14-34bb-4f9a-9778-9a67c52c5e04/default_tc.mp3"  
                 />
-              </div>
+              </div> */}
             </div>
             
             {/* FILTERS */}
@@ -311,7 +313,8 @@ export const listingQuery = graphql`
             neighborhood
             size
             tags
-            episode
+            episodeURL
+            episodePerson
             episodePromo
             color
           }
@@ -335,7 +338,8 @@ export const listingQuery = graphql`
             neighborhood
             size
             tags
-            episode
+            episodeURL
+            episodePerson
             episodePromo
             color
           }
@@ -359,7 +363,8 @@ export const listingQuery = graphql`
             neighborhood
             size
             tags
-            episode
+            episodeURL
+            episodePerson
             episodePromo
             color
           }
@@ -383,7 +388,8 @@ export const listingQuery = graphql`
             neighborhood
             size
             tags
-            episode
+            episodeURL
+            episodePerson
             episodePromo
             color
           }
@@ -407,7 +413,8 @@ export const listingQuery = graphql`
             neighborhood
             size
             tags
-            episode
+            episodeURL
+            episodePerson
             episodePromo
             color
           }
@@ -431,7 +438,8 @@ export const listingQuery = graphql`
             neighborhood
             size
             tags
-            episode
+            episodeURL
+            episodePerson
             episodePromo
             color
           }
@@ -455,7 +463,8 @@ export const listingQuery = graphql`
             neighborhood
             size
             tags
-            episode
+            episodeURL
+            episodePerson
             episodePromo
             color
           }
@@ -479,7 +488,8 @@ export const listingQuery = graphql`
             neighborhood
             size
             tags
-            episode
+            episodeURL
+            episodePerson
             episodePromo
             color
           }
@@ -503,7 +513,8 @@ export const listingQuery = graphql`
             neighborhood
             size
             tags
-            episode
+            episodeURL
+            episodePerson
             episodePromo
             color
           }
@@ -527,7 +538,8 @@ export const listingQuery = graphql`
             neighborhood
             size
             tags
-            episode
+            episodeURL
+            episodePerson
             episodePromo
             color
           }
@@ -551,7 +563,8 @@ export const listingQuery = graphql`
             neighborhood
             size
             tags
-            episode
+            episodeURL
+            episodePerson
             episodePromo
             color
           }
@@ -575,7 +588,8 @@ export const listingQuery = graphql`
             neighborhood
             size
             tags
-            episode
+            episodeURL
+            episodePerson
             episodePromo
             color
           }
@@ -599,7 +613,8 @@ export const listingQuery = graphql`
             neighborhood
             size
             tags
-            episode
+            episodeURL
+            episodePerson
             episodePromo
             color
           }
@@ -623,7 +638,8 @@ export const listingQuery = graphql`
             neighborhood
             size
             tags
-            episode
+            episodeURL
+            episodePerson
             episodePromo
             color
           }
@@ -647,7 +663,8 @@ export const listingQuery = graphql`
             neighborhood
             size
             tags
-            episode
+            episodeURL
+            episodePerson
             episodePromo
             color
           }
@@ -671,7 +688,8 @@ export const listingQuery = graphql`
             neighborhood
             size
             tags
-            episode
+            episodeURL
+            episodePerson
             episodePromo
             color
           }
@@ -695,7 +713,8 @@ export const listingQuery = graphql`
             neighborhood
             size
             tags
-            episode
+            episodeURL
+            episodePerson
             episodePromo
             color
           }
@@ -719,7 +738,8 @@ export const listingQuery = graphql`
             neighborhood
             size
             tags
-            episode
+            episodeURL
+            episodePerson
             episodePromo
             color
           }
@@ -743,7 +763,8 @@ export const listingQuery = graphql`
             neighborhood
             size
             tags
-            episode
+            episodeURL
+            episodePerson
             episodePromo
             color
           }
@@ -767,7 +788,8 @@ export const listingQuery = graphql`
             neighborhood
             size
             tags
-            episode
+            episodeURL
+            episodePerson
             episodePromo
             color
           }
@@ -791,7 +813,8 @@ export const listingQuery = graphql`
             neighborhood
             size
             tags
-            episode
+            episodeURL
+            episodePerson
             episodePromo
             color
           }
@@ -815,7 +838,8 @@ export const listingQuery = graphql`
             neighborhood
             size
             tags
-            episode
+            episodeURL
+            episodePerson
             episodePromo
             color
           }
@@ -839,7 +863,8 @@ export const listingQuery = graphql`
             neighborhood
             size
             tags
-            episode
+            episodeURL
+            episodePerson
             episodePromo
             color
           }
@@ -863,7 +888,8 @@ export const listingQuery = graphql`
             neighborhood
             size
             tags
-            episode
+            episodeURL
+            episodePerson
             episodePromo
             color
           }
@@ -887,7 +913,8 @@ export const listingQuery = graphql`
             neighborhood
             size
             tags
-            episode
+            episodeURL
+            episodePerson
             episodePromo
             color
           }
@@ -911,7 +938,8 @@ export const listingQuery = graphql`
             neighborhood
             size
             tags
-            episode
+            episodeURL
+            episodePerson
             episodePromo
             color
           }
@@ -935,7 +963,8 @@ export const listingQuery = graphql`
             neighborhood
             size
             tags
-            episode
+            episodeURL
+            episodePerson
             episodePromo
             color
           }

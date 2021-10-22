@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 
-class PostListing extends React.Component {
+class EpisodeListing extends React.Component {
   getPostList() {
     const postList = [];
     this.props.postEdges.forEach((postEdge) => {
@@ -9,7 +9,8 @@ class PostListing extends React.Component {
         tags: postEdge.node.frontmatter.tags,
         title: postEdge.node.frontmatter.title,
         website: postEdge.node.frontmatter.website,
-        episode: postEdge.node.frontmatter.episode,
+        episodeURL: postEdge.node.frontmatter.episodeURL,
+        episodePerson: postEdge.node.frontmatter.episodePerson,
         episodePromo: postEdge.node.frontmatter.episodePromo,
         color: postEdge.node.frontmatter.color,
       });
@@ -35,4 +36,4 @@ class PostListing extends React.Component {
   }
 }
 
-export default PostListing;
+export default EpisodeListing;

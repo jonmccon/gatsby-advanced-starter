@@ -73,7 +73,6 @@ export const pageQuery = graphql`
         node {
           frontmatter {
             title
-            episode
             website
             twit
             inst
@@ -82,6 +81,10 @@ export const pageQuery = graphql`
             neighborhood
             size
             tags
+            episodeURL
+            episodePerson
+            episodePromo
+            color
           }
         }
       }

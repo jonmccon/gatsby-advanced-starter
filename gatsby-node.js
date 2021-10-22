@@ -69,7 +69,6 @@ exports.createPages = async ({ graphql, actions }) => {
             }
             frontmatter {
               title
-              episode
               category
               tags
               city
