@@ -135,18 +135,28 @@
 
     .podcast {
         grid-template-columns: repeat(4, minmax(0,1fr));
-        grid-gap: .5em;
+        /* grid-gap: .5em; */
         margin: 0;
         padding: .5em 0 0 .5em;
     }
 
     .podcastEpisode {
-        padding: .75em;
+        padding: 1.5em;
+        min-height: 35vh;
     }
 
     .podcastEpisode-content {
         font: var(--text-mono--itemPodcast);
-        
+    }
+
+
+    .podcastEpisode-content a {
+        text-decoration: underline;
+        font-weight: 300;
+    }
+
+    .podcastEpisode-content a:hover {
+        background-color: var(--color-card);
     }
 
     .pullquote {

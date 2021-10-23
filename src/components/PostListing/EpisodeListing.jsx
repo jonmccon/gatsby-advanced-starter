@@ -26,12 +26,11 @@ class EpisodeListing extends React.Component {
   render() {
     const episodeList = this.getEpisodeList();
     const postTitle = episodeList.title;
+
+
     return (
       <div className="podcast">
-        {/* This is the post list that create a link */}
-        {/* add in the cover image here too */}
-        {/* Should be used for featured grid area on top */}
-
+      
         {episodeList.map((post) => (
           <div className={`podcastEpisode ${post.color}`}>
             <div className="pullquote">{post.pullquote}</div>
@@ -52,8 +51,35 @@ class EpisodeListing extends React.Component {
               </a>
               
             </div>
-            <div className="podcastEpisode-content">{post.twit[0]}</div>
-            <div className="podcastEpisode-content">{post.inst}</div>
+            <div className="podcastEpisode-content">
+              <a 
+                  href={`https://twitter.com/${post.twit}`}
+                  target="_blank"
+                  onClick={e => {
+                    trackCustomEvent({
+                      category: "Directory Listing",
+                      action: "Clicked",
+                      label: {postTitle},
+                    })
+                  }}
+                >
+                  {post.twit}
+                </a>
+                <a 
+                  href={`https://www.instagram.com/${post.inst}`}
+                  target="_blank"
+                  onClick={e => {
+                    trackCustomEvent({
+                      category: "Directory Listing",
+                      action: "Clicked",
+                      label: {postTitle},
+                    })
+                  }}
+                >
+                  {post.inst}
+                </a>
+              </div>
+            
           </div>
         ))}
       </div>
