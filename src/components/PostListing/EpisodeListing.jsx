@@ -52,6 +52,9 @@ class EpisodeListing extends React.Component {
 
             {post.twit ? 
               <div className="podcastEpisode-content">
+                @&nbsp;
+                {/* <i class="far fa-link"></i> */}
+                {/* <i class="fas fa-anchor"></i> */}
                 <a 
                     href={`https://twitter.com/${post.twit}`}
                     target="_blank"
@@ -72,6 +75,7 @@ class EpisodeListing extends React.Component {
 
               {post.inst ? 
                 <div className="podcastEpisode-content">
+                  @&nbsp;
                   <a 
                     href={`https://www.instagram.com/${post.inst}`}
                     target="_blank"
