@@ -35,7 +35,6 @@ class EpisodeListing extends React.Component {
           <div className={`podcastEpisode ${post.color}`}>
             <div className="pullquote">{post.pullquote}</div>
             <div className="podcastEpisode-content">
-              {post.episodePerson}&nbsp;of&nbsp;
               <a 
                 href={post.website} 
                 target="_blank"
@@ -47,39 +46,50 @@ class EpisodeListing extends React.Component {
                   })
                 }}
               >
-                {post.title}
+                {post.episodePerson} of {post.title}
               </a>
-              
             </div>
-            <div className="podcastEpisode-content">
-              <a 
-                  href={`https://twitter.com/${post.twit}`}
-                  target="_blank"
-                  onClick={e => {
-                    trackCustomEvent({
-                      category: "Directory Listing",
-                      action: "Clicked",
-                      label: {postTitle},
-                    })
-                  }}
-                >
-                  {post.twit}
-                </a>
+
+            {post.twit ? 
+              <div className="podcastEpisode-content">
                 <a 
-                  href={`https://www.instagram.com/${post.inst}`}
-                  target="_blank"
-                  onClick={e => {
-                    trackCustomEvent({
-                      category: "Directory Listing",
-                      action: "Clicked",
-                      label: {postTitle},
-                    })
-                  }}
-                >
-                  {post.inst}
-                </a>
-              </div>
-            
+                    href={`https://twitter.com/${post.twit}`}
+                    target="_blank"
+                    onClick={e => {
+                      trackCustomEvent({
+                        category: "Directory Listing",
+                        action: "Clicked",
+                        label: {postTitle},
+                      })
+                    }}
+                  >
+                    {post.twit && post.twit}
+                  </a>
+                  &nbsp;<i class="fab fa-twitter"></i>
+                </div>
+                : '' 
+              }
+
+              {post.inst ? 
+                <div className="podcastEpisode-content">
+                  <a 
+                    href={`https://www.instagram.com/${post.inst}`}
+                    target="_blank"
+                    onClick={e => {
+                      trackCustomEvent({
+                        category: "Directory Listing",
+                        action: "Clicked",
+                        label: {postTitle},
+                      })
+                    }}
+                  >
+                    {post.inst && post.inst}
+                  </a>
+                  &nbsp;<i class="fab fa-instagram"></i>
+                </div>
+                : '' 
+              }
+              
           </div>
         ))}
       </div>
