@@ -2,7 +2,7 @@
 title: "Valve"
 featuredImage: ./-hamburgers.png
 website: "https://www.valvesoftware.com/"
-twit: "https://twitter.com/valvesoftware"
+twit: "valvesoftware"
 inst: ""
 category: "V"
 city: "Bellevue"

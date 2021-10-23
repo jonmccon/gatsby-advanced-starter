@@ -2,8 +2,8 @@
 title: "Artitudes Design"
 featuredImage: ./-hamburgers.png
 website: "https://artitudes.com/"
-twit: "https://twitter.com/ArtitudesDesign"
-inst: "https://www.instagram.com/artitudes"
+twit: "artitudesdesign"
+inst: "artitudes"
 category: "A"
 city: "Issaquah"
 neighborhood:
@@ -32,5 +32,5 @@ https://www.facebook.com/artitudesdesign
 @ArtitudesDesign
 https://vimeo.com/user7133162
 https://www.youtube.com/user/ArtitudesDesign
-https://www.instagram.com/artitudes/
+artitudes/
 https://www.pinterest.com/artitudesdesign/_saved/" 

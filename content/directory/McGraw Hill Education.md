@@ -2,8 +2,8 @@
 title: "McGraw Hill Education"
 featuredImage: ./-hamburgers.png
 website: "https://www.mheducation.com/"
-twit: "https://twitter.com/MHEducation"
-inst: "https://www.instagram.com/mheducation"
+twit: "MHEducation"
+inst: "mheducation"
 category: "M"
 city: "Seattle"
 neighborhood: "Pioneer Square"

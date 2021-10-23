@@ -2,8 +2,8 @@
 title: "Rupert"
 featuredImage: ./-hamburgers.png
 website: "http://rupert.studio/"
-twit: "https://twitter.com/thisisrupert"
-inst: "https://www.instagram.com/rupert.studio"
+twit: "thisisrupert"
+inst: "rupert.studio"
 category: "R"
 city: "Seattle"
 neighborhood: "Fremont"

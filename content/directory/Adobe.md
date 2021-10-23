@@ -2,7 +2,7 @@
 title: "Adobe"
 featuredImage: ./-hamburgers.png
 website: "https://www.adobe.com"
-twit: "https://twitter.com/adobe"
+twit: "adobe"
 inst: ""
 category: "A"
 city: "Seattle"

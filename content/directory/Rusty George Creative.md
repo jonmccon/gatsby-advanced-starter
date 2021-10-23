@@ -2,8 +2,8 @@
 title: "Rusty George Creative"
 featuredImage: ./-hamburgers.png
 website: "https://rustygeorge.com/"
-twit: "https://twitter.com/RustyGCreative"
-inst: "https://www.instagram.com/rustygeorgecreative"
+twit: "RustyGCreative"
+inst: "rustygeorgecreative"
 category: "R"
 city: "Tacoma"
 neighborhood:

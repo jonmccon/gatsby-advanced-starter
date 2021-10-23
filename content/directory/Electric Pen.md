@@ -3,7 +3,7 @@ title: "Electric Pen"
 featuredImage: ./-hamburgers.png
 website: "https://electricpen.com/"
 twit: ""
-inst: "https://www.instagram.com/electric.pen"
+inst: "electric.pen"
 category: "E"
 city: "Seattle"
 neighborhood: "Fremont"

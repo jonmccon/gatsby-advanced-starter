@@ -2,8 +2,8 @@
 title: "Wild Gravity"
 featuredImage: ./-hamburgers.png
 website: "https://www.wildgravity.net/"
-twit: "https://twitter.com/WildGravityLLC"
-inst: "https://www.instagram.com/wild.gravity/"
+twit: "WildGravityLLC"
+inst: "wild.gravity"
 category: "W"
 city: "Seattle"
 neighborhood: "First Hill"

@@ -2,8 +2,8 @@
 title: "Armory Pacific"
 featuredImage: ./-hamburgers.png
 website: "https://www.armorypacific.com/"
-twit: "https://twitter.com/armorypacific"
-inst: "https://www.instagram.com/armorypacific/"
+twit: "armorypacific"
+inst: "armorypacific"
 category: "A"
 city: "Seattle"
 neighborhood: "SODO"

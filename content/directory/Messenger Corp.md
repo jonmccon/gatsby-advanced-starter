@@ -2,8 +2,8 @@
 title: "Messenger"
 featuredImage: ./-hamburgers.png
 website: "https://messengercorp.com/"
-twit: "https://twitter.com/M3Messengercorp"
-inst: "https://www.instagram.com/messengercorporation/"
+twit: "M3Messengercorp"
+inst: "messengercorporation"
 category: "M"
 city: "Seattle"
 neighborhood: "Georgetown"

@@ -2,7 +2,7 @@
 title: "General UI"
 featuredImage: ./-hamburgers.png
 website: "https://www.genui.co/"
-twit: "https://twitter.com/generalui"
+twit: "generalui"
 inst: ""
 category: "G"
 city: "Seattle"

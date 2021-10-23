@@ -2,7 +2,7 @@
 title: "Jozi Firecracker Factory"
 featuredImage: ./-hamburgers.png
 website: "https://jozifirecrackerfactory.com/"
-twit: "https://twitter.com/jozifirecracker"
+twit: "jozifirecracker"
 inst: ""
 category: "J"
 city: "Seattle"

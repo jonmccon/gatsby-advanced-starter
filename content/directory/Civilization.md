@@ -2,8 +2,8 @@
 title: "Civilization"
 featuredImage: ./-hamburgers.png
 website: "https://builtbycivilization.com/"
-twit: "https://twitter.com/bycivilization"
-inst: ""
+twit: "bycivilization"
+inst: "builtbycivilization"
 category: "C"
 city: "Seattle"
 neighborhood: "Pioneer Square"

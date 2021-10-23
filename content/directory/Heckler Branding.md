@@ -2,7 +2,7 @@
 title: "Heckler Branding"
 featuredImage: ./-hamburgers.png
 website: "https://www.hecklerbranding.com/"
-twit: "https://twitter.com/hecklerbranding"
+twit: "hecklerbranding"
 inst: ""
 category: "H"
 city: "Seattle"

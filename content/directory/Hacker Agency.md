@@ -3,7 +3,7 @@ title: "Hacker Agency"
 featuredImage: ./-hamburgers.png
 website: "https://hal2l.com/"
 twit: ""
-inst: "https://www.instagram.com/hackeragency"
+inst: "hackeragency"
 category: "H"
 city: "Seattle"
 neighborhood: "Downtown"

@@ -3,7 +3,7 @@ title: "Chalkbox Creative"
 featuredImage: ./-hamburgers.png
 website: "https://chalkboxstudio.com/"
 twit: ""
-inst: "https://www.instagram.com/chalkboxcreative/"
+inst: "chalkboxcreative"
 category: "C"
 city: "Seattle"
 neighborhood:

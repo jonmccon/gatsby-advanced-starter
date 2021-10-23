@@ -2,8 +2,8 @@
 title: "World Famous"
 featuredImage: ./-hamburgers.png
 website: "http://www.worldfamousinc.com/"
-twit: "https://twitter.com/WorldFamousInc"
-inst: "https://instagram.com/worldfamousinc/"
+twit: "WorldFamousInc"
+inst: "worldfamousinc"
 category: "W"
 city: "Seattle"
 neighborhood: "Capitol Hill"

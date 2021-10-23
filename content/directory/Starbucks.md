@@ -2,8 +2,8 @@
 title: "Starbucks"
 featuredImage: ./-hamburgers.png
 website: "https://www.starbucks.com/"
-twit: "https://twitter.com/starbucks"
-inst: "https://www.instagram.com/starbucks"
+twit: "starbucks"
+inst: "starbucks"
 category: "S"
 city: "Seattle"
 neighborhood: "SODO"

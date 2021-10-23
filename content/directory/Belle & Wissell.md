@@ -2,7 +2,7 @@
 title: "Belle & Wissell, Co."
 featuredImage: ./-hamburgers.png
 website: "http://www.bwco.info/"
-twit: "https://twitter.com/BelleandWissell"
+twit: "belleandwissell"
 inst: ""
 category: "B"
 city: "Seattle"

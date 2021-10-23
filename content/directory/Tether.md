@@ -2,8 +2,8 @@
 title: "Tether"
 featuredImage: ./-hamburgers.png
 website: "http://tether.com/"
-twit: "https://twitter.com/tether"
-inst: "https://www.instagram.com/tether"
+twit: "tether"
+inst: "tether"
 category: "T"
 city: "Seattle"
 neighborhood: "Pioneer Square"

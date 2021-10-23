@@ -2,7 +2,7 @@
 title: "Ply"
 featuredImage: ./-hamburgers.png
 website: "http://www.plyinteractive.com/"
-twit: "https://twitter.com/plyinc"
+twit: "plyinc"
 inst: ""
 category: "P"
 city: "Seattle"

@@ -2,7 +2,7 @@
 title: "Zillow"
 featuredImage: ./-hamburgers.png
 website: "https://www.zillow.com/design/"
-twit: "https://twitter.com/zillow"
+twit: "zillow"
 inst: ""
 category: "Z"
 city: "Seattle"

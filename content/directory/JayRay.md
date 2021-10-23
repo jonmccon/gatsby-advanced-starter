@@ -3,7 +3,7 @@ title: "JayRay"
 cover: "./content/blog/imgs/hamburgers.png"
 website: "https://jayray.com/"
 twit: ""
-inst: "https://www.instagram.com/jayrayadspr/"
+inst: "jayrayadspr"
 category: "J"
 city: "Tacoma"
 neighborhood:

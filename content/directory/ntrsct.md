@@ -3,7 +3,7 @@ title: "ntrsct designs"
 featuredImage: ./-hamburgers.png
 website: "https://ntrsct.com"
 twit: ""
-inst: "https://www.instagram.com/ntrsct.designs/"
+inst: "ntrsct.designs"
 category: "N"
 city: "Seattle"
 neighborhood:

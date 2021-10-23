@@ -3,7 +3,7 @@ title: "Framework"
 featuredImage: ./-hamburgers.png
 website: "http://weareframework.com/"
 twit: ""
-inst: "https://www.instagram.com/we.are.framework"
+inst: "we.are.framework"
 category: "F"
 city: "Seattle"
 neighborhood: "Capitol Hill"

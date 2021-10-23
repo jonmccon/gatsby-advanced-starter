@@ -2,8 +2,8 @@
 title: "HTC"
 featuredImage: ./-hamburgers.png
 website: "https://www.htc.com/us/"
-twit: "https://twitter.com/HTCUSA"
-inst: "https://www.instagram.com/htc/"
+twit: "HTCUSA"
+inst: "htc"
 category: "H"
 city: "Seattle"
 neighborhood: "Pioneer Square"

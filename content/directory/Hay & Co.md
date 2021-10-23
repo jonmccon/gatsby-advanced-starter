@@ -3,7 +3,7 @@ title: "Hay & Co"
 cover: "./content/blog/imgs/hamburgers.png"
 website: "https://www.hayandcodesign.com/"
 twit: ""
-inst: "https://instagram.com/hayandcodesign/"
+inst: "hayandcodesign"
 category: "H"
 city: "Kenmore"
 neighborhood:

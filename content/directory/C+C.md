@@ -2,7 +2,7 @@
 title: "C+C"
 featuredImage: ./-hamburgers.png
 website: "https://cplusc.com/"
-twit: "https://twitter.com/colehourcohen"
+twit: "colehourcohen"
 inst: ""
 category: "C"
 city: "Seattle"

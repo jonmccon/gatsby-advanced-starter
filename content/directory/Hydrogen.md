@@ -2,8 +2,8 @@
 title: "Hydrogen"
 featuredImage: ./-hamburgers.png
 website: "https://hydrogenadvertising.com/"
-twit: "https://twitter.com/hydrogen_tweets"
-inst: "https://www.instagram.com/hydrogen_advertising"
+twit: "hydrogen_tweets"
+inst: "hydrogen_advertising"
 category: "H"
 city: "Seattle"
 neighborhood: "Downtown"

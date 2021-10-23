@@ -2,7 +2,7 @@
 title: "Y-Designs"
 featuredImage: ./-hamburgers.png
 website: "https://y-designs.com/"
-twit: "https://twitter.com/ydseattle"
+twit: "ydseattle"
 inst: ""
 category: "Y"
 city: "Seattle"

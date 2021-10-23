@@ -2,8 +2,8 @@
 title: "Olson Kundig"
 featuredImage: ./-hamburgers.png
 website: "https://olsonkundig.com/"
-twit: "https://twitter.com/olsonkundig"
-inst: "https://www.instagram.com/olsonkundig"
+twit: "olsonkundig"
+inst: "olsonkundig"
 category: "O"
 city: "Seattle"
 neighborhood: "Pioneer Square"

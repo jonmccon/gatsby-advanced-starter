@@ -3,7 +3,7 @@ title: "Clyde Golden"
 featuredImage: ./-hamburgers.png
 website: "https://clydegolden.com/"
 twit: ""
-inst: "https://www.instagram.com/clydegolden"
+inst: "clydegolden"
 category: "C"
 city: "Seattle"
 neighborhood: "Ballard"

@@ -2,8 +2,8 @@
 title: "ANEMONE"
 featuredImage: ./-hamburgers.png
 website: "https://anemone.studio"
-twit: "https://twitter.com/anemone_es"
-inst: "https://www.instagram.com/spectrolite.app/"
+twit: "anemone_es"
+inst: "spectrolite.app"
 category: "A"
 city: "Seattle"
 neighborhood: "Roosevelt"

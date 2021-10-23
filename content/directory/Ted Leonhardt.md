@@ -2,8 +2,8 @@
 title: "Ted Leonhardt"
 featuredImage: ./-hamburgers.png
 website: "https://tedleonhardt.com/"
-twit: "https://twitter.com/tedleonhardt"
-inst: "https://www.instagram.com/TedCLeonhardt"
+twit: "tedleonhardt"
+inst: "TedCLeonhardt"
 category: "T"
 city: "Seattle"
 neighborhood: "Ballard"

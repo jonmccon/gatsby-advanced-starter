@@ -3,7 +3,7 @@ title: "Film Connection Film Institute"
 featuredImage: ./-hamburgers.png
 website: "https://www.filmconnection.com/"
 twit: ""
-inst: "https://www.instagram.com/filmconnectionfilminstitute/"
+inst: "filmconnectionfilminstitute"
 category: "F"
 city: "Seattle"
 neighborhood: "Pioneer Square"

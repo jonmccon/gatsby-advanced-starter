@@ -2,8 +2,8 @@
 title: "Invisible Creature"
 featuredImage: ./-hamburgers.png
 website: "https://www.invisiblecreature.com/"
-twit: "https://twitter.com/icreature"
-inst: "https://www.instagram.com/icreature"
+twit: "icreature"
+inst: "icreature"
 category: "I"
 city: "Maple Valley"
 neighborhood:

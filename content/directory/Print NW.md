@@ -2,8 +2,8 @@
 title: "Print NW"
 featuredImage: ./-hamburgers.png
 website: "http://printnw.rocks/"
-twit: "https://twitter.com/printnw"
-inst: "https://www.instagram.com/print_nw"
+twit: "printnw"
+inst: "print_nw"
 category: "P"
 city: "Tacoma"
 neighborhood:

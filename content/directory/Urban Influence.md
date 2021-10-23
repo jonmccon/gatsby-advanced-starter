@@ -2,8 +2,8 @@
 title: "Urban Influence"
 featuredImage: ./-hamburgers.png
 website: "https://www.urbaninfluence.com/"
-twit: "https://twitter.com/pigeonwisdom"
-inst: "https://www.instagram.com/pigeonwisdom"
+twit: "pigeonwisdom"
+inst: "pigeonwisdom"
 category: "U"
 city: "Seattle"
 neighborhood: "Capitol Hill"

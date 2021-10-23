@@ -2,7 +2,7 @@
 title: "LiveArea"
 featuredImage: ./-hamburgers.png
 website: "https://www.liveareacx.com/"
-twit: "https://twitter.com/LiveArea"
+twit: "LiveArea"
 inst: ""
 category: "L"
 city: "Seattle"

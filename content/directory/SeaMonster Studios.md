@@ -2,8 +2,8 @@
 title: "SeaMonster Studios"
 featuredImage: ./-hamburgers.png
 website: "https://www.seamonsterstudios.com/"
-twit: "https://twitter.com/the_seamonsters"
-inst: "https://instagram.com/seamonsterstudios/"
+twit: "the_seamonsters"
+inst: "seamonsterstudios"
 category: "S"
 city: "Seattle"
 neighborhood: "Downtown"

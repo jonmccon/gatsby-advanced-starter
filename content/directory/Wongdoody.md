@@ -2,8 +2,8 @@
 title: "Wongdoody"
 featuredImage: ./-hamburgers.png
 website: "https://wongdoody.com/"
-twit: "https://twitter.com/wongdoody"
-inst: "https://www.instagram.com/WONGDOODY"
+twit: "wongdoody"
+inst: "WONGDOODY"
 category: "W"
 city: "Seattle"
 neighborhood: "Downtown"

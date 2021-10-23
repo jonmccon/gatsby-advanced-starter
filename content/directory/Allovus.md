@@ -2,8 +2,8 @@
 title: "Allovus"
 featuredImage: ./-hamburgers.png
 website: "https://www.allovus.com/"
-twit: "https://twitter.com/AllovusDesign"
-inst: "https://www.instagram.com/allovusdesign"
+twit: "allovusdesign"
+inst: "allovusdesign"
 category: "A"
 city: "Gig Harbor"
 neighborhood:

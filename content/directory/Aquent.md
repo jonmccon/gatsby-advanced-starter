@@ -2,7 +2,7 @@
 title: "Aquent"
 featuredImage: ./-hamburgers.png
 website: "https://aquent.com/"
-twit: "https://twitter.com/Aquent"
+twit: "aquent"
 inst: ""
 category: "A"
 city: "Seattle"

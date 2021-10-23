@@ -2,8 +2,8 @@
 title: "Vitamin T"
 featuredImage: ./-hamburgers.png
 website: "https://vitamintalent.com/"
-twit: "https://twitter.com/vitamintalent"
-inst: "https://www.instagram.com/vitamintalent"
+twit: "vitamintalent"
+inst: "vitamintalent"
 category: "V"
 city: "Seattle"
 neighborhood: "Fremont"

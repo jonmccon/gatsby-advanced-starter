@@ -2,7 +2,7 @@
 title: "Blind Tiger"
 featuredImage: ./-hamburgers.png
 website: "https://blindtigerdesign.com/"
-twit: "https://twitter.com/blindtigerdsgn"
+twit: "blindtigerdsgn"
 inst: ""
 category: "B"
 city: "Seattle"

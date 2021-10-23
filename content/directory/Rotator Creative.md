@@ -3,7 +3,7 @@ title: "Rotator Creative"
 cover: "./content/blog/imgs/hamburgers.png"
 website: "https://rotatorcreative.com/"
 twit: ""
-inst: "https://instagram.com/rotatorcreative/"
+inst: "rotatorcreative"
 category: "R"
 city: "Tacoma"
 neighborhood:

@@ -2,8 +2,8 @@
 title: "Belief Agency"
 featuredImage: ./-hamburgers.png
 website: "https://beliefagency.com/"
-twit: "https://twitter.com/beliefagency"
-inst: "https://www.instagram.com/beliefagency"
+twit: "beliefagency"
+inst: "beliefagency"
 category: "B"
 city: "Seattle"
 neighborhood: "Fremont"

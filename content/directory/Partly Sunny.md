@@ -2,7 +2,7 @@
 title: "Partly Sunny"
 featuredImage: ./-hamburgers.png
 website: "http://www.partly-sunny.com/"
-twit: "https://twitter.com/ptsunny"
+twit: "ptsunny"
 inst: ""
 category: "P"
 city: "Seattle"

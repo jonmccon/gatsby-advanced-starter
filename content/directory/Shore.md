@@ -3,7 +3,7 @@ title: "Shore"
 featuredImage: ./-hamburgers.png
 website: "https://madebyshore.com/"
 twit: ""
-inst: "https://instagram.com/madebyshore/"
+inst: "madebyshore"
 category: "S"
 city: "Seattle"
 neighborhood: "Pioneer Square"

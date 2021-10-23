@@ -2,8 +2,8 @@
 title: "Fresh Consulting"
 featuredImage: ./-hamburgers.png
 website: "https://www.freshconsulting.com/"
-twit: "https://twitter.com/FreshConsulting"
-inst: "https://www.instagram.com/freshconsulting/"
+twit: "FreshConsulting"
+inst: "freshconsulting"
 category: "F"
 city: "Seattle"
 neighborhood: "Bellevue"

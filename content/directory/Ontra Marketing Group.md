@@ -2,8 +2,8 @@
 title: "Ontra Marketing Group"
 featuredImage: ./-hamburgers.png
 website: "https://ontramarketing.com/"
-twit: "https://twitter.com/ontramarketing"
-inst: "https://www.instagram.com/ontramarketing"
+twit: "ontramarketing"
+inst: "ontramarketing"
 category: "O"
 city: "Woodinville"
 neighborhood:

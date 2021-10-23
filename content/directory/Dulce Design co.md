@@ -3,7 +3,7 @@ title: "Dulce Design co"
 featuredImage: ./-hamburgers.png
 website: "http://www.dulcedesign.com/"
 twit: ""
-inst: "https://www.instagram.com/dulcedesigncompany"
+inst: "dulcedesigncompany"
 category: "D"
 city: "Seattle"
 neighborhood: "First Hill"

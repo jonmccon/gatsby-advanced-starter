@@ -2,8 +2,8 @@
 title: "This Place"
 featuredImage: ./-hamburgers.png
 website: "https://thisplace.com/"
-twit: "https://twitter.com/thisplacestudio"
-inst: "https://instagram.com/thisplacestudios/"
+twit: "thisplacestudio"
+inst: "thisplacestudios"
 category: "T"
 city: "Seattle"
 neighborhood: "Fremont"

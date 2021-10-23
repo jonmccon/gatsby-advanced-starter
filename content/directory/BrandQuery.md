@@ -2,8 +2,8 @@
 title: "BrandQuery"
 featuredImage: ./-hamburgers.png
 website: "https://brandquery.com/"
-twit: "https://twitter.com/brandquery"
-inst: "https://www.instagram.com/brandquery/"
+twit: "brandquery"
+inst: "brandquery"
 category: "B"
 city: "Mount Vernon"
 neighborhood:

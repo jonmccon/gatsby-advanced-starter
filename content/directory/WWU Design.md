@@ -3,7 +3,7 @@ title: "WWU Design"
 featuredImage: ./-hamburgers.png
 website: "https://www.wwu.edu/design/"
 twit: ""
-inst: "https://instagram.com/wwu_design/"
+inst: "wwu_design"
 category: "W"
 city: "Bellingham"
 neighborhood:

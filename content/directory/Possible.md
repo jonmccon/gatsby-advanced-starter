@@ -2,8 +2,8 @@
 title: "Possible"
 featuredImage: ./-hamburgers.png
 website: "https://www.possible.com/"
-twit: "https://twitter.com/possible"
-inst: "https://www.instagram.com/possible"
+twit: "possible"
+inst: "possible"
 category: "P"
 city: "Seattle"
 neighborhood: "Downtown"

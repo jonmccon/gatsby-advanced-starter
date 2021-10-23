@@ -3,8 +3,8 @@ title: "test post for publishing"
 # slug: "test-post"
 featuredImage: ./-hamburgers.png
 website: "https://www.artefactgroup.com"
-twit: ['@artefactgroup','https://twitter.com/artefactgroup']
-inst: ['','']
+twit: "artefactgroup"
+inst: ""
 category: "A"
 city: "Seattle"
 neighborhood: "Poop"

@@ -2,8 +2,8 @@
 title: "Phinney Bischoff"
 featuredImage: ./-hamburgers.png
 website: "https://phinneybischoff.com/"
-twit: "https://twitter.com/phinneybischoff"
-inst: "https://www.instagram.com/phinneybischoff"
+twit: "phinneybischoff"
+inst: "phinneybischoff"
 category: "P"
 city: "Seattle"
 neighborhood: "Capitol Hill"

@@ -2,7 +2,7 @@
 title: "Fell Swoop"
 featuredImage: ./-hamburgers.png
 website: "https://www.fellswoop.com/"
-twit: "https://twitter.com/Fell_Swoop"
+twit: "Fell_Swoop"
 inst: ""
 category: "F"
 city: "Seattle"

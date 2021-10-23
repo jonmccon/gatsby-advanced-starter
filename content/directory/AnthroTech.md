@@ -2,8 +2,8 @@
 title: "AnthroTech"
 featuredImage: ./-hamburgers.png
 website: "https://anthro-tech.com/"
-twit: "https://twitter.com/anthrotechUX"
-inst: "https://www.instagram.com/anthrotechux"
+twit: "anthrotechux"
+inst: "anthrotechux"
 category: "A"
 city: "Olympia"
 neighborhood: "Downtown"

@@ -2,7 +2,7 @@
 title: "Column"
 featuredImage: ./-hamburgers.png
 website: "http://columnseattle.com/"
-twit: "https://twitter.com/columnseattle"
+twit: "columnseattle"
 inst: ""
 category: "C"
 city: "Seattle"

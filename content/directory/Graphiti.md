@@ -2,8 +2,8 @@
 title: "Graphiti Associates"
 featuredImage: ./-hamburgers.png
 website: "https://graphiti.com/"
-twit: "https://twitter.com/Graphiti"
-inst: "https://www.instagram.com/graphiti_associates/"
+twit: "Graphiti"
+inst: "graphiti_associates"
 category: "G"
 city: "Seattle"
 neighborhood: "Fremont"

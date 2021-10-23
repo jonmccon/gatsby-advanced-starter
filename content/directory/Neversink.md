@@ -2,8 +2,8 @@
 title: "Neversink"
 featuredImage: ./-hamburgers.png
 website: "https://madebyneversink.com/"
-twit: "https://twitter.com/MadeByNeversink"
-inst: "https://www.instagram.com/madebyneversink"
+twit: "MadeByNeversink"
+inst: "madebyneversink"
 category: "N"
 city: "Seattle"
 neighborhood:

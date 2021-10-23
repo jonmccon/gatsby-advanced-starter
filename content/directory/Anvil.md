@@ -2,7 +2,7 @@
 title: "Anvil"
 featuredImage: ./-hamburgers.png
 website: "https://anvil-studios.com"
-twit: "https://twitter.com/adobe"
+twit: ""
 inst: ""
 category: "A"
 city: "Seattle"

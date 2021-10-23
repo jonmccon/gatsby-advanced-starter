@@ -2,8 +2,8 @@
 title: "Green Rubino"
 featuredImage: ./-hamburgers.png
 website: "https://www.greenrubino.com/"
-twit: "https://twitter.com/GreenRubino"
-inst: "https://www.instagram.com/GreenRubino"
+twit: "GreenRubino"
+inst: "GreenRubino"
 category: "G"
 city: "Seattle"
 neighborhood: "Eastlake"

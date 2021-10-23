@@ -2,8 +2,8 @@
 title: "Retail Voodoo"
 featuredImage: ./-hamburgers.png
 website: "https://www.retail-voodoo.com/"
-twit: "https://twitter.com/RetailVoodoo"
-inst: "https://instagram.com/retailvoodoo/"
+twit: "RetailVoodoo"
+inst: "retailvoodoo"
 category: "R"
 city: "Seattle"
 neighborhood: "Laurelhurst"

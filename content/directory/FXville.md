@@ -2,7 +2,7 @@
 title: "FXville"
 featuredImage: ./-hamburgers.png
 website: "https://www.fxville.com/"
-twit: "https://twitter.com/FXVille"
+twit: "FXVille"
 inst: ""
 category: "F"
 city: "Seattle"

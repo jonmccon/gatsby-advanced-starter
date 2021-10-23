@@ -2,7 +2,7 @@
 title: "Egg"
 featuredImage: ./-hamburgers.png
 website: "http://www.eggbranding.com/"
-twit: "https://twitter.com/eggseattle"
+twit: "eggseattle"
 inst: ""
 category: "E"
 city: "Vashon Island"

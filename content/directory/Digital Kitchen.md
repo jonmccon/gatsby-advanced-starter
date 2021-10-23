@@ -2,7 +2,7 @@
 title: "Digital Kitchen"
 featuredImage: ./-hamburgers.png
 website: "https://www.thisisdk.com/"
-twit: "https://twitter.com/digitalkitchen"
+twit: "digitalkitchen"
 inst: ""
 category: "D"
 city: "Seattle"

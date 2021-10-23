@@ -2,8 +2,8 @@
 title: "Site Crafting"
 featuredImage: ./-hamburgers.png
 website: "https://www.sitecrafting.com/"
-twit: "https://twitter.com/sitecrafting"
-inst: "https://www.instagram.com/sitecrafting"
+twit: "sitecrafting"
+inst: "sitecrafting"
 category: "S"
 city: "Tacoma"
 neighborhood:

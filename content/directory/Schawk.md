@@ -2,8 +2,8 @@
 title: "Schawk"
 featuredImage: ./-hamburgers.png
 website: "https://www.schawk.com/"
-twit: "https://twitter.com/schawk"
-inst: "https://www.instagram.com/schawkstudios"
+twit: "schawk"
+inst: "schawkstudios"
 category: "S"
 city: "Redmond"
 neighborhood:

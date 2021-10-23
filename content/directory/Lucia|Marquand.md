@@ -2,7 +2,7 @@
 title: "Lucia|Marquand"
 featuredImage: ./-hamburgers.png
 website: "http://luciamarquand.com/"
-twit: "https://twitter.com/luciamarquand"
+twit: "luciamarquand"
 inst: ""
 category: "L"
 city: "Seattle"

@@ -2,7 +2,7 @@
 title: "Yippa"
 featuredImage: ./-hamburgers.png
 website: "https://yippa.com/"
-twit: "https://twitter.com/yippadesign"
+twit: "yippadesign"
 inst: ""
 category: "Y"
 city: "Seattle"

@@ -3,7 +3,7 @@ title: "Fuzzco"
 featuredImage: ./-hamburgers.png
 website: "https://fuzzco.com/"
 twit: ""
-inst: "https://www.instagram.com/fuzzco"
+inst: "fuzzco"
 category: "F"
 city: "Seattle"
 neighborhood: "Pioneer Square"

@@ -2,7 +2,7 @@
 title: "RMB Vivid"
 featuredImage: ./-hamburgers.png
 website: "http://rmbvivid.com/"
-twit: "https://twitter.com/RMBVivid"
+twit: "RMBVivid"
 inst: ""
 category: "R"
 city: "Seattle"

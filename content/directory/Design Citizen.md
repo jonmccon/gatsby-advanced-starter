@@ -3,7 +3,7 @@ title: "Design Citizen"
 featuredImage: ./-hamburgers.png
 website: "https://www.designcitizen.com/"
 twit: ""
-inst: "https://www.instagram.com/design.citizen/"
+inst: "design.citizen"
 category: "D"
 city: "Seattle"
 neighborhood: "Capitol Hill"

@@ -2,7 +2,7 @@
 title: "Kite"
 featuredImage: ./-hamburgers.png
 website: "https://kitebrandstudio.com/"
-twit: "https://twitter.com/KiteBrand"
+twit: "KiteBrand"
 inst: ""
 category: "K"
 city: "Seattle"

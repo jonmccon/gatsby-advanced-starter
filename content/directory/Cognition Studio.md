@@ -2,7 +2,7 @@
 title: "Cognition Studio"
 featuredImage: ./-hamburgers.png
 website: "https://cognitionstudio.com/"
-twit: "https://twitter.com/cognitionstudio"
+twit: "cognitionstudio"
 inst: ""
 category: "C"
 city: "Seattle"

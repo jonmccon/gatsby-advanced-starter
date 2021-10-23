@@ -3,7 +3,7 @@ title: "Ten Gun"
 featuredImage: ./-hamburgers.png
 website: "https://www.tengundesign.com/"
 twit: ""
-inst: "https://www.instagram.com/tengundesign"
+inst: "tengundesign"
 category: "T"
 city: "Edmonds"
 neighborhood:

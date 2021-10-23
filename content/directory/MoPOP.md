@@ -2,8 +2,8 @@
 title: "MoPOP"
 featuredImage: ./-hamburgers.png
 website: "https://www.mopop.org/"
-twit: "https://twitter.com/mopopseattle"
-inst: "https://www.instagram.com/mopopseattle"
+twit: "mopopseattle"
+inst: "mopopseattle"
 category: "M"
 city: "Seattle"
 neighborhood: "Queen Anne"

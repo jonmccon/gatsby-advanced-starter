@@ -2,7 +2,7 @@
 title: "FUSE IQ"
 featuredImage: ./-hamburgers.png
 website: "https://www.fuseiq.com/"
-twit: "https://twitter.com/fuseiq"
+twit: "fuseiq"
 inst: ""
 category: "F"
 city: "Seattle"

@@ -2,7 +2,7 @@
 title: "Blink UX"
 featuredImage: ./-hamburgers.png
 website: "https://blinkux.com/"
-twit: "https://twitter.com/BlinkUX"
+twit: "blinkux"
 inst: ""
 category: "B"
 city: "Seattle"

@@ -2,7 +2,7 @@
 title: "GA Creative"
 featuredImage: ./-hamburgers.png
 website: "https://www.gacreative.com/"
-twit: "https://twitter.com/GA_Creative"
+twit: "GA_Creative"
 inst: ""
 category: "G"
 city: "Seattle"

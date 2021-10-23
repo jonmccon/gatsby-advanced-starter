@@ -3,7 +3,7 @@ title: "Copacino + Fujikado"
 featuredImage: ./-hamburgers.png
 website: "https://www.copacino.com/"
 twit: ""
-inst: "https://www.instagram.com/copacinofujikado/"
+inst: "copacinofujikado"
 category: "C"
 city: "Seattle"
 neighborhood: "Downtown"

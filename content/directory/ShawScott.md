@@ -2,8 +2,8 @@
 title: "Shaw/Scott"
 featuredImage: ./-hamburgers.png
 website: "http://shawscott.com/"
-twit: "https://twitter.com/ShawScott"
-inst: "https://instagram.com/_shawscott/"
+twit: "ShawScott"
+inst: "_shawscott"
 category: "S"
 city: "Seattle"
 neighborhood: "Madison Park"

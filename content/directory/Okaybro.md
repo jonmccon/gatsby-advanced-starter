@@ -3,7 +3,7 @@ title: "Okaybro"
 featuredImage: ./-hamburgers.png
 website: "https://okaybro.com/"
 twit: ""
-inst: "https://www.instagram.com/okaybro"
+inst: "okaybro"
 category: "O"
 city: "Seattle"
 neighborhood:

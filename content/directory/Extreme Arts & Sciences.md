@@ -2,7 +2,7 @@
 title: "Extreme Arts & Sciences"
 featuredImage: ./-hamburgers.png
 website: "https://www.easci.com/"
-twit: "https://twitter.com/easci"
+twit: "easci"
 inst: ""
 category: "E"
 city: "Seattle"

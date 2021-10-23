@@ -2,8 +2,8 @@
 title: "Schema"
 featuredImage: ./-hamburgers.png
 website: "https://www.schemadesign.com/"
-twit: "https://twitter.com/schemadesign"
-inst: "https://www.instagram.com/schemadesign"
+twit: "schemadesign"
+inst: "schemadesign"
 category: "S"
 city: "Seattle"
 neighborhood: "Capitol Hill"

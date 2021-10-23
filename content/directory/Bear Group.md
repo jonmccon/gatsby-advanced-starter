@@ -2,8 +2,8 @@
 title: "Bear Group" 
 featuredImage: ./-hamburgers.png 
 website: "https://www.beargroup.com/" 
-twit: "https://twitter.com/bearideas" 
-inst: "" 
+twit: "bearideas"
+inst: ""
 category: "B" 
 city: "Seattle"
 neighborhood: "Westlake"

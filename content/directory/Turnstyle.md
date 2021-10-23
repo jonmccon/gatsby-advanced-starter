@@ -2,8 +2,8 @@
 title: "Turnstyle"
 featuredImage: ./-hamburgers.png
 website: "http://turnstyle.studio/"
-twit: "https://twitter.com/turnstylestudio"
-inst: "https://www.instagram.com/turnstylestudio"
+twit: "turnstylestudio"
+inst: "turnstylestudio"
 category: "T"
 city: "Seattle"
 neighborhood: "Fremont"

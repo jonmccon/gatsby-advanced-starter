@@ -2,8 +2,8 @@
 title: "T Marks Design"
 featuredImage: ./-hamburgers.png
 website: "https://tmarksdesign.com/"
-twit: "https://twitter.com/tdaddy61"
-inst: "https://instagram.com/terry.marks/"
+twit: "tdaddy61"
+inst: "terry.marks"
 category: "T"
 city: "Seattle"
 neighborhood: "South Lake Union"

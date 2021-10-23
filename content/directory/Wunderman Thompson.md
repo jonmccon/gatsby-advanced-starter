@@ -2,8 +2,8 @@
 title: "Wunderman Thompson"
 featuredImage: ./-hamburgers.png
 website: "https://seattle.wunderman.com/"
-twit: "https://twitter.com/WunThompson"
-inst: "https://www.instagram.com/wunthompson"
+twit: "WunThompson"
+inst: "wunthompson"
 category: "W"
 city: "Seattle"
 neighborhood: "South Lake Union"

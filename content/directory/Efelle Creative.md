@@ -2,8 +2,8 @@
 title: "Efelle Creative"
 featuredImage: ./-hamburgers.png
 website: "https://www.seattlewebdesign.com/"
-twit: "https://twitter.com/seattlewebsites"
-inst: "https://www.instagram.com/efellecreative"
+twit: "seattlewebsites"
+inst: "efellecreative"
 category: "E"
 city: "Seattle"
 neighborhood: "Downtown"

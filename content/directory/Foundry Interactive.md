@@ -2,7 +2,7 @@
 title: "Foundry Interactive"
 featuredImage: ./-hamburgers.png
 website: "https://www.foundryinteractive.com/"
-twit: "https://twitter.com/foundryinc"
+twit: "foundryinc"
 inst: ""
 category: "F"
 city: "Seattle"

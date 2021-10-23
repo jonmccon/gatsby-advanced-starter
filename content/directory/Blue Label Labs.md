@@ -2,7 +2,7 @@
 title: "Blue Label Labs"
 featuredImage: ./-hamburgers.png
 website: "https://www.bluelabellabs.com/"
-twit: "https://twitter.com/bluelabellabs"
+twit: "bluelabellabs"
 inst: ""
 category: "B"
 city: "Redmond"

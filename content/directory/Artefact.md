@@ -2,7 +2,7 @@
 title: "Artefact"
 featuredImage: ./-hamburgers.png
 website: "https://www.artefactgroup.com"
-twit: ['@artefactgroup','https://twitter.com/artefactgroup']
+twit: "artefactgroup"
 inst: ""
 category: "A"
 city: "Seattle"

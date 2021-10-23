@@ -3,7 +3,7 @@ title: "DEI Creative"
 featuredImage: ./-hamburgers.png
 website: "https://deicreative.com/"
 twit: ""
-inst: "https://www.instagram.com/deicreative"
+inst: "deicreative"
 category: "D"
 city: "Seattle"
 neighborhood: "Capitol Hill"

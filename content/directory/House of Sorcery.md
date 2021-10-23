@@ -3,7 +3,7 @@ title: "House of Sorcery"
 featuredImage: ./-hamburgers.png
 website: "https://www.houseofsorcery.com/"
 twit: ""
-inst: "https://www.instagram.com/houseofsorcery"
+inst: "houseofsorcery"
 category: "H"
 city: "Seattle"
 neighborhood: "Georgetown"

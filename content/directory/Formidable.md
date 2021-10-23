@@ -2,7 +2,7 @@
 title: "Formidable"
 featuredImage: ./-hamburgers.png
 website: "https://formidable.com/"
-twit: "https://twitter.com/FormidableLabs"
+twit: "FormidableLabs"
 inst: ""
 category: "F"
 city: "Seattle"
