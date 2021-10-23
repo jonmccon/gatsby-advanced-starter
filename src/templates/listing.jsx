@@ -317,6 +317,7 @@ export const listingQuery = graphql`
             episodeURL
             episodePerson
             episodePromo
+            pullquote
             color
           }
         }

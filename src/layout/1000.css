@@ -137,7 +137,22 @@
         grid-template-columns: repeat(4, minmax(0,1fr));
         grid-gap: .5em;
         margin: 0;
+        padding: .5em 0 0 .5em;
+    }
 
+    .podcastEpisode {
+        padding: .75em;
+    }
+
+    .podcastEpisode-content {
+        font: var(--text-mono--itemPodcast);
+        
+    }
+
+    .pullquote {
+        font: var(--text-serif-pullquote);
+        font-style: italic;
+        
     }
 
    
