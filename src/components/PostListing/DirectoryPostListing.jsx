@@ -43,9 +43,9 @@ class DirectoryPostListing extends React.Component {
                 target="_blank"
                 onClick={e => {
                   trackCustomEvent({
-                    category: "Directory Listing",
+                    category: "Directory",
                     action: "Clicked",
-                    label: {postTitle},
+                    label: post.title,
                   })
                 }}
               >

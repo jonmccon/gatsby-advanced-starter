@@ -34,8 +34,7 @@ class Listing extends React.Component {
     const tagSeattle = this.props.data.TagSeattleQuery.distinct;
     const tagCity = this.props.data.TagCityQuery.distinct;
     const allTags = this.props.data.AllTagsQuery.distinct;
-
-    const episodeEdges = this.props.data.allPosts.edges;
+    const episodeEdges = this.props.data.EpisodePostsQuery.edges;
 
     const postEdgesDirectoryA = this.props.data.directoryListingQueryA.edges;
     const postEdgesDirectoryB = this.props.data.directoryListingQueryB.edges;
@@ -297,8 +296,8 @@ export const listingQuery = graphql`
     AllTagsQuery: allMarkdownRemark {
       distinct(field: frontmatter___tags)
     }
-    allPosts: allMarkdownRemark(
-      sort: { fields: frontmatter___title, order: ASC }
+    EpisodePostsQuery: allMarkdownRemark(
+      sort: { fields: frontmatter___episodePromo, order: DESC }
       filter: { frontmatter: { episodeURL: { regex: "https:\/\/cdn.simplecast.com\/" } published: { eq: true }
         } }
     ) {
@@ -309,6 +308,8 @@ export const listingQuery = graphql`
             website
             twit
             inst
+            linkA
+            linkB
             category
             city
             neighborhood

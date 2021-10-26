@@ -4,6 +4,8 @@ featuredImage: ./-hamburgers.png
 website: "https://www.artefactgroup.com"
 twit: "artefactgroup"
 inst: ""
+linkA: ['Impact by Design', 'https://www.artefactgroup.com/impact-by-design/']
+linkB: 
 category: "A"
 city: "Seattle"
 neighborhood: "Pioneer Square"

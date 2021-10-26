@@ -1,6 +1,10 @@
 import React from "react";
 import { Link } from "gatsby";
 import { trackCustomEvent } from "gatsby-plugin-google-analytics";
+import EpisodeBlockPlayer from "../Audioplayer/EpisodeBlockPlayer";
+import AudioPlayer, { RHAP_UI } from 'react-h5-audio-player';
+import Play from '../../static/assets-svg/button-play-large.inline.svg';   
+import Pause from '../../static/assets-svg/button-pause-large.inline.svg';
 
 
 class EpisodeListing extends React.Component {
@@ -13,6 +17,8 @@ class EpisodeListing extends React.Component {
         website: postEdge.node.frontmatter.website,
         twit: postEdge.node.frontmatter.twit,
         inst: postEdge.node.frontmatter.inst,
+        linkA: postEdge.node.frontmatter.linkA,
+        linkB: postEdge.node.frontmatter.linkB,
         episodeURL: postEdge.node.frontmatter.episodeURL,
         episodePerson: postEdge.node.frontmatter.episodePerson,
         episodePromo: postEdge.node.frontmatter.episodePromo,
@@ -27,12 +33,59 @@ class EpisodeListing extends React.Component {
     const episodeList = this.getEpisodeList();
     const postTitle = episodeList.title;
 
+    
 
     return (
       <div className="podcast">
       
         {episodeList.map((post) => (
-          <div className={`podcastEpisode ${post.color}`}>
+
+          <div>
+            
+
+        
+
+        <AudioPlayer         
+          src= {post.episodeURL}
+          onPlay={e => console.log("onPlay")}
+          layout="horizontal-reverse" 
+          customProgressBarSection={
+            [
+              
+              // RHAP_UI.PROGRESS_BAR,
+              <div className={`rhap_progress-filled podcastEpisode ${post.color}`}></div>,
+              RHAP_UI.CURRENT_TIME,
+              RHAP_UI.CURRENT_LEFT_TIME,
+            ]
+          }
+          customAdditionalControls={[]}  
+          customVolumeControls={[]}
+          showJumpControls={false}
+          customIcons={{
+            play: <Play 
+              onClick={e => {
+                e.preventDefault()
+                trackCustomEvent({
+                  category: "Audio Player",
+                  action: "Play - Featured",
+                  label: post.title,
+                })
+              }}
+            />,
+            pause: <Pause 
+            onClick={e => {
+              e.preventDefault()
+              trackCustomEvent({
+                category: "Audio Player",
+                action: "Pause - Featured",
+                label: post.title,
+              })
+            }}
+            /> 
+            }}
+        />
+            
+            {/* Pull quote */}
             <div className="pullquote">{post.pullquote}</div>
             <div className="podcastEpisode-content">
               <a 
@@ -40,9 +93,9 @@ class EpisodeListing extends React.Component {
                 target="_blank"
                 onClick={e => {
                   trackCustomEvent({
-                    category: "Directory Listing",
+                    category: "Episode",
                     action: "Clicked",
-                    label: {postTitle},
+                    label: post.title,
                   })
                 }}
               >
@@ -50,6 +103,53 @@ class EpisodeListing extends React.Component {
               </a>
             </div>
 
+            {/* If Additional Link A,B */}
+            {post.linkA ? 
+              <div className="podcastEpisode-content">
+                
+                {/* <i class="far fa-link"></i> */}
+                
+                <a 
+                    href={`${post.linkA[1]}`}
+                    target="_blank"
+                    onClick={e => {
+                      trackCustomEvent({
+                        category: "Episode",
+                        action: "Clicked",
+                        label: post.twit,
+                      })
+                    }}
+                  >
+                    {post.linkA[0] && post.linkA[0]}
+                  </a>
+                  &nbsp;<i class="fas fa-anchor"></i>
+                </div>
+                : '' 
+              }
+            {post.linkB ? 
+              <div className="podcastEpisode-content">
+                
+                {/* <i class="far fa-link"></i> */}
+                
+                <a 
+                    href={`${post.linkB[1]}`}
+                    target="_blank"
+                    onClick={e => {
+                      trackCustomEvent({
+                        category: "Episode",
+                        action: "Clicked",
+                        label: post.twit,
+                      })
+                    }}
+                  >
+                    {post.linkB[0] && post.linkB[0]}
+                  </a>
+                  &nbsp;<i class="fas fa-anchor"></i>
+                </div>
+                : '' 
+              }
+
+            {/* If Twitter */}
             {post.twit ? 
               <div className="podcastEpisode-content">
                 @&nbsp;
@@ -60,9 +160,9 @@ class EpisodeListing extends React.Component {
                     target="_blank"
                     onClick={e => {
                       trackCustomEvent({
-                        category: "Directory Listing",
+                        category: "Episode",
                         action: "Clicked",
-                        label: {postTitle},
+                        label: post.twit,
                       })
                     }}
                   >
@@ -73,6 +173,7 @@ class EpisodeListing extends React.Component {
                 : '' 
               }
 
+              {/* If Instagram */}
               {post.inst ? 
                 <div className="podcastEpisode-content">
                   @&nbsp;
@@ -81,9 +182,9 @@ class EpisodeListing extends React.Component {
                     target="_blank"
                     onClick={e => {
                       trackCustomEvent({
-                        category: "Directory Listing",
+                        category: "Episode",
                         action: "Clicked",
-                        label: {postTitle},
+                        label: post.inst,
                       })
                     }}
                   >
@@ -95,6 +196,10 @@ class EpisodeListing extends React.Component {
               }
               
           </div>
+      
+      
+      
+                
         ))}
       </div>
     );
