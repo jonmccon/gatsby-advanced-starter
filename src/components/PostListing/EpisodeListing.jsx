@@ -40,7 +40,7 @@ class EpisodeListing extends React.Component {
       
         {episodeList.map((post) => (
 
-          <div>
+          <div className= {`podcastEpisode ${post.color}`}>
             
 
         
@@ -52,8 +52,8 @@ class EpisodeListing extends React.Component {
           customProgressBarSection={
             [
               
-              // RHAP_UI.PROGRESS_BAR,
-              <div className={`rhap_progress-filled podcastEpisode ${post.color}`}></div>,
+              RHAP_UI.PROGRESS_BAR,
+              // <div className={``}></div>,
               RHAP_UI.CURRENT_TIME,
               RHAP_UI.CURRENT_LEFT_TIME,
             ]

@@ -175,6 +175,16 @@
         text-shadow: 1px -1px rgba(255, 255, 255, 0.6);
     }
 
+    .rhap_container {
+        background-color: none !important;
+    }
+/* 
+    .rhap_progress-section {
+        display: inherit !important;
+        flex: none !important;
+        align-items: inherit !important;
+        z-index: -1 !important;
+    } */
     /* CSS Dropcap synrtax, the escaped " kinda messes this up
     but for future reference */
     /* .pullquote:first-child:first-letter {
