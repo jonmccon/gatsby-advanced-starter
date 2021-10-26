@@ -45,45 +45,7 @@ class EpisodeListing extends React.Component {
 
         
 
-        <AudioPlayer         
-          src= {post.episodeURL}
-          onPlay={e => console.log("onPlay")}
-          layout="horizontal-reverse" 
-          customProgressBarSection={
-            [
-              
-              RHAP_UI.PROGRESS_BAR,
-              // <div className={``}></div>,
-              RHAP_UI.CURRENT_TIME,
-              RHAP_UI.CURRENT_LEFT_TIME,
-            ]
-          }
-          customAdditionalControls={[]}  
-          customVolumeControls={[]}
-          showJumpControls={false}
-          customIcons={{
-            play: <Play 
-              onClick={e => {
-                e.preventDefault()
-                trackCustomEvent({
-                  category: "Audio Player",
-                  action: "Play - Featured",
-                  label: post.title,
-                })
-              }}
-            />,
-            pause: <Pause 
-            onClick={e => {
-              e.preventDefault()
-              trackCustomEvent({
-                category: "Audio Player",
-                action: "Pause - Featured",
-                label: post.title,
-              })
-            }}
-            /> 
-            }}
-        />
+        
             
             {/* Pull quote */}
             <div className="pullquote">{post.pullquote}</div>
@@ -195,6 +157,58 @@ class EpisodeListing extends React.Component {
                 : '' 
               }
               
+              {/* 
+              install v2 version unless you're gonna move the whole thing up
+              https://www.gatsbyjs.com/plugins/gatsby-plugin-sass/ 
+              drop background, look at ui overrides 
+              try to hide the player as much as possible
+              you probably won't get the full background thing, although it is cool
+              Is it possible to pass a click action to the player from outside?
+              need a smaller button to reduce height of player
+              
+              header foooter may work better to put it more inline with content
+              <AudioPlayer src={SAMPLE_MP3_URL} header="Now playing: Let it go!" footer="This is a footer" />
+              possibly with custom controls
+              
+              */}
+              <AudioPlayer         
+          src= {post.episodeURL}
+          onPlay={e => console.log("onPlay")}
+          layout="horizontal" 
+          customProgressBarSection={
+            [
+              // RHAP_UI.PROGRESS_BAR,
+              RHAP_UI.CURRENT_TIME,
+              <div>/</div>,
+              RHAP_UI.CURRENT_LEFT_TIME,
+            ]
+          }
+          customAdditionalControls={[]}  
+          customVolumeControls={[]}
+          showJumpControls={false}
+          customIcons={{
+            play: <Play 
+              onClick={e => {
+                e.preventDefault()
+                trackCustomEvent({
+                  category: "Audio Player",
+                  action: "Play - Featured",
+                  label: post.title,
+                })
+              }}
+            />,
+            pause: <Pause 
+            onClick={e => {
+              e.preventDefault()
+              trackCustomEvent({
+                category: "Audio Player",
+                action: "Pause - Featured",
+                label: post.title,
+              })
+            }}
+            /> 
+            }}
+        />
           </div>
       
       
