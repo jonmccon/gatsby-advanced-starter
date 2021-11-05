@@ -49,6 +49,7 @@ class EpisodeListing extends React.Component {
             
             {/* Pull quote */}
             <div className="pullquote">{post.pullquote}</div>
+            
             <div className="podcastEpisode-content">
               <a 
                 href={post.website} 
@@ -68,9 +69,6 @@ class EpisodeListing extends React.Component {
             {/* If Additional Link A,B */}
             {post.linkA ? 
               <div className="podcastEpisode-content">
-                
-                {/* <i class="far fa-link"></i> */}
-                
                 <a 
                     href={`${post.linkA[1]}`}
                     target="_blank"
@@ -90,9 +88,6 @@ class EpisodeListing extends React.Component {
               }
             {post.linkB ? 
               <div className="podcastEpisode-content">
-                
-                {/* <i class="far fa-link"></i> */}
-                
                 <a 
                     href={`${post.linkB[1]}`}
                     target="_blank"
@@ -157,6 +152,7 @@ class EpisodeListing extends React.Component {
                 : '' 
               }
               
+              
               {/* 
               install v2 version unless you're gonna move the whole thing up
               https://www.gatsbyjs.com/plugins/gatsby-plugin-sass/ 
@@ -177,10 +173,8 @@ class EpisodeListing extends React.Component {
           layout="horizontal" 
           customProgressBarSection={
             [
-              // RHAP_UI.PROGRESS_BAR,
-              RHAP_UI.CURRENT_TIME,
-              <div>/</div>,
               RHAP_UI.CURRENT_LEFT_TIME,
+              RHAP_UI.PROGRESS_BAR,
             ]
           }
           customAdditionalControls={[]}  

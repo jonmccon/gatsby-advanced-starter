@@ -150,6 +150,8 @@
         outline-offset: -2px;
     }
 
+
+
     .podcastEpisode-content {
         align-self: end;
         font: var(--text-mono--itemPodcast);
@@ -172,12 +174,36 @@
     .pullquote {
         font: var(--text-serif-pullquote);
         font-style: italic;
-        text-shadow: 1px -1px rgba(255, 255, 255, 0.6);
+        text-shadow: 1px -1px rgba(255, 255, 255, 0.4);
+        margin-bottom: .25em;
     }
 
     .rhap_container {
         background-color: none !important;
+        margin-bottom: -1em;
     }
+
+    .rhap_progress-container { 
+        margin: 0 calc(-10px + 1%) 0 calc(10px + 1%) !important;
+        height: 3em !important;
+    }
+
+    .rhap_progress-bar {
+        background-color: var(--color-card-half) !important;
+    }
+
+    .rhap_progress-filled {
+        background-color: var(--color-text) !important;
+    }
+
+    .rhap_play-pause-button svg {
+        opacity: .8;
+    }
+
+    .rhap_play-pause-button svg:hover {
+        opacity: 1;
+    }
+
 /* 
     .rhap_progress-section {
         display: inherit !important;
