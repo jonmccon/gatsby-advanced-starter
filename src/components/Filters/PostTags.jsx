@@ -9,18 +9,10 @@ class PostTags extends Component {
     return (
 
       <div className="filter-tag-container">
-        <div className="filter-tag-container">
-          {/* Studio Size: &nbsp; */}
-          <Link className="filter-tag--size" to="/tags/small">small</Link>
-          <Link className="filter-tag--size" to="/tags/medium">medium</Link>
-          <Link className="filter-tag--size" to="/tags/large">large</Link>
-          <Link className="filter-tag--size" to="/tags/huge">huge</Link>
-        </div>
-
         
         {/* my need to do sorting here instead of in the query */}
         {/* General list of all tags */}
-        <div id="filter-tag--toggle">
+        {/* <div id="filter-tag--toggle"> */}
         {tags &&
           tags.map(tag => (
             <Link
@@ -36,9 +28,9 @@ class PostTags extends Component {
             </Link>
             
           ))}
-        </div>
+        {/* </div> */}
         
-        <a id="ShowTags" href="#filter-tag--toggle">SHOW TAGS</a>
+        {/* <a id="ShowTags" href="#filter-tag--toggle">SHOW TAGS</a> */}
 
       </div>
     );

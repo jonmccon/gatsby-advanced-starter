@@ -94,11 +94,10 @@ class SEO extends Component {
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
         <meta property="og:image" content={image} />
-        {/* <meta property="og:image" content="/icons/icon-512x512.png" /> */}
-        <meta
+        {/* <meta
           property="fb:app_id"
           content={config.siteFBAppID ? config.siteFBAppID : ""}
-        />
+        /> */}
 
         {/* Twitter Card tags */}
         <meta name="twitter:card" content="summary_large_image" />
@@ -109,31 +108,9 @@ class SEO extends Component {
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
         <meta name="twitter:image" content={image} />
-        {/* <meta name="twitter:image" content="/icons/icon-512x512.png" /> */}
       </Helmet>
     );
   }
 }
 
 export default SEO;
-
-
-
-// <!-- Primary Meta Tags -->
-// <title>Cataloging the creative studios of the Pacific Northwest</title>
-// <meta name="title" content="Cataloging the creative studios of the Pacific Northwest">
-// <meta name="description" content="Phonebook for the Seattle design community">
-
-// <!-- Open Graph / Facebook -->
-// <meta property="og:type" content="website">
-// <meta property="og:url" content="https://test.seattlecreative.directory/">
-// <meta property="og:title" content="Cataloging the creative studios of the Pacific Northwest">
-// <meta property="og:description" content="Phonebook for the Seattle design community">
-// <meta property="og:image" content="/icons/icon-512x512.png">
-
-// <!-- Twitter -->
-// <meta property="twitter:card" content="summary_large_image">
-// <meta property="twitter:url" content="https://test.seattlecreative.directory/">
-// <meta property="twitter:title" content="Cataloging the creative studios of the Pacific Northwest">
-// <meta property="twitter:description" content="Phonebook for the Seattle design community">
-// <meta property="twitter:image" content="/icons/icon-512x512.png">

@@ -2,16 +2,19 @@
 title: "Y-Designs"
 featuredImage: ./-hamburgers.png
 website: "https://y-designs.com/"
-twit: "https://twitter.com/ydseattle"
+twit: "ydseattle"
 inst: ""
 category: "Y"
+city: "Seattle"
+neighborhood: "Pioneer Square"
+size: "Small (1-10)"
+map: ""
 tags:
-    - Pioneer Square
-    - small
     - ux/ui
     - engineering
     - branding
     - product
+published: true
 ---
 
 Description

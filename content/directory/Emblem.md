@@ -3,10 +3,13 @@ title: "Emblem"
 featuredImage: ./-hamburgers.png
 website: "http://studioemblem.com/"
 twit: ""
-inst: "https://www.instagram.com/studioemblem/"
+inst: "studioemblem"
 category: "E"
+city: "Seattle"
+neighborhood:
+size: "Small (1-10)"
+map: ""
 tags:
-    - small
     - branding
     - strategy
     - illustration
@@ -14,6 +17,7 @@ tags:
     - environmental
     - motion
     - ux/ui
+published: true
 ---
 
 Description

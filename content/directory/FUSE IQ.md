@@ -2,16 +2,19 @@
 title: "FUSE IQ"
 featuredImage: ./-hamburgers.png
 website: "https://www.fuseiq.com/"
-twit: "https://twitter.com/fuseiq"
+twit: "fuseiq"
 inst: ""
 category: "F"
+city: "Seattle"
+neighborhood: "Pioneer Square"
+size: "Medium (11-40)"
+map: ""
 tags:
-    - Pioneer Square
-    - medium
     - engineering
     - strategy
     - branding
     - ux/ui
+published: true
 ---
 
 Description

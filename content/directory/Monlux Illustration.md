@@ -2,13 +2,16 @@
 title: "Monlux Illustration"
 featuredImage: ./-hamburgers.png
 website: "https://monlux-illustration.square.site/"
-twit: "https://twitter.com/markmonlux"
-inst: "https://www.instagram.com/markmonlux/"
+twit: "markmonlux"
+inst: "markmonlux"
 category: "M"
+city: "Tacoma"
+neighborhood:
+size: "Small (1-10)"
+map: ""
 tags:
-    - Tacoma
-    - small
     - illustration
+published: true
 ---
 Freelancer
 

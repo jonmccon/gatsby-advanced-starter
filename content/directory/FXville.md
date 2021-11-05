@@ -2,14 +2,17 @@
 title: "FXville"
 featuredImage: ./-hamburgers.png
 website: "https://www.fxville.com/"
-twit: "https://twitter.com/FXVille"
+twit: "FXVille"
 inst: ""
 category: "F"
+city: "Seattle"
+neighborhood: "Queen Anne"
+size: "Small (1-10)"
+map: ""
 tags:
-    - Queen Anne
-    - small
     - vfx
     - gaming
+published: true
 ---
 
 https://www.youtube.com/fxvilleinc

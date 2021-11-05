@@ -2,11 +2,14 @@
 title: "ANEMONE"
 featuredImage: ./-hamburgers.png
 website: "https://anemone.studio"
-twit: "https://twitter.com/anemone_es"
-inst: "https://www.instagram.com/spectrolite.app/"
+twit: "anemone_es"
+inst: "spectrolite.app"
 category: "A"
+city: "Seattle"
+neighborhood: "Roosevelt"
+size: "Small (1-10)"
+map: ""
 tags:
-    - small
     - community 
     - engineering
     - events 
@@ -22,6 +25,7 @@ tags:
     - ux/ui
     - video
     - voice
+published: true
 ---
 
 Description

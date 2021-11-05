@@ -2,18 +2,21 @@
 title: "Turnstyle"
 featuredImage: ./-hamburgers.png
 website: "http://turnstyle.studio/"
-twit: "https://twitter.com/turnstylestudio"
-inst: "https://www.instagram.com/turnstylestudio"
+twit: "turnstylestudio"
+inst: "turnstylestudio"
 category: "T"
+city: "Seattle"
+neighborhood: "Fremont"
+size: "Small (1-10)"
+map: ""
 tags:
-    - Fremont
-    - small
     - strategy
     - branding
     - ux/ui
     - print
     - packaging
     - environmental
+published: true
 ---
 
 Description

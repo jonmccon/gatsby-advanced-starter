@@ -13,6 +13,7 @@ export default class MainLayout extends React.Component {
           <meta name="viewport" content="width=device-width" />
           <html lang="en" />
           <link href="https://fonts.googleapis.com/css2?family=Spectral" rel="stylesheet" />
+          <script src="https://kit.fontawesome.com/d09a0402a9.js" crossorigin="anonymous"></script>
         </Helmet>
         {children}
       </div>

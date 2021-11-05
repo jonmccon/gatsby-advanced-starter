@@ -3,11 +3,13 @@ title: "Shore"
 featuredImage: ./-hamburgers.png
 website: "https://madebyshore.com/"
 twit: ""
-inst: "https://instagram.com/madebyshore/"
+inst: "madebyshore"
 category: "S"
+city: "Seattle"
+neighborhood: "Pioneer Square"
+size: "Small (1-10)"
+map: ""
 tags:
-    - Pioneer Square
-    - small
     - branding
     - strategy
     - print
@@ -18,6 +20,7 @@ tags:
     - engineering
     - product
     - typography
+published: true
 ---
 
 Description

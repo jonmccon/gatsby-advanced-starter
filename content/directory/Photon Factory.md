@@ -3,11 +3,13 @@ title: "Photon Factory"
 featuredImage: ./-hamburgers.png
 website: "https://www.photonfactory.org"
 twit: ""
-inst: "https://www.instagram.com/photonfactory"
+inst: "photonfactory"
 category: "P"
+city: "Seattle"
+neighborhood: "Pioneer Square"
+size: "Medium (11-40)"
+map: ""
 tags:
-    - Pioneer Square
-    - medium
     - 3D
     - advertising
     - branding
@@ -24,7 +26,7 @@ tags:
     - strategy
     - typography
     - ux/ui
-
+published: true
 ---
 
 https://www.facebook.com/photonfactoryseattle

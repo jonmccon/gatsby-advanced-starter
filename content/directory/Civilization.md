@@ -2,17 +2,20 @@
 title: "Civilization"
 featuredImage: ./-hamburgers.png
 website: "https://builtbycivilization.com/"
-twit: "https://twitter.com/bycivilization"
-inst: ""
+twit: "bycivilization"
+inst: "builtbycivilization"
 category: "C"
+city: "Seattle"
+neighborhood: "Pioneer Square"
+size: "Small (1-10)"
+map: ""
 tags:
-    - Pioneer Square
-    - small
     - branding
     - ux/ui
     - print
     - environmental
     - exhibition
+published: true
 ---
 
 Description

@@ -11,8 +11,9 @@ class DirectoryPostListing extends React.Component {
         tags: postEdge.node.frontmatter.tags,
         title: postEdge.node.frontmatter.title,
         website: postEdge.node.frontmatter.website,
-        episode: postEdge.node.frontmatter.episode,
+        episodeURL: postEdge.node.frontmatter.episodeURL,
         episodePromo: postEdge.node.frontmatter.episodePromo,
+        color: postEdge.node.frontmatter.color,
       });
     });
     return postList;
@@ -42,9 +43,9 @@ class DirectoryPostListing extends React.Component {
                 target="_blank"
                 onClick={e => {
                   trackCustomEvent({
-                    category: "Directory Listing",
+                    category: "Directory",
                     action: "Clicked",
-                    label: {postTitle},
+                    label: post.title,
                   })
                 }}
               >
@@ -52,12 +53,12 @@ class DirectoryPostListing extends React.Component {
               </a>
               
               {post.episodePromo ? 
-              <div className="episodePromo">{post.episodePromo && post.episodePromo}</div> : '' 
+              <div className={`episodePromo ${post.color}`}>{post.episodePromo && post.episodePromo}</div> : '' 
               }
 
-              {post.episode ? 
+              {post.episodeURL ? 
               <AudioPlayerSmall 
-                podcastURL={post.episode && post.episode} /> : '' 
+                podcastURL={post.episodeURL && post.episodeURL} /> : '' 
               }
 
               {/* <PostTags tags={post.tags} /> */}

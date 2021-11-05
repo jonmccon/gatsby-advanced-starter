@@ -2,13 +2,16 @@
 title: "Heckler Branding"
 featuredImage: ./-hamburgers.png
 website: "https://www.hecklerbranding.com/"
-twit: "https://twitter.com/hecklerbranding"
+twit: "hecklerbranding"
 inst: ""
 category: "H"
+city: "Seattle"
+neighborhood: "South Lake Union"
+size: "Small (1-10)"
+map: ""
 tags:
-    - South Lake Union
-    - small
     - branding
+published: true
 ---
 
 Description

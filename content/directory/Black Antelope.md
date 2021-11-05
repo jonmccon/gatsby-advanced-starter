@@ -5,11 +5,15 @@ website: "https://www.blackantelope.com/"
 twit: ""
 inst: ""
 category: "B"
+city: "Seattle"
+neighborhood:
+size: "Small (1-10)"
+map: ""
 tags:
-    - small
     - engineering
     - ux/ui
     - product
+published: true
 ---
 
 Description

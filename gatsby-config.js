@@ -72,13 +72,13 @@ module.exports = {
         ],
       },
     },
-    {
-      resolve: 'gatsby-source-simplecast',
-      options: {
-        token: 'eyJhcGlfa2V5IjoiOTYxODdjMGRkNjM1ODRhMTg1MDMxOTI4N2U5ODRlNmUifQ==',
-        podcastId: '30dabfb8-c618-43a5-81c7-c5c83750983a',
-      },
-    },
+    // {
+    //   resolve: 'gatsby-source-simplecast',
+    //   options: {
+    //     token: 'eyJhcGlfa2V5IjoiOTYxODdjMGRkNjM1ODRhMTg1MDMxOTI4N2U5ODRlNmUifQ==',
+    //     podcastId: '30dabfb8-c618-43a5-81c7-c5c83750983a',
+    //   },
+    // },
     "gatsby-transformer-sharp",
     "gatsby-plugin-sharp",
     "gatsby-plugin-react-helmet",
@@ -167,6 +167,7 @@ module.exports = {
               allMarkdownRemark(
                 limit: 1000,
                 sort: { order: DESC, fields: [fields___date] },
+                filter: { frontmatter: { published: { eq: true }}}
               ) {
                 edges {
                   node {

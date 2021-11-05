@@ -3,16 +3,19 @@ title: "Touch Worldwide"
 featuredImage: ./-hamburgers.png
 website: "https://www.touchworldwide.com/"
 twit: ""
-inst: "https://instagram.com/touch_worldwide/"
+inst: "touch_worldwide"
 category: "T"
+city: "Seattle"
+neighborhood: "Pioneer Square"
+size: "Medium (11-40)"
+map: ""
 tags:
-    - Pioneer Square
-    - medium
     - exhibition
     - branding
     - strategy
     - video
     - motion
+published: true
 ---
 
 Description

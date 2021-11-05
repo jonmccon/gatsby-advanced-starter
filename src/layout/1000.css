@@ -6,6 +6,11 @@
         font: var(--text-serif-title);
         line-height: 140%;
     }
+
+    h5 {
+        font: var(--text-mono--item);
+        margin-block-start: 0;
+    }
     
     /* BACKGROUND PATTERN */
     .pattern {
@@ -30,9 +35,9 @@
         border-radius: 10px;
         grid-template-areas:
             ".              MenuLeft        MenuLeft        .               Logo            Logo            Logo            Logo            .               MenuRight       MenuRight       ."
-            ".              .               .               Headline        Headline        Headline        Headline        Headline        Headline        .               .               ."
-            "showContainer              showContainer               showContainer               showContainer   showContainer   showContainer   showContainer   showContainer   showContainer   showContainer               showContainer               showContainer"
-            ".              Filters         Filters         Filters         Filters         Filters         Filters         Filters         Filters         Filters         Filters         ."
+            ".              .               Headline        Headline        Headline        Headline        Headline        Headline        Headline        Headline        .               ."
+            "showContainer  showContainer   showContainer   showContainer   showContainer   showContainer   showContainer   showContainer   showContainer   showContainer   showContainer   showContainer"
+            "Filters        Filters         Filters         Filters         Filters         Filters         Filters         Filters         Filters         Filters         Filters         Filters"
             ".              Directory       Directory       Directory       Directory       Directory       Directory       Directory       Directory       Directory       Directory       ."
             ".              .          .          .          .          .          .          .          .          .          .          ."
             ".              Footer          Footer          Footer          Footer          Footer          Footer          Footer          Footer          Footer          Footer          ."
@@ -57,7 +62,7 @@
     .headline-wrapper {
         display: grid;
         grid-area: Headline;
-        min-height: 55vh;
+        min-height: 60vh;
     }
 
     .headline-wrapper-small {
@@ -125,10 +130,99 @@
     /* PODCAST SHOW */
 
     #showContainer {
+        
     }
 
     .podcast {
+        grid-template-columns: repeat(4, minmax(0,1fr));
+        /* grid-gap: .5em; */
+        margin: 0;
+        padding: .5em 0 0 .5em;
     }
+
+    .podcastEpisode {
+        display: grid;
+        grid-template-rows: min-content auto minmax(1ch, 1fr);
+        row-gap: .3em;
+        padding: 1.5em;
+        min-height: 35vh;
+        outline: 1px solid rgba(0, 0, 0, 0.1);
+        outline-offset: -2px;
+    }
+
+
+
+    .podcastEpisode-content {
+        align-self: end;
+        font: var(--text-mono--itemPodcast);
+    }
+
+    .podcastEpisode-content i {
+        text-decoration: none;
+    }
+
+    .podcastEpisode-content a {
+        text-decoration: underline;
+        font-weight: 300;
+        align-self: end;
+    }
+
+    .podcastEpisode-content a:hover {
+        background-color: var(--color-card);
+    }
+
+    .pullquote {
+        font: var(--text-serif-pullquote);
+        font-style: italic;
+        text-shadow: 1px -1px rgba(255, 255, 255, 0.4);
+        margin-bottom: .25em;
+    }
+
+    .rhap_container {
+        background-color: none !important;
+        margin-bottom: -1em;
+    }
+
+    .rhap_progress-container { 
+        margin: 0 calc(-10px + 1%) 0 calc(10px + 1%) !important;
+        height: 3em !important;
+    }
+
+    .rhap_progress-bar {
+        background-color: var(--color-card-half) !important;
+    }
+
+    .rhap_progress-filled {
+        background-color: var(--color-text) !important;
+    }
+
+    .rhap_play-pause-button svg {
+        opacity: .8;
+    }
+
+    .rhap_play-pause-button svg:hover {
+        opacity: 1;
+    }
+
+/* 
+    .rhap_progress-section {
+        display: inherit !important;
+        flex: none !important;
+        align-items: inherit !important;
+        z-index: -1 !important;
+    } */
+    /* CSS Dropcap synrtax, the escaped " kinda messes this up
+    but for future reference */
+    /* .pullquote:first-child:first-letter {
+        color: #903;
+        float: left;
+        font-family: Georgia;
+        font-size: 75px;
+        line-height: 60px;
+        padding-top: 4px;
+        padding-right: 8px;
+        padding-left: 3px;
+      } */
 
    
 
@@ -175,12 +269,48 @@
     .filters {
         font: var(--text-mono-menu);
         margin: 6em 0 0 0;
-        text-align: center;
+        text-align: left;
+        max-height: 350px;
         /* background-color: var(--color-test); */
     }
     
     .filter-cat-container {
         display: none;   
+    }
+
+    .filter-tag-container { 
+    }
+
+    .allCats {
+        grid-column: span 2; 
+    }
+
+    .tagSize {
+        grid-column: span 1; 
+    }
+
+    .tagSeattle, .tagCity {
+        grid-column: span 2;
+        padding-left: 1em;
+        border-left: 1px solid #292929; 
+    }
+
+    .tagSeattle div, .tagCity div {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column: span 2; 
+    }
+    
+    .allTags {
+        grid-column: span 3; 
+        padding-left: 1em;
+        border-left: 1px solid #000; 
+    }
+
+    .allTags div {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column: span 3;
     }
 
     #ShowTags {             display: none;  }

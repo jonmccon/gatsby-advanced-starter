@@ -63,19 +63,28 @@ export const pageQuery = graphql`
     allMarkdownRemark(
       limit: 1000
       sort: { fields: [fields___date], order: DESC }
-      filter: { frontmatter: { tags: { in: [$tag] } } }
+      filter: { frontmatter: { 
+        tags: { in: [$tag] } 
+        published: { eq: true }
+        } }
     ) {
       totalCount
       edges {
         node {
           frontmatter {
             title
-            episode
             website
             twit
             inst
             category
+            city
+            neighborhood
+            size
             tags
+            episodeURL
+            episodePerson
+            episodePromo
+            color
           }
         }
       }

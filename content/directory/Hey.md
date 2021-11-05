@@ -2,12 +2,14 @@
 title: "Hey,"
 featuredImage: ./-hamburgers.png
 website: "https://heyadvertising.com/"
-twit: "https://twitter.com/HeyAdvertising"
-inst: "https://www.instagram.com/heyadvertising/"
+twit: "HeyAdvertising"
+inst: "heyadvertising"
 category: "H"
+city: "Seattle"
+neighborhood: "Capitol Hill"
+size: "Medium (11-40)"
+map: ""
 tags:
-    - Capitol Hill
-    - medium
     - branding
     - advertising
     - video
@@ -15,6 +17,7 @@ tags:
     - marketing
     - print
     - research
+published: true
 ---
 
 Description

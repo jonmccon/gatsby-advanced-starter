@@ -42,15 +42,26 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions;
+  
+  // actual pages
   const listingPage = path.resolve("./src/templates/listing.jsx");
   const postPage = path.resolve("./src/templates/post.jsx");
+
+  // filter pages
   const tagPage = path.resolve("./src/templates/byTag.jsx");
   const categoryPage = path.resolve("./src/templates/byCategory.jsx");
+  const cityPage = path.resolve("./src/templates/byCity.jsx");
+  const neighborhoodPage = path.resolve("./src/templates/bySeattleNeighborhood.jsx");
+  const sizePage = path.resolve("./src/templates/bySize.jsx");
+  
 
   // Get a full list of markdown posts
   const markdownQueryResult = await graphql(`
     {
-      allMarkdownRemark(sort: { order: ASC, fields: frontmatter___title }) {
+      allMarkdownRemark( 
+        sort: { order: ASC, fields: frontmatter___title }
+        filter: { frontmatter: { published: { eq: true }}}
+        ) {
         edges {
           node {
             fields {
@@ -58,9 +69,11 @@ exports.createPages = async ({ graphql, actions }) => {
             }
             frontmatter {
               title
-              episode
-              tags
               category
+              tags
+              city
+              neighborhood
+              size
               date
             }
           }
@@ -76,6 +89,11 @@ exports.createPages = async ({ graphql, actions }) => {
 
   const tagSet = new Set();
   const categorySet = new Set();
+  const citySet = new Set();
+  const neighborhoodSet = new Set();
+  const sizeSet = new Set();
+
+
 
   const postsEdges = markdownQueryResult.data.allMarkdownRemark.edges;
 
@@ -174,6 +192,18 @@ exports.createPages = async ({ graphql, actions }) => {
       if (edge.node.frontmatter.category) {
         categorySet.add(edge.node.frontmatter.category);
       }
+      
+      if (edge.node.frontmatter.city) {
+        citySet.add(edge.node.frontmatter.city);
+      }
+
+      if (edge.node.frontmatter.neighborhood) {
+        neighborhoodSet.add(edge.node.frontmatter.neighborhood);
+      }
+
+      if (edge.node.frontmatter.size) {
+        sizeSet.add(edge.node.frontmatter.size);
+      }
 
       // // Generate a list of categories (plural) multi use
       // // This will help with a multi category branching search (and page generation)
@@ -191,6 +221,42 @@ exports.createPages = async ({ graphql, actions }) => {
     });
   });
 
+  // Create category pages
+  categorySet.forEach((category) => {
+    createPage({
+      path: `/tags/${_.kebabCase(category)}/`,
+      component: categoryPage,
+      context: { category },
+    });
+  });
+  
+  //  Create size pages
+  sizeSet.forEach((size) => {
+    createPage({
+      path: `/tags/${_.kebabCase(size)}/`,
+      component: sizePage,
+      context: { size },
+    });
+  });
+
+  //  Create city pages
+  citySet.forEach((city) => {
+    createPage({
+      path: `/tags/${_.kebabCase(city)}/`,
+      component: cityPage,
+      context: { city },
+    });
+  });
+  
+  //  Create city pages
+  neighborhoodSet.forEach((neighborhood) => {
+    createPage({
+      path: `/tags/${_.kebabCase(neighborhood)}/`,
+      component: neighborhoodPage,
+      context: { neighborhood },
+    });
+  });
+
   //  Create tag pages
   tagSet.forEach((tag) => {
     createPage({
@@ -200,12 +266,4 @@ exports.createPages = async ({ graphql, actions }) => {
     });
   });
 
-  // Create category pages
-  categorySet.forEach((category) => {
-    createPage({
-      path: `/categories/${_.kebabCase(category)}/`,
-      component: categoryPage,
-      context: { category },
-    });
-  });
 };

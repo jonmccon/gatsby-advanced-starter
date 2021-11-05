@@ -2,18 +2,21 @@
 title: "Pyramid Communications"
 featuredImage: ./-hamburgers.png
 website: "https://www.pyramidcommunications.com/"
-twit: "https://twitter.com/PyramidComms"
-inst: "https://www.instagram.com/pyramidcomms"
+twit: "PyramidComms"
+inst: "pyramidcomms"
 category: "P"
+city: "Seattle"
+neighborhood: "Pike Place Market"
+size: "Medium (11-40)"
+map: ""
 tags:
-    - Pike Place Market
-    - medium
     - strategy
     - advertising
     - print
     - engineering
     - branding
     - ux/ui
+published: true
 ---
 
 Description

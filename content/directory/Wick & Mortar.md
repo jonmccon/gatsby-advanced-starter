@@ -2,12 +2,14 @@
 title: "Wick & Mortar"
 featuredImage: ./-hamburgers.png
 website: "https://www.wickandmortar.com/"
-twit: "https://twitter.com/wickandmortar"
-inst: "https://www.instagram.com/wickandmortar"
+twit: "wickandmortar"
+inst: "wickandmortar"
 category: "W"
+city: "Seattle"
+neighborhood: "Pioneer Square"
+size: "Medium (11-40)"
+map: ""
 tags:
-    - Pioneer Square
-    - medium
     - branding
     - strategy
     - packaging
@@ -17,6 +19,7 @@ tags:
     - photography
     - video
     - advertising
+published: true
 ---
 
 Description

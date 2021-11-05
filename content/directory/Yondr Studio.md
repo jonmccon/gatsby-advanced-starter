@@ -3,14 +3,17 @@ title: "Yondr Studio"
 cover: "./content/blog/imgs/hamburgers.png"
 website: "https://yondrstudio.com/"
 twit: ""
-inst: "https://instagram.com/studioyondr/"
+inst: "studioyondr"
 category: "Y"
+city: "Edmonds"
+neighborhood:
+size: "Small (1-10)"
+map: ""
 tags:
-    - Edmonds
-    - small
     - illustration
     - branding
     - typography
+published: true
 ---
 
 Freelancer

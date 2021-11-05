@@ -3,12 +3,15 @@ title: "UW School of Art"
 featuredImage: ./-hamburgers.png
 website: "https://art.washington.edu/design"
 twit: ""
-inst: "https://www.instagram.com/uwsoa"
+inst: "uwsoa"
 category: "U"
+city: "Seattle"
+neighborhood: "U District"
+size: "Large (41-100)"
+map: ""
 tags:
-    - U District
-    - large
     - school
+published: true
 ---
 
 Description

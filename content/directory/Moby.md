@@ -2,16 +2,19 @@
 title: "Moby"
 featuredImage: ./-hamburgers.png
 website: "http://mobyinc.com/"
-twit: "https://twitter.com/builtbymoby"
-inst: "https://www.instagram.com/builtbymoby"
+twit: "builtbymoby"
+inst: "builtbymoby"
 category: "M"
+city: "Seattle"
+neighborhood: "Fremont"
+size: "Small (1-10)"
+map: ""
 tags:
-    - Fremont
-    - small
     - ux/ui
     - engineering
     - product
     - environmental
+published: true
 ---
 
 Description

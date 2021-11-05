@@ -2,17 +2,20 @@
 title: "AMP"
 featuredImage: ./-hamburgers.png
 website: "https://www.ampagency.com"
-twit: "https://twitter.com/AMP_Agency"
-inst: "https://www.instagram.com/amp_agency/"
+twit: "amp_agency"
+inst: "amp_agency"
 category: "A"
+city: "Seattle"
+neighborhood: "Pike Place Market"
+size: "Large (41-100)"
+map: ""
 tags:
-    - Pike Place Market
-    - large
     - branding
     - marketing
     - strategy
     - product
     - interactive
+published: true
 ---
 
 Description

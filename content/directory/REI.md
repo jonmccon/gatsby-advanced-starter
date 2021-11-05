@@ -2,12 +2,14 @@
 title: "REI"
 featuredImage: ./-hamburgers.png
 website: "https://www.rei.com/"
-twit: "https://twitter.com/rei"
-inst: "https://www.instagram.com/rei"
+twit: "rei"
+inst: "rei"
 category: "R"
+city: "Kent"
+neighborhood:
+size: "Large (41-100)"
+map: ""
 tags:
-    - Kent
-    - large
     - branding
     - print
     - ux/ui
@@ -15,6 +17,8 @@ tags:
     - illustration
     - packaging
     - marketing
+    - inhouse
+published: true
 ---
 
 Description

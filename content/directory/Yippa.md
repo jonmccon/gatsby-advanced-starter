@@ -2,16 +2,20 @@
 title: "Yippa"
 featuredImage: ./-hamburgers.png
 website: "https://yippa.com/"
-twit: "https://twitter.com/yippadesign"
+twit: "yippadesign"
 inst: ""
 category: "Y"
+city: "Seattle"
+neighborhood:
+size: "Small (1-10)"
+map: ""
 tags:
-    - small
     - branding
     - strategy
     - print
     - engineering
     - ux/ui
+published: true
 ---
 
 Description

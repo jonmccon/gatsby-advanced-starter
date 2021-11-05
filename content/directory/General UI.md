@@ -2,16 +2,19 @@
 title: "General UI"
 featuredImage: ./-hamburgers.png
 website: "https://www.genui.co/"
-twit: "https://twitter.com/generalui"
+twit: "generalui"
 inst: ""
 category: "G"
+city: "Seattle"
+neighborhood: "Fremont"
+size: "Large (41-100)"
+map: ""
 tags:
-    - Fremont
-    - large
     - product
     - ux/ui
     - engineering
     - strategy
+published: true
 ---
 
 Description

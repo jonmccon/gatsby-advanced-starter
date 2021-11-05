@@ -2,12 +2,14 @@
 title: "Rusty George Creative"
 featuredImage: ./-hamburgers.png
 website: "https://rustygeorge.com/"
-twit: "https://twitter.com/RustyGCreative"
-inst: "https://www.instagram.com/rustygeorgecreative"
+twit: "RustyGCreative"
+inst: "rustygeorgecreative"
 category: "R"
+city: "Tacoma"
+neighborhood:
+size: "Small (1-10)"
+map: ""
 tags:
-    - Tacoma
-    - small
     - branding
     - ux/ui
     - advertising
@@ -15,6 +17,7 @@ tags:
     - strategy
     - video
     - environmental
+published: true
 ---
 
 Description

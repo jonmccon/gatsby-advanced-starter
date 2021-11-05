@@ -2,12 +2,14 @@
 title: "Microsoft"
 featuredImage: ./-hamburgers.png
 website: "https://www.microsoft.com/design"
-twit: "https://twitter.com/MicrosoftDesign"
-inst: "https://www.instagram.com/microsoft.design"
+twit: "MicrosoftDesign"
+inst: "microsoft.design"
 category: "M"
+city: "Redmond"
+neighborhood:
+size: "Huge (100+)"
+map: ""
 tags:
-    - Redmond
-    - huge
     - ux/ui
     - product
     - research
@@ -17,6 +19,7 @@ tags:
     - motion
     - video
     - engineering
+published: true
 ---
 
 Description

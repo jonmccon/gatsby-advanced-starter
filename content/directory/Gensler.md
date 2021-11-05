@@ -3,16 +3,19 @@ title: "Gensler"
 featuredImage: ./-hamburgers.png
 website: "https://www.gensler.com/offices/seattle"
 twit: ""
-inst: "https://www.instagram.com/genslerseattle"
+inst: "genslerseattle"
 category: "G"
+city: "Seattle"
+neighborhood: "Downtown"
+size: "Large (41-100)"
+map: ""
 tags:
-    - Downtown
-    - large
     - branding
     - environmental
     - experience
     - product
     - architecture
+published: true
 ---
 
 Description

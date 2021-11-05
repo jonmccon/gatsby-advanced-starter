@@ -8,6 +8,7 @@ class PostCats extends Component {
     const { cats } = this.props;
     return (
       <div className="filter-cat-container">
+        
         {cats &&
           cats.map(category => (
             <Link

@@ -2,13 +2,16 @@
 title: "Lucia|Marquand"
 featuredImage: ./-hamburgers.png
 website: "http://luciamarquand.com/"
-twit: "https://twitter.com/luciamarquand"
+twit: "luciamarquand"
 inst: ""
 category: "L"
+city: "Seattle"
+neighborhood: "Downtown"
+size: "Small (1-10)"
+map: ""
 tags:
-    - Downtown
-    - small
     - print
+published: true
 ---
 
 Description

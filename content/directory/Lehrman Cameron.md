@@ -5,11 +5,14 @@ website: "http://lehrmancameron.com/"
 twit: ""
 inst: ""
 category: "L"
+city: "Seattle"
+neighborhood: "Greenwood"
+size: "Small (1-10)"
+map: ""
 tags:
-    - Greenwood
-    - small
     - environmental
     - industrial
+published: true
 ---
 
 Description

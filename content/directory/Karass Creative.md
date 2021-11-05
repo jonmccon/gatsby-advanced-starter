@@ -2,15 +2,18 @@
 title: "Karass Creative"
 featuredImage: ./-hamburgers.png
 website: "https://karasscreative.com/"
-twit: "https://twitter.com/karasscreative"
+twit: "karasscreative"
 inst: ""
 category: "K"
+city: "Seattle"
+neighborhood: "Pioneer Square"
+size: "Small (1-10)"
+map: ""
 tags:
-    - Pioneer Square
-    - small
     - ux/ui
     - environmental
     - motion
+published: true
 ---
 
 Description

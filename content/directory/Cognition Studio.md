@@ -2,12 +2,14 @@
 title: "Cognition Studio"
 featuredImage: ./-hamburgers.png
 website: "https://cognitionstudio.com/"
-twit: "https://twitter.com/cognitionstudio"
+twit: "cognitionstudio"
 inst: ""
 category: "C"
+city: "Seattle"
+neighborhood: "Ballard"
+size: "Small (1-10)"
+map: ""
 tags:
-    - Ballard
-    - small
     - strategy
     - branding
     - interactive
@@ -16,6 +18,7 @@ tags:
     - motion
     - marketing
     - environmental
+published: true
 ---
 
 Description

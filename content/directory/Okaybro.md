@@ -3,14 +3,18 @@ title: "Okaybro"
 featuredImage: ./-hamburgers.png
 website: "https://okaybro.com/"
 twit: ""
-inst: "https://www.instagram.com/okaybro"
+inst: "okaybro"
 category: "O"
+city: "Seattle"
+neighborhood:
+size: "Small (1-10)"
+map: ""
 tags:
-    - small
     - video
     - branding
     - marketing
     - print
+published: true
 ---
 
 Description

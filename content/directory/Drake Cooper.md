@@ -2,18 +2,21 @@
 title: "Drake Cooper"
 featuredImage: ./-hamburgers.png
 website: "https://drakecooper.com/"
-twit: "https://twitter.com/DrakeCooper"
+twit: "DrakeCooper"
 inst: ""
 category: "D"
+city: "Seattle"
+neighborhood: "South Lake Union"
+size: "Medium (11-40)"
+map: ""
 tags:
-    - South Lake Union
-    - medium
     - branding
     - strategy
     - ux/ui
     - marketing
     - research
     - video
+published: true
 ---
 
 Description

@@ -2,13 +2,16 @@
 title: "Filter"
 featuredImage: ./-hamburgers.png
 website: "https://filterdigital.com/"
-twit: "https://twitter.com/FilterDigital"
-inst: "https://www.instagram.com/filterdigital"
+twit: "FilterDigital"
+inst: "filterdigital"
 category: "F"
+city: "Seattle"
+neighborhood: "Downtown"
+size: "Medium (11-40)"
+map: ""
 tags:
-    - Downtown
-    - medium
     - recruiter
+published: true
 ---
 
 Description

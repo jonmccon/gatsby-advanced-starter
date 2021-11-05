@@ -2,16 +2,19 @@
 title: "Acrylicize"
 featuredImage: ./-hamburgers.png
 website: "http://www.acrylicize.com"
-twit: "https://twitter.com/acrylicize"
-inst: "https://www.instagram.com/acrylicize"
+twit: "acrylicize"
+inst: "acrylicize"
 category: "A"
+city: "Seattle"
+neighborhood: "Capitol Hill"
+size: "Medium (11-40)"
+map: ""
 tags:
-    - Capitol Hill
-    - medium
     - branding
     - community
     - environmental
     - interior
+published: true
 ---
 
 

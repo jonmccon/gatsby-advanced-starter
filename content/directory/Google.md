@@ -2,12 +2,14 @@
 title: "Google"
 featuredImage: ./-hamburgers.png
 website: "https://design.google/"
-twit: "https://twitter.com/googledesign"
-inst: "https://www.instagram.com/googledesign"
+twit: "googledesign"
+inst: "googledesign"
 category: "G"
+city: "Seattle"
+neighborhood: "Fremont"
+size: "Huge (100+)"
+map: ""
 tags:
-    - Fremont
-    - huge
     - ux/ui
     - product
     - research
@@ -18,6 +20,7 @@ tags:
     - video
     - engineering
     - inhouse
+published: true
 ---
 
 Description
