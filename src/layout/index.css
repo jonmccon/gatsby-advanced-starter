@@ -73,10 +73,11 @@ a:hover {   cursor: pointer; }
 
 /*  GLOBAL PROMO COLORS */
 
-.yellow {   background-color:#F7E34D !important; }
-.pink {     background-color:#F7ACBD !important; }
-.yellow {   background-color:#F7E34D !important; }
+
+.brown {    background-color: #DFB66D !important;}
+.green {    background-color: #D6D5C2 !important; }
+.ltbrown {   background-color:#CAC2AE !important; }
 .blue {     background-color:#A6C5E0 !important; }
-.brown {    background-color:#CAC2AE !important; }
-.ltGray {   background-color:#D6D5C2 !important; }
+.yellow {   background-color: #F7E34D !important; }
+.pink {   background-color:#F7ACBD !important; }
 .orange {   background-color:#DFB66D !important; }

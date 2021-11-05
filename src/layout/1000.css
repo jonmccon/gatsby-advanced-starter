@@ -35,7 +35,7 @@
         border-radius: 10px;
         grid-template-areas:
             ".              MenuLeft        MenuLeft        .               Logo            Logo            Logo            Logo            .               MenuRight       MenuRight       ."
-            ".              .               .               Headline        Headline        Headline        Headline        Headline        Headline        .               .               ."
+            ".              .               Headline        Headline        Headline        Headline        Headline        Headline        Headline        Headline        .               ."
             "showContainer  showContainer   showContainer   showContainer   showContainer   showContainer   showContainer   showContainer   showContainer   showContainer   showContainer   showContainer"
             "Filters        Filters         Filters         Filters         Filters         Filters         Filters         Filters         Filters         Filters         Filters         Filters"
             ".              Directory       Directory       Directory       Directory       Directory       Directory       Directory       Directory       Directory       Directory       ."
@@ -62,7 +62,7 @@
     .headline-wrapper {
         display: grid;
         grid-area: Headline;
-        min-height: 55vh;
+        min-height: 60vh;
     }
 
     .headline-wrapper-small {

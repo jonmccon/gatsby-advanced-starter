@@ -4,7 +4,7 @@ featuredImage: ./-hamburgers.png
 website: "https://clydegolden.com/"
 twit: ""
 inst: "clydegolden"
-linkA: ['Impact by Design', 'https://www.artefactgroup.com/impact-by-design/']
+linkA: ['Input Doc', 'https://clydegolden.com/inputdoc']
 category: "C"
 city: "Seattle"
 neighborhood: "Ballard"

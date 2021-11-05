@@ -487,8 +487,10 @@
     }
 
     .filter-tag--size:hover, .filter-tag--attr:hover {
-        text-decoration: underline;
-        color: var(--color-text);
+        /* text-decoration: underline; */
+        padding: 0px 4px;
+        color: var(--color-card);
+        background-color: var(--color-text);
     }
 
     /* Mobile show tags */
