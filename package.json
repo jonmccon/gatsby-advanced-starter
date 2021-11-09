@@ -66,6 +66,7 @@
     "react-dom": "^16.13.1",
     "react-h5-audio-player": "^3.5.0",
     "react-helmet": "^5.2.1",
+    "react-is": "^17.0.2",
     "react-share": "^4.1.0",
     "react-ssg-netlify-forms": "^1.0.3",
     "react-twitter-widgets": "^1.7.1",
