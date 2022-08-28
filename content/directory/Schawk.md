@@ -1,8 +1,8 @@
 ---
 title: "Schawk"
 featuredImage: ./-hamburgers.png
-website: "https://www.schawk.com/"
-twit: "https://twitter.com/schawk"
+website: "https://sgkinc.com/"
+twit: "https://twitter.com/SGKinc"
 inst: "https://www.instagram.com/schawkstudios"
 category: "S"
 tags:
