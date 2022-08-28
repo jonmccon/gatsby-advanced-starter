@@ -1,7 +1,7 @@
 ---
-title: "Publicis"
+title: "Publicis Groupe"
 featuredImage: ./-hamburgers.png
-website: "http://publicisseattle.com/"
+website: "https://publicisna.com/"
 twit: "https://twitter.com/PublicisSeattle"
 inst: "https://instagram.com/publicisseattle/"
 category: "P"
