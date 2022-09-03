@@ -1,8 +1,8 @@
 ---
 title: "Schawk"
 featuredImage: ./-hamburgers.png
-website: "https://www.schawk.com/"
-twit: "schawk"
+website: "https://sgkinc.com/"
+twit: "SGKinc"
 inst: "schawkstudios"
 category: "S"
 city: "Redmond"

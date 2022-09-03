@@ -41,8 +41,8 @@ const config = {
     },
   ],
   copyright: "made with love in the pnw", // Copyright string for the footer of the website and RSS feed.
-  themeColor: "#c62828", // Used for setting manifest and progress theme colors.
-  backgroundColor: "#1e1e1e", // Used for setting manifest background color.
+  themeColor: "#E5E5E5", // Used for setting manifest and progress theme colors.
+  backgroundColor: "#E5E5E5", // Used for setting manifest background color.
 };
 
 // Validate

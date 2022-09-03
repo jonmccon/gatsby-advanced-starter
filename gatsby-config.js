@@ -56,7 +56,7 @@ module.exports = {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 1024,
-              backgroundColor: "#2fdf29",
+              backgroundColor: "#D6D6D6",
               quality: 100,
               disableBgImageOnAlpha: true,
               // use above option if the edges are wonky
@@ -102,7 +102,7 @@ module.exports = {
         short_name: `Seattle Creative`,
         start_url: `/`,
         background_color: `#FFFFFF`,
-        theme_color: `#FEADA3`,
+        theme_color: `#E5E5E5`,
         display: `standalone`,
         icon: `src/static/favicon.png`,
       },

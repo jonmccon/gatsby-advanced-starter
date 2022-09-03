@@ -11,7 +11,8 @@
     --color-bg-coral: rgba(255, 173, 161, 1);
     --color-bg-coral-half: rgba(255, 173, 161, 0.5);
     --color-bg-coral-dark: rgb(247, 130, 112);
-    --color-bg-gray: rgba(113, 64, 96, 0.05);
+    /* --color-bg-gray: rgba(113, 64, 96, 0.05); */
+    --color-bg-gray: #E5E5E5;
     --color-bg-gray-dark: rgb(214, 214, 214);
     --color-text: rgb(41, 41, 41);
     --color-text-tag: rgb(114, 113, 113);
@@ -38,6 +39,7 @@
     --text-serif-bld: 700 1em Spectral, serif;
     --text-serif-title: 600 3em Spectral, serif;
     --text-serif-pullquote: 400 1.25em Spectral, serif;
+    --text-serif-pullquote-small: 600 1em Spectral, serif;
     --text-serif-label: 400 .8em Spectral, serif;
     --text-serif--item: 400 1.1em Spectral, serif;
     --text-gin-std: 400 4em Gin-and-Soda, sans-serif;
@@ -74,10 +76,16 @@ a:hover {   cursor: pointer; }
 /*  GLOBAL PROMO COLORS */
 
 
-.brown {    background-color: #DFB66D !important;}
-.green {    background-color: #D6D5C2 !important; }
-.ltbrown {   background-color:#CAC2AE !important; }
-.blue {     background-color:#A6C5E0 !important; }
-.yellow {   background-color: #F7E34D !important; }
-.pink {   background-color:#F7ACBD !important; }
-.orange {   background-color:#DFB66D !important; }
+.cardEpisode1 {    background-color:#F9D38A !important;  }
+.cardEpisode2 {    background-color:#CEE0B9 !important;  }
+.cardEpisode3 {    background-color:#F6E0AC !important;  }
+.cardEpisode4 {    background-color:#B4CCE4 !important;  }
+.cardEpisode5 {    background-color:#FFF29E !important;  }
+.cardEpisode6 {    background-color:#FACCD6 !important;  }
+.cardEpisode7 {    background-color:#86E9BB !important;  }
+.cardEpisode8 {    background-color:#FFD3BA !important;  }
+.cardEpisode9 {    background-color:#FDD877 !important;  }
+.cardEpisode10 {   background-color:#EFFCEE !important;  }
+.cardEpisode11 {   background-color:#CCC9DC !important;  }
+.cardEpisode12 {   background-color:#EDF67D !important;  }
+
