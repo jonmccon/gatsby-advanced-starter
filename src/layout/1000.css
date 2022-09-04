@@ -168,45 +168,6 @@
         padding-left: 3px;
       } */
 
-   
-
-    /* ----------------------------------------------- */
-
-
-    /* DIRECTORY LISTING */
-    .directory {
-        grid-template-columns: repeat(12, minmax(0,1fr));
-    }
-
-    .directory-list {
-        font: var(--text-mono--item);
-    }
-
-    .directory-block {
-        display: grid;
-        grid-column: span 3;
-        margin: 0 0 2em 0;
-        align-self: start;
-        /* if we want to look at evening out the spacing veritcally, set this to center */
-    }
-
-    .directory-block--item  {
-        line-height: 1.6em;
-        border-bottom: none;
-        text-align: center;
-    }
-
-    .directory-block--title {
-        font: var(--text-gin-small);
-        text-align: center;
-     }
-
-    /* by filter style */
-    .directory-block--filter { }
-
-    /* hover effects */
-    .directory-block--item:hover { }    
-    /* ----------------------------------------------- */
 
 
     /* CATEGORY & TAG CONTAINER*/
@@ -257,8 +218,112 @@
         grid-column: span 3;
     }
 
-    #ShowTags {             display: none;  }
-    #filter-tag--toggle {   display: block;  }
+
+    /* ----------------------------------------------- */
+
+     /* ----------------------------------------------- */
+
+
+    /* DIRECTORY LISTING */
+    .directory {
+        grid-template-columns: repeat(12, minmax(0,1fr));
+    }
+
+    .directory-list {
+        font: var(--text-mono--item);
+    }
+
+    .directory-block {
+        display: grid;
+        grid-column: span 3;
+        margin: 0 0 2em 0;
+        align-self: start;
+        /* if we want to look at evening out the spacing veritcally, set this to center */
+    }
+
+    .directory-block--item  {
+        line-height: 1.6em;
+        border-bottom: none;
+        text-align: center;
+    }
+
+    .directory-block--title {
+        font: var(--text-gin-small);
+        text-align: center;
+     }
+
+    /* by filter style */
+    .directory-block--filter { }
+
+    /* hover effects */
+    .directory-block--item:hover { }    
+    /* ----------------------------------------------- */
+
+    /* Inline audio player overrides */
+
+    .audioPlayer-small {
+        display: inline-block;
+        margin: -1em 0 -1em 0;
+    }
+
+    .audioPlayer-small .rhap_main-controls {
+        max-height: 1.6em;
+        margin: -1.4ch 0 0 1ch;
+    }
+
+    .audioPlayer-small .rhap_container {
+        display: inline-block;
+        -webkit-box-shadow: none; 
+        border: none;
+        box-shadow: none;
+        border-radius: none;
+        padding: 0 0 0 0;
+        background-color: var(--color-transparent);
+        width: 11ch;
+        height: min-content;
+        margin: 0 0 -1ch 1ch;
+    }
+
+    .audioPlayer-small .rhap_controls-section {
+        display: inline-block;
+        flex: none;
+    }
+    
+    .audioPlayer-small .rhap_play-pause-button {
+        /* background-color: var(--color-test); */
+        width: min-content;
+        height: min-content;
+        /* margin: 0 0 40% 0; */
+        /* padding: 0 0 2.5ch 0; */
+    }
+
+    .audioPlayer-small .rhap_current-time {
+        display: none;
+    }
+    
+    .audioPlayer-small .rhap_progress-container {
+        display: none;
+    }
+
+    .audioPlayer-small .button {
+        color: var(--color-bg-coral-dark);
+    }
+
+    .smallplayer:hover {
+        color: var(--color-card);
+    }
+
+    .episodePromo {
+        display: inline-block;
+        font: var(--text-mono-std);
+        color: var(--color-text);
+        margin: 0 -2ch 0 1em;
+        background-color:var(--color-card);
+        box-shadow: 0px 0px 2px var(--color-text-tag);
+        text-shadow: 0px .5px 0px var(--color-text-tag);
+        padding: .5ch 1ch .3ch 1ch;
+        border-radius: 1ch 1.2ch .9ch 1.2ch;
+    }
 
 
     /* ----------------------------------------------- */

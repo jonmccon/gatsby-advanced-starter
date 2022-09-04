@@ -36,7 +36,7 @@
             ".              Logo            Logo            Logo            Logo            Logo            Logo            ."
             ".              .               Headline        Headline        Headline        Headline        .               ."
             "showContainer  showContainer   showContainer   showContainer   showContainer   showContainer   showContainer   showContainer"
-            ".              Filters         Filters         Filters         Filters         Filters         Filters         ."
+            "Filters        Filters         Filters         Filters         Filters         Filters         Filters         Filters"
             ".              Directory       Directory       Directory       Directory       Directory       Directory       ."
             ".              Footer          Footer          Footer          Footer          Footer          Footer          ."
             ;
@@ -348,74 +348,7 @@
         opacity: 1;
     }
 
-    /* Inline audio player overrides */
-
-    .audioPlayer-small {
-        display: inline-block;
-        margin: -1em 0 -1em 0;
-    }
-
-    .audioPlayer-small .rhap_main-controls {
-        max-height: 1.6em;
-        margin: -1.4ch 0 0 1ch;
-    }
-
-    .audioPlayer-small .rhap_container {
-        display: inline-block;
-        -webkit-box-shadow: none; 
-        border: none;
-        box-shadow: none;
-        border-radius: none;
-        padding: 0 0 0 0;
-        background-color: var(--color-transparent);
-        width: 11ch;
-        height: min-content;
-        margin: 0 0 -1ch 1ch;
-    }
-
-    .audioPlayer-small .rhap_controls-section {
-        display: inline-block;
-        flex: none;
-    }
     
-    .audioPlayer-small .rhap_play-pause-button {
-        /* background-color: var(--color-test); */
-        width: min-content;
-        height: min-content;
-        /* margin: 0 0 40% 0; */
-        /* padding: 0 0 2.5ch 0; */
-    }
-
-    .audioPlayer-small .rhap_current-time {
-        display: none;
-    }
-    
-    .audioPlayer-small .rhap_progress-container {
-        display: none;
-    }
-
-    .audioPlayer-small .button {
-        color: var(--color-bg-coral-dark);
-    }
-
-    .smallplayer:hover {
-        color: var(--color-card);
-    }
-
-    .episodePromo {
-        display: inline-block;
-        font: var(--text-mono-std);
-        color: var(--color-text);
-        margin: 0 -2ch 0 1em;
-        background-color:var(--color-card);
-        box-shadow: 0px 0px 2px var(--color-text-tag);
-        text-shadow: 0px .5px 0px var(--color-text-tag);
-        padding: .5ch 1ch .3ch 1ch;
-        border-radius: 1ch 1.2ch .9ch 1.2ch;
-    }
-
-
-    /* ----------------------------------------------- */
 
     /* DIRECTORY LISTING */
     .directory {
@@ -497,6 +430,10 @@
         cursor: pointer;
         text-decoration: underline;
     }
+
+    .episodePromo, .audioPlayer-small {
+        display: none;
+    }
     /* ----------------------------------------------- */
 
 
@@ -507,6 +444,7 @@
         grid-template-columns: repeat(8, 1fr);
         margin: 2em 0 0 0;
         font: var(--text-mono-menu);
+        /* grid-column: span 4; */
         /* font-style: italic; */
         /* padding: 0 0 2em 0; */
         /* border-bottom: 1px solid var(--color-text-tag); */
@@ -516,7 +454,9 @@
     .filter-cat-container {        
     }
 
-    
+    .tagSize, .tagSeattle, .tagCity, .allTags {
+        grid-column: span 4;
+    }
 
     .filter-cat--jump {
         line-height: 1.6em;
@@ -546,9 +486,6 @@
         background-color: var(--color-text);
     }
 
-    /* Mobile show tags */
-    #filter-tag--toggle {           display: none;    }
-    #filter-tag--toggle:target {    display: block;   }
     /* ----------------------------------------------- */
 
 

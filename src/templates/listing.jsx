@@ -85,24 +85,12 @@ class Listing extends React.Component {
             
             {/* PODCAST SHOW */}
             <div id="showContainer">
-
-            <EpisodeListing postEdgesDirectory={episodeEdges} />
-              {/* <div className="podcast">
-                <PodcastPlayer
-                  podcastSeason="S2:EP6"
-                  podcastTitle="Tim Yeadon of Clyde Golden"
-                  podcastURL="https://cdn.simplecast.com/audio/30dabfb8-c618-43a5-81c7-c5c83750983a/episodes/7caad909-7961-4562-ba8f-4b7b86e22696/audio/473b8b14-34bb-4f9a-9778-9a67c52c5e04/default_tc.mp3"  
-                />
-              </div> */}
+              <EpisodeListing postEdgesDirectory={episodeEdges} />
             </div>
             
             {/* FILTERS */}
-            <div className="filters">
-              
-              
-                {/* only on mobile */}
-                {/* <div className="allCats"><PostCats cats={allCats} /></div> */}
-                
+            <div className="filters">              
+
                 <div className="tagSize">
                   <div>
                     <h5>SIZE</h5>
@@ -130,7 +118,6 @@ class Listing extends React.Component {
                     <PostTags tags={allTags} />
                     </div>
                   </div>
-
 
             </div>
             
