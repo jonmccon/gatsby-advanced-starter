@@ -10,7 +10,6 @@ class PostTags extends Component {
 
       <div className="filter-tag-container">
         
-        {/* my need to do sorting here instead of in the query */}
         {/* General list of all tags */}
         {/* <div id="filter-tag--toggle"> */}
         {tags &&

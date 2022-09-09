@@ -14,27 +14,61 @@ import Footer from "../components/Footer/Footer";
 
 export default class TagTemplate extends React.Component {
   render() {
+    // const allCats = this.props.data.AllCatsQuery.distinct;
+    const tagSize = this.props.data.TagSizeQuery.distinct;
+    const tagSeattle = this.props.data.TagSeattleQuery.distinct;
+    const tagCity = this.props.data.TagCityQuery.distinct;
     const allTags = this.props.data.AllTagsQuery.distinct;
-    const allCats = this.props.data.AllCatsQuery.distinct;
+
+    // this powers the filter query and is used in labelling
+    // Use as prime change then carry thru to other tags
     const { city } = this.props.pageContext;
     const postEdges = this.props.data.allMarkdownRemark.edges;
+    // 
     return (
       <Layout>
         
           <Helmet title={`Posts tagged as "${city}" | ${config.siteTitle}`} />
           <div className="pattern">
           <div className="container">
-            
+            <Logo />
             <HeadlineMenuLeft />
             <HeadlineMenuRight />
             <div className="headline-wrapper-small">
               <Headline headline={city} />
             </div>
 
-            <div className="filters">
-              {/* <article className="blockTitle">Tags</article> */}
-              {/* <PostCats cats={allCats} /> */}
-              <PostTags tags={allTags} />
+            {/* FILTERS */}
+            <div className="filters">              
+
+                <div className="tagSize">
+                  <div>
+                    <h5>SIZE</h5>
+                    <PostTags tags={tagSize} />
+                    </div>
+                  </div>
+                
+                <div className="tagSeattle">
+                  <div>
+                    <h5>SEATTLE BY NEIGHBORHOOD</h5>
+                    <PostTags tags={tagSeattle} />
+                    </div>
+                  </div>
+                
+                <div className="tagCity">
+                  <div>
+                    <h5>GREATER PNW</h5>
+                    <PostTags tags={tagCity} />
+                    </div>
+                  </div>
+
+                <div className="allTags">
+                  <div>
+                    <h5>DISCIPLINE</h5>
+                    <PostTags tags={allTags} />
+                    </div>
+                  </div>
+
             </div>
 
             <div className="directory">
@@ -42,6 +76,7 @@ export default class TagTemplate extends React.Component {
                 <DirectoryListing postEdgesDirectory={postEdges} />
               </div>
             </div>
+
           </div>
           </div>
         <Footer />
@@ -56,10 +91,20 @@ export const pageQuery = graphql`
     AllCatsQuery: allMarkdownRemark {
       distinct(field: frontmatter___category)
     }
+    TagSizeQuery: allMarkdownRemark {
+      distinct(field: frontmatter___size)
+    }
+    TagSeattleQuery: allMarkdownRemark(
+      filter: { frontmatter: { city: { eq: "Seattle" } published: { eq: true } }}
+    ) {
+      distinct(field: frontmatter___neighborhood)
+    }
+    TagCityQuery: allMarkdownRemark {
+      distinct(field: frontmatter___city)
+    }
     AllTagsQuery: allMarkdownRemark {
       distinct(field: frontmatter___tags)
     }
-
     allMarkdownRemark(
       limit: 1000
       sort: { fields: [fields___date], order: DESC }

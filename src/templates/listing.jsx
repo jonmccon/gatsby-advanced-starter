@@ -29,7 +29,7 @@ class Listing extends React.Component {
     // this can be refactored as a variable based approach, and only one graphql query
     // Look at the tags page for an example of this
 
-    const allCats = this.props.data.AllCatsQuery.distinct;
+    // const allCats = this.props.data.AllCatsQuery.distinct;
     const tagSize = this.props.data.TagSizeQuery.distinct;
     const tagSeattle = this.props.data.TagSeattleQuery.distinct;
     const tagCity = this.props.data.TagCityQuery.distinct;

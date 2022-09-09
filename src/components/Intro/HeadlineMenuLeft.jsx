@@ -31,7 +31,7 @@ class HeadlineMenuLeft extends Component {
           <a
             className="headline-menu--link"
             target="_blank"
-            href="https://discord.gg/mrEwG5fDWJ"
+            href="https://discord.gg/SVV4XVCFCj"
           >
             Chat
           </a>
