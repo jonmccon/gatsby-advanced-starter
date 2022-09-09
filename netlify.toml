@@ -29,6 +29,7 @@ package = "netlify-plugin-checklinks"
     "https://design.facebook.com/",
     "https://www.sitecrafting.com/",
     "http://www.oojon.com/",
+    "https://www.urbaninfluence.com/",
     
     # Interview pages are generated but unused right now
     'id="interview"'
@@ -38,7 +39,6 @@ package = "netlify-plugin-checklinks"
     "www.google-analytics.com",
     "https://fonts.googleapis.com/",
     "file:///",
-    "https://urbaninfluence.com/",
 
     # usually the result of a number of redirects, then resolving
     "301",
