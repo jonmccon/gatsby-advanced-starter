@@ -27,6 +27,9 @@ package = "netlify-plugin-checklinks"
     "ECONNRESET",
     "DNS missing:",
     "https://design.facebook.com/",
+    "https://urbaninfluence.com/",
+    "https://www.sitecrafting.com/",
+    "http://www.oojon.com/",
     
     # Interview pages are generated but unused right now
     'id="interview"'
