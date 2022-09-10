@@ -2,15 +2,18 @@
 title: "Chefsteps"
 featuredImage: ./-hamburgers.png
 website: "https://www.chefsteps.com/"
-twit: "https://twitter.com/"
-inst: "https://www.instagram.com/chefsteps"
+twit: "chefsteps"
+inst: "chefsteps"
 category: "C"
+city: "Seattle"
+neighborhood: "Pike Place Market"
+size: "Medium (11-40)"
+map: ""
 tags:
-    - Pike Place Market
-    - medium
     - interactive
     - product
     - video
+published: true
 ---
 
 Description

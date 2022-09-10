@@ -2,15 +2,18 @@
 title: "Schawk"
 featuredImage: ./-hamburgers.png
 website: "https://sgkinc.com/"
-twit: "https://twitter.com/SGKinc"
-inst: "https://www.instagram.com/schawkstudios"
+twit: "SGKinc"
+inst: "schawkstudios"
 category: "S"
+city: "Redmond"
+neighborhood:
+size: "Large (41-100)"
+map: ""
 tags:
-    - Redmond
-    - large
     - printer
     - photography
     - packaging
+published: true
 ---
 
 Description

@@ -5,11 +5,13 @@ website: "https://spiperstaffing.com/"
 twit: ""
 inst: ""
 category: "S"
+city: "Seattle"
+neighborhood: "Pioneer Square"
+size: "Small (1-10)"
+map: ""
 tags:
-    - Pioneer Square
-    - small
     - recruiter
-
+published: true
 ---
 
 Description

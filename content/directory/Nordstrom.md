@@ -2,16 +2,19 @@
 title: "Nordstrom"
 featuredImage: ./-hamburgers.png
 website: "https://shop.nordstrom.com/"
-twit: "https://twitter.com/nordstrom"
-inst: "https://www.instagram.com/nordstrom"
+twit: "nordstrom"
+inst: "nordstrom"
 category: "N"
+city: "Seattle"
+neighborhood: "Downtown"
+size: "Large (41-100)"
+map: ""
 tags:
-    - Downtown
-    - large
     - environmental
     - marketing
     - print
     - packaging
+published: true
 ---
 
 Description

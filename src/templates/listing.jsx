@@ -2,7 +2,6 @@ import React from "react";
 import Helmet from "react-helmet";
 import { graphql, Link } from "gatsby";
 import Layout from "../layout";
-// import PodcastListing from "../components/PostListing/PodcastListing";
 import PostCats from "../components/Filters/PostCats";
 import PostTags from "../components/Filters/PostTags";
 import DirectoryListing from "../components/PostListing/DirectoryPostListing";
@@ -14,6 +13,7 @@ import HeadlineMenuLeft from "../components/Intro/HeadlineMenuLeft";
 import Logo from "../components/Intro/Logo";
 import PodcastPlayer from "../components/Audioplayer/PodcastPlayer";
 import Footer from "../components/Footer/Footer";
+import EpisodeListing from "../components/PostListing/EpisodeListing";
 
 class Listing extends React.Component {
   // Pagination
@@ -29,8 +29,12 @@ class Listing extends React.Component {
     // this can be refactored as a variable based approach, and only one graphql query
     // Look at the tags page for an example of this
 
-    const allCats = this.props.data.AllCatsQuery.distinct;
+    // const allCats = this.props.data.AllCatsQuery.distinct;
+    const tagSize = this.props.data.TagSizeQuery.distinct;
+    const tagSeattle = this.props.data.TagSeattleQuery.distinct;
+    const tagCity = this.props.data.TagCityQuery.distinct;
     const allTags = this.props.data.AllTagsQuery.distinct;
+    const episodeEdges = this.props.data.EpisodePostsQuery.edges;
 
     const postEdgesDirectoryA = this.props.data.directoryListingQueryA.edges;
     const postEdgesDirectoryB = this.props.data.directoryListingQueryB.edges;
@@ -74,26 +78,47 @@ class Listing extends React.Component {
             <div className="headline-wrapper">
             <Headline
               headline={
-                "Cataloging the creative studios of the Pacific Northwest."
+                "Cataloging the creative studios of the Pacific Northwest"
               }
             />
             </div>
             
             {/* PODCAST SHOW */}
             <div id="showContainer">
-              <div className="podcast">
-                <PodcastPlayer
-                  podcastSeason="S3:EP7"
-                  podcastTitle="Michael Dix of Intentional Futures"
-                  podcastURL="https://cdn.simplecast.com/audio/30dabfb8-c618-43a5-81c7-c5c83750983a/episodes/29f417ff-0c53-4cfc-8e56-59834f006bc6/audio/80c174d4-82bb-4e88-8b31-f43c525a3fde/default_tc.mp3"  
-                />
-              </div>
+              <EpisodeListing postEdgesDirectory={episodeEdges} />
             </div>
             
             {/* FILTERS */}
-            <div className="filters">
-              <PostCats cats={ allCats} />
-              <PostTags tags={allTags} />
+            <div className="filters">              
+
+                <div className="tagSize">
+                  <div>
+                    <h5>SIZE</h5>
+                    <PostTags tags={tagSize} />
+                    </div>
+                  </div>
+                
+                <div className="tagSeattle">
+                  <div>
+                    <h5>SEATTLE BY NEIGHBORHOOD</h5>
+                    <PostTags tags={tagSeattle} />
+                    </div>
+                  </div>
+                
+                <div className="tagCity">
+                  <div>
+                    <h5>GREATER PNW</h5>
+                    <PostTags tags={tagCity} />
+                    </div>
+                  </div>
+
+                <div className="allTags">
+                  <div>
+                    <h5>DISCIPLINE</h5>
+                    <PostTags tags={allTags} />
+                    </div>
+                  </div>
+
             </div>
             
 
@@ -244,518 +269,719 @@ export const listingQuery = graphql`
     AllCatsQuery: allMarkdownRemark {
       distinct(field: frontmatter___category)
     }
+    TagSizeQuery: allMarkdownRemark {
+      distinct(field: frontmatter___size)
+    }
+    TagSeattleQuery: allMarkdownRemark(
+      filter: { frontmatter: { city: { eq: "Seattle" } published: { eq: true } }}
+    ) {
+      distinct(field: frontmatter___neighborhood)
+    }
+    TagCityQuery: allMarkdownRemark {
+      distinct(field: frontmatter___city)
+    }
     AllTagsQuery: allMarkdownRemark {
       distinct(field: frontmatter___tags)
     }
-    directoryListingQueryA: allMarkdownRemark(
-      sort: { fields: frontmatter___title, order: ASC }
-      filter: { frontmatter: { category: { eq: "A" } } }
+    EpisodePostsQuery: allMarkdownRemark(
+      sort: { fields: frontmatter___episodePromo, order: DESC }
+      filter: { frontmatter: { episodeURL: { regex: "https:\/\/cdn.simplecast.com\/" } published: { eq: true }
+        } }
     ) {
       edges {
         node {
           frontmatter {
             title
-            episode
+            website
+            twit
+            inst
+            linkA
+            linkB
+            category
+            city
+            neighborhood
+            size
+            tags
+            episodeURL
+            episodePerson
             episodePromo
+            pullquote
+            color
+          }
+        }
+      }
+    }
+    directoryListingQueryA: allMarkdownRemark(
+      sort: { fields: frontmatter___title, order: ASC }
+      filter: { frontmatter: { category: { eq: "A" } published: { eq: true }
+        } }
+    ) {
+      edges {
+        node {
+          frontmatter {
+            title
             website
             twit
             inst
             category
+            city
+            neighborhood
+            size
             tags
+            episodeURL
+            episodePerson
+            episodePromo
+            color
           }
         }
       }
     }
     directoryListingQueryB: allMarkdownRemark(
       sort: { fields: frontmatter___title, order: ASC }
-      filter: { frontmatter: { category: { eq: "B" } } }
+      filter: { frontmatter: { category: { eq: "B" } published: { eq: true }
+        } }
     ) {
       edges {
         node {
           frontmatter {
             title
-            episode
-            episodePromo
             website
             twit
             inst
             category
+            city
+            neighborhood
+            size
             tags
+            episodeURL
+            episodePerson
+            episodePromo
+            color
           }
         }
       }
     }
     directoryListingQueryC: allMarkdownRemark(
       sort: { fields: frontmatter___title, order: ASC }
-      filter: { frontmatter: { category: { eq: "C" } } }
+      filter: { frontmatter: { category: { eq: "C" } published: { eq: true }
+        } }
     ) {
       edges {
         node {
           frontmatter {
             title
-            episode
-            episodePromo
             website
             twit
             inst
             category
+            city
+            neighborhood
+            size
             tags
+            episodeURL
+            episodePerson
+            episodePromo
+            color
           }
         }
       }
     }
     directoryListingQueryD: allMarkdownRemark(
       sort: { fields: frontmatter___title, order: ASC }
-      filter: { frontmatter: { category: { eq: "D" } } }
+      filter: { frontmatter: { category: { eq: "D" } published: { eq: true }
+        } }
     ) {
       edges {
         node {
           frontmatter {
             title
-            episode
-            episodePromo
             website
             twit
             inst
             category
+            city
+            neighborhood
+            size
             tags
+            episodeURL
+            episodePerson
+            episodePromo
+            color
           }
         }
       }
     }
     directoryListingQueryE: allMarkdownRemark(
       sort: { fields: frontmatter___title, order: ASC }
-      filter: { frontmatter: { category: { eq: "E" } } }
+      filter: { frontmatter: { category: { eq: "E" } published: { eq: true }
+        } }
     ) {
       edges {
         node {
           frontmatter {
             title
-            episode
-            episodePromo
             website
             twit
             inst
             category
+            city
+            neighborhood
+            size
             tags
+            episodeURL
+            episodePerson
+            episodePromo
+            color
           }
         }
       }
     }
     directoryListingQueryF: allMarkdownRemark(
       sort: { fields: frontmatter___title, order: ASC }
-      filter: { frontmatter: { category: { eq: "F" } } }
+      filter: { frontmatter: { category: { eq: "F" } published: { eq: true }
+        } }
     ) {
       edges {
         node {
           frontmatter {
             title
-            episode
-            episodePromo
             website
             twit
             inst
             category
+            city
+            neighborhood
+            size
             tags
+            episodeURL
+            episodePerson
+            episodePromo
+            color
           }
         }
       }
     }
     directoryListingQueryG: allMarkdownRemark(
       sort: { fields: frontmatter___title, order: ASC }
-      filter: { frontmatter: { category: { eq: "G" } } }
+      filter: { frontmatter: { category: { eq: "G" } published: { eq: true }
+        } }
     ) {
       edges {
         node {
           frontmatter {
             title
-            episode
-            episodePromo
             website
             twit
             inst
             category
+            city
+            neighborhood
+            size
             tags
+            episodeURL
+            episodePerson
+            episodePromo
+            color
           }
         }
       }
     }
     directoryListingQueryH: allMarkdownRemark(
       sort: { fields: frontmatter___title, order: ASC }
-      filter: { frontmatter: { category: { eq: "H" } } }
+      filter: { frontmatter: { category: { eq: "H" } published: { eq: true }
+        } }
     ) {
       edges {
         node {
           frontmatter {
             title
-            episode
-            episodePromo
             website
             twit
             inst
             category
+            city
+            neighborhood
+            size
             tags
+            episodeURL
+            episodePerson
+            episodePromo
+            color
           }
         }
       }
     }
     directoryListingQueryI: allMarkdownRemark(
       sort: { fields: frontmatter___title, order: ASC }
-      filter: { frontmatter: { category: { eq: "I" } } }
+      filter: { frontmatter: { category: { eq: "I" } published: { eq: true }
+        } }
     ) {
       edges {
         node {
           frontmatter {
             title
-            episode
-            episodePromo
             website
             twit
             inst
             category
+            city
+            neighborhood
+            size
             tags
+            episodeURL
+            episodePerson
+            episodePromo
+            color
           }
         }
       }
     }
     directoryListingQueryJ: allMarkdownRemark(
       sort: { fields: frontmatter___title, order: ASC }
-      filter: { frontmatter: { category: { eq: "J" } } }
+      filter: { frontmatter: { category: { eq: "J" } published: { eq: true }
+        } }
     ) {
       edges {
         node {
           frontmatter {
             title
-            episode
-            episodePromo
             website
             twit
             inst
             category
+            city
+            neighborhood
+            size
             tags
+            episodeURL
+            episodePerson
+            episodePromo
+            color
           }
         }
       }
     }
     directoryListingQueryK: allMarkdownRemark(
       sort: { fields: frontmatter___title, order: ASC }
-      filter: { frontmatter: { category: { eq: "K" } } }
+      filter: { frontmatter: { category: { eq: "K" } published: { eq: true }
+        } }
     ) {
       edges {
         node {
           frontmatter {
             title
-            episode
-            episodePromo
             website
             twit
             inst
             category
+            city
+            neighborhood
+            size
             tags
+            episodeURL
+            episodePerson
+            episodePromo
+            color
           }
         }
       }
     }
     directoryListingQueryL: allMarkdownRemark(
       sort: { fields: frontmatter___title, order: ASC }
-      filter: { frontmatter: { category: { eq: "L" } } }
+      filter: { frontmatter: { category: { eq: "L" } published: { eq: true }
+        } }
     ) {
       edges {
         node {
           frontmatter {
             title
-            episode
-            episodePromo
             website
             twit
             inst
             category
+            city
+            neighborhood
+            size
             tags
+            episodeURL
+            episodePerson
+            episodePromo
+            color
           }
         }
       }
     }
     directoryListingQueryM: allMarkdownRemark(
       sort: { fields: frontmatter___title, order: ASC }
-      filter: { frontmatter: { category: { eq: "M" } } }
+      filter: { frontmatter: { category: { eq: "M" } published: { eq: true }
+        } }
     ) {
       edges {
         node {
           frontmatter {
             title
-            episode
-            episodePromo
             website
             twit
             inst
             category
+            city
+            neighborhood
+            size
             tags
+            episodeURL
+            episodePerson
+            episodePromo
+            color
           }
         }
       }
     }
     directoryListingQueryN: allMarkdownRemark(
       sort: { fields: frontmatter___title, order: ASC }
-      filter: { frontmatter: { category: { eq: "N" } } }
+      filter: { frontmatter: { category: { eq: "N" } published: { eq: true }
+        } }
     ) {
       edges {
         node {
           frontmatter {
             title
-            episode
-            episodePromo
             website
             twit
             inst
             category
+            city
+            neighborhood
+            size
             tags
+            episodeURL
+            episodePerson
+            episodePromo
+            color
           }
         }
       }
     }
     directoryListingQueryO: allMarkdownRemark(
       sort: { fields: frontmatter___title, order: ASC }
-      filter: { frontmatter: { category: { eq: "O" } } }
+      filter: { frontmatter: { category: { eq: "O" } published: { eq: true }
+        } }
     ) {
       edges {
         node {
           frontmatter {
             title
-            episode
-            episodePromo
             website
             twit
             inst
             category
+            city
+            neighborhood
+            size
             tags
+            episodeURL
+            episodePerson
+            episodePromo
+            color
           }
         }
       }
     }
     directoryListingQueryP: allMarkdownRemark(
       sort: { fields: frontmatter___title, order: ASC }
-      filter: { frontmatter: { category: { eq: "P" } } }
+      filter: { frontmatter: { category: { eq: "P" } published: { eq: true }
+        } }
     ) {
       edges {
         node {
           frontmatter {
             title
-            episode
-            episodePromo
             website
             twit
             inst
             category
+            city
+            neighborhood
+            size
             tags
+            episodeURL
+            episodePerson
+            episodePromo
+            color
           }
         }
       }
     }
     directoryListingQueryQ: allMarkdownRemark(
       sort: { fields: frontmatter___title, order: ASC }
-      filter: { frontmatter: { category: { eq: "Q" } } }
+      filter: { frontmatter: { category: { eq: "Q" } published: { eq: true }
+        } }
     ) {
       edges {
         node {
           frontmatter {
             title
-            episode
-            episodePromo
             website
             twit
             inst
             category
+            city
+            neighborhood
+            size
             tags
+            episodeURL
+            episodePerson
+            episodePromo
+            color
           }
         }
       }
     }
     directoryListingQueryR: allMarkdownRemark(
       sort: { fields: frontmatter___title, order: ASC }
-      filter: { frontmatter: { category: { eq: "R" } } }
+      filter: { frontmatter: { category: { eq: "R" } published: { eq: true }
+        } }
     ) {
       edges {
         node {
           frontmatter {
             title
-            episode
-            episodePromo
             website
             twit
             inst
             category
+            city
+            neighborhood
+            size
             tags
+            episodeURL
+            episodePerson
+            episodePromo
+            color
           }
         }
       }
     }
     directoryListingQueryS: allMarkdownRemark(
       sort: { fields: frontmatter___title, order: ASC }
-      filter: { frontmatter: { category: { eq: "S" } } }
+      filter: { frontmatter: { category: { eq: "S" } published: { eq: true }
+        } }
     ) {
       edges {
         node {
           frontmatter {
             title
-            episode
-            episodePromo
             website
             twit
             inst
             category
+            city
+            neighborhood
+            size
             tags
+            episodeURL
+            episodePerson
+            episodePromo
+            color
           }
         }
       }
     }
     directoryListingQueryT: allMarkdownRemark(
       sort: { fields: frontmatter___title, order: ASC }
-      filter: { frontmatter: { category: { eq: "T" } } }
+      filter: { frontmatter: { category: { eq: "T" } published: { eq: true }
+        } }
     ) {
       edges {
         node {
           frontmatter {
             title
-            episode
-            episodePromo
             website
             twit
             inst
             category
+            city
+            neighborhood
+            size
             tags
+            episodeURL
+            episodePerson
+            episodePromo
+            color
           }
         }
       }
     }
     directoryListingQueryU: allMarkdownRemark(
       sort: { fields: frontmatter___title, order: ASC }
-      filter: { frontmatter: { category: { eq: "U" } } }
+      filter: { frontmatter: { category: { eq: "U" } published: { eq: true }
+        } }
     ) {
       edges {
         node {
           frontmatter {
             title
-            episode
-            episodePromo
             website
             twit
             inst
             category
+            city
+            neighborhood
+            size
             tags
+            episodeURL
+            episodePerson
+            episodePromo
+            color
           }
         }
       }
     }
     directoryListingQueryV: allMarkdownRemark(
       sort: { fields: frontmatter___title, order: ASC }
-      filter: { frontmatter: { category: { eq: "V" } } }
+      filter: { frontmatter: { category: { eq: "V" } published: { eq: true }
+        } }
     ) {
       edges {
         node {
           frontmatter {
             title
-            episode
-            episodePromo
             website
             twit
             inst
             category
+            city
+            neighborhood
+            size
             tags
+            episodeURL
+            episodePerson
+            episodePromo
+            color
           }
         }
       }
     }
     directoryListingQueryW: allMarkdownRemark(
       sort: { fields: frontmatter___title, order: ASC }
-      filter: { frontmatter: { category: { eq: "W" } } }
+      filter: { frontmatter: { category: { eq: "W" } published: { eq: true }
+        } }
     ) {
       edges {
         node {
           frontmatter {
             title
-            episode
-            episodePromo
             website
             twit
             inst
             category
+            city
+            neighborhood
+            size
             tags
+            episodeURL
+            episodePerson
+            episodePromo
+            color
           }
         }
       }
     }
     directoryListingQueryX: allMarkdownRemark(
       sort: { fields: frontmatter___title, order: ASC }
-      filter: { frontmatter: { category: { eq: "X" } } }
+      filter: { frontmatter: { category: { eq: "X" } published: { eq: true }
+        } }
     ) {
       edges {
         node {
           frontmatter {
             title
-            episode
-            episodePromo
             website
             twit
             inst
             category
+            city
+            neighborhood
+            size
             tags
+            episodeURL
+            episodePerson
+            episodePromo
+            color
           }
         }
       }
     }
     directoryListingQueryY: allMarkdownRemark(
       sort: { fields: frontmatter___title, order: ASC }
-      filter: { frontmatter: { category: { eq: "Y" } } }
+      filter: { frontmatter: { category: { eq: "Y" } published: { eq: true }
+        } }
     ) {
       edges {
         node {
           frontmatter {
             title
-            episode
-            episodePromo
             website
             twit
             inst
             category
+            city
+            neighborhood
+            size
             tags
+            episodeURL
+            episodePerson
+            episodePromo
+            color
           }
         }
       }
     }
     directoryListingQueryZ: allMarkdownRemark(
       sort: { fields: frontmatter___title, order: ASC }
-      filter: { frontmatter: { category: { eq: "Z" } } }
+      filter: { frontmatter: { category: { eq: "Z" } published: { eq: true }
+        } }
     ) {
       edges {
         node {
           frontmatter {
             title
-            episode
-            episodePromo
             website
             twit
             inst
             category
+            city
+            neighborhood
+            size
             tags
+            episodeURL
+            episodePerson
+            episodePromo
+            color
           }
         }
       }
     }
     directoryListingQueryNumbers: allMarkdownRemark(
       sort: { fields: frontmatter___title, order: ASC }
-      filter: { frontmatter: { category: { eq: "numbers" } } }
+      filter: { frontmatter: { category: { eq: "numbers" } published: { eq: true }
+        } }
     ) {
       edges {
         node {
           frontmatter {
             title
-            episode
-            episodePromo
             website
             twit
             inst
             category
+            city
+            neighborhood
+            size
             tags
+            episodeURL
+            episodePerson
+            episodePromo
+            color
           }
         }
       }

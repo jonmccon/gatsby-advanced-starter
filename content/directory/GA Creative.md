@@ -2,18 +2,21 @@
 title: "GA Creative"
 featuredImage: ./-hamburgers.png
 website: "https://www.gacreative.com/"
-twit: "https://twitter.com/GA_Creative"
+twit: "GA_Creative"
 inst: ""
 category: "G"
+city: "Bellevue"
+neighborhood: ""
+size: "Medium (11-40)"
+map: ""
 tags:
-    - Bellevue
-    - medium
     - branding
     - ux/ui
     - marketing
     - advertising
     - print
     - video
+published: true
 ---
 
 Description

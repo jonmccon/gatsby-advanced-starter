@@ -16,7 +16,7 @@ class SEO extends Component {
       description = postMeta.description
         ? postMeta.description
         : postNode.excerpt;
-      image = postMeta.cover;
+      image = postMeta.featuredImage;
       postURL = urljoin(config.siteUrl, config.pathPrefix, postPath);
     } else {
       title = config.siteTitle;
@@ -88,15 +88,16 @@ class SEO extends Component {
         </script>
 
         {/* OpenGraph tags */}
+        <meta property="og:type" content="website" />
         <meta property="og:url" content={postSEO ? postURL : blogURL} />
         {postSEO ? <meta property="og:type" content="article" /> : null}
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
         <meta property="og:image" content={image} />
-        <meta
+        {/* <meta
           property="fb:app_id"
           content={config.siteFBAppID ? config.siteFBAppID : ""}
-        />
+        /> */}
 
         {/* Twitter Card tags */}
         <meta name="twitter:card" content="summary_large_image" />

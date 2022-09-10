@@ -6,6 +6,11 @@
         font: var(--text-serif-title);
         line-height: 140%;
     }
+
+    h5 {
+        font: var(--text-mono--item);
+        margin-block-start: 0;
+    }
     
     /* BACKGROUND PATTERN */
     .pattern {
@@ -24,15 +29,13 @@
         grid-template-rows: 1fr auto auto auto auto auto 8em;
         grid-gap: .5em;
         grid-auto-flow: dense;    
-        max-width: 1200px;
-        /* background-color: var(--color-card); */
-        /* box-shadow:  0px 0px 30px var(--color-bg-coral-dark); */
+        max-width: 1400px;
         border-radius: 10px;
         grid-template-areas:
             ".              MenuLeft        MenuLeft        .               Logo            Logo            Logo            Logo            .               MenuRight       MenuRight       ."
-            ".              .               .               Headline        Headline        Headline        Headline        Headline        Headline        .               .               ."
-            "showContainer              showContainer               showContainer               showContainer   showContainer   showContainer   showContainer   showContainer   showContainer   showContainer               showContainer               showContainer"
-            ".              Filters         Filters         Filters         Filters         Filters         Filters         Filters         Filters         Filters         Filters         ."
+            ".              .               .               Headline        Headline        Headline        Headline        Headline        Headline        .        .               ."
+            "showContainer  showContainer   showContainer   showContainer   showContainer   showContainer   showContainer   showContainer   showContainer   showContainer   showContainer   showContainer"
+            "Filters        Filters         Filters         Filters         Filters         Filters         Filters         Filters         Filters         Filters         Filters         Filters"
             ".              Directory       Directory       Directory       Directory       Directory       Directory       Directory       Directory       Directory       Directory       ."
             ".              .          .          .          .          .          .          .          .          .          .          ."
             ".              Footer          Footer          Footer          Footer          Footer          Footer          Footer          Footer          Footer          Footer          ."
@@ -57,7 +60,7 @@
     .headline-wrapper {
         display: grid;
         grid-area: Headline;
-        min-height: 55vh;
+        min-height: 60vh;
     }
 
     .headline-wrapper-small {
@@ -125,14 +128,100 @@
     /* PODCAST SHOW */
 
     #showContainer {
+        
     }
 
     .podcast {
+        grid-template-columns: repeat(4, minmax(0,1fr));
+        /* grid-gap: .5em; */
+        margin: 0;
+        padding: .5em 0 0 .5em;
     }
 
-   
+    .podcastEpisode {
+        min-height: 35vh;
+    }
+
+
+    .pullquote {
+        font: var(--text-serif-pullquote);
+        font-style: italic;
+    }
+
+/* 
+    .rhap_progress-section {
+        display: inherit !important;
+        flex: none !important;
+        align-items: inherit !important;
+        z-index: -1 !important;
+    } */
+    /* CSS Dropcap synrtax, the escaped " kinda messes this up
+    but for future reference */
+    /* .pullquote:first-child:first-letter {
+        color: #903;
+        float: left;
+        font-family: Georgia;
+        font-size: 75px;
+        line-height: 60px;
+        padding-top: 4px;
+        padding-right: 8px;
+        padding-left: 3px;
+      } */
+
+
+
+    /* CATEGORY & TAG CONTAINER*/
+    .filters {
+        font: var(--text-mono-menu);
+        margin: 6em 0 0 0;
+        text-align: left;
+        max-height: 350px;
+        /* background-color: var(--color-test); */
+    }
+    
+    .filter-cat-container {
+        display: none;   
+    }
+
+    .filter-tag-container { 
+    }
+
+    .allCats {
+        grid-column: span 2; 
+    }
+
+    .tagSize {
+        grid-column: span 1; 
+    }
+
+    .tagSeattle, .tagCity {
+        grid-column: span 2;
+        padding-left: 1em;
+        border-left: 1px solid #292929; 
+    }
+
+    .tagSeattle div, .tagCity div {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column: span 2; 
+    }
+    
+    .allTags {
+        grid-column: span 3; 
+        padding-left: 1em;
+        border-left: 1px solid #000; 
+    }
+
+    .allTags div {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column: span 3;
+    }
+
 
     /* ----------------------------------------------- */
+
+     /* ----------------------------------------------- */
 
 
     /* DIRECTORY LISTING */
@@ -170,21 +259,71 @@
     .directory-block--item:hover { }    
     /* ----------------------------------------------- */
 
+    /* Inline audio player overrides */
 
-    /* CATEGORY & TAG CONTAINER*/
-    .filters {
-        font: var(--text-mono-menu);
-        margin: 6em 0 0 0;
-        text-align: center;
-        /* background-color: var(--color-test); */
+    .audioPlayer-small {
+        display: inline-block;
+        margin: -1em 0 -1em 0;
+    }
+
+    .audioPlayer-small .rhap_main-controls {
+        max-height: 1.6em;
+        margin: -1.4ch 0 0 1ch;
+    }
+
+    .audioPlayer-small .rhap_container {
+        display: inline-block;
+        -webkit-box-shadow: none; 
+        border: none;
+        box-shadow: none;
+        border-radius: none;
+        padding: 0 0 0 0;
+        background-color: var(--color-transparent);
+        width: 11ch;
+        height: min-content;
+        margin: 0 0 -1ch 1ch;
+    }
+
+    .audioPlayer-small .rhap_controls-section {
+        display: inline-block;
+        flex: none;
     }
     
-    .filter-cat-container {
-        display: none;   
+    .audioPlayer-small .rhap_play-pause-button {
+        /* background-color: var(--color-test); */
+        width: min-content;
+        height: min-content;
+        /* margin: 0 0 40% 0; */
+        /* padding: 0 0 2.5ch 0; */
     }
 
-    #ShowTags {             display: none;  }
-    #filter-tag--toggle {   display: block;  }
+    .audioPlayer-small .rhap_current-time {
+        display: none;
+    }
+    
+    .audioPlayer-small .rhap_progress-container {
+        display: none;
+    }
+
+    .audioPlayer-small .button {
+        color: var(--color-bg-coral-dark);
+    }
+
+    .smallplayer:hover {
+        color: var(--color-card);
+    }
+
+    .episodePromo {
+        display: inline-block;
+        font: var(--text-mono-std);
+        color: var(--color-text);
+        margin: 0 -2ch 0 1em;
+        background-color:var(--color-card);
+        box-shadow: 0px 0px 2px var(--color-text-tag);
+        text-shadow: 0px .5px 0px var(--color-text-tag);
+        padding: .5ch 1ch .3ch 1ch;
+        border-radius: 1ch 1.2ch .9ch 1.2ch;
+    }
 
 
     /* ----------------------------------------------- */

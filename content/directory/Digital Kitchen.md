@@ -2,18 +2,21 @@
 title: "Digital Kitchen"
 featuredImage: ./-hamburgers.png
 website: "https://www.thisisdk.com/"
-twit: "https://twitter.com/digitalkitchen"
+twit: "digitalkitchen"
 inst: ""
 category: "D"
+city: "Seattle"
+neighborhood: "Downtown"
+size: "Medium (11-40)"
+map: ""
 tags:
-    - Downtown
-    - medium
     - motion
     - video
     - interactive
     - environmental
     - ux/ui
     - branding
+published: true
 ---
 
 Description

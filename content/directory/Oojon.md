@@ -2,15 +2,19 @@
 title: "Oojon"
 featuredImage: ./-hamburgers.png
 website: "http://www.oojon.com/"
-twit: "https://twitter.com/the_oojon"
-inst: "https://www.instagram.com/the_oojon"
+twit: "the_oojon"
+inst: "the_oojon"
 category: "O"
+city: "Seattle"
+neighborhood:
+size: "Small (1-10)"
+map: ""
 tags:
-    - small
     - branding
     - illustration
     - ux/ui
     - typography
+published: true
 ---
 
 Description

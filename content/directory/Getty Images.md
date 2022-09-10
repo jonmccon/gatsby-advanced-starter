@@ -2,15 +2,18 @@
 title: "Getty Images"
 featuredImage: ./-hamburgers.png
 website: "https://www.gettyimages.com/"
-twit: "https://twitter.com/GettyImages"
+twit: "GettyImages"
 inst: ""
 category: "G"
+city: "Seattle"
+neighborhood: "The ID"
+size: "Large (41-100)"
+map: ""
 tags:
-    - International District
-    - large
     - product
     - photography
     - ux/ui
+published: true
 ---
 
 Description

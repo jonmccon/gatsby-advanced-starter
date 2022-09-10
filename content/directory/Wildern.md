@@ -3,11 +3,13 @@ title: "Wildern"
 featuredImage: ./-hamburgers.png
 website: "https://www.hellowildern.com/"
 twit: ""
-inst: "https://www.instagram.com/hellowildern"
+inst: "hellowildern"
 category: "W"
+city: "Seattle"
+neighborhood: "Capitol Hill"
+size: "Small (1-10)"
+map: ""
 tags:
-    - Capitol Hill
-    - small
     - branding
     - ux/ui
     - research
@@ -16,6 +18,7 @@ tags:
     - packaging
     - marketing
     - photography
+published: true
 ---
 
 Description

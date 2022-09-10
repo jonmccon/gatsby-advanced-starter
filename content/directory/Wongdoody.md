@@ -2,12 +2,14 @@
 title: "Wongdoody"
 featuredImage: ./-hamburgers.png
 website: "https://wongdoody.com/"
-twit: "https://twitter.com/wongdoody"
-inst: "https://www.instagram.com/WONGDOODY"
+twit: "wongdoody"
+inst: "WONGDOODY"
 category: "W"
+city: "Seattle"
+neighborhood: "Downtown"
+size: "Large (41-100)"
+map: ""
 tags:
-    - Downtown
-    - large
     - strategy
     - research
     - ux/ui
@@ -17,6 +19,7 @@ tags:
     - print
     - motion
     - photography
+published: true
 ---
 
 Description

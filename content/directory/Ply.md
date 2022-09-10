@@ -2,14 +2,17 @@
 title: "Ply"
 featuredImage: ./-hamburgers.png
 website: "http://www.plyinteractive.com/"
-twit: "https://twitter.com/plyinc"
+twit: "plyinc"
 inst: ""
 category: "P"
+city: "Seattle"
+neighborhood: "Queen Anne"
+size: "Small (1-10)"
+map: ""
 tags:
-    - Queen Anne
-    - small
     - ux/ui
     - engineering
+published: true
 ---
 
 Description

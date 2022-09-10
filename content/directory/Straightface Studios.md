@@ -2,15 +2,18 @@
 title: "Straightface Studios"
 featuredImage: ./-hamburgers.png
 website: "http://sfstudios.com/"
-twit: "https://twitter.com/StraightfaceHQ"
+twit: "StraightfaceHQ"
 inst: ""
 category: "S"
+city: "Seattle"
+neighborhood: "Queen Anne"
+size: "Small (1-10)"
+map: ""
 tags:
-    - Queen Anne
-    - small
     - motion
     - 3D
     - video
+published: true
 ---
 
 https://vimeo.com/straightface

@@ -2,12 +2,14 @@
 title: "Jozi Firecracker Factory"
 featuredImage: ./-hamburgers.png
 website: "https://jozifirecrackerfactory.com/"
-twit: "https://twitter.com/jozifirecracker"
+twit: "jozifirecracker"
 inst: ""
 category: "J"
+city: "Seattle"
+neighborhood: "South Lake Union"
+size: "Small (1-10)"
+map: ""
 tags:
-    - South Lake Union
-    - small
     - advertising
     - ux/ui
     - branding
@@ -15,6 +17,7 @@ tags:
     - video
     - marketing
     - print
+published: true
 ---
 
 Description

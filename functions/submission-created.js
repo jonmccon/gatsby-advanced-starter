@@ -61,41 +61,40 @@ exports.handler = async event => {
       
         // needs to check if not empty, then include it
         var tags = 
-          "- " + notionContent.rendering + " \n" +
-          "- " + notionContent.advertising + " \n" +
-          "- " + notionContent.architecture + " \n" +
-          "- " + notionContent.branding + " \n" +
-          "- " + notionContent.community + " \n" +
-          "- " + notionContent.development + " \n" +
-          "- " + notionContent.environmental + " \n" +
-          "- " + notionContent.events + " \n" +
-          "- " + notionContent.exhibition + " \n" +
-          "- " + notionContent.experiential + " \n" +
-          "- " + notionContent.freelance + " \n" + 
-          "- " + notionContent.gaming + " \n" +
-          "- " + notionContent.illustration + " \n" +
-          "- " + notionContent.industrial + " \n" +
-          "- " + notionContent.interior + " \n" +
-          "- " + notionContent.marketing + " \n" +
-          "- " + notionContent.motion + " \n" +
-          "- " + notionContent.naming + " \n" +
-          "- " + notionContent.packaging + " \n" +
-          "- " + notionContent.photography + " \n" +
-          "- " + notionContent.presentation + " \n" +
-          "- " + notionContent.print + " \n" +
-          "- " + notionContent.product + " \n" +
-          "- " + notionContent.publicRelations + " \n" +
-          "- " + notionContent.research + " \n" +
-          "- " + notionContent.education + " \n" +
-          "- " + notionContent.strategy + " \n" +
-          "- " + notionContent.typography + " \n" +
-          "- " + notionContent.uxui + " \n" +
-          "- " + notionContent.vfx + " \n" +
-          "- " + notionContent.video + " \n" +
-          "- " + notionContent.sound + " \n" +
-          "- " + notionContent.voice + " \n" +
-          "- " + notionContent.virtualReality + " \n" +
-          "- " + notionContent.eCommerce + " \n"
+          "- " + !!notionContent.rendering + " \n" +
+          "- " + !!notionContent.advertising + " \n" +
+          "- " + !!notionContent.architecture + " \n" +
+          "- " + !!notionContent.branding + " \n" +
+          "- " + !!notionContent.community + " \n" +
+          "- " + !!notionContent.development + " \n" +
+          "- " + !!notionContent.environmental + " \n" +
+          "- " + !!notionContent.events + " \n" +
+          "- " + !!notionContent.exhibition + " \n" +
+          "- " + !!notionContent.experiential + " \n" +
+          "- " + !!notionContent.gaming + " \n" +
+          "- " + !!notionContent.illustration + " \n" +
+          "- " + !!notionContent.industrial + " \n" +
+          "- " + !!notionContent.interior + " \n" +
+          "- " + !!notionContent.marketing + " \n" +
+          "- " + !!notionContent.motion + " \n" +
+          "- " + !!notionContent.naming + " \n" +
+          "- " + !!notionContent.packaging + " \n" +
+          "- " + !!notionContent.photography + " \n" +
+          "- " + !!notionContent.presentation + " \n" +
+          "- " + !!notionContent.print + " \n" +
+          "- " + !!notionContent.product + " \n" +
+          "- " + !!notionContent.publicRelations + " \n" +
+          "- " + !!notionContent.research + " \n" +
+          "- " + !!notionContent.education + " \n" +
+          "- " + !!notionContent.strategy + " \n" +
+          "- " + !!notionContent.typography + " \n" +
+          "- " + !!notionContent.uxui + " \n" +
+          "- " + !!notionContent.vfx + " \n" +
+          "- " + !!notionContent.video + " \n" +
+          "- " + !!notionContent.sound + " \n" +
+          "- " + !!notionContent.voice + " \n" +
+          "- " + !!notionContent.virtualReality + " \n" +
+          "- " + !!notionContent.eCommerce + " \n"
 
             const response = await notion.pages.create({
               parent: {

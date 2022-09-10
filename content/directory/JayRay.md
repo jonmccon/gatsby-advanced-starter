@@ -3,11 +3,13 @@ title: "JayRay"
 cover: "./content/blog/imgs/hamburgers.png"
 website: "https://jayray.com/"
 twit: ""
-inst: "https://www.instagram.com/jayrayadspr/"
+inst: "jayrayadspr"
 category: "J"
+city: "Tacoma"
+neighborhood:
+size: "Small (1-10)"
+map: ""
 tags:
-    - Tacoma
-    - small
     - branding
     - print
     - advertising
@@ -15,6 +17,7 @@ tags:
     - ux/ui
     - strategy
     - research
+published: true
 ---
 
 Description

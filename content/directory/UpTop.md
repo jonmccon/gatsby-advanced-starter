@@ -2,16 +2,19 @@
 title: "UpTop"
 featuredImage: ./-hamburgers.png
 website: "https://www.uptopcorp.com/"
-twit: "https://twitter.com/UpTopCorp"
-inst: "https://www.instagram.com/uptopcorp"
+twit: "UpTopCorp"
+inst: "uptopcorp"
 category: "U"
+city: "Seattle"
+neighborhood: "Pioneer Square"
+size: "Small (1-10)"
+map: ""
 tags:
-    - Pioneer Square
-    - small
     - ux/ui
     - research
     - strategy
     - engineering
+published: true
 ---
 
 Description

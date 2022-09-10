@@ -3,15 +3,18 @@ title: "Designit"
 featuredImage: ./-hamburgers.png
 website: "https://www.designit.com/"
 twit: ""
-inst: "https://www.instagram.com/designit/"
+inst: "designit"
 category: "D"
+city: "Seattle"
+neighborhood: "Downtown"
+size: "Medium (11-40)"
+map: ""
 tags:
-    - Downtown
-    - medium
     - research
     - strategy
     - marketing
     - ux/ui
+published: true
 ---
 
 Description

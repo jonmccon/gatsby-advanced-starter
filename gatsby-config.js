@@ -28,6 +28,13 @@ module.exports = {
       },
     },
     {
+      resolve: "gatsby-plugin-google-analytics",
+      options: {
+        trackingId: config.googleAnalyticsID,
+        head: true,
+      },
+    },
+    {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "directory",
@@ -49,7 +56,7 @@ module.exports = {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 1024,
-              backgroundColor: "#2fdf29",
+              backgroundColor: "#D6D6D6",
               quality: 100,
               disableBgImageOnAlpha: true,
               // use above option if the edges are wonky
@@ -65,13 +72,13 @@ module.exports = {
         ],
       },
     },
-    {
-      resolve: 'gatsby-source-simplecast',
-      options: {
-        token: 'eyJhcGlfa2V5IjoiOTYxODdjMGRkNjM1ODRhMTg1MDMxOTI4N2U5ODRlNmUifQ==',
-        podcastId: '30dabfb8-c618-43a5-81c7-c5c83750983a',
-      },
-    },
+    // {
+    //   resolve: 'gatsby-source-simplecast',
+    //   options: {
+    //     token: 'eyJhcGlfa2V5IjoiOTYxODdjMGRkNjM1ODRhMTg1MDMxOTI4N2U5ODRlNmUifQ==',
+    //     podcastId: '30dabfb8-c618-43a5-81c7-c5c83750983a',
+    //   },
+    // },
     "gatsby-transformer-sharp",
     "gatsby-plugin-sharp",
     "gatsby-plugin-react-helmet",
@@ -80,12 +87,6 @@ module.exports = {
       resolve: `gatsby-plugin-styled-components`,
       options: {
         // Add any options here
-      },
-    },
-    {
-      resolve: "gatsby-plugin-google-analytics",
-      options: {
-        trackingId: config.googleAnalyticsID,
       },
     },
     {
@@ -101,7 +102,7 @@ module.exports = {
         short_name: `Seattle Creative`,
         start_url: `/`,
         background_color: `#FFFFFF`,
-        theme_color: `#FEADA3`,
+        theme_color: `#E5E5E5`,
         display: `standalone`,
         icon: `src/static/favicon.png`,
       },
@@ -166,6 +167,7 @@ module.exports = {
               allMarkdownRemark(
                 limit: 1000,
                 sort: { order: DESC, fields: [fields___date] },
+                filter: { frontmatter: { published: { eq: true }}}
               ) {
                 edges {
                   node {

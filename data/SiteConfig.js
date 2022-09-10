@@ -14,7 +14,7 @@ const config = {
   postDefaultCategoryID: "Directory", // Default category for posts.
   dateFromFormat: "YYYY-MM-DD", // Date format used in the frontmatter.
   dateFormat: "DD/MM/YYYY", // Date format for display.
-  postsPerPage: 4, // Amount of posts displayed per listing page.
+  postsPerPage: 300, // Amount of posts displayed per listing page.
   userName: "jonmccon", // Username to display in the author segment.
   userEmail: "jonmccon@gmail.com", // Email used for RSS feed's author segment
   userTwitter: "jonmccon", // Optionally renders "Follow Me" in the UserInfo segment.
@@ -41,8 +41,8 @@ const config = {
     },
   ],
   copyright: "made with love in the pnw", // Copyright string for the footer of the website and RSS feed.
-  themeColor: "#c62828", // Used for setting manifest and progress theme colors.
-  backgroundColor: "#1e1e1e", // Used for setting manifest background color.
+  themeColor: "#E5E5E5", // Used for setting manifest and progress theme colors.
+  backgroundColor: "#E5E5E5", // Used for setting manifest background color.
 };
 
 // Validate

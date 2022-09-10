@@ -3,11 +3,13 @@ title: "Ten Gun"
 featuredImage: ./-hamburgers.png
 website: "https://www.tengundesign.com/"
 twit: ""
-inst: "https://www.instagram.com/tengundesign"
+inst: "tengundesign"
 category: "T"
+city: "Edmonds"
+neighborhood:
+size: "Large (41-100)"
+map: ""
 tags:
-    - Edmonds
-    - large
     - branding
     - illustration
     - typography
@@ -17,6 +19,7 @@ tags:
     - motion
     - ux/ui
     - engineering
+published: true
 ---
 
 Description

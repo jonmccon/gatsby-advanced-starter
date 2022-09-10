@@ -2,16 +2,19 @@
 title: "Publicis Groupe"
 featuredImage: ./-hamburgers.png
 website: "https://publicisna.com/"
-twit: "https://twitter.com/PublicisSeattle"
-inst: "https://instagram.com/publicisseattle/"
+twit: "PublicisSeattle"
+inst: "publicisseattle"
 category: "P"
+city: "Seattle"
+neighborhood: "Queen Anne"
+size: "Large (41-100)"
+map: ""
 tags:
-    - Queen Anne
-    - large
     - branding
     - advertising
     - marketing
     - video
+published: true
 ---
 
 Description

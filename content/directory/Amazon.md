@@ -5,14 +5,17 @@ website: "https://amazon.design/"
 twit: ""
 inst: ""
 category: "A"
+city: "Seattle"
+neighborhood: "South Lake Union"
+size: "Huge (100+)"
+map: ""
 tags:
-    - South Lake Union
-    - huge
     - product
     - ux/ui
     - research
     - engineering
     - inhouse
+published: true
 ---
 
 Description

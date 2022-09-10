@@ -2,16 +2,20 @@
 title: "Kite"
 featuredImage: ./-hamburgers.png
 website: "https://kitebrandstudio.com/"
-twit: "https://twitter.com/KiteBrand"
+twit: "KiteBrand"
 inst: ""
 category: "K"
+city: "Seattle"
+neighborhood:
+size: "Small (1-10)"
+map: ""
 tags:
-    - small
     - branding
     - strategy
     - ux/ui
     - print
     - environmental
+published: true
 ---
 
 Description

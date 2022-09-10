@@ -2,16 +2,19 @@
 title: "SeaMonster Studios"
 featuredImage: ./-hamburgers.png
 website: "https://www.seamonsterstudios.com/"
-twit: "https://twitter.com/the_seamonsters"
-inst: "https://instagram.com/seamonsterstudios/"
+twit: "the_seamonsters"
+inst: "seamonsterstudios"
 category: "S"
+city: "Seattle"
+neighborhood: "Downtown"
+size: "Small (1-10)"
+map: ""
 tags:
-    - Downtown
-    - small
     - ux/ui
     - engineering
     - branding
     - strategy
+published: true
 ---
 
 Description

@@ -2,12 +2,14 @@
 title: "BrandQuery"
 featuredImage: ./-hamburgers.png
 website: "https://brandquery.com/"
-twit: "https://twitter.com/brandquery"
-inst: "https://www.instagram.com/brandquery/"
+twit: "brandquery"
+inst: "brandquery"
 category: "B"
+city: "Mount Vernon"
+neighborhood:
+size: "Small (1-10)"
+map: ""
 tags:
-    - Mount Vernon
-    - small
     - branding
     - advertising
     - marketing
@@ -15,6 +17,7 @@ tags:
     - strategy
     - environmental
     - ux/ui
+published: true
 ---
 
 

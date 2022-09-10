@@ -2,12 +2,14 @@
 title: "Fresh Consulting"
 featuredImage: ./-hamburgers.png
 website: "https://www.freshconsulting.com/"
-twit: "https://twitter.com/FreshConsulting"
-inst: "https://www.instagram.com/freshconsulting/"
+twit: "FreshConsulting"
+inst: "freshconsulting"
 category: "F"
+city: "Bellevue"
+neighborhood: ""
+size: "Large (41-100)"
+map: ""
 tags:
-    - Bellevue
-    - large
     - strategy
     - branding
     - ux/ui
@@ -15,6 +17,7 @@ tags:
     - motion
     - engineering
     - product
+published: true
 ---
 
 Description

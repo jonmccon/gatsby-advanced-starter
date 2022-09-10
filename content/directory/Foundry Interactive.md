@@ -2,14 +2,17 @@
 title: "Foundry Interactive"
 featuredImage: ./-hamburgers.png
 website: "https://www.foundryinteractive.com/"
-twit: "https://twitter.com/foundryinc"
+twit: "foundryinc"
 inst: ""
 category: "F"
+city: "Seattle"
+neighborhood: "Pioneer Square"
+size: "Small (1-10)"
+map: ""
 tags:
-    - Pioneer Square
-    - small
     - engineering
     - ux/ui
+published: true
 ---
 
 Description

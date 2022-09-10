@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import AudioPlayer, { RHAP_UI } from 'react-h5-audio-player';
+import { trackCustomEvent } from "gatsby-plugin-google-analytics";
 import 'react-h5-audio-player/lib/styles.css';
 import Play from '../../static/assets-svg/button-play-small.inline.svg';   
 import Pause from '../../static/assets-svg/button-pause-small.inline.svg';   
@@ -11,6 +12,7 @@ import Pause from '../../static/assets-svg/button-pause-small.inline.svg';
 class AudioPlayerSmall extends Component {
   render() {
     const { podcastURL } = this.props;
+    const { podcastTitle } = this.props;
     
     return (
       <React.Fragment>
@@ -30,8 +32,26 @@ class AudioPlayerSmall extends Component {
           customVolumeControls={[]}
           showJumpControls={false}
           customIcons={{
-            play: <Play />,
-            pause: <Pause /> 
+            play: <Play 
+              onClick={e => {
+                e.preventDefault()
+                trackCustomEvent({
+                  category: "Audio Player",
+                  action: "Play - Inline",
+                  label: podcastTitle,
+                })
+              }}
+            />,
+            pause: <Pause 
+            onClick={e => {
+              e.preventDefault()
+              trackCustomEvent({
+                category: "Audio Player",
+                action: "Pause - Inline",
+                label: podcastTitle,
+              })
+            }}
+            /> 
             }}
         />
       </div>

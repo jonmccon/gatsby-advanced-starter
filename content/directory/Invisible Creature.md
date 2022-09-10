@@ -2,14 +2,17 @@
 title: "Invisible Creature"
 featuredImage: ./-hamburgers.png
 website: "https://www.invisiblecreature.com/"
-twit: "https://twitter.com/icreature"
-inst: "https://www.instagram.com/icreature"
+twit: "icreature"
+inst: "icreature"
 category: "I"
+city: "Maple Valley"
+neighborhood:
+size: "Small (1-10)"
+map: ""
 tags:
-    - Maple Valley
-    - small
     - illustration
     - product
+published: true
 ---
 
 Description

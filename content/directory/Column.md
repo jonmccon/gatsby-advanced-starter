@@ -2,12 +2,14 @@
 title: "Column"
 featuredImage: ./-hamburgers.png
 website: "http://columnseattle.com/"
-twit: "https://twitter.com/columnseattle"
+twit: "columnseattle"
 inst: ""
 category: "C"
+city: "Seattle"
+neighborhood: "Pioneer Square"
+size: "Small (1-10)"
+map: ""
 tags:
-    - Pioneer Square
-    - small
     - branding
     - strategy
     - packaging
@@ -16,6 +18,7 @@ tags:
     - photography
     - typography
     - illustration
+published: true
 ---
 
 Description

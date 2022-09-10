@@ -3,13 +3,16 @@ title: "Grayscale Creative"
 featuredImage: ./-hamburgers.png
 website: "http://grayscaledesignstudio.com/"
 twit: ""
-inst: "https://www.instagram.com/grayscaledesignstudio"
+inst: "grayscaledesignstudio"
 category: "G"
+city: "Seattle"
+neighborhood: "Fremont"
+size: "Small (1-10)"
+map: ""
 tags:
-    - Fremont
-    - small
     - environmental
     - architecture
+published: true
 ---
 
 Description

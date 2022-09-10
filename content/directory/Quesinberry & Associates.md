@@ -3,14 +3,17 @@ title: "Quesinberry & Associates"
 featuredImage: ./-hamburgers.png
 website: "https://quesinberry.com/"
 twit: ""
-inst: "https://instagram.com/quesinberryandassociates/"
+inst: "quesinberryandassociates"
 category: "Q"
+city: "Seattle"
+neighborhood: "Capitol Hill"
+size: "Small (1-10)"
+map: ""
 tags:
-    - Capitol Hill
-    - small
     - branding
     - marketing
     - print
+published: true
 ---
 
 Description

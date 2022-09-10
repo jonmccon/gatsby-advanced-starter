@@ -2,12 +2,14 @@
 title: "Extreme Arts & Sciences"
 featuredImage: ./-hamburgers.png
 website: "https://www.easci.com/"
-twit: "https://twitter.com/easci"
+twit: "easci"
 inst: ""
 category: "E"
+city: "Seattle"
+neighborhood: "Capitol Hill"
+size: "Small (1-10)"
+map: ""
 tags:
-    - Capitol Hill
-    - small
     - strategy
     - marketing
     - ux/ui
@@ -16,6 +18,7 @@ tags:
     - interactive
     - video
     - engineering
+published: true
 ---
 
 Description

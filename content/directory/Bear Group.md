@@ -2,14 +2,18 @@
 title: "Bear Group" 
 featuredImage: ./-hamburgers.png 
 website: "https://www.beargroup.com/" 
-twit: "https://twitter.com/bearideas" 
-inst: "" 
+twit: "bearideas"
+inst: ""
 category: "B" 
-tags: 
-    - Westlake
-    - medium
+city: "Seattle"
+neighborhood: "Westlake"
+size: "Medium (11-40)"
+map: ""
+tags:
     - eCommerce
+published: true
 --- 
+
 Would you like to be on the show? 
 -Possibly! 
 

@@ -2,17 +2,20 @@
 title: "Fell Swoop"
 featuredImage: ./-hamburgers.png
 website: "https://www.fellswoop.com/"
-twit: "https://twitter.com/Fell_Swoop"
+twit: "Fell_Swoop"
 inst: ""
 category: "F"
+city: "Seattle"
+neighborhood: "Pike Place Market"
+size: "Small (1-10)"
+map: ""
 tags:
-    - Pike Place Market
-    - small
     - research
     - ux/ui
     - illustration
     - motion
     - strategy
+published: true
 ---
 
 Description

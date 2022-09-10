@@ -3,12 +3,15 @@ title: "Emerald City Graphics"
 featuredImage: ./-hamburgers.png
 website: "https://www.emeraldcg.com/"
 twit: ""
-inst: "https://www.instagram.com/emeraldcity_graphics"
+inst: "emeraldcity_graphics"
 category: "E"
+city: "Kent"
+neighborhood:
+size: "Large (41-100)"
+map: ""
 tags:
-    - Kent
-    - large
     - printer
+published: true
 ---
 
 Description

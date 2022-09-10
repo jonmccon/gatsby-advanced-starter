@@ -2,12 +2,14 @@
 title: "Belle & Wissell, Co."
 featuredImage: ./-hamburgers.png
 website: "http://www.bwco.info/"
-twit: "https://twitter.com/BelleandWissell"
+twit: "belleandwissell"
 inst: ""
 category: "B"
+city: "Seattle"
+neighborhood: "Georgetown"
+size: "Small (1-10)"
+map: ""
 tags:
-    - Georgetown
-    - small
     - interactive
     - environmental
     - exhibition
@@ -20,6 +22,7 @@ tags:
     - vfx 
     - video 
     - sound 
+published: true
 ---
 
 Description

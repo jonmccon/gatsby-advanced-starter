@@ -2,13 +2,16 @@
 title: "Vitamin T"
 featuredImage: ./-hamburgers.png
 website: "https://vitamintalent.com/"
-twit: "https://twitter.com/vitamintalent"
-inst: "https://www.instagram.com/vitamintalent"
+twit: "vitamintalent"
+inst: "vitamintalent"
 category: "V"
+city: "Seattle"
+neighborhood: "Fremont"
+size: "Small (1-10)"
+map: ""
 tags:
-    - Fremont
-    - small
     - recruiter
+published: true
 ---
 
 Description

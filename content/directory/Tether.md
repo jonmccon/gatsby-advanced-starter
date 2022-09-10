@@ -2,12 +2,14 @@
 title: "Tether"
 featuredImage: ./-hamburgers.png
 website: "http://tether.com/"
-twit: "https://twitter.com/tether"
-inst: "https://www.instagram.com/tether"
+twit: "tether"
+inst: "tether"
 category: "T"
+city: "Seattle"
+neighborhood: "Pioneer Square"
+size: "Medium (11-40)"
+map: ""
 tags:
-    - Pioneer Square
-    - medium
     - branding
     - packaging
     - industrial
@@ -16,6 +18,7 @@ tags:
     - strategy
     - video
     - advertising
+published: true
 ---
 
 Description
