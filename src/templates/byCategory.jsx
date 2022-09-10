@@ -38,8 +38,7 @@ export default class CategoryTemplate extends React.Component {
             </div>
 
             <div className="directory">
-              <div className="directoryBlockFilter">
-                <article className="blockTitle">{category}</article>
+              <div className="directory-block--filter">
                 <DirectoryListing postEdgesDirectory={postEdges} />
               </div>
             </div>

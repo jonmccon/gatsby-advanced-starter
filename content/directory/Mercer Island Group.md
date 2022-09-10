@@ -5,8 +5,8 @@ website: "https://www.mercerislandgroup.net/"
 twit: ""
 inst: ""
 category: "M"
-city: "Mercer Island"
-neighborhood:
+city: "Seattle"
+neighborhood: "Mercer Island"
 size: "Small (1-10)"
 map: ""
 tags:
