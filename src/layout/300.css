@@ -14,6 +14,7 @@
     /* BACKGROUND PATTERN */
     .pattern {
         border: 1em solid var(--color-bg-gray);
+        background-color: var(--color-card);
         display: grid;
         grid-template-columns: 1fr 30fr 1fr;
         grid-template-rows: 2.5em 1fr 2em;
@@ -237,7 +238,7 @@
         margin: 2em 0 0 0;
     }
 
-    .podcastEpisode {
+    .podcastEpisode {        
         display: grid;
         grid-template-rows: min-content auto minmax(1ch, 1fr);
         row-gap: .3em;
@@ -379,7 +380,6 @@
     }
     
     .directory-block--title {
-        /* background-color: var(--color-bg-gray); */
         color: var(--color-text);
         font: var(--text-gin-std);
         text-shadow: 0px 1px var(--color-card);
