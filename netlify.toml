@@ -30,6 +30,7 @@ package = "netlify-plugin-checklinks"
     "https://www.sitecrafting.com/",
     "http://www.oojon.com/",
     "https://www.urbaninfluence.com/",
+    "https://www.htc.com/us/",
     
     # Interview pages are generated but unused right now
     'id="interview"'
