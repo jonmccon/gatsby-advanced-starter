@@ -11,7 +11,7 @@ class HeadlineMenuRight extends Component {
       <React.Fragment>
 
         <div className="headline-menu-right">  
-          <EmailForm />
+          {/* <EmailForm /> */}
 
           {/* <a
             className="headline-menu--link"
