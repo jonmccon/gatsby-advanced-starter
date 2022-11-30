@@ -100,7 +100,7 @@ a:hover {   cursor: pointer; }
 
 @media (prefers-color-scheme: dark) {
 
-    h1, h5, a, .headline-menu--link, .directory-block--end p, .directory-block--end a {
+    h1, h5, a, p, .headline-menu--link, .directory-block--end p, .directory-block--end a {
         color: var(--color-dark-listingLink);
     }
 
@@ -147,7 +147,7 @@ a:hover {   cursor: pointer; }
         text-shadow: none;
     }
 
-    .rhap_current-left-time {
+    .directory-block--item .rhap_current-left-time {
         color: var(--color-dark-listingLink) !important;       
     }
 
