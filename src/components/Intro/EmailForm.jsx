@@ -1,42 +1,42 @@
-// import React, { useState } from "react"
-// import { navigate } from 'gatsby'
-// import NetlifyForm from 'react-ssg-netlify-forms'
+import React, { useState } from "react"
+import { navigate } from 'gatsby'
+import NetlifyForm from 'react-ssg-netlify-forms'
 
-// const EmailForm = () => {
+const EmailForm = () => {
 
-//   // Post-Submit Navigate
-//   const postSubmit = () => {
-//     navigate('/subscribed')
-//   }
+  // Post-Submit Navigate
+  const postSubmit = () => {
+    navigate('/subscribed')
+  }
 
-//   // Simple controlled form setup (Control your own state)
-//   const handleChange = e => setFormValues({ ...formValues, [e.target.name]: e.target.value })
-//   const [formValues, setFormValues] = useState({
-//     email: ''
-//   })
+  // Simple controlled form setup (Control your own state)
+  const handleChange = e => setFormValues({ ...formValues, [e.target.name]: e.target.value })
+  const [formValues, setFormValues] = useState({
+    email: ''
+  })
 
-//   return (
-//       <NetlifyForm formName="Subscribe - Buttondown" formValues={formValues} postSubmit={postSubmit} >
+  return (
+      <NetlifyForm formName="Subscribe - Buttondown" formValues={formValues} postSubmit={postSubmit} >
         
-//         <input 
-//             type="email" 
-//             name="email" 
-//             placeholder="Emails" 
-//             className="email-form form-control valid"
-//             value={formValues.name} 
-//             onChange={handleChange} 
-//             required
-//         />
+        <input 
+            type="email" 
+            name="email" 
+            placeholder="Emails" 
+            className="email-form form-control valid"
+            value={formValues.name} 
+            onChange={handleChange} 
+            required
+        />
 
-//         <button 
-//             type="submit"
-//             className="email-form-button"
-//         >
-//         Subscribe
-//         </button>
+        <button 
+            type="submit"
+            className="email-form-button"
+        >
+        Subscribe
+        </button>
         
-//       </NetlifyForm>
-//   )
-// }
+      </NetlifyForm>
+  )
+}
 
-// export default EmailForm;
+export default EmailForm;
