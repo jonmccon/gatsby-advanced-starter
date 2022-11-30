@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import PropTypes from "prop-types"
 import Helmet from "react-helmet";
 import { graphql, Link } from "gatsby";
+
 import Layout from "../layout";
-import PostCats from "../components/Filters/PostCats";
 import PostTags from "../components/Filters/PostTags";
 import DirectoryListing from "../components/PostListing/DirectoryPostListing";
 import SEO from "../components/SEO/SEO";
@@ -11,19 +12,23 @@ import Headline from "../components/Intro/Headline";
 import HeadlineMenuRight from "../components/Intro/HeadlineMenuRight";
 import HeadlineMenuLeft from "../components/Intro/HeadlineMenuLeft";
 import Logo from "../components/Intro/Logo";
-import PodcastPlayer from "../components/Audioplayer/PodcastPlayer";
 import Footer from "../components/Footer/Footer";
 import EpisodeListing from "../components/PostListing/EpisodeListing";
+import Map from "../components/Map/Map";
+
+const MapMarkers = props => {
+  const children = props.children
+  const [places, setPlaces] = useState([])
+
+  useEffect(() => {
+    if (props && props.data) {
+      setPlaces(props.data.markdownRemark.frontmatter.map)
+    } else {
+      setPlaces([])
+    }
+  }, [props]) }
 
 class Listing extends React.Component {
-  // Pagination
-  // renderPaging() {
-  //   const { currentPageNum, pageCount } = this.props.pageContext;
-  //   const prevPage = currentPageNum - 1 === 1 ? "/" : `/${currentPageNum - 1}/`;
-  //   const nextPage = `/${currentPageNum + 1}/`;
-  //   const isFirstPage = currentPageNum === 1;
-  //   const isLastPage = currentPageNum === pageCount;
-  // }
 
   render() {
     // this can be refactored as a variable based approach, and only one graphql query
@@ -87,6 +92,8 @@ class Listing extends React.Component {
             <div id="showContainer">
               <EpisodeListing postEdgesDirectory={episodeEdges} />
             </div>
+
+            <Map places={places} />
             
             {/* FILTERS */}
             <div className="filters">              
@@ -259,6 +266,10 @@ class Listing extends React.Component {
       </Layout>
     );
   }
+}
+
+MapMarkers.propTypes = {
+  children: PropTypes.node.isRequired,
 }
 
 export default Listing;
