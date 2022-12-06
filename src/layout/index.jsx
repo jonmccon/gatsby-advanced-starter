@@ -1,6 +1,7 @@
 import React from "react";
 import Helmet from "react-helmet";
 import config from "../../data/SiteConfig";
+
 import "./index.css";
 
 export default class MainLayout extends React.Component {
@@ -13,6 +14,7 @@ export default class MainLayout extends React.Component {
           <meta name="viewport" content="width=device-width" />
           <html lang="en" />
           <link href="https://fonts.googleapis.com/css2?family=Spectral" rel="stylesheet" />
+          <link href='https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.css' rel='stylesheet' />
           <script src="https://kit.fontawesome.com/d09a0402a9.js" crossorigin="anonymous"></script>
         </Helmet>
         {children}
