@@ -8,7 +8,7 @@ category: "M"
 city: "Seattle"
 neighborhood: "Pike Place Market"
 size: "Small (1-10)"
-map: ""
+map: ['','']
 tags:
     - branding
     - packaging

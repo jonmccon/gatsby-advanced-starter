@@ -8,7 +8,7 @@ category: "D"
 city: "Seattle"
 neighborhood: "Crown Hill"
 size: "Small (1-10)"
-map: ""
+map: ['','']
 tags:
     - branding
     - print

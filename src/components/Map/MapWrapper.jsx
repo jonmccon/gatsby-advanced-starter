@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from "react"
 import PropTypes from "prop-types"
 import Map from "./map"
+// import PostList from './postList'
 
 const MapWrapper = props => {
-  // const children = props.children
+  const children = props.children
   const [places, setPlaces] = useState([])
 
   useEffect(() => {
@@ -16,9 +17,7 @@ const MapWrapper = props => {
 
   return (
     <>
-      <div>
-        <Map places={places} />
-      </div>
+      <Map places={places} />
     </>
   )
 }

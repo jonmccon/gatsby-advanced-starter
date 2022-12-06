@@ -8,7 +8,7 @@ category: "P"
 city: "Tacoma"
 neighborhood:
 size: "Large (41-100)"
-map: ""
+map: ['','']
 tags:
     - printer
 published: true

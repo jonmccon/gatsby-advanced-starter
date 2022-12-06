@@ -8,7 +8,7 @@ category: "S"
 city: "Tacoma"
 neighborhood:
 size: "Medium (11-40)"
-map: ""
+map: ['','']
 tags:
     - ux/ui
     - research

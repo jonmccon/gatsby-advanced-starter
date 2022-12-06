@@ -8,7 +8,7 @@ category: "W"
 city: "Seattle"
 neighborhood: "Ballard"
 size: "Medium (11-40)"
-map: ""
+map: ['','']
 tags:
     - video
     - advertising

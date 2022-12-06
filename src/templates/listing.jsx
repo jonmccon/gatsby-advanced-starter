@@ -22,7 +22,7 @@ class Listing extends React.Component {
     // this can be refactored as a variable based approach, and only one graphql query
     // Look at the tags page for an example of this
 
-    // const allMaps = this.props.data.AllMapsQuery.distinct;
+    const places = this.props.data.AllMapsQuery.distinct;
     const tagSize = this.props.data.TagSizeQuery.distinct;
     const tagSeattle = this.props.data.TagSeattleQuery.distinct;
     const tagCity = this.props.data.TagCityQuery.distinct;
@@ -82,7 +82,7 @@ class Listing extends React.Component {
             </div>
 
             <div id="map">
-              <MapWrapper />
+              <MapWrapper places={places} />
             </div>  
 
             {/* FILTERS */}
@@ -263,6 +263,18 @@ export default Listing;
 /* eslint no-undef: "off" */
 export const listingQuery = graphql`
   {
+    AllMapsQuery: allMarkdownRemark {
+      edges {
+        node {
+          frontmatter {
+            places {
+              latitude
+              longitude
+            }
+          }
+        }
+      }
+    }
     TagSizeQuery: allMarkdownRemark {
       distinct(field: frontmatter___size)
     }

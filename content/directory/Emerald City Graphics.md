@@ -8,7 +8,7 @@ category: "E"
 city: "Kent"
 neighborhood:
 size: "Large (41-100)"
-map: ""
+map: ['','']
 tags:
     - printer
 published: true

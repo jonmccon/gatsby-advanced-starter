@@ -8,7 +8,7 @@ category: "A"
 city: "Issaquah"
 neighborhood:
 size: "Medium (11-40)"
-map: ""
+map: ['','']
 tags:
     - 3D 
     - branding 

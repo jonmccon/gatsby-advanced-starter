@@ -8,7 +8,7 @@ category: "H"
 city: "Seattle"
 neighborhood: "South Lake Union"
 size: "Small (1-10)"
-map: ""
+map: ['','']
 tags:
     - branding
 published: true

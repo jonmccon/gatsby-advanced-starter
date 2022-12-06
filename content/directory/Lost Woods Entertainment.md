@@ -8,7 +8,7 @@ category: "L"
 city: "Seattle"
 neighborhood: "Ballard"
 size: "Small (1-10)"
-map: ""
+map: ['','']
 tags:
     - video
 published: true

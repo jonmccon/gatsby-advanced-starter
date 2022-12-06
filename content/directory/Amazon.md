@@ -8,7 +8,7 @@ category: "A"
 city: "Seattle"
 neighborhood: "South Lake Union"
 size: "Huge (100+)"
-map: ""
+map: ['','']
 tags:
     - product
     - ux/ui

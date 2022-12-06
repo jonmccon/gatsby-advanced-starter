@@ -8,7 +8,7 @@ category: "G"
 city: "Seattle"
 neighborhood: "Downtown"
 size: "Large (41-100)"
-map: ""
+map: ['','']
 tags:
     - branding
     - strategy

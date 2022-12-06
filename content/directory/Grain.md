@@ -8,7 +8,7 @@ category: "G"
 city: "Seattle"
 neighborhood: "Bainbridge"
 size: "Small (1-10)"
-map: ""
+map: ['','']
 tags:
     - industrial
 published: true

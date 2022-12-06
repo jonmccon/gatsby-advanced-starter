@@ -8,7 +8,7 @@ category: "B"
 city: "Seattle"
 neighborhood: "Westlake"
 size: "Medium (11-40)"
-map: ""
+map: ['','']
 tags:
     - eCommerce
 published: true

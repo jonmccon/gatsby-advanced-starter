@@ -8,7 +8,7 @@ category: "P"
 city: "Seattle"
 neighborhood: "Central District"
 size: "Medium (11-40)"
-map: ""
+map: ['','']
 tags:
     - school
 published: true

@@ -8,7 +8,7 @@ category: "M"
 city: "Seattle"
 neighborhood: "Pioneer Square"
 size: "Large (41-100)"
-map: ""
+map: ['','']
 tags:
     - environmental
     - architecture

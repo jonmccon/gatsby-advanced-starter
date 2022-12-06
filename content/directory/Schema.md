@@ -8,7 +8,7 @@ category: "S"
 city: "Seattle"
 neighborhood: "Capitol Hill"
 size: "Small (1-10)"
-map: ""
+map: ['','']
 tags:
     - ux/ui
     - illustration

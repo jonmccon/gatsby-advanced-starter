@@ -8,7 +8,7 @@ category: "H"
 city: "Seattle"
 neighborhood: "Capitol Hill"
 size: "Medium (11-40)"
-map: ""
+map: ['','']
 tags:
     - branding
     - advertising

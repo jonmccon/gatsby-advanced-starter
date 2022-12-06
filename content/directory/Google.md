@@ -8,7 +8,7 @@ category: "G"
 city: "Seattle"
 neighborhood: "Fremont"
 size: "Huge (100+)"
-map: ""
+map: ['','']
 tags:
     - ux/ui
     - product

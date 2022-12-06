@@ -38,10 +38,10 @@ const Map = props => {
   useEffect(() => {
     if (!map) return
 
-    if (props.map && props.map.length !== 0) {
+    if (props.places && props.places.length !== 0) {
       const coords = []
-      props.map.forEach(place => {
-        coords.push([map[1], map[0]])
+      props.places.forEach(place => {
+        coords.push([place.longitude, place.latitude])
       })
       const feature = multiPoint(coords)
       const box = bbox(feature)

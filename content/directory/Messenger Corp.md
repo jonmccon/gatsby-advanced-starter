@@ -8,7 +8,7 @@ category: "M"
 city: "Seattle"
 neighborhood: "Georgetown"
 size: "Medium (11-40)"
-map: ""
+map: ['','']
 tags:
     - strategy
     - branding

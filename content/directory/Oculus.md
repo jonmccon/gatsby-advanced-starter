@@ -8,7 +8,7 @@ category: "O"
 city: "Seattle"
 neighborhood: "SODO"
 size: "Large (41-100)"
-map: ""
+map: ['','']
 tags:
     - environmental
     - ux/ui

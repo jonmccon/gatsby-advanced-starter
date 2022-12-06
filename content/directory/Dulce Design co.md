@@ -8,7 +8,7 @@ category: "D"
 city: "Seattle"
 neighborhood: "First Hill"
 size: "Small (1-10)"
-map: ""
+map: ['','']
 tags:
     - branding
     - print

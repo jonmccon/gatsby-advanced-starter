@@ -8,7 +8,7 @@ category: "S"
 city: "Seattle"
 neighborhood: "SODO"
 size: "Large (41-100)"
-map: ""
+map: ['','']
 tags:
     - branding
     - ux/ui

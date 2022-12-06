@@ -8,7 +8,7 @@ category: "L"
 city: "Seattle"
 neighborhood: "Downtown"
 size: "Small (1-10)"
-map: ""
+map: ['','']
 tags:
     - print
 published: true

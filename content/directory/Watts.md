@@ -8,7 +8,7 @@ category: "W"
 city: "Seattle"
 neighborhood: "Pioneer Square"
 size: "Medium (11-40)"
-map: ""
+map: ['','']
 tags:
     - motion
     - video

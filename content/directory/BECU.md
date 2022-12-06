@@ -8,7 +8,7 @@ category: "B"
 city: "Tukwila"
 neighborhood:
 size: "Large (41-100)"
-map: ""
+map: ['','']
 tags:
     - inhouse
     - ux/ui

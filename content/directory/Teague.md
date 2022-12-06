@@ -8,7 +8,7 @@ category: "T"
 city: "Seattle"
 neighborhood: "Pike Place Market"
 size: "Large (41-100)"
-map: ""
+map: ['','']
 tags:
     - industrial
     - strategy

@@ -8,7 +8,7 @@ category: "F"
 city: "Seattle"
 neighborhood: "Belltown"
 size: "Large (41-100)"
-map: ""
+map: ['','']
 tags:
     - ux/ui
     - branding

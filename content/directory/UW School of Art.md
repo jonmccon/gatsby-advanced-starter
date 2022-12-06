@@ -8,7 +8,7 @@ category: "U"
 city: "Seattle"
 neighborhood: "U District"
 size: "Large (41-100)"
-map: ""
+map: ['','']
 tags:
     - school
 published: true

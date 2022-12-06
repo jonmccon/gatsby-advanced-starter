@@ -8,7 +8,7 @@ category: "P"
 city: "Seattle"
 neighborhood: "Queen Anne"
 size: "Large (41-100)"
-map: ""
+map: ['','']
 tags:
     - branding
     - advertising

@@ -8,7 +8,7 @@ category: "D"
 city: "Seattle"
 neighborhood: "Queen Anne"
 size: "Small (1-10)"
-map: ""
+map: ['','']
 tags:
     - research
     - ux/ui

@@ -8,7 +8,7 @@ category: "M"
 city: "Tacoma"
 neighborhood:
 size: "Small (1-10)"
-map: ""
+map: ['','']
 tags:
     - marketing
     - strategy

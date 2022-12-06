@@ -8,7 +8,7 @@ category: "H"
 city: "Kenmore"
 neighborhood:
 size: "Small (1-10)"
-map: ""
+map: ['','']
 tags:
     - branding
     - ux/ui

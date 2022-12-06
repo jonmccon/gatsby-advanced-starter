@@ -8,7 +8,7 @@ category: "I"
 city: "Seattle"
 neighborhood: "Fremont"
 size: "Small (1-10)"
-map: ""
+map: ['','']
 tags:
     - branding
     - marketing
