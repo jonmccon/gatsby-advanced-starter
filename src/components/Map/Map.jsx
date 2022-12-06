@@ -1,5 +1,5 @@
 import React, { useRef, useEffect, useState } from "react"
-import mapboxgl from "mapbox-gl"
+import mapboxgl from "!mapbox-gl"
 import bbox from "@turf/bbox"
 import { multiPoint } from "@turf/helpers"
 import Markers from "./markers"
@@ -23,8 +23,7 @@ const Map = props => {
     const map = new mapboxgl.Map({
       container: mapContainerRef.current,
       accessToken: MAPBOX_TOKEN,
-      style: "mapbox://styles/mapbox/streets-v11",
-      // Empire State Building [lng, lat]
+      style: "mapbox://styles/jonmccon/clb34caiz000l15l41kb0mc7k",
       center: [-122.32829408491192, 47.59954740430254],
       zoom: 10,
     })
@@ -39,10 +38,10 @@ const Map = props => {
   useEffect(() => {
     if (!map) return
 
-    if (props.places && props.places.length !== 0) {
+    if (props.map && props.map.length !== 0) {
       const coords = []
-      props.places.forEach(place => {
-        coords.push([place.longitude, place.latitude])
+      props.map.forEach(place => {
+        coords.push([map[1], map[0]])
       })
       const feature = multiPoint(coords)
       const box = bbox(feature)
@@ -60,7 +59,7 @@ const Map = props => {
       )
     } else {
       map.easeTo({
-        center: [-122.32829408491192, 47.59954740430254],
+        center: [0,0],
         zoom: 11,
         duration: 2000,
       })
