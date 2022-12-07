@@ -8,7 +8,7 @@ category: "W"
 city: "Seattle"
 neighborhood: "South Lake Union"
 size: "Large (41-100)"
-map: ['','']
+location: ['','']
 tags:
     - strategy
     - marketing

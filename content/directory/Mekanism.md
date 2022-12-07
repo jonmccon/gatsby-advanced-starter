@@ -8,7 +8,7 @@ category: "M"
 city: "Seattle"
 neighborhood: "Capitol Hill"
 size: "Large (41-100)"
-map: ['','']
+location: ['','']
 tags:
     - advertising
     - motion

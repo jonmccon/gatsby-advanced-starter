@@ -8,7 +8,7 @@ category: "C"
 city: "Seattle"
 neighborhood: "Fremont"
 size: "Small (1-10)"
-map: ['','']
+location: ['','']
 tags:
     - video
     - advertising

@@ -8,7 +8,7 @@ category: "D"
 city: "Seattle"
 neighborhood: "Belltown"
 size: "Small (1-10)"
-map: ['','']
+location: ['','']
 tags:
     - branding
     - print

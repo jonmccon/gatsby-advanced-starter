@@ -38,10 +38,11 @@ const Map = props => {
   useEffect(() => {
     if (!map) return
 
-    if (props.places && props.places.length !== 0) {
+    if (props.location && props.location.length !== 0) {
+    // if (props.location) {
       const coords = []
-      props.places.forEach(place => {
-        coords.push([place.longitude, place.latitude])
+      props.location.forEach(location => {
+        coords.push(location[1], location[0])
       })
       const feature = multiPoint(coords)
       const box = bbox(feature)
@@ -58,17 +59,18 @@ const Map = props => {
         }
       )
     } else {
-      map.easeTo({
-        center: [0,0],
-        zoom: 11,
-        duration: 2000,
-      })
+      // map.easeTo({
+      //   center: [0,0],
+      //   zoom: 11,
+      //   duration: 2000,
+      // })
+      console.log(props.locations)
     }
-  }, [map, props.places])
+  }, [map, props.location])
 
   return (
     <div ref={mapContainerRef} style={mapContainerStyle}>
-      {props.places && map && <Markers map={map} places={props.places} />}
+      {props.location && map && <Markers map={map} locations={props.location} />}
     </div>
   )
 }

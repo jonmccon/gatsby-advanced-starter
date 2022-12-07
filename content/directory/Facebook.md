@@ -8,7 +8,7 @@ category: "F"
 city: "Seattle"
 neighborhood: "Westlake"
 size: "Huge (100+)"
-map: ['','']
+location: ['','']
 tags:
     - ux/ui
     - product

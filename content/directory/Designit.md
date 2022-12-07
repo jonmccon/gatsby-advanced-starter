@@ -8,7 +8,7 @@ category: "D"
 city: "Seattle"
 neighborhood: "Downtown"
 size: "Medium (11-40)"
-map: ['','']
+location: ['','']
 tags:
     - research
     - strategy

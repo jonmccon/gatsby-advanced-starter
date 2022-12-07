@@ -8,7 +8,7 @@ category: "B"
 city: "Seattle"
 neighborhood: "Georgetown"
 size: "Small (1-10)"
-map: ['','']
+location: ['','']
 tags:
     - interactive
     - environmental

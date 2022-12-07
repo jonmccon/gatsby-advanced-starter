@@ -8,7 +8,7 @@ category: "R"
 city: "Kent"
 neighborhood:
 size: "Large (41-100)"
-map: ['','']
+location: ['','']
 tags:
     - branding
     - print

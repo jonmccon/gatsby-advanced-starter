@@ -8,7 +8,7 @@ category: "M"
 city: "Seattle"
 neighborhood: "Mercer Island"
 size: "Small (1-10)"
-map: ['','']
+location: ['','']
 tags:
     - branding
     - marketing

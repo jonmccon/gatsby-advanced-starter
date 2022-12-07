@@ -8,7 +8,7 @@ category: "B"
 city: "Federal Way"
 neighborhood:
 size: "Medium (11-40)"
-map: ['','']
+location: ['','']
 tags:
     - branding
     - marketing

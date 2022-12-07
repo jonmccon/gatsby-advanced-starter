@@ -10,7 +10,7 @@ category: "A"
 city: "Seattle"
 neighborhood: "Pioneer Square"
 size: "Medium (11-40)"
-map: ['','']
+location: ['','']
 tags:
     - industrial
     - ux/ui

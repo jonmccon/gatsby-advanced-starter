@@ -8,7 +8,7 @@ category: "M"
 city: "Seattle"
 neighborhood: "SODO"
 size: "Small (1-10)"
-map: ['','']
+location: ['','']
 tags:
     - environmental
     - architecture

@@ -8,7 +8,7 @@ category: "R"
 city: "Tacoma"
 neighborhood:
 size: "Small (1-10)"
-map: ['','']
+location: ['','']
 tags:
     - branding
     - strategy

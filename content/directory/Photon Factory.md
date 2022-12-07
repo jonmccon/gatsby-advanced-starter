@@ -8,7 +8,7 @@ category: "P"
 city: "Seattle"
 neighborhood: "Pioneer Square"
 size: "Medium (11-40)"
-map: ['','']
+location: ['','']
 tags:
     - 3D
     - advertising

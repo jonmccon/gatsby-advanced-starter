@@ -8,7 +8,7 @@ category: "O"
 city: "Woodinville"
 neighborhood:
 size: "Small (1-10)"
-map: ['','']
+location: ['','']
 tags:
     - branding
     - ux/ui

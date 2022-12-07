@@ -8,7 +8,7 @@ category: "M"
 city: "Seattle"
 neighborhood: "Queen Anne"
 size: "Medium (11-40)"
-map: ['','']
+location: ['','']
 tags:
     - environmental
     - exhibition

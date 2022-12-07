@@ -8,7 +8,7 @@ category: "F"
 city: "Seattle"
 neighborhood: "Downtown"
 size: "Medium (11-40)"
-map: ['','']
+location: ['','']
 tags:
     - recruiter
 published: true

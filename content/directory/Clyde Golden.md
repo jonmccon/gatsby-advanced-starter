@@ -9,7 +9,7 @@ category: "C"
 city: "Seattle"
 neighborhood: "Ballard"
 size: "Small (1-10)"
-map: ['47.60878266984543', '-122.34141889720154']
+location: ['47.60878266984543', '-122.34141889720154']
 tags:
     - branding
     - ux/ui

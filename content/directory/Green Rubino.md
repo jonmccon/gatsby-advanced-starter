@@ -8,7 +8,7 @@ category: "G"
 city: "Seattle"
 neighborhood: "Eastlake"
 size: "Medium (11-40)"
-map: ['','']
+location: ['','']
 tags:
     - branding
     - advertising

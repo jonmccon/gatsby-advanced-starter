@@ -8,7 +8,7 @@ category: "D"
 city: "Seattle"
 neighborhood: "South Lake Union"
 size: "Medium (11-40)"
-map: ['','']
+location: ['','']
 tags:
     - branding
     - strategy

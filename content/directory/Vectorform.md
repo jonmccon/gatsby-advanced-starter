@@ -8,7 +8,7 @@ category: "V"
 city: "Seattle"
 neighborhood: "Belltown"
 size: "Large (41-100)"
-map: ['','']
+location: ['','']
 tags:
     - ux/ui
     - product

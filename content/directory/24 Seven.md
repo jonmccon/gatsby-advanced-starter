@@ -8,7 +8,7 @@ category: "numbers"
 city: "Seattle"
 neighborhood: "Downtown"
 size: "Large (41-100)"
-map: ['','']
+location: ['','']
 tags:
     - recruiter
 published: true

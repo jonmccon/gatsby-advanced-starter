@@ -1,12 +1,12 @@
 import React, { useRef, useEffect } from "react"
 import mapboxgl from "!mapbox-gl"
 
-const Marker = ({ map, place }) => {
+const Marker = ({ map, location }) => {
   const markerRef = useRef()
 
   useEffect(() => {
     const marker = new mapboxgl.Marker(markerRef)
-      .setLngLat([place.longitude, place.latitude])
+      .setLngLat(location[1], location[0])
       .addTo(map)
 
     return () => marker.remove()
@@ -15,12 +15,12 @@ const Marker = ({ map, place }) => {
   return <div ref={markerRef} />
 }
 
-const Markers = ({ map, places }) => {
+const Markers = ({ map, location }) => {
   return (
     <>
-      {places &&
-        places.map(place => (
-          <Marker key={place.name} map={map} place={place} />
+      {location &&
+        location.map(location => (
+          <Marker key={title} map={map} location={location} />
         ))}
     </>
   )

@@ -8,7 +8,7 @@ category: "I"
 city: "Maple Valley"
 neighborhood:
 size: "Small (1-10)"
-map: ['','']
+location: ['','']
 tags:
     - illustration
     - product

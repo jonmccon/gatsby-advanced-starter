@@ -8,7 +8,7 @@ category: "S"
 city: "Seattle"
 neighborhood: "Madison Park"
 size: "Medium (11-40)"
-map: ['','']
+location: ['','']
 tags:
     - marketing
     - advertising

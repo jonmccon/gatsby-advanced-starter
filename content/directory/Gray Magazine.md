@@ -8,7 +8,7 @@ category: "G"
 city: "Seattle"
 neighborhood: "Georgetown"
 size: "Small (1-10)"
-map: ['','']
+location: ['','']
 tags:
     - press
 published: true

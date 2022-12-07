@@ -8,7 +8,7 @@ category: "O"
 city: "SeaTac"
 neighborhood:
 size: "Medium (11-40)"
-map: ['','']
+location: ['','']
 tags:
     - printer
 published: true

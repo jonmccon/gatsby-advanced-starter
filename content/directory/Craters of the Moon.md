@@ -8,7 +8,7 @@ category: "C"
 city: "Cle Elum"
 neighborhood:
 size: "Small (1-10)"
-map: ['','']
+location: ['','']
 tags:
     - advertising
     - marketing
