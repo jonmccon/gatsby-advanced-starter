@@ -229,7 +229,7 @@
 
     /* MAP */
 
-    #map {
+    #mapContainer {
         display: grid;
         grid-area: Map;
     }
