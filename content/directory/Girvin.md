@@ -8,7 +8,7 @@ category: "G"
 city: "Seattle"
 neighborhood: "Belltown"
 size: "Small (1-10)"
-location: ['','']
+location: ['47.64102391040903','-122.35154425605857']
 tags:
     - branding
     - illustration

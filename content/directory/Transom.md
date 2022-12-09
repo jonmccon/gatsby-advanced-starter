@@ -8,7 +8,7 @@ category: "T"
 city: "Seattle"
 neighborhood: "Pioneer Square"
 size: "Small (1-10)"
-location: ['','']
+location: ['47.60049929170814','-122.33529218281211']
 tags:
     - ux/ui
     - engineering

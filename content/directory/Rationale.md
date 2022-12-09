@@ -5,10 +5,10 @@ website: "https://rationale-design.com/"
 twit: "RationaleDesign"
 inst: "seanwolcott"
 category: "R"
-city: "Seattle"
-neighborhood: "Pioneer Square"
+city: "Everett"
+neighborhood: ""
 size: "Small (1-10)"
-location: ['','']
+location: ['48.00301500830179','-122.21792637805744']
 tags:
     - branding
     - ux/ui

@@ -8,7 +8,7 @@ category: "D"
 city: "Seattle"
 neighborhood: "Downtown"
 size: "Medium (11-40)"
-location: ['','']
+location: ['47.60429809445157','-122.33231004615317']
 tags:
     - motion
     - video

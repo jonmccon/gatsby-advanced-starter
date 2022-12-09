@@ -59,11 +59,11 @@ const Map = props => {
         }
       )
     } else {
-      // map.easeTo({
-      //   center: [0,0],
-      //   zoom: 11,
-      //   duration: 2000,
-      // })
+      map.easeTo({
+        center: [0,0],
+        zoom: 11,
+        duration: 2000,
+      })
       console.log(props.locations)
     }
   }, [map, props.location])

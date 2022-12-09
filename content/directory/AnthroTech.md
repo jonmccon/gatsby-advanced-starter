@@ -8,7 +8,7 @@ category: "A"
 city: "Olympia"
 neighborhood: "Downtown"
 size: "Medium (11-40)"
-location: ['','']
+location: ['47.610299596401916','-122.33423464658188']
 tags:
     - strategy
     - research

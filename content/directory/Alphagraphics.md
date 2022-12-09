@@ -8,7 +8,7 @@ category: "A"
 city: "Seattle"
 neighborhood: "Belltown"
 size: "Medium (11-40)"
-location: ['','']
+location: ['47.62667238095744','-122.35675392886071']
 tags:
     - printer
     - marketing

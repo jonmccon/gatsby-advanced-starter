@@ -8,7 +8,7 @@ category: "S"
 city: "Seattle"
 neighborhood: "Downtown"
 size: "Large (41-100)"
-location: ['','']
+location: ['47.61106835809117','-122.33605554232949']
 tags:
     - branding
     - packaging

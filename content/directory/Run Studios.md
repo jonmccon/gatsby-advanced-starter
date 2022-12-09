@@ -8,7 +8,7 @@ category: "R"
 city: "Seattle"
 neighborhood: "Ballard"
 size: "Large (41-100)"
-location: ['','']
+location: ['47.623656249276856','-122.32945489815316']
 tags:
     - video
     - motion

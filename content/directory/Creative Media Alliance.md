@@ -8,7 +8,7 @@ category: "C"
 city: "Seattle"
 neighborhood: "Pioneer Square"
 size: "Medium (11-40)"
-location: ['','']
+location: ['47.60290339504598','-122.33558644429986']
 tags:
     - marketing
     - advertising

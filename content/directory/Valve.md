@@ -8,7 +8,7 @@ category: "V"
 city: "Bellevue"
 neighborhood:
 size: "Large (41-100)"
-location: ['','']
+location: ['47.61428755956317','-122.20089790216242']
 tags:
     - ux/ui
     - industrial

@@ -8,7 +8,7 @@ category: "J"
 city: "Tacoma"
 neighborhood:
 size: "Small (1-10)"
-location: ['','']
+location: ['47.261107368894706','-122.43861631734786']
 tags:
     - branding
     - print

@@ -8,7 +8,7 @@ category: "P"
 city: "Seattle"
 neighborhood: "Ballard"
 size: "Small (1-10)"
-location: ['','']
+location: ['47.66951335049689','-122.38576997321194']
 tags:
     - strategy
     - branding

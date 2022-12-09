@@ -1,12 +1,12 @@
 ---
-title: "Oculus"
+title: "Meta Quest"
 featuredImage: ./-hamburgers.png
-website: "https://www.oculus.com/"
-twit: "oculus"
-inst: "oculus"
-category: "O"
+website: "https://www.meta.com/"
+twit: "Meta"
+inst: "meta"
+category: "M"
 city: "Seattle"
-neighborhood: "SODO"
+neighborhood: "Queen Anne"
 size: "Large (41-100)"
 location: ['','']
 tags:

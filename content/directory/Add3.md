@@ -8,7 +8,7 @@ category: "A"
 city: "Seattle"
 neighborhood: "Capitol Hill"
 size: "Medium (11-40)"
-location: ['','']
+location: ['47.61451392031075','-122.32538424658692']
 tags:
     - strategy
     - marketing

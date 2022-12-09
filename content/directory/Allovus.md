@@ -8,7 +8,7 @@ category: "A"
 city: "Gig Harbor"
 neighborhood:
 size: "Small (1-10)"
-location: ['','']
+location: ['47.59888748611175','-122.33386870028093']
 tags:
     - recruiter
 published: true

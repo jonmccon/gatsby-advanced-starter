@@ -8,7 +8,7 @@ category: "P"
 city: "Tacoma"
 neighborhood:
 size: "Large (41-100)"
-location: ['','']
+location: ['47.16688274517419','-122.47858173101473']
 tags:
     - printer
 published: true

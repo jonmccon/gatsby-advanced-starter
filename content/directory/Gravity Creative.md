@@ -8,7 +8,7 @@ category: "G"
 city: "Seattle"
 neighborhood: "Belltown"
 size: "Small (1-10)"
-location: ['','']
+location: ['47.613679431142344','-122.35132791566518']
 tags:
     - branding
     - packaging

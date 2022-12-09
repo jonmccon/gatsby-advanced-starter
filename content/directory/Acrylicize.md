@@ -8,7 +8,7 @@ category: "A"
 city: "Seattle"
 neighborhood: "Capitol Hill"
 size: "Medium (11-40)"
-location: ['','']
+location: ['47.61019104143859','-122.33592376752058']
 tags:
     - branding
     - community

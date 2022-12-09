@@ -1,14 +1,14 @@
 ---
 title: "Rupert"
 featuredImage: ./-hamburgers.png
-website: "http://rupert.studio/"
+website: "https://thisisrupert.com/"
 twit: "thisisrupert"
 inst: "rupert.studio"
 category: "R"
 city: "Seattle"
 neighborhood: "Fremont"
 size: "Small (1-10)"
-location: ['','']
+location: ['47.65876281188104','-122.36599326167804']
 tags:
     - strategy
     - research

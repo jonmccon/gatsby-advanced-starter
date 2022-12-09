@@ -8,7 +8,7 @@ category: "M"
 city: "Redmond"
 neighborhood:
 size: "Huge (100+)"
-location: ['','']
+location: ['47.64446865811225','-122.13048959998227']
 tags:
     - ux/ui
     - product

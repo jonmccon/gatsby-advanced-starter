@@ -8,7 +8,7 @@ category: "T"
 city: "Seattle"
 neighborhood: "Fremont"
 size: "Small (1-10)"
-location: ['','']
+location: ['47.65265435051626','-122.35831342914936']
 tags:
     - strategy
     - branding
