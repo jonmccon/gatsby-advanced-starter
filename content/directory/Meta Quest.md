@@ -1,7 +1,7 @@
 ---
 title: "Meta Quest"
 featuredImage: ./-hamburgers.png
-website: "https://www.meta.com/"
+website: "https://tech.facebook.com/reality-labs/"
 twit: "Meta"
 inst: "meta"
 category: "M"

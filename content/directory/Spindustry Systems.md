@@ -1,10 +1,10 @@
 ---
-title: "VSG Marketing"
+title: "Spindustry Systems"
 cover: "./content/blog/imgs/hamburgers.png"
 website: "https://vsg360.com/"
-twit: ""
-inst: "vsgmarketing"
-category: "V"
+twit: "Spindustry"
+inst: "spindustry"
+category: "S"
 city: "Tacoma"
 neighborhood:
 size: "Medium (11-40)"

@@ -1,5 +1,5 @@
 ---
-title: "Crown Social"
+title: "CROWN"
 featuredImage: ./-hamburgers.png
 website: "https://crownsocial.com/"
 twit: "crownsocial"

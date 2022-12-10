@@ -1,5 +1,5 @@
 ---
-title: "Chefsteps"
+title: "ChefSteps"
 featuredImage: ./-hamburgers.png
 website: "https://www.chefsteps.com/"
 twit: "chefsteps"

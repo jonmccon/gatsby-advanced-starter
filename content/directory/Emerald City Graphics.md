@@ -1,10 +1,10 @@
 ---
-title: "Emerald City Graphics"
+title: "RRD Packaging Solutions"
 featuredImage: ./-hamburgers.png
-website: "https://www.emeraldcg.com/"
+website: "https://www.rrd.com/"
 twit: ""
 inst: "emeraldcity_graphics"
-category: "E"
+category: "R"
 city: "Kent"
 neighborhood:
 size: "Large (41-100)"

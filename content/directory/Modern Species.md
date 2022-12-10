@@ -5,7 +5,7 @@ website: "https://modernspecies.com/"
 twit: "ModSpec"
 inst: "modspec"
 category: "M"
-city: "Seattle"
+city: "Olympia"
 neighborhood: "Pike Place Market"
 size: "Small (1-10)"
 location: ['','']

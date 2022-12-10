@@ -1,5 +1,5 @@
 ---
-title: "General UI"
+title: "GenUI"
 featuredImage: ./-hamburgers.png
 website: "https://www.genui.co/"
 twit: "generalui"

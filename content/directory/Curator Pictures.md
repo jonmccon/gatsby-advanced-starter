@@ -1,5 +1,5 @@
 ---
-title: "Curator Pictures"
+title: "CURATOR Pictures"
 featuredImage: ./-hamburgers.png
 website: "https://curatorpictures.com/"
 twit: ""
