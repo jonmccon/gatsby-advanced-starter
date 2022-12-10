@@ -8,7 +8,7 @@ category: "M"
 city: "Seattle"
 neighborhood: "Queen Anne"
 size: "Large (41-100)"
-location: ['','']
+location: 
 tags:
     - environmental
     - ux/ui

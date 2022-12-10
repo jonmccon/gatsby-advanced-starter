@@ -99,7 +99,6 @@ export const pageQuery = graphql`
         linkA
         linkB
         linkC
-        linkD
         alt
         featuredImage {
           childImageSharp {

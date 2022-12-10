@@ -1,9 +1,12 @@
 import React, { useRef, useEffect, useState } from "react"
-import mapboxgl from "!mapbox-gl"
+// import mapboxgl, { LngLat } from "!mapbox-gl"
+window.mapboxgl = require('!mapbox-gl');
 import bbox from "@turf/bbox"
 import { multiPoint } from "@turf/helpers"
 import Markers from "./markers"
 import "mapbox-gl/dist/mapbox-gl.css"
+
+
 
 // replace with your own Mapbox token
 // const MAPBOX_TOKEN = process.env.GATSBY_MAPBOX_TOKEN
@@ -18,6 +21,7 @@ const Map = props => {
   const mapContainerRef = useRef(null)
 
   const [map, setMap] = useState(null)
+  
 
   useEffect(() => {
     const map = new mapboxgl.Map({
@@ -35,14 +39,15 @@ const Map = props => {
     return () => map.remove()
   }, [])
 
-  useEffect(() => {
+  useEffect(() => {    
+    
     if (!map) return
 
-    if (props.location && props.location.length !== 0) {
-    // if (props.location) {
+    // if (props.location && props.location.length !== 0) {
+    if (props.locations) {
       const coords = []
-      props.location.forEach(location => {
-        coords.push(location[1], location[0])
+      props.locations.forEach( locations => {
+        coords.push([props.locations[1], props.locations[0]])
       })
       const feature = multiPoint(coords)
       const box = bbox(feature)
@@ -57,16 +62,18 @@ const Map = props => {
           maxZoom: 14,
           duration: 2000,
         }
+        
       )
+      console.log(props.locations)
     } else {
       map.easeTo({
         center: [0,0],
-        zoom: 11,
-        duration: 2000,
+        zoom: 5,
+        duration: 500,
       })
-      console.log(props.locations)
+      // console.log(props.locations)
     }
-  }, [map, props.location])
+  }, [map, props.locations])
 
   return (
     <div ref={mapContainerRef} style={mapContainerStyle}>

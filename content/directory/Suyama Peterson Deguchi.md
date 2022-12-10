@@ -8,7 +8,7 @@ category: "S"
 city: "Seattle"
 neighborhood: "South Park"
 size: "Small (1-10)"
-location: ['47.52648600614266','-122.32304455614253']
+location: [47.52648600614266,-122.32304455614253]
 tags:
     - architecture
     - industrial

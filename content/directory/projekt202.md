@@ -8,7 +8,7 @@ category: "P"
 city: "Seattle"
 neighborhood: "Downtown"
 size: "Large (41-100)"
-location: ['47.610178707011485','-122.33274363099778']
+location: [47.610178707011485,-122.33274363099778]
 tags:
     - ux/ui
     - strategy

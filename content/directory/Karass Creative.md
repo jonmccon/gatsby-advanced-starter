@@ -8,7 +8,7 @@ category: "K"
 city: "Seattle"
 neighborhood: "Pioneer Square"
 size: "Small (1-10)"
-location: ['47.60307826547433','-122.33389093529495']
+location: [47.60307826547433,-122.33389093529495]
 tags:
     - ux/ui
     - environmental

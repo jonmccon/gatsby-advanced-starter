@@ -8,7 +8,7 @@ category: "M"
 city: "Seattle"
 neighborhood: "Pioneer Square"
 size: "Large (41-100)"
-location: ['47.59953778281941','-122.33304767315963']
+location: [47.59953778281941,-122.33304767315963]
 tags:
     - ux/ui
     - product

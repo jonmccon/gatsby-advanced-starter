@@ -8,7 +8,7 @@ category: "T"
 city: "Edmonds"
 neighborhood:
 size: "Large (41-100)"
-location: ['47.810988779233064','-122.38030108866063']
+location: [47.810988779233064,-122.38030108866063]
 tags:
     - branding
     - illustration

@@ -8,7 +8,7 @@ category: "V"
 city: "Seattle"
 neighborhood: "South Lake Union"
 size: "Large (41-100)"
-location: ['47.61278972822198','-122.33791927332713']
+location: [47.61278972822198,-122.33791927332713]
 tags:
     - advertising
     - marketing

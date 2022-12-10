@@ -8,7 +8,7 @@ category: "C"
 city: "Seattle"
 neighborhood: "Pioneer Square"
 size: "Large (41-100)"
-location: ['47.60465000303519','-122.33788984717818']
+location: [47.60465000303519,-122.33788984717818]
 tags:
     - advertising
     - marketing

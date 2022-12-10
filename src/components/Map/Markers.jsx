@@ -6,7 +6,7 @@ const Marker = ({ map, location }) => {
 
   useEffect(() => {
     const marker = new mapboxgl.Marker(markerRef)
-      .setLngLat(location[1], location[0])
+      .setLngLat([location[1], location[0]])
       .addTo(map)
 
     return () => marker.remove()

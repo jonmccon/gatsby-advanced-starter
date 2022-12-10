@@ -8,7 +8,7 @@ category: "T"
 city: "Seattle"
 neighborhood: "Pioneer Square"
 size: "Medium (11-40)"
-location: ['47.60265573230689','-122.33238661565696']
+location: [47.60265573230689,-122.33238661565696]
 tags:
     - exhibition
     - branding

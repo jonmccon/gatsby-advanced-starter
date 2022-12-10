@@ -8,7 +8,7 @@ category: "W"
 city: "Seattle"
 neighborhood: "Capitol Hill"
 size: "Small (1-10)"
-location: ['47.613831661076354','-122.31772213099754']
+location: [47.613831661076354,-122.31772213099754]
 tags:
     - branding
     - ux/ui

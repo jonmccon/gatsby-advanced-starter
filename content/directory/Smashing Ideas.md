@@ -8,7 +8,7 @@ category: "S"
 city: "Seattle"
 neighborhood: "Belltown"
 size: "Large (41-100)"
-location: ['47.6117200365621','-122.34759658682141']
+location: [47.6117200365621,-122.34759658682141]
 tags:
     - strategy
     - research

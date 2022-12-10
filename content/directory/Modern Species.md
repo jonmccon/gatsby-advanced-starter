@@ -8,7 +8,7 @@ category: "M"
 city: "Olympia"
 neighborhood: "Pike Place Market"
 size: "Small (1-10)"
-location: ['','']
+location: 
 tags:
     - branding
     - packaging

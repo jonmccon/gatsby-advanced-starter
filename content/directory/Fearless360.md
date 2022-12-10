@@ -8,7 +8,7 @@ category: "F"
 city: "Seattle"
 neighborhood:
 size: "Small (1-10)"
-location: ['47.61520600728089','-122.31738387223345']
+location: [47.61520600728089,-122.31738387223345]
 tags:
     - vfx
     - video

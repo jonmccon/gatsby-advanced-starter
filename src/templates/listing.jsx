@@ -15,6 +15,7 @@ import Logo from "../components/Intro/Logo";
 import Footer from "../components/Footer/Footer";
 import EpisodeListing from "../components/PostListing/EpisodeListing";
 import Map from "../components/Map/Map";
+// import MapWrapper from "../components/Map/MapWrapper";
 
 class Listing extends React.Component {
 
@@ -81,6 +82,7 @@ class Listing extends React.Component {
               <EpisodeListing postEdgesDirectory={episodeEdges} />
             </div>
 
+            {/* MAP CONTAINER */}
             <div id="mapContainer">
               <Map locations={allLocations} />
             </div>  

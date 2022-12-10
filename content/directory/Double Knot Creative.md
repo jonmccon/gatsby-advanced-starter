@@ -8,7 +8,7 @@ category: "D"
 city: "Seattle"
 neighborhood: "South Lake Union"
 size: "Small (1-10)"
-location: ['47.6296250086462','-122.32863594429874']
+location: [47.6296250086462,-122.32863594429874]
 tags:
     - branding
     - packaging

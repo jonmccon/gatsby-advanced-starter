@@ -8,7 +8,7 @@ category: "P"
 city: "Seattle"
 neighborhood: "Ballard"
 size: "Small (1-10)"
-location: ['47.66909362745261','-122.38114617332499']
+location: [47.66909362745261,-122.38114617332499]
 tags:
     - ux/ui
     - marketing

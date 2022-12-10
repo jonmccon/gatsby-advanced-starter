@@ -8,7 +8,7 @@ category: "J"
 city: "Seattle"
 neighborhood: "South Lake Union"
 size: "Small (1-10)"
-location: ['','']
+location: 
 tags:
     - advertising
     - ux/ui

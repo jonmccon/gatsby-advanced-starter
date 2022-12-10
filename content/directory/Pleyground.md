@@ -8,7 +8,7 @@ category: "P"
 city: "Seattle"
 neighborhood: "Pioneer Square"
 size: "Small (1-10)"
-location: ['47.61177834192942','-122.3443361433834']
+location: [47.61177834192942,-122.3443361433834]
 tags:
     - typography
     - print

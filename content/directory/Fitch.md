@@ -8,7 +8,7 @@ category: "F"
 city: "Seattle"
 neighborhood: "Downtown"
 size: "Small (1-10)"
-location: ['47.60786478040338','-122.33547660217097']
+location: [47.60786478040338,-122.33547660217097]
 tags:
     - branding
     - environmental

@@ -8,7 +8,7 @@ category: "Y"
 city: "Edmonds"
 neighborhood:
 size: "Small (1-10)"
-location: ['','']
+location: 
 tags:
     - illustration
     - branding

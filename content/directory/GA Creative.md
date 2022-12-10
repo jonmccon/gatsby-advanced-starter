@@ -8,7 +8,7 @@ category: "G"
 city: "Bellevue"
 neighborhood: ""
 size: "Medium (11-40)"
-location: ['47.625684014589275','-122.15472402915896']
+location: [47.625684014589275,-122.15472402915896]
 tags:
     - branding
     - ux/ui

@@ -8,7 +8,7 @@ category: "G"
 city: "Seattle"
 neighborhood: "The ID"
 size: "Large (41-100)"
-location: ['47.5970305074843','-122.32877745582385']
+location: [47.5970305074843,-122.32877745582385]
 tags:
     - product
     - photography

@@ -8,7 +8,7 @@ category: "M"
 city: "Seattle"
 neighborhood:
 size: "Small (1-10)"
-location: ['','']
+location: 
 tags:
     - strategy
     - research

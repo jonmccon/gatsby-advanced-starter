@@ -8,7 +8,7 @@ category: "R"
 city: "Seattle"
 neighborhood: "Fremont"
 size: "Small (1-10)"
-location: ['47.65876281188104','-122.36599326167804']
+location: [47.65876281188104,-122.36599326167804]
 tags:
     - strategy
     - research

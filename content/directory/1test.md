@@ -9,7 +9,7 @@ category: "A"
 city: "Seattle"
 neighborhood: "Poop"
 size: "Medium (11-40)"
-location: ['','']
+location: 
 tags:
     - industrial
     - ux/ui

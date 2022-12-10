@@ -8,7 +8,7 @@ category: "H"
 city: "Seattle"
 neighborhood: "Pioneer Square"
 size: "Small (1-10)"
-location: ['47.60238827207535','-122.33462838645536']
+location: [47.60238827207535,-122.33462838645536]
 tags:
     - strategy
     - branding

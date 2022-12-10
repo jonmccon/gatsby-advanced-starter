@@ -8,7 +8,7 @@ category: "E"
 city: "Seattle"
 neighborhood: "Fremont"
 size: "Small (1-10)"
-location: ['47.6346596028054','-122.33957071546237']
+location: [47.6346596028054,-122.33957071546237]
 tags:
     - branding
     - presentation

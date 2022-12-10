@@ -8,7 +8,7 @@ category: "C"
 city: "Seattle"
 neighborhood: "Downtown"
 size: "Medium (11-40)"
-location: ['47.61010190724512','-122.3368583308082']
+location: [47.61010190724512,-122.3368583308082]
 tags:
     - branding
     - marketing
