@@ -8,7 +8,7 @@ category: "R"
 city: "Tacoma"
 neighborhood:
 size: "Small (1-10)"
-location: [47.256708861270006,-122.44124563101124]
+location: [-122.44124563101124,47.256708861270006]
 tags:
     - branding
     - ux/ui

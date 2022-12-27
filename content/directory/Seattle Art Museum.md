@@ -8,7 +8,7 @@ category: "S"
 city: "Seattle"
 neighborhood: "Pike Place Market"
 size: "Medium (11-40)"
-location: [47.60765548092441,-122.33791698682144]
+location: [-122.33791698682144,47.60765548092441]
 tags:
     - branding
     - marketing

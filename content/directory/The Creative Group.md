@@ -8,7 +8,7 @@ category: "T"
 city: "Seattle"
 neighborhood: "Downtown"
 size: "Large (41-100)"
-location: [47.61390031285357,-122.33152911076994]
+location: [-122.33152911076994,47.61390031285357]
 tags:
     - recruiter
 published: true

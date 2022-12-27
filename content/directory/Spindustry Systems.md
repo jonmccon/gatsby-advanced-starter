@@ -8,7 +8,7 @@ category: "S"
 city: "Tacoma"
 neighborhood:
 size: "Medium (11-40)"
-location: [47.246640246268804,-122.44334762698841]
+location: [-122.44334762698841,47.246640246268804]
 tags:
     - branding
     - marketing

@@ -8,7 +8,7 @@ category: "E"
 city: "Seattle"
 neighborhood: "Downtown"
 size: "Medium (11-40)"
-location: [47.60592245259766,-122.33184440197213]
+location: [-122.33184440197213,47.60592245259766]
 tags:
     - ux/ui
     - marketing

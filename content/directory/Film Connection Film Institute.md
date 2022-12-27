@@ -8,7 +8,7 @@ category: "F"
 city: "Seattle"
 neighborhood: "Pioneer Square"
 size: "Medium (11-40)"
-location: [47.60385738001483,-122.33462689488078]
+location: [-122.33462689488078,47.60385738001483,]
 tags:
     - video
     - school

@@ -8,7 +8,7 @@ category: "P"
 city: "Seattle"
 neighborhood: "Capitol Hill"
 size: "Medium (11-40)"
-location: [47.612600418739866,-122.31962844232946]
+location: [-122.31962844232946,47.612600418739866]
 tags:
     - ux/ui
     - engineering

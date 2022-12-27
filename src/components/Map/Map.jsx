@@ -43,11 +43,11 @@ const Map = props => {
     
     if (!map) return
 
-    // if (props.location && props.location.length !== 0) {
+    // if (props.locations && props.locations.length !== 0) {
     if (props.locations) {
       const coords = []
-      props.locations.forEach( locations => {
-        coords.push([props.locations[1], props.locations[0]])
+      props.locations.forEach( location => {
+        coords.push([location[0], location[1]])
       })
       const feature = multiPoint(coords)
       const box = bbox(feature)
@@ -62,7 +62,6 @@ const Map = props => {
           maxZoom: 14,
           duration: 2000,
         }
-        
       )
       console.log(props.locations)
     } else {
@@ -73,12 +72,14 @@ const Map = props => {
       })
       // console.log(props.locations)
     }
+
   }, [map, props.locations])
 
   return (
     <div ref={mapContainerRef} style={mapContainerStyle}>
-      {props.location && map && <Markers map={map} locations={props.location} />}
+      {props.locations && map && <Markers map={map} locations={props.locations} />}
     </div>
+      
   )
 }
 

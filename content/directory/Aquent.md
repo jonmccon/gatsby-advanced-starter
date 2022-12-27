@@ -8,7 +8,7 @@ category: "A"
 city: "Seattle"
 neighborhood: "Fremont"
 size: "Large (41-100)"
-location: [47.6509659310144,-122.34349285738608]
+location: [-122.34349285738608,47.6509659310144]
 tags:
     - recruiter
 published: true

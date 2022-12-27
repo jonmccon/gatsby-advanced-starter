@@ -8,7 +8,7 @@ category: "F"
 city: "Seattle"
 neighborhood: "Fremont"
 size: "Small (1-10)"
-location: [47.658027976079254,-122.3653004733339]
+location: [-122.3653004733339,47.658027976079254]
 tags:
     - branding
     - print

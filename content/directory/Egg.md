@@ -8,7 +8,7 @@ category: "E"
 city: "Vashon Island"
 neighborhood:
 size: "Small (1-10)"
-location: [47.48168324098728,-122.46982440608141]
+location: [-122.46982440608141,47.48168324098728]
 tags:
     - branding
     - marketing

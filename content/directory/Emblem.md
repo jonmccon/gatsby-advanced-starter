@@ -8,7 +8,7 @@ category: "E"
 city: "Seattle"
 neighborhood:
 size: "Small (1-10)"
-location: [47.602023600267785,-122.3343909596447]
+location: [-122.3343909596447,47.602023600267785]
 tags:
     - branding
     - strategy

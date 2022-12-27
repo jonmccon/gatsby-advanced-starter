@@ -8,7 +8,7 @@ category: "F"
 city: "Seattle"
 neighborhood: "Queen Anne"
 size: "Small (1-10)"
-location: [47.621234657316265,-122.3594721558239]
+location: [-122.3594721558239,47.621234657316265]
 tags:
     - vfx
     - gaming

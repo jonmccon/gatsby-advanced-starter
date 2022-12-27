@@ -8,7 +8,7 @@ category: "S"
 city: "Seattle"
 neighborhood: "Capitol Hill"
 size: "Small (1-10)"
-location: ['47.6147370931418','-122.3170356831276']
+location: [-122.3170356831276,47.6147370931418]
 tags:
     - environmental
     - exhibition

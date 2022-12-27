@@ -8,7 +8,7 @@ category: "D"
 city: "Seattle"
 neighborhood: "Downtown"
 size: "Medium (11-40)"
-location: [47.60903806431219,-122.33426762698282]
+location: [-122.33426762698282,47.60903806431219]
 tags:
     - strategy
     - advertising

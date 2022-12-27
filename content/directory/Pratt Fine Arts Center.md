@@ -8,7 +8,7 @@ category: "P"
 city: "Seattle"
 neighborhood: "Central District"
 size: "Medium (11-40)"
-location: [47.600385702356995,-122.30732451565709]
+location: [-122.30732451565709,47.600385702356995]
 tags:
     - school
 published: true
