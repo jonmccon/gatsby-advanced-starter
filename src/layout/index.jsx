@@ -11,7 +11,8 @@ export default class MainLayout extends React.Component {
         <Helmet>
           <meta name="description" content={config.siteDescription} />
           <meta name="viewport" content="width=device-width" />
-          <html lang="en" />
+          {/* Defualt to light mode */}
+          <html lang="en" color-mode="light"/>
           <link href="https://fonts.googleapis.com/css2?family=Spectral" rel="stylesheet" />
           <script src="https://kit.fontawesome.com/d09a0402a9.js" crossorigin="anonymous"></script>
         </Helmet>

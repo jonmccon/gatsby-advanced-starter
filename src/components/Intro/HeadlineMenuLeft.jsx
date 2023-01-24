@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 import { Link } from "gatsby";
+import LightDarkToggle from "./LightDarkToggle";
+
+
 
 
 
@@ -35,6 +38,8 @@ class HeadlineMenuLeft extends Component {
           >
             Chat
           </a>
+
+          <LightDarkToggle />
           
           
         </div>

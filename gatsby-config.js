@@ -120,6 +120,7 @@ module.exports = {
     "gatsby-plugin-catch-links",
     "gatsby-plugin-twitter",
     "gatsby-plugin-sitemap",
+    "gatsby-plugin-dark-mode",
     {
       resolve: "gatsby-plugin-feed",
       options: {
