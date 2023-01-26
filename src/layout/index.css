@@ -6,7 +6,7 @@
 @import url(interview.css);         /* Interview page has basic bg and fonts & its own layout */
 
 /* COLOR VARIABLES */
-:root {
+:root, :root.light {
     --color-transparent: rgba(255, 255, 255, 0);
     --color-bg-coral: rgba(255, 173, 161, 1);
     --color-bg-coral-half: rgba(255, 173, 161, 0.5);
@@ -100,11 +100,14 @@ a:hover {   cursor: pointer; }
 
 @media (prefers-color-scheme: dark) {
 
-    h1, h5, a, p, .headline-menu--link, .directory-block--end p, .directory-block--end a {
-        color: var(--color-dark-listingLink);
+    :root {
+    --color-text: hsl(25, 70%, 45%);
+    --color-listingLink: #BEC6CF;
+    --color-border: #333333;
+    --color-bg: #1F1E1E;
     }
 
-    .logo {
+    /* .logo {
         background-image: url(../static/scLogoDark.svg);
     }
 
@@ -149,6 +152,6 @@ a:hover {   cursor: pointer; }
 
     .directory-block--item .rhap_current-left-time {
         color: var(--color-dark-listingLink) !important;       
-    }
+    } */
 
 }

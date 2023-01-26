@@ -23,7 +23,6 @@ function toggleDarkMode() {
 class LightDarkToggle extends React.Component {
   render() {
     return (
-        
         <button onClick={toggleDarkMode}>Togglle</button>
     )
   }
