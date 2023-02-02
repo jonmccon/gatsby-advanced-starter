@@ -58,7 +58,6 @@
     "gatsby-transformer-remark": "^2.7.1",
     "gatsby-transformer-sharp": "^2.4.2",
     "lodash": "^4.17.20",
-    "mapbox-gl": "^1.13.0",
     "moment": "^2.29.4",
     "netlify-lambda": "^2.0.15",
     "netlify-plugin-checklinks": "^4.1.1",

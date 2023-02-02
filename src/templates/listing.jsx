@@ -14,7 +14,7 @@ import HeadlineMenuLeft from "../components/Intro/HeadlineMenuLeft";
 import Logo from "../components/Intro/Logo";
 import Footer from "../components/Footer/Footer";
 import EpisodeListing from "../components/PostListing/EpisodeListing";
-import Map from "../components/Map/Map";
+import Map from "../components/Map/SCDMap";
 import MapWrapper from "../components/Map/MapWrapper";
 
 class Listing extends React.Component {
