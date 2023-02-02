@@ -43,8 +43,8 @@ const Map = props => {
     
     if (!map) return
 
-    // if (props.places && props.places.length !== 0) {
-    if (props.places) {
+    if (props.places && props.places.length !== 0) {
+    // if (props.places) {
       const coords = []
       props.places.forEach( place => {
         coords.push([place[0], place[1]])
@@ -63,14 +63,14 @@ const Map = props => {
       //     duration: 2000,
       //   }
       // )
-      console.log(place)
+      // console.log(props.places)
     } else {
       map.easeTo({
         center: [0,0],
         zoom: 5,
         duration: 500,
       })
-      // console.log(props.places)
+      console.log(props.places)
     }
 
   }, [map, props.places])
