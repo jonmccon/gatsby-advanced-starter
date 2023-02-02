@@ -8,7 +8,7 @@ category: "T"
 city: "Seattle"
 neighborhood: "Capitol Hill"
 size: "Medium (11-40)"
-location: [-122.33099330199573,47.59799948773961]
+place: [-122.33099330199573,47.59799948773961]
 tags:
     - advertising
     - branding

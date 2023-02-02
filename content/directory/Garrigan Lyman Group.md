@@ -8,7 +8,7 @@ category: "G"
 city: "Seattle"
 neighborhood: "Downtown"
 size: "Large (41-100)"
-location: [-122.33604203100603,47.61164230123766]
+place: [-122.33604203100603,47.61164230123766]
 tags:
     - branding
     - strategy

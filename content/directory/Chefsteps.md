@@ -8,7 +8,7 @@ category: "C"
 city: "Seattle"
 neighborhood: "Pike Place Market"
 size: "Medium (11-40)"
-location: [-122.34106780672438,47.60865973244664]
+place: [-122.34106780672438,47.60865973244664]
 tags:
     - interactive
     - product

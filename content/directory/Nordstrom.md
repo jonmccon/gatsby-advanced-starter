@@ -8,7 +8,7 @@ category: "N"
 city: "Seattle"
 neighborhood: "Downtown"
 size: "Large (41-100)"
-location: [-122.33625588682136,47.61245226731475]
+place: [-122.33625588682136,47.61245226731475]
 tags:
     - environmental
     - marketing

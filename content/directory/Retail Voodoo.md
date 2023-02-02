@@ -8,7 +8,7 @@ category: "R"
 city: "Seattle"
 neighborhood: "Laurelhurst"
 size: "Small (1-10)"
-location: [-122.31689821565473,47.6606139057321]
+place: [-122.31689821565473,47.6606139057321]
 tags:
     - branding
     - packaging

@@ -12,7 +12,7 @@ category: "interview"
 date: "2018-03-01"
 slug: "update-all-of-this"
 tags:
-location: 
+place: 
 published: false
 ---
 

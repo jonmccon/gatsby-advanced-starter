@@ -8,7 +8,7 @@ category: "R"
 city: "Seattle"
 neighborhood: "Madrona"
 size: "Small (1-10)"
-location: [-122.2891134134942,47.61402441151606]
+place: [-122.2891134134942,47.61402441151606]
 tags:
     - architecture
     - branding

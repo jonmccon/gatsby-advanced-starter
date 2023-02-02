@@ -8,7 +8,7 @@ category: "N"
 city: "Seattle"
 neighborhood: "Queen Anne"
 size: "Small (1-10)"
-location: [-122.35780073099725,47.6231012303053]
+place: [-122.35780073099725,47.6231012303053]
 tags:
     - engineering
     - ux/ui

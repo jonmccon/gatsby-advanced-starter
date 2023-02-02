@@ -8,7 +8,7 @@ category: "U"
 city: "Seattle"
 neighborhood: "Pioneer Square"
 size: "Small (1-10)"
-location: [-122.33091645582367,47.59829447242515]
+place: [-122.33091645582367,47.59829447242515]
 tags:
     - ux/ui
     - research

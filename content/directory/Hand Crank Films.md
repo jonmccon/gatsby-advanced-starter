@@ -8,7 +8,7 @@ category: "H"
 city: "Seattle"
 neighborhood: "Ballard"
 size: "Small (1-10)"
-location: [-122.38680563243992,47.668814367093084]
+place: [-122.38680563243992,47.668814367093084]
 tags:
     - video
 published: true

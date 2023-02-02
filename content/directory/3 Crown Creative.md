@@ -8,7 +8,7 @@ category: "numbers"
 city: "Seattle"
 neighborhood: "Fremont"
 size: "Small (1-10)"
-location: [-122.34166844627667,47.649787758850536]
+place: [-122.34166844627667,47.649787758850536]
 tags:
     - branding
     - ux/ui

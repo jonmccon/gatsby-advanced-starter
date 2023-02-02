@@ -8,7 +8,7 @@ category: "S"
 city: "Seattle"
 neighborhood: "Pioneer Square"
 size: "Small (1-10)"
-location: 
+place: 
 tags:
     - recruiter
 published: true

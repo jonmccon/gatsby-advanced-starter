@@ -8,7 +8,7 @@ category: "P"
 city: "Seattle"
 neighborhood: "Capitol Hill"
 size: "Small (1-10)"
-location: [-122.3227890441763,47.62496256915262]
+place: [-122.3227890441763,47.62496256915262]
 tags:
     - research
     - branding

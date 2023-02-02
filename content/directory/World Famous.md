@@ -8,7 +8,7 @@ category: "W"
 city: "Seattle"
 neighborhood: "Capitol Hill"
 size: "Medium (11-40)"
-location: [-122.32017423099758,47.61413402049685]
+place: [-122.32017423099758,47.61413402049685]
 tags:
     - video
     - marketing

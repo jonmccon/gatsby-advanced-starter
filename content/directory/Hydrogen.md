@@ -8,7 +8,7 @@ category: "H"
 city: "Seattle"
 neighborhood: "Downtown"
 size: "Small (1-10)"
-location: [-122.33662528644952,47.611427710885614]
+place: [-122.33662528644952,47.611427710885614]
 tags:
     - marketing
     - advertising

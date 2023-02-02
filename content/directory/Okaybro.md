@@ -8,7 +8,7 @@ category: "O"
 city: "Seattle"
 neighborhood:
 size: "Small (1-10)"
-location: [-122.32098827332818,47.58548658212372]
+place: [-122.32098827332818,47.58548658212372]
 tags:
     - video
     - branding

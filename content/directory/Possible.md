@@ -8,7 +8,7 @@ category: "P"
 city: "Seattle"
 neighborhood: "Downtown"
 size: "Large (41-100)"
-location: 
+place: 
 tags:
     - branding
     - advertising

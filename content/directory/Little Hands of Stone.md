@@ -8,7 +8,7 @@ category: "L"
 city: "Seattle"
 neighborhood: "Fremont"
 size: "Small (1-10)"
-location: [-122.35721564039845,47.65318443998326]
+place: [-122.35721564039845,47.65318443998326]
 tags:
     - video
     - motion

@@ -8,7 +8,7 @@ category: "A"
 city: "Marysville"
 neighborhood:
 size: "Small (1-10)"
-location: [-116.6424628520817,43.582240694776566]
+place: [-116.6424628520817,43.582240694776566]
 tags:
     - branding
     - print

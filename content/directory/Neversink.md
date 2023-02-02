@@ -8,7 +8,7 @@ category: "N"
 city: "Seattle"
 neighborhood:
 size: "Small (1-10)"
-location: 
+place: 
 tags:
     - branding
     - packaging

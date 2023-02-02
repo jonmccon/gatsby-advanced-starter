@@ -8,7 +8,7 @@ category: "T"
 city: "Seattle"
 neighborhood: "Fremont"
 size: "Large (41-100)"
-location: [-122.37829109962091,47.67066986546319]
+place: [-122.37829109962091,47.67066986546319]
 tags:
     - strategy
     - engineering

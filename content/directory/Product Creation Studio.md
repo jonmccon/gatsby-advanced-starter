@@ -8,7 +8,7 @@ category: "P"
 city: "Seattle"
 neighborhood: "South Lake Union"
 size: "Medium (11-40)"
-location: [-122.47858173101473,47.16688274517419]
+place: [-122.47858173101473,47.16688274517419]
 tags:
     - industrial
     - product

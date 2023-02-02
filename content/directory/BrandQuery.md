@@ -8,7 +8,7 @@ category: "B"
 city: "Mount Vernon"
 neighborhood:
 size: "Small (1-10)"
-location: [-122.33939676319653,48.4139952144869]
+place: [-122.33939676319653,48.4139952144869]
 tags:
     - branding
     - advertising

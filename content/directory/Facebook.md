@@ -8,7 +8,7 @@ category: "M"
 city: "Seattle"
 neighborhood: "Queen Anne"
 size: "Huge (100+)"
-location: [-122.34273821412414,47.62904813926928]
+place: [-122.34273821412414,47.62904813926928]
 tags:
     - ux/ui
     - product

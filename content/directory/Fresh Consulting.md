@@ -8,7 +8,7 @@ category: "F"
 city: "Bellevue"
 neighborhood: ""
 size: "Large (41-100)"
-location: [-122.14335187487924,47.578003501120726]
+place: [-122.14335187487924,47.578003501120726]
 tags:
     - strategy
     - branding

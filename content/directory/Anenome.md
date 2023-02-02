@@ -8,7 +8,7 @@ category: "A"
 city: "Seattle"
 neighborhood: "Roosevelt"
 size: "Small (1-10)"
-location: 
+place: 
 tags:
     - community 
     - engineering

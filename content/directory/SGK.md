@@ -8,7 +8,7 @@ category: "S"
 city: "Redmond"
 neighborhood:
 size: "Large (41-100)"
-location: [-122.09625723099555,47.66675719973992]
+place: [-122.09625723099555,47.66675719973992]
 tags:
     - printer
     - photography

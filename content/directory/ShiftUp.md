@@ -8,7 +8,7 @@ category: "S"
 city: "Seattle"
 neighborhood: "Fremont"
 size: "Small (1-10)"
-location: [-122.35096655798448,47.65187807080461]
+place: [-122.35096655798448,47.65187807080461]
 tags:
     - ux/ui
     - strategy

@@ -8,7 +8,7 @@ category: "F"
 city: "Seattle"
 neighborhood: "Pike Place Market"
 size: "Small (1-10)"
-location: [-122.34201504634689,47.611062443946416]
+place: [-122.34201504634689,47.611062443946416]
 tags:
     - research
     - ux/ui

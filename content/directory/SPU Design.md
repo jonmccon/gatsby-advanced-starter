@@ -8,7 +8,7 @@ category: "S"
 city: "Seattle"
 neighborhood: "Queen Anne"
 size: "Large (41-100)"
-location: [-122.36184640049403,47.64919413186127]
+place: [-122.36184640049403,47.64919413186127]
 tags:
     - school
 published: true

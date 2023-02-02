@@ -8,7 +8,7 @@ category: "T"
 city: "Seattle"
 neighborhood: "Belltown"
 size: "Medium (11-40)"
-location: [-122.34061634449182,47.61325453231767]
+place: [-122.34061634449182,47.61325453231767]
 tags:
     - ux/ui
     - industrial

@@ -8,7 +8,7 @@ category: "W"
 city: "Seattle"
 neighborhood: "First Hill"
 size: "Medium (11-40)"
-location: [-122.31439507332749,47.60213836567959]
+place: [-122.31439507332749,47.60213836567959]
 tags:
     - video
     - motion

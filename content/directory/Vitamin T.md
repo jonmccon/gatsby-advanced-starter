@@ -8,7 +8,7 @@ category: "V"
 city: "Seattle"
 neighborhood: "Fremont"
 size: "Small (1-10)"
-location: 
+place: 
 tags:
     - recruiter
 published: true

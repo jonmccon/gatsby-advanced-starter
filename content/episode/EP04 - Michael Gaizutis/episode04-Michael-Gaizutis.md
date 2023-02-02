@@ -13,7 +13,7 @@ category: "interview"
 date: "2018-03-01"
 slug: "episode-3-michael-ellsworth-wendy-quisenberry-bacon-corgies"
 tags:
-location: 
+place: 
 published: false
 ---
 

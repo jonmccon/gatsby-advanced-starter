@@ -8,7 +8,7 @@ category: "M"
 city: "Tacoma"
 neighborhood:
 size: "Small (1-10)"
-location: 
+place: 
 tags:
     - illustration
 published: true
