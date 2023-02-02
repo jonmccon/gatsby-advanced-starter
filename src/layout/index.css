@@ -6,7 +6,7 @@
 @import url(interview.css);         /* Interview page has basic bg and fonts & its own layout */
 
 /* COLOR VARIABLES */
-:root, :root.light {
+:root {
     --color-transparent: rgba(255, 255, 255, 0);
     --color-bg-coral: rgba(255, 173, 161, 1);
     --color-bg-coral-half: rgba(255, 173, 161, 0.5);
@@ -50,6 +50,13 @@
     --text-gin-small: 400 2em Gin-and-Soda, sans-serif;
     /* --text-tag-toggle: put in the styles from the test br subscribe button here */
     /* include text styles for desktop and variable baselines */
+}
+
+:root.dark {
+    --color-text: green;
+    --color-listingLink: #BEC6CF;
+    --color-border: #333333;
+    --color-bg: #1F1E1E;
 }
 /* ----------------------------------------------- */
 
@@ -98,14 +105,8 @@ a:hover {   cursor: pointer; }
 /*  DARK MODE STYLES */
 
 
-@media (prefers-color-scheme: dark) {
 
-    :root {
-    --color-text: hsl(25, 70%, 45%);
-    --color-listingLink: #BEC6CF;
-    --color-border: #333333;
-    --color-bg: #1F1E1E;
-    }
+
 
     /* .logo {
         background-image: url(../static/scLogoDark.svg);
@@ -153,5 +154,3 @@ a:hover {   cursor: pointer; }
     .directory-block--item .rhap_current-left-time {
         color: var(--color-dark-listingLink) !important;       
     } */
-
-}
