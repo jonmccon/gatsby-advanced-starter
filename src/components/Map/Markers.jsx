@@ -5,12 +5,11 @@ import { LngLat } from "mapbox-gl"
 
 
 
-const Marker = ({ map, location }) => {
+const Marker = ({ map, place }) => {
   const markerRef = useRef()
-  console.log(location)
   useEffect(() => {
     const marker = new mapboxgl.Marker(markerRef)
-      .setLngLat([location[0], location[1]])
+      .setLngLat([place[0], place[1]])
       .addTo(map)
 
     return () => marker.remove()
@@ -19,12 +18,12 @@ const Marker = ({ map, location }) => {
   return <div ref={markerRef} />
 }
 
-const Markers = ({ map, locations }) => {
+const Markers = ({ map, places }) => {
   return (
     <>
-      {locations &&
-        locations.map(location => (
-          <Marker key={location.title} map={map} location={location} />
+      {places &&
+        places.map(place => (
+          <Marker key={place.title} map={map} place={place} />
         ))}
     </>
   )

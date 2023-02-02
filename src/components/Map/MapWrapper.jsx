@@ -3,19 +3,19 @@ import PropTypes from "prop-types"
 import Map from "./Map"
 
 const MapWrapper = props => {
-  const [location, setLocations] = useState([])
+  const [places, setPlaces] = useState([])
 
   useEffect(() => {
     if (props && props.data) {
-      setLocations(props.data.markdownRemark.frontmatter.location)
+      setPlaces(props.data.markdownRemark.frontmatter.places)
     } else {
-      setLocations([])
+      setPlaces([])
     }
   }, [props])
 
   return (
     <>
-      <Map locations={location} />
+      <Map places={places} />
     </>
   )
 }

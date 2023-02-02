@@ -43,41 +43,41 @@ const Map = props => {
     
     if (!map) return
 
-    // if (props.locations && props.locations.length !== 0) {
-    if (props.locations) {
+    // if (props.places && props.places.length !== 0) {
+    if (props.places) {
       const coords = []
-      props.locations.forEach( location => {
-        coords.push([location[0], location[1]])
+      props.places.forEach( place => {
+        coords.push([place[0], place[1]])
       })
       const feature = multiPoint(coords)
       const box = bbox(feature)
 
-      map.fitBounds(
-        [
-          [box[0], box[1]],
-          [box[2], box[3]],
-        ],
-        {
-          padding: 40,
-          maxZoom: 14,
-          duration: 2000,
-        }
-      )
-      console.log(props.locations)
+      // map.fitBounds(
+      //   [
+      //     [box[0], box[1]],
+      //     [box[2], box[3]],
+      //   ],
+      //   {
+      //     padding: 40,
+      //     maxZoom: 14,
+      //     duration: 2000,
+      //   }
+      // )
+      console.log(place)
     } else {
       map.easeTo({
         center: [0,0],
         zoom: 5,
         duration: 500,
       })
-      // console.log(props.locations)
+      // console.log(props.places)
     }
 
-  }, [map, props.locations])
+  }, [map, props.places])
 
   return (
     <div ref={mapContainerRef} style={mapContainerStyle}>
-      {props.locations && map && <Markers map={map} locations={props.locations} />}
+      {props.places && map && <Markers map={map} places={props.places} />}
     </div>
       
   )
