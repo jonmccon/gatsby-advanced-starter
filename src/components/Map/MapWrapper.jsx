@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react"
 import PropTypes from "prop-types"
-import Map from "./map"
+import Map from "./Map"
 
 const MapWrapper = props => {
   const [location, setLocations] = useState([])

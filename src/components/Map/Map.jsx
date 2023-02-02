@@ -3,7 +3,7 @@ import React, { useRef, useEffect, useState } from "react"
 window.mapboxgl = require('!mapbox-gl');
 import bbox from "@turf/bbox"
 import { multiPoint } from "@turf/helpers"
-import Markers from "./markers"
+import Markers from "./Markers"
 import "mapbox-gl/dist/mapbox-gl.css"
 
 
