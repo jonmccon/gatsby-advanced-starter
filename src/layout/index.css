@@ -100,7 +100,7 @@ a:hover {   cursor: pointer; }
 
 @media (prefers-color-scheme: dark) {
 
-    h1, h5, a, p, .headline-menu--link, .directory-block--end p, .directory-block--end a {
+    h1, h5, a, p, .headline-menu--link, .directory-block--end p, .directory-block--end a, label {
         color: var(--color-dark-listingLink);
     }
 
