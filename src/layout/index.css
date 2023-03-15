@@ -87,11 +87,11 @@ a:hover {   cursor: pointer; }
 .cardEpisode5 {    background-color:#FFF29E !important;  }
 .cardEpisode6 {    background-color:#FACCD6 !important;  }
 .cardEpisode7 {    background-color:#86E9BB !important;  }
-.cardEpisode8 {    background-color:#FFD3BA !important;  }
-.cardEpisode9 {    background-color:#FDD877 !important;  }
-.cardEpisode10 {   background-color:#EFFCEE !important;  }
-.cardEpisode11 {   background-color:#CCC9DC !important;  }
-.cardEpisode12 {   background-color:#EDF67D !important;  }
+.cardEpisode8 {    background-color:#FDD877 !important;  }
+.cardEpisode9 {    background-color:#EFFCEE !important;  }
+.cardEpisode10 {   background-color:#CCC9DC !important;  }
+.cardEpisode11 {   background-color:#EDF67D !important;  }
+/* .cardEpisode12 {   background-color:# !important;  } */
 
 /* ----------------------------------------------- */
 
@@ -100,7 +100,7 @@ a:hover {   cursor: pointer; }
 
 @media (prefers-color-scheme: dark) {
 
-    h1, h5, a, p, .headline-menu--link, .directory-block--end p, .directory-block--end a {
+    h1, h5, a, p, .headline-menu--link, .directory-block--end p, .directory-block--end a, label {
         color: var(--color-dark-listingLink);
     }
 
