@@ -1,10 +1,10 @@
 ---
-title: "DEI Creative"
+title: "People People"
 featuredImage: ./-hamburgers.png
-website: "https://deicreative.com/"
+website: "https://people-people.com/"
 twit: ""
-inst: "deicreative"
-category: "D"
+inst: "people.people.studio"
+category: "P"
 city: "Seattle"
 neighborhood: "Capitol Hill"
 size: "Small (1-10)"

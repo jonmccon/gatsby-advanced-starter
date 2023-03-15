@@ -1,7 +1,7 @@
 ---
 title: "Rupert"
 featuredImage: ./-hamburgers.png
-website: "http://rupert.studio/"
+website: "https://thisisrupert.com/"
 twit: "thisisrupert"
 inst: "rupert.studio"
 category: "R"
