@@ -1,9 +1,9 @@
 ---
 title: "Form"
 featuredImage: ./-hamburgers.png
-website: "http://www.formmade.com/"
-twit: "formmade"
-inst: "formmade"
+website: "https://www.designbyform.com/"
+twit: ""
+inst: "designbyform_"
 category: "F"
 city: "Seattle"
 neighborhood: "U District"
