@@ -1,14 +1,14 @@
 ---
-title: "Rusty George Creative"
+title: Rusty George Creative
 featuredImage: ./-hamburgers.png
-website: "https://rustygeorge.com/"
-twit: "RustyGCreative"
-inst: "rustygeorgecreative"
-category: "R"
-city: "Tacoma"
+website: https://rustygeorge.com/
+twit: RustyGCreative
+inst: rustygeorgecreative
+category: R
+city: Tacoma
 neighborhood:
-size: "Small (1-10)"
-map: ""
+size: Small (1-10)
+map: 
 tags:
     - branding
     - ux/ui

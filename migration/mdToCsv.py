@@ -16,6 +16,8 @@ header_order = ["title", "website",
 # Specify the fields to ignore (optional)
 ignored_fields = ["featuredImage", "cover"]
 
+# Specify the field to sort by (optional)
+sort_field = "title"
 
 def parse_markdown_files(directory):
     metadata_list = []
@@ -36,7 +38,7 @@ def parse_metadata(markdown_content):
     metadata = md.Meta
 
     # Convert linkA from list to string
-    metadata["linkA"] = " ".join(metadata.get("linkA", []))
+    # metadata["linkA"] = " ".join(metadata.get("linkA", []))
 
     # Check if fields exist, and assign empty string if missing
     fields = header_order
@@ -51,7 +53,7 @@ def parse_metadata(markdown_content):
 
     return metadata
 
-def write_to_csv(metadata_list, output_file, header_order=None, ignored_fields=None):
+def write_to_csv(metadata_list, output_file, header_order=None, ignored_fields=None, sort_field=None):
     keys = set().union(*[metadata.keys() for metadata in metadata_list])
 
     if ignored_fields is not None:
@@ -59,6 +61,9 @@ def write_to_csv(metadata_list, output_file, header_order=None, ignored_fields=N
 
     if header_order is not None:
         keys = [key for key in header_order if key in keys]
+
+    if sort_field is not None:
+        metadata_list.sort(key=lambda x: x.get(sort_field, ""))
 
     with open(output_file, "w", newline="") as file:
         writer = csv.DictWriter(file, fieldnames=keys, quoting=csv.QUOTE_MINIMAL)
@@ -69,9 +74,18 @@ def write_to_csv(metadata_list, output_file, header_order=None, ignored_fields=N
             for key in keys:
                 value = metadata.get(key, "")
 
-                # Handle different data types appropriately
+                 # Handle different data types appropriately
                 if isinstance(value, list):
-                    value = ", ".join(value)
+                    if key == "tags":
+                        value = ", ".join(value[1:])  # Exclude the first comma
+                    else:
+                        value = ", ".join(value)
+                
+                if isinstance(value, tuple):
+                    if key == "LinkA":
+                        value = value[0].join(value[1])
+                    else:
+                        value = value[0]
 
                 row[key] = value
 
@@ -89,4 +103,4 @@ output_csv_file = "./output.csv"
 metadata_list = parse_markdown_files(markdown_directory)
 
 # Call the function with the appropriate arguments
-write_to_csv(metadata_list, output_csv_file, header_order=header_order, ignored_fields=ignored_fields)
+write_to_csv(metadata_list, output_csv_file, header_order=header_order, ignored_fields=ignored_fields, sort_field=sort_field)

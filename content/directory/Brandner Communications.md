@@ -1,14 +1,14 @@
 ---
-title: "Brandner Communications"
-cover: "./content/blog/imgs/hamburgers.png"
-website: "https://www.brandner.com/"
-twit: ""
-inst: "teambrandner"
-category: "B"
-city: "Federal Way"
+title: Brandner Communications
+cover: ./content/blog/imgs/hamburgers.png
+website: https://www.brandner.com/
+twit: 
+inst: teambrandner
+category: B
+city: Federal Way
 neighborhood:
-size: "Medium (11-40)"
-map: ""
+size: Medium (11-40)
+map: 
 tags:
     - branding
     - marketing

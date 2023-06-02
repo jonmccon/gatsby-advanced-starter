@@ -1,14 +1,14 @@
 ---
-title: "Jozi Firecracker Factory"
+title: Jozi Firecracker Factory
 featuredImage: ./-hamburgers.png
-website: "https://jozifirecrackerfactory.com/"
-twit: "jozifirecracker"
-inst: ""
-category: "J"
-city: "Seattle"
-neighborhood: "South Lake Union"
-size: "Small (1-10)"
-map: ""
+website: https://jozifirecrackerfactory.com/
+twit: jozifirecracker
+inst: 
+category: J
+city: Seattle
+neighborhood: South Lake Union
+size: Small (1-10)
+map: 
 tags:
     - advertising
     - ux/ui

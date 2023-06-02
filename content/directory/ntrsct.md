@@ -1,14 +1,14 @@
 ---
-title: "ntrsct designs"
+title: ntrsct designs
 featuredImage: ./-hamburgers.png
-website: "https://ntrsct.com"
-twit: ""
-inst: "ntrsct.designs"
-category: "N"
-city: "Seattle"
+website: https://ntrsct.com
+twit: 
+inst: ntrsct.designs
+category: N
+city: Seattle
 neighborhood:
-size: "Small (1-10)"
-map: ""
+size: Small (1-10)
+map: 
 tags:
     - branding
     - strategy

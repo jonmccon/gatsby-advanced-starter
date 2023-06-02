@@ -1,14 +1,14 @@
 ---
-title: "Google"
+title: Google
 featuredImage: ./-hamburgers.png
-website: "https://design.google/"
-twit: "googledesign"
-inst: "googledesign"
-category: "G"
-city: "Seattle"
-neighborhood: "Fremont"
-size: "Huge (100+)"
-map: ""
+website: https://design.google/
+twit: googledesign
+inst: googledesign
+category: G
+city: Seattle
+neighborhood: Fremont
+size: Huge (100+)
+map: 
 tags:
     - ux/ui
     - product

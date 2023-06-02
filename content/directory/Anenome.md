@@ -1,14 +1,14 @@
 ---
-title: "ANEMONE"
+title: ANEMONE
 featuredImage: ./-hamburgers.png
-website: "https://anemone.studio"
-twit: "anemone_es"
-inst: "spectrolite.app"
-category: "A"
-city: "Seattle"
-neighborhood: "Roosevelt"
-size: "Small (1-10)"
-map: ""
+website: https://anemone.studio
+twit: anemone_es
+inst: spectrolite.app
+category: A
+city: Seattle
+neighborhood: Roosevelt
+size: Small (1-10)
+map: 
 tags:
     - community 
     - engineering

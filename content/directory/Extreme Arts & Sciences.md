@@ -1,14 +1,14 @@
 ---
-title: "Extreme Arts & Sciences"
+title: Extreme Arts & Sciences
 featuredImage: ./-hamburgers.png
-website: "https://www.easci.com/"
-twit: "easci"
-inst: ""
-category: "E"
-city: "Seattle"
-neighborhood: "Capitol Hill"
-size: "Small (1-10)"
-map: ""
+website: https://www.easci.com/
+twit: easci
+inst: 
+category: E
+city: Seattle
+neighborhood: Capitol Hill
+size: Small (1-10)
+map: 
 tags:
     - strategy
     - marketing

@@ -1,14 +1,14 @@
 ---
-title: "Ply"
+title: Ply
 featuredImage: ./-hamburgers.png
-website: "http://www.plyinteractive.com/"
-twit: "plyinc"
-inst: ""
-category: "P"
-city: "Seattle"
-neighborhood: "Queen Anne"
-size: "Small (1-10)"
-map: ""
+website: http://www.plyinteractive.com/
+twit: plyinc
+inst: 
+category: P
+city: Seattle
+neighborhood: Queen Anne
+size: Small (1-10)
+map: 
 tags:
     - ux/ui
     - engineering

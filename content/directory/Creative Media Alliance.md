@@ -1,14 +1,14 @@
 ---
-title: "Creative Media Alliance"
+title: Creative Media Alliance
 featuredImage: ./-hamburgers.png
-website: "http://creativemediaalliance.com/"
-twit: "cmaseattle"
-inst: "cmaseattle"
-category: "C"
-city: "Seattle"
-neighborhood: "Pioneer Square"
-size: "Medium (11-40)"
-map: ""
+website: http://creativemediaalliance.com/
+twit: cmaseattle
+inst: cmaseattle
+category: C
+city: Seattle
+neighborhood: Pioneer Square
+size: Medium (11-40)
+map: 
 tags:
     - marketing
     - advertising

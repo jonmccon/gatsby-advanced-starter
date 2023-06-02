@@ -1,14 +1,14 @@
 ---
-title: "Fearless360"
+title: Fearless360
 featuredImage: ./-hamburgers.png
-website: "http://fearless360.com/"
-twit: "fearless360team"
-inst: ""
-category: "F"
-city: "Seattle"
+website: http://fearless360.com/
+twit: fearless360team
+inst: 
+category: F
+city: Seattle
 neighborhood:
-size: "Small (1-10)"
-map: ""
+size: Small (1-10)
+map: 
 tags:
     - vfx
     - video

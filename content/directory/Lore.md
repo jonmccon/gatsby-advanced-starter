@@ -1,14 +1,14 @@
 ---
-title: "Lore"
+title: Lore
 featuredImage: ./-hamburgers.png
-website: "http://lorenaming.com/"
-twit: ""
-inst: ""
-category: "L"
-city: "Seattle"
-neighborhood: "Ballard"
-size: "Small (1-10)"
-map: ""
+website: http://lorenaming.com/
+twit: 
+inst: 
+category: L
+city: Seattle
+neighborhood: Ballard
+size: Small (1-10)
+map: 
 tags:
     - branding
     - advertising

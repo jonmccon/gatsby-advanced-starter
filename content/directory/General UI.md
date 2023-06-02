@@ -1,14 +1,14 @@
 ---
-title: "General UI"
+title: General UI
 featuredImage: ./-hamburgers.png
-website: "https://www.genui.co/"
-twit: "generalui"
-inst: ""
-category: "G"
-city: "Seattle"
-neighborhood: "Fremont"
-size: "Large (41-100)"
-map: ""
+website: https://www.genui.co/
+twit: generalui
+inst: 
+category: G
+city: Seattle
+neighborhood: Fremont
+size: Large (41-100)
+map: 
 tags:
     - product
     - ux/ui

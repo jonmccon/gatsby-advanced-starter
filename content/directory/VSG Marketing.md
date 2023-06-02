@@ -1,14 +1,14 @@
 ---
-title: "VSG Marketing"
-cover: "./content/blog/imgs/hamburgers.png"
-website: "https://vsg360.com/"
-twit: ""
-inst: "vsgmarketing"
-category: "V"
-city: "Tacoma"
+title: VSG Marketing
+cover: ./content/blog/imgs/hamburgers.png
+website: https://vsg360.com/
+twit: 
+inst: vsgmarketing
+category: V
+city: Tacoma
 neighborhood:
-size: "Medium (11-40)"
-map: ""
+size: Medium (11-40)
+map: 
 tags:
     - branding
     - marketing

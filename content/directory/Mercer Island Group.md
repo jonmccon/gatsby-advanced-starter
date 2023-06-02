@@ -1,14 +1,14 @@
 ---
-title: "Mercer Island Group"
+title: Mercer Island Group
 featuredImage: ./-hamburgers.png
-website: "https://www.mercerislandgroup.net/"
-twit: ""
-inst: ""
-category: "M"
-city: "Seattle"
-neighborhood: "Mercer Island"
-size: "Small (1-10)"
-map: ""
+website: https://www.mercerislandgroup.net/
+twit: 
+inst: 
+category: M
+city: Seattle
+neighborhood: Mercer Island
+size: Small (1-10)
+map: 
 tags:
     - branding
     - marketing

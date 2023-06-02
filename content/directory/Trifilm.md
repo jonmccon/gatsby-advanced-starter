@@ -1,14 +1,14 @@
 ---
-title: "Trifilm"
+title: Trifilm
 featuredImage: ./-hamburgers.png
-website: "https://www.trifilm.com/"
-twit: "trifilm"
-inst: "trifilm"
-category: "T"
-city: "Kirkland"
+website: https://www.trifilm.com/
+twit: trifilm
+inst: trifilm
+category: T
+city: Kirkland
 neighborhood:
-size: "Medium (11-40)"
-map: ""
+size: Medium (11-40)
+map: 
 tags:
     - video
     - motion

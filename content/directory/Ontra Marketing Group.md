@@ -1,14 +1,14 @@
 ---
-title: "Ontra Marketing Group"
+title: Ontra Marketing Group
 featuredImage: ./-hamburgers.png
-website: "https://ontramarketing.com/"
-twit: "ontramarketing"
-inst: "ontramarketing"
-category: "O"
-city: "Woodinville"
+website: https://ontramarketing.com/
+twit: ontramarketing
+inst: ontramarketing
+category: O
+city: Woodinville
 neighborhood:
-size: "Small (1-10)"
-map: ""
+size: Small (1-10)
+map: 
 tags:
     - branding
     - ux/ui

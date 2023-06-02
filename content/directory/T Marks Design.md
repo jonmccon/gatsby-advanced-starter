@@ -1,14 +1,14 @@
 ---
-title: "T Marks Design"
+title: T Marks Design
 featuredImage: ./-hamburgers.png
-website: "https://tmarksdesign.com/"
-twit: "tdaddy61"
-inst: "terry.marks"
-category: "T"
-city: "Seattle"
-neighborhood: "South Lake Union"
-size: "Small (1-10)"
-map: ""
+website: https://tmarksdesign.com/
+twit: tdaddy61
+inst: terry.marks
+category: T
+city: Seattle
+neighborhood: South Lake Union
+size: Small (1-10)
+map: 
 tags:
     - branding
     - strategy

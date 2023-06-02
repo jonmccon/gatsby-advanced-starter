@@ -1,14 +1,14 @@
 ---
-title: "Graphiti Associates"
+title: Graphiti Associates
 featuredImage: ./-hamburgers.png
-website: "https://graphiti.com/"
-twit: "Graphiti"
-inst: "graphiti_associates"
-category: "G"
-city: "Seattle"
-neighborhood: "Fremont"
-size: "Small (1-10)"
-map: ""
+website: https://graphiti.com/
+twit: Graphiti
+inst: graphiti_associates
+category: G
+city: Seattle
+neighborhood: Fremont
+size: Small (1-10)
+map: 
 tags:
     - branding
     - strategy

@@ -1,14 +1,14 @@
 ---
-title: "Oojon"
+title: Oojon
 featuredImage: ./-hamburgers.png
-website: "http://www.oojon.com/"
-twit: "the_oojon"
-inst: "the_oojon"
-category: "O"
-city: "Seattle"
+website: http://www.oojon.com/
+twit: the_oojon
+inst: the_oojon
+category: O
+city: Seattle
 neighborhood:
-size: "Small (1-10)"
-map: ""
+size: Small (1-10)
+map: 
 tags:
     - branding
     - illustration

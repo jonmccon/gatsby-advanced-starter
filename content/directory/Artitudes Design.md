@@ -1,14 +1,14 @@
 ---
-title: "Artitudes Design"
+title: Artitudes Design
 featuredImage: ./-hamburgers.png
-website: "https://artitudes.com/"
-twit: "artitudesdesign"
-inst: "artitudes"
-category: "A"
-city: "Issaquah"
+website: https://artitudes.com/
+twit: artitudesdesign
+inst: artitudes
+category: A
+city: Issaquah
 neighborhood:
-size: "Medium (11-40)"
-map: ""
+size: Medium (11-40)
+map: 
 tags:
     - 3D 
     - branding 
@@ -33,4 +33,4 @@ https://www.facebook.com/artitudesdesign
 https://vimeo.com/user7133162
 https://www.youtube.com/user/ArtitudesDesign
 artitudes/
-https://www.pinterest.com/artitudesdesign/_saved/" 
+https://www.pinterest.com/artitudesdesign/_saved/ 

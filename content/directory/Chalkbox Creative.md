@@ -1,14 +1,14 @@
 ---
-title: "Chalkbox Creative"
+title: Chalkbox Creative
 featuredImage: ./-hamburgers.png
-website: "https://chalkboxstudio.com/"
-twit: ""
-inst: "chalkboxcreative"
-category: "C"
-city: "Seattle"
+website: https://chalkboxstudio.com/
+twit: 
+inst: chalkboxcreative
+category: C
+city: Seattle
 neighborhood:
-size: "Small (1-10)"
-map: ""
+size: Small (1-10)
+map: 
 tags:
     - branding
     - illustration

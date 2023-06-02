@@ -1,14 +1,14 @@
 ---
-title: "Shore"
+title: Shore
 featuredImage: ./-hamburgers.png
-website: "https://madebyshore.com/"
-twit: ""
-inst: "madebyshore"
-category: "S"
-city: "Seattle"
-neighborhood: "Pioneer Square"
-size: "Small (1-10)"
-map: ""
+website: https://madebyshore.com/
+twit: 
+inst: madebyshore
+category: S
+city: Seattle
+neighborhood: Pioneer Square
+size: Small (1-10)
+map: 
 tags:
     - branding
     - strategy

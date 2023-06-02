@@ -1,14 +1,14 @@
 ---
-title: "Amber Design"
+title: Amber Design
 featuredImage: ./-hamburgers.png
-website: "https://www.awesomeamber.com/"
-twit: "amberdesign_"
-inst: "awesomeamberdesign"
-category: "A"
-city: "Marysville"
+website: https://www.awesomeamber.com/
+twit: amberdesign_
+inst: awesomeamberdesign
+category: A
+city: Marysville
 neighborhood:
-size: "Small (1-10)"
-map: ""
+size: Small (1-10)
+map: 
 tags:
     - branding
     - print

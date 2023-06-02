@@ -1,14 +1,14 @@
 ---
-title: "Sarah Piper Staffing"
+title: Sarah Piper Staffing
 featuredImage: ./-hamburgers.png
-website: "https://spiperstaffing.com/"
-twit: ""
-inst: ""
-category: "S"
-city: "Seattle"
-neighborhood: "Pioneer Square"
-size: "Small (1-10)"
-map: ""
+website: https://spiperstaffing.com/
+twit: 
+inst: 
+category: S
+city: Seattle
+neighborhood: Pioneer Square
+size: Small (1-10)
+map: 
 tags:
     - recruiter
 published: true

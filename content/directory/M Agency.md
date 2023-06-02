@@ -1,14 +1,14 @@
 ---
-title: "M Agency"
+title: M Agency
 featuredImage: ./-hamburgers.png
-website: "https://whatisyourm.com/"
-twit: "_M_Agency"
-inst: "_M_Agency"
-category: "M"
-city: "Tacoma"
+website: https://whatisyourm.com/
+twit: _M_Agency
+inst: _M_Agency
+category: M
+city: Tacoma
 neighborhood:
-size: "Small (1-10)"
-map: ""
+size: Small (1-10)
+map: 
 tags:
     - marketing
     - strategy

@@ -1,14 +1,14 @@
 ---
-title: "Kite"
+title: Kite
 featuredImage: ./-hamburgers.png
-website: "https://kitebrandstudio.com/"
-twit: "KiteBrand"
-inst: ""
-category: "K"
-city: "Seattle"
+website: https://kitebrandstudio.com/
+twit: KiteBrand
+inst: 
+category: K
+city: Seattle
 neighborhood:
-size: "Small (1-10)"
-map: ""
+size: Small (1-10)
+map: 
 tags:
     - branding
     - strategy

@@ -1,14 +1,14 @@
 ---
-title: "Pike Street Press"
+title: Pike Street Press
 featuredImage: ./-hamburgers.png
-website: "https://pikestreetpress.com/"
-twit: ""
-inst: "pikestreetpress"
-category: "P"
-city: "Seattle"
-neighborhood: "Pike Place Market"
-size: "Small (1-10)"
-map: ""
+website: https://pikestreetpress.com/
+twit: 
+inst: pikestreetpress
+category: P
+city: Seattle
+neighborhood: Pike Place Market
+size: Small (1-10)
+map: 
 tags:
     - printer
     - branding

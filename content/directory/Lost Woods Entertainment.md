@@ -1,14 +1,14 @@
 --- 
-title: "Lost Woods Entertainment" 
+title: Lost Woods Entertainment 
 featuredImage: ./-hamburgers.png 
-website: "https://www.lostwoodsentertainment.com/" 
-twit: "" 
-inst: "" 
-category: "L" 
-city: "Seattle"
-neighborhood: "Ballard"
-size: "Small (1-10)"
-map: ""
+website: https://www.lostwoodsentertainment.com/ 
+twit:  
+inst:  
+category: L 
+city: Seattle
+neighborhood: Ballard
+size: Small (1-10)
+map: 
 tags:
     - video
 published: true

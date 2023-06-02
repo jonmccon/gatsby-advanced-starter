@@ -1,14 +1,14 @@
 ---
-title: "Egg"
+title: Egg
 featuredImage: ./-hamburgers.png
-website: "http://www.eggbranding.com/"
-twit: "eggseattle"
-inst: ""
-category: "E"
-city: "Vashon Island"
+website: http://www.eggbranding.com/
+twit: eggseattle
+inst: 
+category: E
+city: Vashon Island
 neighborhood:
-size: "Small (1-10)"
-map: ""
+size: Small (1-10)
+map: 
 tags:
     - branding
     - marketing

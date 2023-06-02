@@ -1,14 +1,14 @@
 ---
-title: "Pyramid Communications"
+title: Pyramid Communications
 featuredImage: ./-hamburgers.png
-website: "https://www.pyramidcommunications.com/"
-twit: "PyramidComms"
-inst: "pyramidcomms"
-category: "P"
-city: "Seattle"
-neighborhood: "Pike Place Market"
-size: "Medium (11-40)"
-map: ""
+website: https://www.pyramidcommunications.com/
+twit: PyramidComms
+inst: pyramidcomms
+category: P
+city: Seattle
+neighborhood: Pike Place Market
+size: Medium (11-40)
+map: 
 tags:
     - strategy
     - advertising

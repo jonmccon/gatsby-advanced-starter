@@ -1,14 +1,14 @@
 ---
-title: "Olympus Press"
+title: Olympus Press
 featuredImage: ./-hamburgers.png
-website: "https://olypress.com/"
-twit: ""
-inst: "olympuspress"
-category: "O"
-city: "SeaTac"
+website: https://olypress.com/
+twit: 
+inst: olympuspress
+category: O
+city: SeaTac
 neighborhood:
-size: "Medium (11-40)"
-map: ""
+size: Medium (11-40)
+map: 
 tags:
     - printer
 published: true

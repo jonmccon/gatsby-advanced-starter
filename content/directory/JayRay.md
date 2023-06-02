@@ -1,14 +1,14 @@
 ---
-title: "JayRay"
-cover: "./content/blog/imgs/hamburgers.png"
-website: "https://jayray.com/"
-twit: ""
-inst: "jayrayadspr"
-category: "J"
-city: "Tacoma"
+title: JayRay
+cover: ./content/blog/imgs/hamburgers.png
+website: https://jayray.com/
+twit: 
+inst: jayrayadspr
+category: J
+city: Tacoma
 neighborhood:
-size: "Small (1-10)"
-map: ""
+size: Small (1-10)
+map: 
 tags:
     - branding
     - print

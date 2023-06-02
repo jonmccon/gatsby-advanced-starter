@@ -1,14 +1,14 @@
 ---
-title: "Phinney Bischoff"
+title: Phinney Bischoff
 featuredImage: ./-hamburgers.png
-website: "https://phinneybischoff.com/"
-twit: "phinneybischoff"
-inst: "phinneybischoff"
-category: "P"
-city: "Seattle"
-neighborhood: "Capitol Hill"
-size: "Small (1-10)"
-map: ""
+website: https://phinneybischoff.com/
+twit: phinneybischoff
+inst: phinneybischoff
+category: P
+city: Seattle
+neighborhood: Capitol Hill
+size: Small (1-10)
+map: 
 tags:
     - research
     - branding

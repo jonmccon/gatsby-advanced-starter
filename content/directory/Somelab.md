@@ -1,14 +1,14 @@
 ---
-title: "Somelab"
+title: Somelab
 featuredImage: ./-hamburgers.png
-website: "http://somelabdesign.com/"
-twit: ""
-inst: ""
-category: "S"
-city: "Orcas Island"
+website: http://somelabdesign.com/
+twit: 
+inst: 
+category: S
+city: Orcas Island
 neighborhood:
-size: "Small (1-10)"
-map: ""
+size: Small (1-10)
+map: 
 tags:
     - branding
     - print

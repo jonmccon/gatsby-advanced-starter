@@ -1,14 +1,14 @@
 ---
-title: "Valve"
+title: Valve
 featuredImage: ./-hamburgers.png
-website: "https://www.valvesoftware.com/"
-twit: "valvesoftware"
-inst: ""
-category: "V"
-city: "Bellevue"
+website: https://www.valvesoftware.com/
+twit: valvesoftware
+inst: 
+category: V
+city: Bellevue
 neighborhood:
-size: "Large (41-100)"
-map: ""
+size: Large (41-100)
+map: 
 tags:
     - ux/ui
     - industrial

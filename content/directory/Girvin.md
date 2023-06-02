@@ -1,14 +1,14 @@
 ---
-title: "Girvin"
+title: Girvin
 featuredImage: ./-hamburgers.png
-website: "https://www.girvin.com/"
-twit: "girvindesign"
-inst: "girvinbranding"
-category: "G"
-city: "Seattle"
-neighborhood: "Belltown"
-size: "Small (1-10)"
-map: ""
+website: https://www.girvin.com/
+twit: girvindesign
+inst: girvinbranding
+category: G
+city: Seattle
+neighborhood: Belltown
+size: Small (1-10)
+map: 
 tags:
     - branding
     - illustration

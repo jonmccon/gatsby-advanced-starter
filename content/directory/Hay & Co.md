@@ -1,14 +1,14 @@
 ---
-title: "Hay & Co"
-cover: "./content/blog/imgs/hamburgers.png"
-website: "https://www.hayandcodesign.com/"
-twit: ""
-inst: "hayandcodesign"
-category: "H"
-city: "Kenmore"
+title: Hay & Co
+cover: ./content/blog/imgs/hamburgers.png
+website: https://www.hayandcodesign.com/
+twit: 
+inst: hayandcodesign
+category: H
+city: Kenmore
 neighborhood:
-size: "Small (1-10)"
-map: ""
+size: Small (1-10)
+map: 
 tags:
     - branding
     - ux/ui

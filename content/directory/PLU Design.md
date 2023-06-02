@@ -1,14 +1,14 @@
 ---
-title: "PLU Design"
+title: PLU Design
 featuredImage: ./-hamburgers.png
-website: "https://www.plu.edu/artd/"
-twit: ""
-inst: "plu_artdesign"
-category: "P"
-city: "Tacoma"
+website: https://www.plu.edu/artd/
+twit: 
+inst: plu_artdesign
+category: P
+city: Tacoma
 neighborhood:
-size: "Large (41-100)"
-map: ""
+size: Large (41-100)
+map: 
 tags:
     - school
 published: true

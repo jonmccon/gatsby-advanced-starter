@@ -1,14 +1,14 @@
 ---
-title: "Strange & Wonderful"
+title: Strange & Wonderful
 featuredImage: ./-hamburgers.png
-website: "http://www.strangeandwonderful.co/"
-twit: ""
-inst: "thestrangeandwonderful"
-category: "S"
-city: "Seattle"
-neighborhood: "Pioneer Square"
-size: "Medium (11-40)"
-map: ""
+website: http://www.strangeandwonderful.co/
+twit: 
+inst: thestrangeandwonderful
+category: S
+city: Seattle
+neighborhood: Pioneer Square
+size: Medium (11-40)
+map: 
 tags:
     - video
     - motion

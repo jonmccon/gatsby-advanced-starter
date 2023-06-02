@@ -1,14 +1,14 @@
 ---
-title: "Column"
+title: Column
 featuredImage: ./-hamburgers.png
-website: "http://columnseattle.com/"
-twit: "columnseattle"
-inst: ""
-category: "C"
-city: "Seattle"
-neighborhood: "Pioneer Square"
-size: "Small (1-10)"
-map: ""
+website: http://columnseattle.com/
+twit: columnseattle
+inst: 
+category: C
+city: Seattle
+neighborhood: Pioneer Square
+size: Small (1-10)
+map: 
 tags:
     - branding
     - strategy
