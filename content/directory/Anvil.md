@@ -1,13 +1,13 @@
 ---
 title: Anvil
 featuredImage: ./-hamburgers.png
-website: "https://anvil-studios.com"
-twit: ""
-inst: ""
-category: "A"
-city: "Seattle"
-neighborhood: "Pioneer Square"
-size: "Small (1-10)"
+website: https://anvil-studios.com
+twit: 
+inst: 
+category: A
+city: Seattle
+neighborhood: Pioneer Square
+size: Small (1-10)
 place: [-122.31767084463806,47.61440349215518]
 tags:
     - industrial

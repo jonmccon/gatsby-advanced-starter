@@ -8,7 +8,7 @@ linkA: ['Department of Design', 'https://www.wwu.edu/design/']
 category: W
 city: Bellingham
 neighborhood:
-size: "Large (41-100)"
+size: Large (41-100)
 place: [-122.48503183897165,48.73569466621371]
 tags:
     - school

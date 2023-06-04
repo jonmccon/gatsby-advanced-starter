@@ -1,13 +1,13 @@
 ---
 title: Blind Tiger
 featuredImage: ./-hamburgers.png
-website: "https://blindtigerdesign.com/"
-twit: "blindtigerdsgn"
-inst: ""
-category: "B"
-city: "Seattle"
-neighborhood: "Ballard"
-size: "Small (1-10)"
+website: https://blindtigerdesign.com/
+twit: blindtigerdsgn
+inst: 
+category: B
+city: Seattle
+neighborhood: Ballard
+size: Small (1-10)
 place: [-122.38330325935408,47.66963602722012]
 tags:
     - packaging

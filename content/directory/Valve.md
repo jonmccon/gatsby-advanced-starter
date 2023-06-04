@@ -7,7 +7,7 @@ inst:
 category: V
 city: Bellevue
 neighborhood:
-size: "Large (41-100)"
+size: Large (41-100)
 place: [-122.20089790216242,47.61428755956317]
 tags:
     - ux/ui

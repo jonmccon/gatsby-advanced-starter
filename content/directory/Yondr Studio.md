@@ -7,7 +7,7 @@ inst: studioyondr
 category: Y
 city: Edmonds
 neighborhood:
-size: "Small (1-10)"
+size: Small (1-10)
 place: 
 tags:
     - illustration

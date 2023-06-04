@@ -7,7 +7,7 @@ inst:
 category: C
 city: Cle Elum
 neighborhood:
-size: "Small (1-10)"
+size: Small (1-10)
 place: [-122.33453059826617,47.58477491107682]
 tags:
     - advertising

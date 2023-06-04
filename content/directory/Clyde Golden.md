@@ -5,10 +5,10 @@ website: https://clydegolden.com/
 twit: 
 inst: clydegolden
 linkA: ['Input Doc', 'https://clydegolden.com/inputdoc']
-category: "C"
-city: "Seattle"
-neighborhood: "Ballard"
-size: "Small (1-10)"
+category: C
+city: Seattle
+neighborhood: Ballard
+size: Small (1-10)
 place: [-122.34001356931043,47.638455200139596]
 tags:
     - branding

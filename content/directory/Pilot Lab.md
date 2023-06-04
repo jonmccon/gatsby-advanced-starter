@@ -1,13 +1,13 @@
 ---
 title: Pilot Lab
 featuredImage: ./-hamburgers.png
-website: "http://www.pilotlab.com/"
-twit: "thepilotlab"
-inst: "pilot.lab"
-category: "P"
-city: "Seattle"
-neighborhood: "Capitol Hill"
-size: "Medium (11-40)"
+website: http://www.pilotlab.com/
+twit: thepilotlab
+inst: pilot.lab
+category: P
+city: Seattle
+neighborhood: Capitol Hill
+size: Medium (11-40)
 place: [-122.31962844232946,47.612600418739866]
 tags:
     - ux/ui

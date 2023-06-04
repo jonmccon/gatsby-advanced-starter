@@ -7,7 +7,7 @@ inst: microsoft.design
 category: M
 city: Redmond
 neighborhood:
-size: "Huge (100+)"
+size: Huge (100+)
 place: [-122.13048959998227,47.64446865811225]
 tags:
     - ux/ui

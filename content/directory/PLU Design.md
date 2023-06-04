@@ -7,7 +7,7 @@ inst: plu_artdesign
 category: P
 city: Tacoma
 neighborhood:
-size: "Large (41-100)"
+size: Large (41-100)
 place: [-122.44523040218023,47.145659223800834]
 tags:
     - school

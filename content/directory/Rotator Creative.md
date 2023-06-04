@@ -7,7 +7,7 @@ inst: rotatorcreative
 category: R
 city: Tacoma
 neighborhood:
-size: "Small (1-10)"
+size: Small (1-10)
 place: [-122.43884174081174,47.257318186384694]
 tags:
     - branding

@@ -1,13 +1,13 @@
 ---
 title: Ted Leonhardt
 featuredImage: ./-hamburgers.png
-website: "https://tedleonhardt.com/"
-twit: "tedleonhardt"
-inst: "tedcleonhardt"
-category: "T"
-city: "Seattle"
-neighborhood: "Ballard"
-size: "Small (1-10)"
+website: https://tedleonhardt.com/
+twit: tedleonhardt
+inst: tedcleonhardt
+category: T
+city: Seattle
+neighborhood: Ballard
+size: Small (1-10)
 place: 
 tags:
     - strategy

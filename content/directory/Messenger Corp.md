@@ -1,13 +1,13 @@
 ---
 title: Messenger
 featuredImage: ./-hamburgers.png
-website: "https://messengercorp.com/"
-twit: "M3Messengercorp"
-inst: "messengercorporation"
-category: "M"
-city: "Seattle"
-neighborhood: "Georgetown"
-size: "Medium (11-40)"
+website: https://messengercorp.com/
+twit: M3Messengercorp
+inst: messengercorporation
+category: M
+city: Seattle
+neighborhood: Georgetown
+size: Medium (11-40)
 place: [-122.33776783099978,47.55748874801413]
 tags:
     - strategy

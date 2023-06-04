@@ -7,7 +7,7 @@ inst: artitudes
 category: A
 city: Issaquah
 neighborhood:
-size: "Medium (11-40)"
+size: Medium (11-40)
 place: [-122.02983364142511,47.53435953914904]
 tags:
     - 3D 

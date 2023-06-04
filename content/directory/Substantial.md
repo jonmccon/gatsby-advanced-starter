@@ -1,13 +1,13 @@
 ---
 title: Substantial
 featuredImage: ./-hamburgers.png
-website: "https://substantial.com/"
-twit: "substantial"
-inst: "substantial"
-category: "S"
-city: "Seattle"
-neighborhood: "Capitol Hill"
-size: "Medium (11-40)"
+website: https://substantial.com/
+twit: substantial
+inst: substantial
+category: S
+city: Seattle
+neighborhood: Capitol Hill
+size: Medium (11-40)
 place: [-122.32040132883527,47.61555321147331]
 tags:
     - ux/ui

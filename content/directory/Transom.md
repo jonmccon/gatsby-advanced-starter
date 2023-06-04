@@ -1,13 +1,13 @@
 ---
 title: Transom
 featuredImage: ./-hamburgers.png
-website: "https://transom.design/"
-twit: ""
-inst: "transom.design"
-category: "T"
-city: "Seattle"
-neighborhood: "Pioneer Square"
-size: "Small (1-10)"
+website: https://transom.design/
+twit: 
+inst: transom.design
+category: T
+city: Seattle
+neighborhood: Pioneer Square
+size: Small (1-10)
 place: [-122.33529218281211,47.60049929170814]
 tags:
     - ux/ui

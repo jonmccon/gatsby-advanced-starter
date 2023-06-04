@@ -7,7 +7,7 @@ inst: markmonlux
 category: M
 city: Tacoma
 neighborhood:
-size: "Small (1-10)"
+size: Small (1-10)
 place: 
 tags:
     - illustration

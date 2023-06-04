@@ -7,7 +7,7 @@ inst: chalkboxcreative
 category: C
 city: Seattle
 neighborhood:
-size: "Small (1-10)"
+size: Small (1-10)
 place: 
 tags:
     - branding

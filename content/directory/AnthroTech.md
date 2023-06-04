@@ -1,13 +1,13 @@
 ---
 title: AnthroTech
 featuredImage: ./-hamburgers.png
-website: "https://anthro-tech.com/"
-twit: "anthrotechux"
-inst: "anthrotechux"
-category: "A"
-city: "Olympia"
-neighborhood: "Downtown"
-size: "Medium (11-40)"
+website: https://anthro-tech.com/
+twit: anthrotechux
+inst: anthrotechux
+category: A
+city: Olympia
+neighborhood: Downtown
+size: Medium (11-40)
 place: [-122.33423464658188,47.610299596401916]
 tags:
     - strategy

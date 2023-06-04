@@ -2,13 +2,13 @@
 title: test post for publishing
 # slug: test-post
 featuredImage: ./-hamburgers.png
-website: "https://www.artefactgroup.com"
-twit: "artefactgroup"
-inst: ""
-category: "A"
-city: "Seattle"
-neighborhood: "Poop"
-size: "Medium (11-40)"
+website: https://www.artefactgroup.com
+twit: artefactgroup
+inst: 
+category: A
+city: Seattle
+neighborhood: Poop
+size: Medium (11-40)
 place: 
 tags:
     - industrial

@@ -1,13 +1,13 @@
 ---
 title: Push Design
 featuredImage: ./-hamburgers.png
-website: "http://pushdesign.net/"
-twit: ""
-inst: ""
-category: "P"
-city: "Seattle"
-neighborhood: "Pioneer Square"
-size: "Small (1-10)"
+website: http://pushdesign.net/
+twit: 
+inst: 
+category: P
+city: Seattle
+neighborhood: Pioneer Square
+size: Small (1-10)
 place: [-122.33184903099807,47.60200865546547]
 tags:
     - branding

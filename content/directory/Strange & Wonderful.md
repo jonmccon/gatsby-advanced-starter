@@ -1,13 +1,13 @@
 ---
 title: Strange & Wonderful
 featuredImage: ./-hamburgers.png
-website: "http://www.strangeandwonderful.co/"
-twit: ""
-inst: "thestrangeandwonderful"
-category: "S"
-city: "Seattle"
-neighborhood: "Pioneer Square"
-size: "Medium (11-40)"
+website: http://www.strangeandwonderful.co/
+twit: 
+inst: thestrangeandwonderful
+category: S
+city: Seattle
+neighborhood: Pioneer Square
+size: Medium (11-40)
 place: [-122.33583983099801,47.6024975620698]
 tags:
     - video

@@ -6,10 +6,10 @@ twit: artefactgroup
 inst: 
 linkA: ['Impact by Design', 'https://www.artefactgroup.com/impact-by-design/']
 linkB: 
-category: "A"
-city: "Seattle"
-neighborhood: "Pioneer Square"
-size: "Medium (11-40)"
+category: A
+city: Seattle
+neighborhood: Pioneer Square
+size: Medium (11-40)
 place: [-122.33592025543011,47.60249807908566]
 tags:
     - industrial
