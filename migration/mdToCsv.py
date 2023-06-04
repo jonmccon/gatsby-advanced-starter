@@ -63,28 +63,21 @@ def parse_metadata(markdown_content):
         metadata["latitude"] = ""
         metadata["longitude"] = ""
 
-    if "linkA" in metadata and isinstance(metadata["linkA"], list):
-        metadata["linkATitle"] = metadata["linkA"][0]
-        metadata["linkAURL"] = metadata["linkA"][1] if len(metadata["linkA"]) > 1 else ""
-    else:
-        metadata["linkATitle"] = ""
-        metadata["linkAURL"] = ""
+   # Extract linkA if available
+    linkA = metadata.get("linkA", [])
+    linkATitle = linkA[0] if linkA and len(linkA) > 0 else ""
+    linkAURL = linkA[1] if linkA and len(linkA) > 1 else ""
+    metadata["linkATitle"] = linkATitle
+    metadata["linkAURL"] = linkAURL
 
-    if "linkB" in metadata and isinstance(metadata["linkB"], list):
-        metadata["linkBTitle"] = metadata["linkB"][0]
-        metadata["linkBURL"] = metadata["linkB"][1] if len(metadata["linkB"]) > 1 else ""
-    else:
-        metadata["linkBTitle"] = ""
-        metadata["linkBURL"] = ""
-
-
-    # Extract episodePromo, episodePerson, and episodeURL
-    metadata["episodePromo"] = metadata.get("episodePromo", "")
-    metadata["episodePerson"] = metadata.get("episodePerson", "")
-    metadata["episodeURL"] = metadata.get("episodeURL", "")
+ # Extract linkB if available
+    linkB = metadata.get("linkB")
+    linkBTitle = linkB[0] if linkB and len(linkB) > 0 else ""
+    linkBURL = linkB[1] if linkB and len(linkB) > 1 else ""
+    metadata["linkBTitle"] = linkBTitle
+    metadata["linkBURL"] = linkBURL
 
     return metadata
-
 
 
 
@@ -103,12 +96,23 @@ def write_to_csv(metadata_list, output_file, header_order=None, ignored_fields=N
     for metadata in metadata_list:
         if "tags" in metadata:
             all_tags.update(metadata["tags"])
+    
+    # Sort tags alphabetically
+    all_tags = sorted(all_tags)
 
     # Convert set of tags to a list
     all_tags = list(all_tags)
 
     # Add tag columns to keys
     keys.extend(all_tags)
+
+    # Iterate over each metadata and populate the tag columns
+    for metadata in metadata_list:
+        for tag in all_tags:
+            if tag in metadata.get("tags", []):
+                metadata[tag] = True
+            else:
+                metadata[tag] = False
 
     if sort_field is not None:
         metadata_list.sort(key=lambda x: x.get(sort_field, ""))
@@ -118,19 +122,7 @@ def write_to_csv(metadata_list, output_file, header_order=None, ignored_fields=N
         writer.writeheader()
 
         # Write data rows
-        # Write data rows
         for metadata in metadata_list:
-            # Extract linkA and linkB if available
-            metadata["linkATitle"] = metadata.get("linkA", ["", ""])[0]
-            metadata["linkAURL"] = metadata.get("linkA", ["", ""])[1]
-            metadata["linkBTitle"] = metadata.get("linkB", ["", ""])[0]
-            metadata["linkBURL"] = metadata.get("linkB", ["", ""])[1]
-
-            # Extract episodePromo, episodePerson, and episodeURL
-            metadata["episodePromo"] = metadata.get("episodePromo", "")
-            metadata["episodePerson"] = metadata.get("episodePerson", "")
-            metadata["episodeURL"] = metadata.get("episodeURL", "")
-
             row = {}
             for key in keys:
                 value = metadata.get(key, "")
@@ -145,9 +137,13 @@ def write_to_csv(metadata_list, output_file, header_order=None, ignored_fields=N
 
                 row[key] = value
 
+            # Assign linkA and linkB values
+            row["linkATitle"] = metadata.get("linkATitle", "")
+            row["linkAURL"] = metadata.get("linkAURL", "")
+            row["linkBTitle"] = metadata.get("linkBTitle", "")
+            row["linkBURL"] = metadata.get("linkBURL", "")
+
             writer.writerow(row)
-
-
 
 
 # Specify the directory containing the Markdown files
