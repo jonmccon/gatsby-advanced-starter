@@ -1,14 +1,14 @@
 ---
-title: Gray Magazine
+title: "GRAY Magazine"
 featuredImage: ./-hamburgers.png
-website: https://graymag.com/
-twit: Gray_Magazine
-inst: Gray_Magazine
-category: G
-city: Seattle
-neighborhood: Georgetown
-size: Small (1-10)
-map: 
+website: "https://graymag.com/"
+twit: "Gray_Magazine"
+inst: "Gray_Magazine"
+category: "G"
+city: "Seattle"
+neighborhood: "Georgetown"
+size: "Small (1-10)"
+place: 
 tags:
     - press
 published: true

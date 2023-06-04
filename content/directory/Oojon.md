@@ -7,8 +7,8 @@ inst: the_oojon
 category: O
 city: Seattle
 neighborhood:
-size: Small (1-10)
-map: 
+size: "Small (1-10)"
+place: 
 tags:
     - branding
     - illustration

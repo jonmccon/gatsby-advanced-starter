@@ -1,14 +1,14 @@
 ---
 title: People People
 featuredImage: ./-hamburgers.png
-website: https://people-people.com/
-twit: 
-inst: people.people.studio
-category: P
-city: Seattle
-neighborhood: Capitol Hill
-size: Small (1-10)
-map: 
+website: "https://deicreative.com/"
+twit: ""
+inst: "deicreative"
+category: "D"
+city: "Seattle"
+neighborhood: "Capitol Hill"
+size: "Small (1-10)"
+place: 
 tags:
     - branding
     - print

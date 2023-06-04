@@ -7,8 +7,8 @@ inst: studioemblem
 category: E
 city: Seattle
 neighborhood:
-size: Small (1-10)
-map: 
+size: "Small (1-10)"
+place: [-122.3343909596447,47.602023600267785]
 tags:
     - branding
     - strategy

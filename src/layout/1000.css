@@ -33,11 +33,12 @@
         border-radius: 10px;
         grid-template-areas:
             ".              MenuLeft        MenuLeft        .               Logo            Logo            Logo            Logo            .               MenuRight       MenuRight       ."
-            ".              .               .               Headline        Headline        Headline        Headline        Headline        Headline        .        .               ."
+            ".              .               .               Headline        Headline        Headline        Headline        Headline        Headline        .               .               ."
             "showContainer  showContainer   showContainer   showContainer   showContainer   showContainer   showContainer   showContainer   showContainer   showContainer   showContainer   showContainer"
+            "Map            Map             Map             Map             Map             Map             Map             Map             Map             Map             Map             Map"        
             "Filters        Filters         Filters         Filters         Filters         Filters         Filters         Filters         Filters         Filters         Filters         Filters"
             ".              Directory       Directory       Directory       Directory       Directory       Directory       Directory       Directory       Directory       Directory       ."
-            ".              .          .          .          .          .          .          .          .          .          .          ."
+            ".              .               .               .               .               .               .               .               .               .               .               ."
             ".              Footer          Footer          Footer          Footer          Footer          Footer          Footer          Footer          Footer          Footer          ."
             ;
     }   
@@ -123,6 +124,18 @@
     }
 
     .email-form button:hover { }
+    /* ----------------------------------------------- */
+
+    /* MAP */
+
+    #mapContainer {
+        display: grid;
+        grid-area: Map;
+        width: 1fr;
+        height: 400px;
+    }
+
+
     /* ----------------------------------------------- */
 
     /* PODCAST SHOW */

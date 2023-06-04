@@ -7,8 +7,8 @@ inst: print_nw
 category: P
 city: Tacoma
 neighborhood:
-size: Large (41-100)
-map: 
+size: "Large (41-100)"
+place: [-122.47858173101473,47.16688274517419]
 tags:
     - printer
 published: true

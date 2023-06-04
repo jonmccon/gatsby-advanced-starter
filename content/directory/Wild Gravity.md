@@ -1,14 +1,14 @@
 ---
 title: Wild Gravity
 featuredImage: ./-hamburgers.png
-website: https://www.wildgravity.net/
-twit: WildGravityLLC
-inst: wild.gravity
-category: W
-city: Seattle
-neighborhood: First Hill
-size: Medium (11-40)
-map: 
+website: "https://www.wildgravity.net/"
+twit: "WildGravityLLC"
+inst: "wild.gravity"
+category: "W"
+city: "Seattle"
+neighborhood: "First Hill"
+size: "Medium (11-40)"
+place: [-122.31439507332749,47.60213836567959]
 tags:
     - video
     - motion

@@ -7,8 +7,8 @@ inst: ontramarketing
 category: O
 city: Woodinville
 neighborhood:
-size: Small (1-10)
-map: 
+size: "Small (1-10)"
+place: [-122.16480315798053,47.756174562295755]
 tags:
     - branding
     - ux/ui

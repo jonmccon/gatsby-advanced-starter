@@ -7,8 +7,8 @@ inst:
 category: O
 city: Edmonds
 neighborhood:
-size: Small (1-10)
-map: 
+size: "Small (1-10)"
+place: 
 tags:
     - branding
     - print

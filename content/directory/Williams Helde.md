@@ -1,14 +1,14 @@
 ---
 title: Williams Helde
 featuredImage: ./-hamburgers.png
-website: https://williams-helde.com/
-twit: 
-inst: williamshelde
-category: W
-city: Seattle
-neighborhood: Ballard
-size: Medium (11-40)
-map: 
+website: "https://williams-helde.com/"
+twit: ""
+inst: "williamshelde"
+category: "W"
+city: "Seattle"
+neighborhood: "Ballard"
+size: "Medium (11-40)"
+place: [-122.37946637474636,47.669141516865956]
 tags:
     - video
     - advertising

@@ -6,13 +6,13 @@ studio: ['Civilization', 'https://builtbycivilization.com']
 linkA: ['Design Lecture Series', 'https://designlectur.es']
 linkB: ['Beyond This Point Podcast', 'http://beyondthispoint.design']
 linkC: ['Non-Breaking Space Gallery', 'https://non-breaking.space']
-linkD: ['','']
 twit: "https://www.twitter.com/username"
 inst: "https://www.instagram.com/username"
 category: "interview"
 date: "2018-03-01"
 slug: "episode-3-michael-ellsworth-wendy-quisenberry-bacon"
 tags:
+place: 
 published: false
 ---
 

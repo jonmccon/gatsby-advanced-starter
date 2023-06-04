@@ -1,14 +1,14 @@
 ---
 title: Deloitte Digital
 featuredImage: ./-hamburgers.png
-website: https://www.deloittedigital.com/
-twit: DeloitteDigi_US
-inst: 
-category: D
-city: Seattle
-neighborhood: Downtown
-size: Large (41-100)
-map: 
+website: "https://www.deloittedigital.com/"
+twit: "DeloitteDigi_US"
+inst: ""
+category: "D"
+city: "Seattle"
+neighborhood: "Downtown"
+size: "Large (41-100)"
+place: [-122.33480823749403,47.60445094735242]
 tags:
     - marketing
     - ux/ui

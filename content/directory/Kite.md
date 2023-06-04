@@ -7,8 +7,8 @@ inst:
 category: K
 city: Seattle
 neighborhood:
-size: Small (1-10)
-map: 
+size: "Small (1-10)"
+place: [-122.32948611574056,47.61126686626876]
 tags:
     - branding
     - strategy

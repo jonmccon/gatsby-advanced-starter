@@ -1,14 +1,14 @@
 ---
 title: Intentional Futures
 featuredImage: ./-hamburgers.png
-website: https://intentionalfutures.com/
-twit: intentfutures
-inst: intentionalfutures
-category: I
-city: Seattle
-neighborhood: Capitol Hill
-size: Medium (11-40)
-map: 
+website: "https://intentionalfutures.com/"
+twit: "intentfutures"
+inst: "intentionalfutures"
+category: "I"
+city: "Seattle"
+neighborhood: "Capitol Hill"
+size: "Medium (11-40)"
+place: [-122.31247632231623,47.61525383637914]
 tags:
     - strategy
     - research

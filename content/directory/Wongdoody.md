@@ -1,14 +1,14 @@
 ---
 title: Wongdoody
 featuredImage: ./-hamburgers.png
-website: https://wongdoody.com/
-twit: wongdoody
-inst: WONGDOODY
-category: W
-city: Seattle
-neighborhood: Downtown
-size: Large (41-100)
-map: 
+website: "https://wongdoody.com/"
+twit: "wongdoody"
+inst: "WONGDOODY"
+category: "W"
+city: "Seattle"
+neighborhood: "Downtown"
+size: "Large (41-100)"
+place: [-122.33787164449211,47.60462239005407]
 tags:
     - strategy
     - research

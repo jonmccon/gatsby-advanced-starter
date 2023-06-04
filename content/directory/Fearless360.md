@@ -7,8 +7,8 @@ inst:
 category: F
 city: Seattle
 neighborhood:
-size: Small (1-10)
-map: 
+size: "Small (1-10)"
+place: [-122.31738387223345,47.61520600728089]
 tags:
     - vfx
     - video

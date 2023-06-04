@@ -7,8 +7,8 @@ inst: hayandcodesign
 category: H
 city: Kenmore
 neighborhood:
-size: Small (1-10)
-map: 
+size: "Small (1-10)"
+place: 
 tags:
     - branding
     - ux/ui

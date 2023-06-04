@@ -1,14 +1,14 @@
 ---
 title: Root Culture Lab
 featuredImage: ./-hamburgers.png
-website: http://www.rootculturelab.com/
-twit: 
-inst: rcldesignseattle
-category: R
-city: Seattle
-neighborhood: Madrona
-size: Small (1-10)
-map: 
+website: "http://www.rootculturelab.com/"
+twit: ""
+inst: "rcldesignseattle"
+category: "R"
+city: "Seattle"
+neighborhood: "Madrona"
+size: "Small (1-10)"
+place: [-122.2891134134942,47.61402441151606]
 tags:
     - architecture
     - branding

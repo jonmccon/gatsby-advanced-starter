@@ -9,8 +9,8 @@ linkB:
 category: M
 city: Seattle
 neighborhood:
-size: Small (1-10)
-map: 
+size: "Small (1-10)"
+place: 
 tags:
     - strategy
     - research

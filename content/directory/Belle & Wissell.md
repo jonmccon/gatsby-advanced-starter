@@ -1,14 +1,14 @@
 ---
 title: Belle & Wissell, Co.
 featuredImage: ./-hamburgers.png
-website: http://www.bwco.info/
-twit: belleandwissell
-inst: 
-category: B
-city: Seattle
-neighborhood: Georgetown
-size: Small (1-10)
-map: 
+website: "http://www.bwco.info/"
+twit: "belleandwissell"
+inst: ""
+category: "B"
+city: "Seattle"
+neighborhood: "Georgetown"
+size: "Small (1-10)"
+place: [-122.33342296299608,47.5995124397986]
 tags:
     - interactive
     - environmental

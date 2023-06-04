@@ -1,14 +1,14 @@
 ---
 title: Parsons & Co
 featuredImage: ./-hamburgers.png
-website: https://www.parsonsandco.com/
-twit: ParsonsandCo1
-inst: parsonsandco
-category: P
-city: Seattle
-neighborhood: Ballard
-size: Small (1-10)
-map: 
+website: "https://www.parsonsandco.com/"
+twit: "ParsonsandCo1"
+inst: "parsonsandco"
+category: "P"
+city: "Seattle"
+neighborhood: "Ballard"
+size: "Small (1-10)"
+place: [-122.38114617332499,47.66909362745261]
 tags:
     - ux/ui
     - marketing

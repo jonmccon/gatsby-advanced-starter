@@ -1,14 +1,14 @@
 ---
 title: CMD Agency
 featuredImage: ./-hamburgers.png
-website: https://www.cmdagency.com/
-twit: cmdcreates
-inst: cmdcreates
-category: C
-city: Seattle
-neighborhood: SODO
-size: Large (41-100)
-map: 
+website: "https://www.cmdagency.com/"
+twit: "cmdcreates"
+inst: "cmdcreates"
+category: "C"
+city: "Seattle"
+neighborhood: "SODO"
+size: "Large (41-100)"
+place: [-122.33493707973393,47.592156711482794]
 tags:
     - strategy
     - marketing

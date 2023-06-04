@@ -1,14 +1,14 @@
 ---
 title: POP
 featuredImage: ./-hamburgers.png
-website: https://www.wearepop.com/
-twit: 
-inst: pop_agency
-category: P
-city: Seattle
-neighborhood: Downtown
-size: Large (41-100)
-map: 
+website: "https://www.wearepop.com/"
+twit: ""
+inst: "pop_agency"
+category: "P"
+city: "Seattle"
+neighborhood: "Downtown"
+size: "Large (41-100)"
+place: [-122.33418852698841,47.60961266320619]
 tags:
     - ux/ui
     - engineering

@@ -1,14 +1,14 @@
 ---
 title: Gravity Creative
 featuredImage: ./-hamburgers.png
-website: http://www.gravitycreative.com/
-twit: gravitycreative
-inst: gravitycreative_seattle
-category: G
-city: Seattle
-neighborhood: Belltown
-size: Small (1-10)
-map: 
+website: "http://www.gravitycreative.com/"
+twit: "gravitycreative"
+inst: "gravitycreative_seattle"
+category: "G"
+city: "Seattle"
+neighborhood: "Belltown"
+size: "Small (1-10)"
+place: [-122.35132791566518,47.613679431142344]
 tags:
     - branding
     - packaging
