@@ -50,4 +50,4 @@ package = "netlify-plugin-checklinks"
   ]
 
   #turn this off to speed up buildtime
-  checkExternal = true
+  checkExternal = false
