@@ -6,7 +6,7 @@ twit: ""
 inst: "plan.create.destroy"
 category: "C"
 city: "Bellevue"
-neighborhood: ""
+neighborhood: 
 size: "Large (41-100)"
 map: ""
 tags:
