@@ -16,7 +16,7 @@ tags:
     - marketing
     - packaging
     - print
-    - uxui
+    - ux/ui
     - eCommerce
 episodeURL: ""
 episodePromo: ""

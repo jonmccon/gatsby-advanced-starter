@@ -6,7 +6,7 @@ twit: "GA_Creative"
 inst: ""
 category: "G"
 city: "Bellevue"
-neighborhood: ""
+neighborhood:
 size: "Medium (11-40)"
 map: ""
 tags:

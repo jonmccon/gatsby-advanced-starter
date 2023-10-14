@@ -6,12 +6,12 @@ twit: "TheMediumStudio"
 inst: "themediumstudio"
 category: "M"
 city: "North Bend"
-neighborhood: ""
+neighborhood:
 size: "Small (1-10)"
 map: ""
 tags:
     - branding
-    - uxui
+    - ux/ui
     - development
     - illustration
     - naming

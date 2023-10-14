@@ -51,7 +51,7 @@ class EpisodeListing extends React.Component {
             <div className="pullquote">{post.pullquote}</div>
             
             <div className="podcastEpisode-content">
-              <a 
+              <a className="podcastEpisode-person"
                 href={post.website} 
                 target="_blank"
                 onClick={e => {

@@ -12,7 +12,7 @@ map: ""
 tags:
     - branding
     - marketing
-    - uxui
+    - ux/ui
 episodeURL: ""
 episodePromo: ""
 color: ""

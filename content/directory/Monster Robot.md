@@ -6,7 +6,7 @@ twit: ""
 inst: "monsterrobotdesign"
 category: "M"
 city: "Seattle"
-neighborhood: ""
+neighborhood: 
 size: "Small (1-10)"
 map: ""
 tags:

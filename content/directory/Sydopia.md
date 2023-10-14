@@ -13,7 +13,7 @@ tags:
     - branding
     - product
     - strategy
-    - uxui
+    - ux/ui
     - eCommerce
 episodeURL: ""
 episodePromo: ""

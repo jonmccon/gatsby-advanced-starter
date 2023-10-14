@@ -108,7 +108,7 @@
 
     .headline-menu--link, .email-form-button, .submit-form-button {
         color: var(--color-text);
-        font: var(--text-mono-menu);
+        font: var(--text-mono-std);
         text-transform: uppercase;
         border-radius: 4px;
         padding: .3em .4em .2em .4em;
@@ -263,8 +263,14 @@
         align-self: end;
     }
 
-    .podcastEpisode-content a:hover {
+    .podcastEpisode-content a:hover, .podcastEpisode-person a:hover {
         background-color: var(--color-card);
+    }
+
+    .podcastEpisode-person {
+        text-transform: uppercase;
+        font-weight: 700 !important;
+        margin-bottom: 1em;
     }
 
     .pullquote {

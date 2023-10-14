@@ -6,7 +6,7 @@ twit: "FreshConsulting"
 inst: "freshconsulting"
 category: "F"
 city: "Bellevue"
-neighborhood: ""
+neighborhood:
 size: "Large (41-100)"
 map: ""
 tags:

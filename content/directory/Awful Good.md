@@ -16,7 +16,7 @@ tags:
     - naming
     - video
     - photography
-    - uxui
+    - ux/ui
 episodeURL: ""
 episodePromo: ""
 color: ""

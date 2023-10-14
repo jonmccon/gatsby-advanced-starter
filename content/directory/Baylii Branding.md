@@ -6,7 +6,7 @@ twit: ""
 inst: "bayliibranding"
 category: "B"
 city: "Mount Vernon"
-neighborhood: ""
+neighborhood: 
 size: "Small (1-10)"
 map: ""
 tags:
@@ -21,7 +21,7 @@ tags:
     - public relations 
     - strategy 
     - typography 
-    - uxui 
+    - ux/ui 
     - video 
     - eCommerce 
 episodeURL: ""

@@ -18,9 +18,9 @@ tags:
     - motion 
     - print 
     - strategy 
-    - uxui 
+    - ux/ui 
     - video 
-    - virtualReality 
+    - virtual reality 
 episodeURL: ""
 episodePromo: ""
 color: ""
