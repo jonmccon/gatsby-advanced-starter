@@ -235,10 +235,12 @@ class Listing extends React.Component {
                   <p>Don't see yourself?</p>
                   
                   <p>
-                  <Link
+                  <a
                     className="directory-endcap--link highlight" 
-                    to="/submit">Get Listed
-                  </Link>
+                    href="https://research.typeform.com/to/UR7SpT93"
+                    target="_blank">
+                      Get Listed
+                  </a>
                   </p>
 
                 </div>
