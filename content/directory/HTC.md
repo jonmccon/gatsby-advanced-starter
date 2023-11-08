@@ -8,7 +8,7 @@ category: "H"
 city: "Seattle"
 neighborhood: "Pioneer Square"
 size: "Large (41-100)"
-map: ""
+place: [-122.33241490179827,47.600404652417524]
 tags:
     - product
     - motion

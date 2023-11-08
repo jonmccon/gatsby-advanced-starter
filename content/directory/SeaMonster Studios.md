@@ -8,7 +8,7 @@ category: "S"
 city: "Seattle"
 neighborhood: "Downtown"
 size: "Small (1-10)"
-map: ""
+place: 
 tags:
     - ux/ui
     - engineering

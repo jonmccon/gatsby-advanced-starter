@@ -8,7 +8,7 @@ category: "F"
 city: "Seattle"
 neighborhood: "Pioneer Square"
 size: "Small (1-10)"
-map: ""
+place: [-122.33043325799518,47.59945968652829]
 tags:
     - branding
     - ux/ui

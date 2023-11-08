@@ -1,14 +1,14 @@
 ---
-title: "Facebook"
+title: "Meta"
 featuredImage: ./-hamburgers.png
 website: "https://design.facebook.com/"
-twit: "facebookdesign"
+twit: "DesignatMeta"
 inst: ""
-category: "F"
+category: "M"
 city: "Seattle"
-neighborhood: "Westlake"
+neighborhood: "Queen Anne"
 size: "Huge (100+)"
-map: ""
+place: [-122.34273821412414,47.62904813926928]
 tags:
     - ux/ui
     - product

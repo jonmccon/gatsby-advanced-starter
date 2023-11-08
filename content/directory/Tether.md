@@ -8,7 +8,7 @@ category: "T"
 city: "Seattle"
 neighborhood: "Pioneer Square"
 size: "Medium (11-40)"
-map: ""
+place: [-122.33262358866865,47.59958167013385]
 tags:
     - branding
     - packaging

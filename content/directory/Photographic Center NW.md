@@ -8,7 +8,7 @@ category: "P"
 city: "Seattle"
 neighborhood: "Capitol Hill"
 size: "Medium (11-40)"
-map: ""
+place: [-122.31656284449197,47.61069957147263]
 tags:
     - school
     - photography

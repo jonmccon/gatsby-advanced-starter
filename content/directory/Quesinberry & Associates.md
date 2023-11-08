@@ -8,7 +8,7 @@ category: "Q"
 city: "Seattle"
 neighborhood: "Capitol Hill"
 size: "Small (1-10)"
-map: ""
+place: [-122.3170142232947,47.614766043714816]
 tags:
     - branding
     - marketing

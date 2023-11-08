@@ -5,10 +5,10 @@ website: "https://www.rei.com/"
 twit: "rei"
 inst: "rei"
 category: "R"
-city: "Kent"
+city: "Issaquah"
 neighborhood:
 size: "Large (41-100)"
-map: ""
+place: [-122.06533871975176,47.552085001747585]
 tags:
     - branding
     - print

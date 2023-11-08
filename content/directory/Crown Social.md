@@ -1,5 +1,5 @@
 ---
-title: "Crown Social"
+title: "CROWN"
 featuredImage: ./-hamburgers.png
 website: "https://crownsocial.com/"
 twit: "crownsocial"
@@ -8,7 +8,7 @@ category: "C"
 city: "Seattle"
 neighborhood: "South Lake Union"
 size: "Medium (11-40)"
-map: ""
+place: [-122.33558644429986,47.60290339504598]
 tags:
     - advertising
     - marketing

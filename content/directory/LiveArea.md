@@ -8,12 +8,12 @@ category: "L"
 city: "Seattle"
 neighborhood: "Downtown"
 size: "Large (41-100)"
-map: ""
+place: 
 tags:
     - ux/ui
     - strategy
     - marketing
-published: true
+published: false
 ---
 
 Description

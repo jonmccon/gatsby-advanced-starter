@@ -8,7 +8,7 @@ category: "N"
 city: "Seattle"
 neighborhood:
 size: "Small (1-10)"
-map: ""
+place: 
 tags:
     - branding
     - packaging
@@ -17,7 +17,7 @@ tags:
     - ux/ui
     - photography
     - print
-published: true
+published: false
 ---
 
 Description

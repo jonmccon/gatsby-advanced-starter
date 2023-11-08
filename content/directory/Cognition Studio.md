@@ -8,7 +8,7 @@ category: "C"
 city: "Seattle"
 neighborhood: "Ballard"
 size: "Small (1-10)"
-map: ""
+place: [-122.37151117128019,47.665403389821655]
 tags:
     - strategy
     - branding

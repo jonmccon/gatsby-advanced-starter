@@ -8,7 +8,7 @@ category: "numbers"
 city: "Seattle"
 neighborhood: "Georgetown"
 size: "Small (1-10)"
-map: ""
+place: 
 tags:
     - branding
 published: true

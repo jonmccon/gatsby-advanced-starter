@@ -10,7 +10,7 @@ category: "M"
 city: "Seattle"
 neighborhood:
 size: "Small (1-10)"
-map: ""
+place: 
 tags:
     - strategy
     - research

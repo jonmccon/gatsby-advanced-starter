@@ -8,7 +8,7 @@ category: "C"
 city: "Seattle"
 neighborhood: "SODO"
 size: "Large (41-100)"
-map: ""
+place: [-122.33493707973393,47.592156711482794]
 tags:
     - strategy
     - marketing

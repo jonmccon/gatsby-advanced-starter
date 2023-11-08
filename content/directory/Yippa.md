@@ -8,7 +8,7 @@ category: "Y"
 city: "Seattle"
 neighborhood:
 size: "Small (1-10)"
-map: ""
+place: 
 tags:
     - branding
     - strategy

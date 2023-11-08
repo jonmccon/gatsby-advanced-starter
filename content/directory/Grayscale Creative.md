@@ -8,7 +8,7 @@ category: "G"
 city: "Seattle"
 neighborhood: "Fremont"
 size: "Small (1-10)"
-map: ""
+place: [-122.34385990915864,47.6532681919203]
 tags:
     - environmental
     - architecture

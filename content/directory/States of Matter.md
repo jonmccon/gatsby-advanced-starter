@@ -8,7 +8,7 @@ category: "S"
 city: "Seattle"
 neighborhood: "Pioneer Square"
 size: "Small (1-10)"
-map: ""
+place: [-122.3585932134942,47.6185510981635]
 tags:
     - branding
     - print

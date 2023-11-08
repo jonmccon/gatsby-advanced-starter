@@ -8,13 +8,13 @@ category: "F"
 city: "Seattle"
 neighborhood: "Pioneer Square"
 size: "Medium (11-40)"
-map: ""
+place: 
 tags:
     - engineering
     - strategy
     - branding
     - ux/ui
-published: true
+published: false
 ---
 
 Description

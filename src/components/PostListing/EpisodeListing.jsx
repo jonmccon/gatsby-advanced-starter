@@ -31,7 +31,6 @@ class EpisodeListing extends React.Component {
 
   render() {
     const episodeList = this.getEpisodeList();
-    const postTitle = episodeList.title;
 
     
 
@@ -41,11 +40,6 @@ class EpisodeListing extends React.Component {
         {episodeList.map((post) => (
 
           <div className= {`podcastEpisode ${post.color}`}>
-            
-
-        
-
-        
             
             {/* Pull quote */}
             <div className="pullquote">{post.pullquote}</div>

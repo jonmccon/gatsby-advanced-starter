@@ -8,7 +8,7 @@ category: "C"
 city: "Seattle"
 neighborhood: "Pioneer Square"
 size: "Small (1-10)"
-map: ""
+place: [-122.33043325779133,47.59956820473089]
 tags:
     - branding
     - strategy

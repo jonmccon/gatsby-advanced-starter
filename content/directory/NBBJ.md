@@ -8,7 +8,7 @@ category: "N"
 city: "Seattle"
 neighborhood: "South Lake Union"
 size: "Large (41-100)"
-map: ""
+place: [-122.33056081196261,47.620270876303]
 tags:
     - architecture
     - environmental

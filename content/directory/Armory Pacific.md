@@ -8,7 +8,7 @@ category: "A"
 city: "Seattle"
 neighborhood: "SODO"
 size: "Small (1-10)"
-map: ""
+place: [-122.33466720123063,47.58493888007228]
 tags:
     - video
     - motion

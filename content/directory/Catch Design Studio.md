@@ -8,7 +8,7 @@ category: "C"
 city: "Seattle"
 neighborhood: "Capitol Hill"
 size: "Small (1-10)"
-map: ""
+place: [-122.3610237761914,47.52235745597132]
 tags:
     - architecture
     - branding

@@ -8,14 +8,14 @@ category: "T"
 city: "Seattle"
 neighborhood: "Fremont"
 size: "Large (41-100)"
-map: ""
+place: [-122.37829109962091,47.67066986546319]
 tags:
     - strategy
     - engineering
     - ux/ui
     - product
     - research
-published: true
+published: false
 ---
 
 Description

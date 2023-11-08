@@ -8,7 +8,7 @@ category: "S"
 city: "Seattle"
 neighborhood: "Queen Anne"
 size: "Small (1-10)"
-map: ""
+place: [-122.37710421565511,47.65225166088441]
 tags:
     - motion
     - 3D

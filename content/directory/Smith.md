@@ -1,20 +1,17 @@
 ---
-title: "Smith"
+title: "Smith co"
 featuredImage: ./-hamburgers.png
-website: "https://www.smith.co/"
-twit: "HumansofSMITH"
-inst: "humansofsmith"
+website: "http://smithco.org/"
+twit: ""
+inst: "architektuer_2017"
 category: "S"
 city: "Seattle"
-neighborhood: "Pioneer Square"
-size: "Large (41-100)"
-map: ""
+neighborhood: "Downtown"
+size: "Small (1-10)"
+place: [-122.33977710212643,47.61194537767262]
 tags:
-    - ux/ui
-    - engineering
-    - strategy
-    - marketing
-published: false
+    - architecture
+published: true
 ---
 
 Description

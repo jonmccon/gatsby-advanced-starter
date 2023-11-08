@@ -8,13 +8,13 @@ category: "P"
 city: "Seattle"
 neighborhood: "Downtown"
 size: "Large (41-100)"
-map: ""
+place: 
 tags:
     - branding
     - advertising
     - ux/ui
     - marketing
-published: true
+published: false
 ---
 
 Description

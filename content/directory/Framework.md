@@ -8,7 +8,7 @@ category: "F"
 city: "Seattle"
 neighborhood: "Capitol Hill"
 size: "Small (1-10)"
-map: ""
+place: [-122.3158675579947,47.614056869684994]
 tags:
     - architecture
     - research

@@ -1,5 +1,5 @@
 ---
-title: "Curator Pictures"
+title: "CURATOR Pictures"
 featuredImage: ./-hamburgers.png
 website: "https://curatorpictures.com/"
 twit: ""
@@ -8,7 +8,7 @@ category: "C"
 city: "Seattle"
 neighborhood: "Fremont"
 size: "Small (1-10)"
-map: ""
+place: 
 tags:
     - video
     - advertising

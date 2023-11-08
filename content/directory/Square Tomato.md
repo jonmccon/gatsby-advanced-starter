@@ -8,12 +8,12 @@ category: "S"
 city: "Seattle"
 neighborhood: "SODO"
 size: "Small (1-10)"
-map: ""
+place: 
 tags:
     - advertising
     - marketing
     - ux/ui
-published: true
+published: false
 ---
 
 Description

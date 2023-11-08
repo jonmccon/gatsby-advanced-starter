@@ -8,7 +8,7 @@ category: "R"
 city: "Seattle"
 neighborhood: "Pike Place Market"
 size: "Small (1-10)"
-map: ""
+place: [-122.34220658465894,47.611201758810715]
 tags:
     - exhibition
     - environmental

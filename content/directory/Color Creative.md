@@ -8,7 +8,7 @@ category: "C"
 city: "Bellevue"
 neighborhood: 
 size: "Large (41-100)"
-map: ""
+place: [-122.1565791712833,47.586604960618246]
 tags:
     - motion
     - 3D

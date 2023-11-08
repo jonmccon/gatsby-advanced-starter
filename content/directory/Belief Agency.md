@@ -8,7 +8,7 @@ category: "B"
 city: "Seattle"
 neighborhood: "Fremont"
 size: "Medium (11-40)"
-map: ""
+place: [-122.37084110239874,47.66331008234061]
 tags:
     - strategy
     - video

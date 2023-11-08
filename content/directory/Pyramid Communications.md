@@ -8,7 +8,7 @@ category: "P"
 city: "Seattle"
 neighborhood: "Pike Place Market"
 size: "Medium (11-40)"
-map: ""
+place: [-122.34210368682137,47.61127270368287]
 tags:
     - strategy
     - advertising

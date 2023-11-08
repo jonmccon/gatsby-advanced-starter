@@ -8,7 +8,7 @@ category: "H"
 city: "Seattle"
 neighborhood: "Pioneer Square"
 size: "Large (41-100)"
-map: ""
+place: [-122.33549424782144,47.604240089366456]
 tags:
     - printer
 published: true

@@ -8,7 +8,7 @@ category: "S"
 city: "Seattle"
 neighborhood: "Capitol Hill"
 size: "Large (41-100)"
-map: ""
+place: [-122.32146458866814,47.61634992047527]
 tags:
     - school
 published: true

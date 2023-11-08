@@ -8,7 +8,7 @@ category: "S"
 city: "Orcas Island"
 neighborhood:
 size: "Small (1-10)"
-map: ""
+place: 
 tags:
     - branding
     - print

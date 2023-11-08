@@ -8,7 +8,7 @@ category: "W"
 city: "Seattle"
 neighborhood: "Downtown"
 size: "Small (1-10)"
-map: ""
+place: [-122.32986711565685,47.6057837540852]
 tags:
     - video
     - marketing

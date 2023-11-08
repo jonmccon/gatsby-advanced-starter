@@ -8,7 +8,7 @@ category: "M"
 city: "Seattle"
 neighborhood: "Downtown"
 size: "Large (41-100)"
-map: ""
+place: [-122.3366664598332,47.60607611949341]
 tags:
     - environmental
     - architecture

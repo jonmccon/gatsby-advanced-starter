@@ -8,7 +8,7 @@ category: "T"
 city: "Kirkland"
 neighborhood:
 size: "Medium (11-40)"
-map: ""
+place: [-122.2053774021608,47.65551761537504]
 tags:
     - video
     - motion

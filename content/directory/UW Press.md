@@ -8,7 +8,7 @@ category: "U"
 city: "Seattle"
 neighborhood: "U District"
 size: "Medium (11-40)"
-map: ""
+place: [-122.31458380216057,47.66087614838885]
 tags:
     - print
     - product

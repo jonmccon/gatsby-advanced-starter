@@ -8,7 +8,7 @@ category: "F"
 city: "Seattle"
 neighborhood: "Fremont"
 size: "Medium (11-40)"
-map: ""
+place: [-122.33714231349431,47.614224613123895]
 tags:
     - engineering
     - ux/ui

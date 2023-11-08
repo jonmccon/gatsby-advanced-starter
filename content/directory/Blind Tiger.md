@@ -8,7 +8,7 @@ category: "B"
 city: "Seattle"
 neighborhood: "Ballard"
 size: "Small (1-10)"
-map: ""
+place: [-122.38330325935408,47.66963602722012]
 tags:
     - packaging
     - branding

@@ -1,14 +1,14 @@
 ---
 title: "Mammoth"
 featuredImage: ./-hamburgers.png
-website: "https://mammothagency.com/"
-twit: ""
+website: "https://truebluestrategies.com/"
+twit: "TrueBlueDigital"
 inst: ""
-category: "M"
+category: "T"
 city: "Seattle"
 neighborhood: "Capitol Hill"
-size: "Small (1-10)"
-map: ""
+size: "Medium (11-40)"
+place: [-122.33099330199573,47.59799948773961]
 tags:
     - advertising
     - branding

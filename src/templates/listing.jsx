@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import PropTypes from "prop-types"
 import Helmet from "react-helmet";
 import { graphql, Link } from "gatsby";
+
 import Layout from "../layout";
-import PostCats from "../components/Filters/PostCats";
 import PostTags from "../components/Filters/PostTags";
 import DirectoryListing from "../components/PostListing/DirectoryPostListing";
 import SEO from "../components/SEO/SEO";
@@ -11,25 +12,18 @@ import Headline from "../components/Intro/Headline";
 import HeadlineMenuRight from "../components/Intro/HeadlineMenuRight";
 import HeadlineMenuLeft from "../components/Intro/HeadlineMenuLeft";
 import Logo from "../components/Intro/Logo";
-import PodcastPlayer from "../components/Audioplayer/PodcastPlayer";
 import Footer from "../components/Footer/Footer";
 import EpisodeListing from "../components/PostListing/EpisodeListing";
+import Map from "../components/Map/Map";
+import MapWrapper from "../components/Map/MapWrapper";
 
 class Listing extends React.Component {
-  // Pagination
-  // renderPaging() {
-  //   const { currentPageNum, pageCount } = this.props.pageContext;
-  //   const prevPage = currentPageNum - 1 === 1 ? "/" : `/${currentPageNum - 1}/`;
-  //   const nextPage = `/${currentPageNum + 1}/`;
-  //   const isFirstPage = currentPageNum === 1;
-  //   const isLastPage = currentPageNum === pageCount;
-  // }
 
   render() {
     // this can be refactored as a variable based approach, and only one graphql query
     // Look at the tags page for an example of this
 
-    // const allCats = this.props.data.AllCatsQuery.distinct;
+    const allPlaces = this.props.data.AllPlacesQuery.edges;
     const tagSize = this.props.data.TagSizeQuery.distinct;
     const tagSeattle = this.props.data.TagSeattleQuery.distinct;
     const tagCity = this.props.data.TagCityQuery.distinct;
@@ -87,7 +81,12 @@ class Listing extends React.Component {
             <div id="showContainer">
               <EpisodeListing postEdgesDirectory={episodeEdges} />
             </div>
-            
+
+            {/* MAP CONTAINER */}
+            <div id="mapContainer">
+              <MapWrapper places={allPlaces} />
+            </div>  
+
             {/* FILTERS */}
             <div className="filters">              
 
@@ -266,8 +265,16 @@ export default Listing;
 /* eslint no-undef: "off" */
 export const listingQuery = graphql`
   {
-    AllCatsQuery: allMarkdownRemark {
-      distinct(field: frontmatter___category)
+    AllPlacesQuery:  allMarkdownRemark {
+      edges {
+        node {
+          frontmatter {
+            title
+            website
+            place
+          }
+        }
+      }
     }
     TagSizeQuery: allMarkdownRemark {
       distinct(field: frontmatter___size)
