@@ -3,7 +3,7 @@
 @media only screen and (min-width: 1250px) { 
 
     h1 {
-        font: var(--text-serif-title);
+        font: var(--text-mono-std);
         line-height: 140%;
     }
 
@@ -32,8 +32,13 @@
         max-width: 1400px;
         border-radius: 10px;
         grid-template-areas:
+<<<<<<< HEAD
+            "MenuLeft              MenuLeft        .        .               Logo            Logo            Logo            Logo            .               .       MenuRight       MenuRight"
+            ".              .               .               Headline        Headline        Headline        Headline        Headline        Headline        .        .               ."
+=======
             ".              MenuLeft        MenuLeft        .               Logo            Logo            Logo            Logo            .               MenuRight       MenuRight       ."
             ".              .               .               Headline        Headline        Headline        Headline        Headline        Headline        .               .               ."
+>>>>>>> ft-map
             "showContainer  showContainer   showContainer   showContainer   showContainer   showContainer   showContainer   showContainer   showContainer   showContainer   showContainer   showContainer"
             "Map            Map             Map             Map             Map             Map             Map             Map             Map             Map             Map             Map"        
             "Filters        Filters         Filters         Filters         Filters         Filters         Filters         Filters         Filters         Filters         Filters         Filters"
@@ -54,14 +59,14 @@
     
     /* HEADLINE */
     .headline {
-        margin: -2em 0 2em 0;
+        margin: 0 0 2em 0;
         /* min-height: 60vh; */
     }
 
     .headline-wrapper {
         display: grid;
         grid-area: Headline;
-        min-height: 60vh;
+        min-height: 5vh;
     }
 
     .headline-wrapper-small {
@@ -98,7 +103,7 @@
     } */
 
     .headline-menu--link { 
-        font: var(--text-mono-menu);
+        font: var(--text-mono-std);
         text-align: right;
     }
     
@@ -120,7 +125,7 @@
     .email-form input:focus { }
 
     .email-form button { 
-        font: var(--text-mono-menu);
+        font: var(--text-mono-std);
     }
 
     .email-form button:hover { }
@@ -146,15 +151,14 @@
 
     .podcast {
         grid-template-columns: repeat(4, minmax(0,1fr));
-        /* grid-gap: .5em; */
+        grid-gap: 1px;
         margin: 0;
-        padding: .5em 0 0 .5em;
     }
 
     .podcastEpisode {
-        min-height: 35vh;
+        min-height: 40vh;
+        /* aspect-ratio: 1/1; */
     }
-
 
     .pullquote {
         font: var(--text-serif-pullquote);

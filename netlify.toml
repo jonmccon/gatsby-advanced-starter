@@ -23,6 +23,9 @@ package = "netlify-plugin-checklinks"
     # hard fails
     "500",
     "400",
+    "403",
+    "429",
+    "HTTP 403 Forbidden", # Simplecast doesn't like netlify hitting it?
     "ECONNREFUSED",
     "ECONNRESET",
     "DNS missing:",
@@ -47,4 +50,4 @@ package = "netlify-plugin-checklinks"
   ]
 
   #turn this off to speed up buildtime
-  checkExternal = true
+  checkExternal = false

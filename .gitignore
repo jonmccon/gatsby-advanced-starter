@@ -62,5 +62,9 @@ gcp-transcribe.json
 
 # Environment
 *.env
+
 # Local Netlify folder
 .netlify
+
+# Mac Files
+.DS_Store
