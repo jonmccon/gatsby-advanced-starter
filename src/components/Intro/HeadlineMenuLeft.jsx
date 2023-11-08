@@ -10,10 +10,12 @@ class HeadlineMenuLeft extends Component {
 
         <div className="headline-menu-left">  
           
-          {/* <Link
+          <a
           className="headline-menu--link highlight" 
-          to="/submit">Get Listed
-          </Link> */}
+          href="https://research.typeform.com/to/UR7SpT93"
+          target="_blank">
+            Get Listed
+          </a>
 
           <a
             className="headline-menu--link"
